@@ -1,12 +1,16 @@
+import type { Catalog, CatalogVariant, ConfigurationPage, Family } from './types';
+import type { Dimension } from '../src/types';
+import { record, text, stringRecord } from './json';
+type RawVariant = Omit<CatalogVariant, 'label'> & { label?: string };
 // Discovers every standard configuration of a product family from Apple's own store pages.
 // A configuration is: base part number (same across stores for most products) + dimensions.
 import { load } from 'cheerio';
-import { appleText, storeUrl, extractObject, plainText, basePart } from './apple.js';
+import { appleText, storeUrl, extractObject, plainText, basePart } from './apple.ts';
 
-import { families, familyById } from './families.js';
+import { families, familyById } from './families.ts';
 export { families, familyById };
 
-const dimensionNames = {
+const dimensionNames: Record<string, string> = {
   screensize: 'Size',
   color: 'Color',
   finish: 'Display',
@@ -24,14 +28,14 @@ const dimensionNames = {
   gpu: 'GPU',
   other: 'Other',
 };
-export const dimensionKey = (raw) =>
+export const dimensionKey = (raw: string) =>
   raw
     .replace(/^.*?dimension/i, '')
     .replace(/^(processor|storage|chassis|watch_cases)-/, '')
     .toLowerCase() || raw.toLowerCase();
-const dimensionName = (key) =>
+const dimensionName = (key: string) =>
   dimensionNames[key] || key.replace(/(^|-)(\w)/g, (_, s, c) => (s ? ' ' : '') + c.toUpperCase());
-const humanize = (value) =>
+const humanize = (value: unknown) =>
   String(value)
     .replace(/^(\d+)_(\d)inch$/, '$1.$2-inch')
     .replace(/^(\d+)inch$/, '$1-inch')
@@ -58,12 +62,12 @@ const dimensionOrder = [
   'casematerial',
   'color',
 ];
-const dimensionRank = (key) => {
+const dimensionRank = (key: string) => {
   const i = dimensionOrder.indexOf(key);
   return i < 0 ? dimensionOrder.length - 1 : i;
 };
 // Numeric order for sizes/capacities/cores, and M5 < M5 Pro < M5 Max < M5 Ultra for chips.
-function valueRank(label, key) {
+function valueRank(label: string, key: string) {
   const chip = String(label).match(/^M(\d+)(?: (Pro|Max|Ultra))?$/);
   if (chip) return +chip[1] * 10 + ['', 'Pro', 'Max', 'Ultra'].indexOf(chip[2] || '');
   const m =
@@ -73,7 +77,7 @@ function valueRank(label, key) {
       .match(/^([\d.]+)(gb|tb|mm|inch)?/i);
   return m ? +m[1] * (m[2]?.toUpperCase() === 'TB' ? 1024 : 1) : NaN;
 }
-const slug = (s) =>
+const slug = (s: unknown) =>
   String(s)
     .toLowerCase()
     .normalize('NFKD')
@@ -81,13 +85,15 @@ const slug = (s) =>
     .replace(/\.(?!\d)|(?<!\d)\./g, '-')
     .replace(/-+/g, '-')
     .replace(/^-|-$/g, '');
-const image = (name, size = 1200) =>
+const image = (name: string, size = 1200) =>
   `https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/${name}?wid=${size}&hei=${size}&fmt=png-alpha`;
 
-function label(displayValues, raw, value) {
-  const entry = displayValues?.[raw]?.[value];
+function label(displayValues: Record<string, unknown>, raw: string, value: string) {
+  const entry = record(displayValues[raw])[value];
   const text =
-    typeof entry === 'string' ? entry : (entry?.header ?? entry?.value ?? entry?.text ?? null);
+    typeof entry === 'string'
+      ? entry
+      : (record(entry).header ?? record(entry).value ?? record(entry).text ?? null);
   const line =
     typeof text === 'string'
       ? plainText(text)
@@ -99,21 +105,23 @@ function label(displayValues, raw, value) {
 }
 
 // Shape 1/2: bootstrap `products` carrying dimensions either nested (`dimensions:{}`) or flat (`dimensionColor`).
-export function bootstrapConfigurations(data) {
-  const displayValues = { ...data.mainDisplayValues, ...data.displayValues };
+export function bootstrapConfigurations(input: unknown): RawVariant[] {
+  const data = record(input);
+  const displayValues = { ...record(data.mainDisplayValues), ...record(data.displayValues) };
   const rows = [];
-  for (const product of data.products || []) {
+  for (const inputProduct of Array.isArray(data.products) ? data.products : []) {
+    const product = record(inputProduct);
     if (product.carrierPolicyType && product.carrierPolicyType !== 'UNLOCKED') continue; // keep unlocked phones only
     if (product.isCarrierDevice) continue;
     const part =
-      product.btrOrFdPartNumber ||
-      product.partNumber ||
-      (/^M\w{4}/.test(product.part || '') ? product.part : null);
+      text(product.btrOrFdPartNumber) ||
+      text(product.partNumber) ||
+      (/^M\w{4}/.test(text(product.part) || '') ? text(product.part) : undefined);
     if (!part) continue;
     const dims = product.dimensions
-      ? { ...product.dimensions }
+      ? stringRecord(product.dimensions)
       : Object.fromEntries(
-          Object.entries(product).filter(
+          Object.entries(stringRecord(product)).filter(
             ([k, v]) => /^dimension(?!Steporder)/.test(k) && typeof v === 'string',
           ),
         );
@@ -121,16 +129,16 @@ export function bootstrapConfigurations(data) {
     rows.push({
       part: basePart(part),
       raw: dims,
-      imageKey: product.imageKey,
-      seo: product.seoUrlToken,
+      imageKey: text(product.imageKey),
+      seo: text(product.seoUrlToken),
     });
   }
   const order = [...new Set(rows.flatMap((r) => Object.keys(r.raw)))];
   const seen = new Set(),
-    variants = [];
+    variants: RawVariant[] = [];
   for (const row of rows) {
-    const specs = {},
-      labels = {};
+    const specs: Record<string, string> = {},
+      labels: Record<string, string> = {};
     for (const raw of order) {
       const value = row.raw[raw];
       if (value == null) continue;
@@ -158,7 +166,7 @@ export function bootstrapConfigurations(data) {
 }
 
 // Shape 3 (Mac): Apple's list of standard configurations with a readable spec line per item.
-const macToken = [
+const macToken: [RegExp, string][] = [
   [/-inch|-zoll|inch/i, 'size'],
   [/chip$/i, 'chip'],
   [/core cpu$/i, 'cpu'],
@@ -169,9 +177,9 @@ const macToken = [
   [/stand$|vesa/i, 'stand'],
   [/ethernet|thunderbolt|power adapter|keyboard|touch id|magic/i, 'other'],
 ];
-export function parseMacSpecLine(line) {
+export function parseMacSpecLine(line: string) {
   const [, ...tokens] = line.replace(/\u00a0/g, ' ').split(/,\s*/);
-  const specs = {};
+  const specs: Record<string, string> = {};
   for (const token of tokens) {
     const key = macToken.find(([re]) => re.test(token))?.[1] || 'color';
     specs[key] = specs[key] ? specs[key] + ', ' + token : token;
@@ -184,26 +192,26 @@ export function parseMacSpecLine(line) {
       specs[key] = specs[key].replace(/\s*(CPU|GPU)$/, '').replace(/^(\d+)-core$/i, '$1-core');
   return specs;
 }
-export function macListConfigurations(html) {
+export function macListConfigurations(html: string) {
   const $ = load(html),
-    items = [];
+    items: { url: string; line: string }[] = [];
   $('div.item a[href*="/shop/buy-mac/"]').each((_, a) => {
-    const url = $(a).attr('href').trim();
+    const url = ($(a).attr('href') || '').trim();
     const line = $(a).find('.details').text().trim() || $(a).text().trim();
     if (line.includes(',')) items.push({ url, line });
   });
   return items;
 }
-async function macConfigurationPage(url) {
+async function macConfigurationPage(url: string): Promise<ConfigurationPage | null> {
   const $ = load(await appleText(url));
   for (const el of $('script[type="application/ld+json"]').toArray()) {
     try {
-      const data = JSON.parse($(el).text());
+      const data = record(JSON.parse($(el).text()));
       if (data['@type'] === 'Product') {
-        const offer = [].concat(data.offers || [])[0];
+        const offer = record(Array.isArray(data.offers) ? data.offers[0] : data.offers);
         return {
           part: basePart(offer?.sku),
-          image: data.image?.replace(/wid=\d+&hei=\d+/, 'wid=1200&hei=770'),
+          image: text(data.image)?.replace(/wid=\d+&hei=\d+/, 'wid=1200&hei=770'),
         };
       }
     } catch {}
@@ -212,19 +220,28 @@ async function macConfigurationPage(url) {
 }
 
 export async function discoverFamily(
-  family,
-  { pageCache = (_url, loader) => loader(), fetchPage = appleText } = {},
-) {
+  family: Family,
+  {
+    pageCache = (_url, loader) => loader(),
+    fetchPage = appleText,
+  }: {
+    pageCache?: (
+      url: string,
+      loader: () => Promise<ConfigurationPage | null>,
+    ) => Promise<ConfigurationPage | null>;
+    fetchPage?: (url: string) => Promise<string>;
+  } = {},
+): Promise<Catalog> {
   const pageUrl = storeUrl('', 'shop/' + family.path);
   const html = await fetchPage(pageUrl);
-  const data = extractObject(html, 'productSelectionData:');
+  const data = record(extractObject(html, 'productSelectionData:'));
   const familyImage =
     (html.match(/<meta property="og:image" content="([^"]+)"/)?.[1] || '').replace(/&amp;/g, '&') ||
     null;
-  let variants = [];
+  let variants: RawVariant[] = [];
   const list = family.category === 'Mac' ? macListConfigurations(html) : [];
   if (list.length) {
-    const pages = [];
+    const pages: ConfigurationPage[] = [];
     for (const item of list) {
       const page = await pageCache(item.url, () => macConfigurationPage(item.url));
       if (!page?.part) throw new Error(`Incomplete configuration data for ${family.id}`);
@@ -246,7 +263,7 @@ export async function discoverFamily(
   }
   if (!variants.length && data) variants = bootstrapConfigurations(data);
   if (!variants.length) throw new Error(`No configurations found for ${family.id}`);
-  const dimensions = [];
+  const dimensions: Dimension[] = [];
   for (const v of variants)
     for (const [key, value] of Object.entries(v.specs)) {
       let dim = dimensions.find((d) => d.key === key);
@@ -256,7 +273,7 @@ export async function discoverFamily(
     }
   for (const dim of dimensions)
     if (dim.key !== 'color') {
-      const rank = (v) => valueRank(v.label, v.key);
+      const rank = (v: { label: string; key: string }) => valueRank(v.label, v.key);
       if (dim.values.every((v) => !isNaN(rank(v)))) dim.values.sort((a, b) => rank(a) - rank(b));
     }
   dimensions.sort((a, b) => dimensionRank(a.key) - dimensionRank(b.key));
@@ -272,29 +289,36 @@ export async function discoverFamily(
     fixed: Object.fromEntries(
       dimensions.filter((d) => d.values.length === 1).map((d) => [d.name, d.values[0].label]),
     ),
-    variants,
+    variants: variants.map((v) => ({
+      ...v,
+      label: v.label || Object.values(v.labels).join(' · '),
+    })),
     discoveredAt: new Date().toISOString(),
   };
 }
 
 // Regional stores sometimes sell different part numbers (e.g. iPhone models per region). Map them by dimensions.
-export async function regionalParts(family, store) {
+export async function regionalParts(
+  family: Family,
+  store: string,
+): Promise<Record<string, string>> {
   const html = await appleText(storeUrl(store, 'shop/' + family.path));
-  const data = extractObject(html, 'productSelectionData:');
+  const data = record(extractObject(html, 'productSelectionData:'));
   if (!data) return {};
   const byDims = new Map();
-  for (const product of data.products || []) {
+  for (const inputProduct of Array.isArray(data.products) ? data.products : []) {
+    const product = record(inputProduct);
     if (
       (product.carrierPolicyType && product.carrierPolicyType !== 'UNLOCKED') ||
       product.isCarrierDevice
     )
       continue;
-    const part = product.btrOrFdPartNumber || product.partNumber;
+    const part = text(product.btrOrFdPartNumber) || text(product.partNumber);
     if (!part) continue;
     const dims =
-      product.dimensions ||
+      (product.dimensions ? stringRecord(product.dimensions) : undefined) ||
       Object.fromEntries(
-        Object.entries(product).filter(
+        Object.entries(stringRecord(product)).filter(
           ([k, v]) => /^dimension(?!Steporder)/.test(k) && typeof v === 'string',
         ),
       );
@@ -305,4 +329,5 @@ export async function regionalParts(family, store) {
   }
   return Object.fromEntries(byDims); // plain object so it can be cached as JSON
 }
-export const specSignature = (specs) => JSON.stringify(Object.entries(specs).sort());
+export const specSignature = (specs: Record<string, string>) =>
+  JSON.stringify(Object.entries(specs).sort());

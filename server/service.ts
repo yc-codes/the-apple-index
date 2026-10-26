@@ -1,17 +1,37 @@
+import type {
+  AppleStore,
+  Catalog,
+  CatalogVariant,
+  CollectorSchema,
+  FamilyPrices,
+  PriceCollection,
+} from './types';
+import type { Price, Summary } from '../src/types';
+import { record } from './json';
 // Collector-only service. Persist Apple results before publishing them for the read-only web app.
-import { storage } from './storage.js';
-import { createCache } from './cache.js';
+import { storage } from './storage.ts';
+import { createCache } from './cache.ts';
 import { createHash } from 'node:crypto';
-import { families, familyById, discoverFamily, regionalParts } from './catalog.js';
-import { familyPrices } from './prices.js';
-import { stores, storeByCode } from './stores.js';
-import { storeUrl, AppleThrottled } from './apple.js';
+import { families, familyById, discoverFamily, regionalParts } from './catalog.ts';
+import { familyPrices } from './prices.ts';
+import { stores, storeByCode } from './stores.ts';
+import { storeUrl, AppleThrottled } from './apple.ts';
 
 const HOUR = 3600e3;
 export const ttl = { catalog: 24 * HOUR, prices: 6 * HOUR, rates: 6 * HOUR };
-const cache = createCache(storage);
-export const cached = (key, maxAge, loader, _options) => cache.get(key, maxAge, loader);
+const cache = createCache<CollectorSchema>(storage);
+export const cached = <K extends keyof CollectorSchema & string>(
+  key: K,
+  maxAge: number,
+  loader: () => Promise<CollectorSchema[K]>,
+  _options?: { wait?: boolean },
+) => cache.get(key, maxAge, loader);
 export const peek = cache.peek;
+function requireFamily(id: string) {
+  const family = familyById[id];
+  if (!family) throw new Error(`Unknown family: ${id}`);
+  return family;
+}
 
 export const rates = () =>
   cached('rates', ttl.rates, async () => {
@@ -19,30 +39,36 @@ export const rates = () =>
       signal: AbortSignal.timeout(15000),
     });
     if (!response.ok) throw new Error('Exchange rate request failed');
-    const data = await response.json();
-    if (data.result !== 'success') throw new Error('Exchange rates unavailable');
+    const data = record(await response.json());
+    if (data.result !== 'success' || typeof data.time_last_update_unix !== 'number')
+      throw new Error('Exchange rates unavailable');
     return {
       base: 'USD',
       updated: new Date(data.time_last_update_unix * 1000).toISOString(),
       source: 'https://www.exchangerate-api.com',
-      rates: data.rates,
+      rates: Object.fromEntries(
+        Object.entries(record(data.rates)).filter(
+          (entry): entry is [string, number] =>
+            typeof entry[1] === 'number' && Number.isFinite(entry[1]) && entry[1] > 0,
+        ),
+      ),
     };
   });
-export const catalog = (id, options) =>
+export const catalog = (id: string, options?: { wait?: boolean }) =>
   cached(
-    'catalog-' + id,
+    `catalog-${id}`,
     ttl.catalog,
     () =>
-      discoverFamily(familyById[id], {
+      discoverFamily(requireFamily(id), {
         pageCache: (url, loader) =>
-          cached('page-' + createHash('sha256').update(url).digest('hex'), ttl.catalog, loader, {
+          cached(`page-${createHash('sha256').update(url).digest('hex')}`, ttl.catalog, loader, {
             wait: true,
           }),
       }),
     options,
   );
 // Regional part numbers (e.g. iPhone models per region) rarely change, so they share the catalog lifetime.
-const regional = (family, store) => () =>
+const regional = (family: Catalog, store: AppleStore) => () =>
   cached(
     `regional-${family.id}-${store.code}`,
     ttl.catalog,
@@ -50,22 +76,23 @@ const regional = (family, store) => () =>
     { wait: true },
   );
 // A refresh where some stores failed (usually throttling) is retried after 30 minutes instead of 6 hours.
-export const prices = async (id, options) => {
-  const key = 'prices-' + id;
+export const prices = async (id: string, options?: { wait?: boolean }) => {
+  const key = `prices-${id}` as const;
   await cache.load(key);
   return cached(
     key,
-    peek('prices-' + id)?.failed?.length ? HOUR / 2 : ttl.prices,
+    peek(`prices-${id}`)?.failed?.length ? HOUR / 2 : ttl.prices,
     async () => {
       const family = await catalog(id),
-        previous = peek('prices-' + id);
+        previous = peek(`prices-${id}`);
       const version = family.discoveredAt;
       // Stores run in sequence (US first) so part numbers learned in one region help the next.
-      const candidates = new Map(),
-        results = [];
+      const candidates = new Map<string, Set<string>>();
+      const results: { store: AppleStore; value?: FamilyPrices; at?: string; error?: unknown }[] =
+        [];
       for (const store of [storeByCode.us, ...stores.filter((s) => s.code !== 'us')]) {
         try {
-          const storeKey = `store-${id}-${store.code}`;
+          const storeKey = `store-${id}-${store.code}` as const;
           const priorStore = await cache.load(storeKey);
           if (priorStore?.value?.version !== version) cache.invalidate(storeKey);
           const snapshot = await cached(
@@ -83,7 +110,7 @@ export const prices = async (id, options) => {
           );
           for (const [variantId, row] of Object.entries(snapshot.prices)) {
             if (!candidates.has(variantId)) candidates.set(variantId, new Set());
-            candidates.get(variantId).add(row.part);
+            candidates.get(variantId)!.add(row.part);
           }
           results.push({ store, value: snapshot.prices, at: snapshot.at });
         } catch (error) {
@@ -94,11 +121,11 @@ export const prices = async (id, options) => {
       for (const store of stores)
         if (!results.some((r) => r.store === store))
           results.push({ store, error: new AppleThrottled(Date.now()) });
-      const byVariant = {},
-        failed = [];
-      const add = (variantId, row) => (byVariant[variantId] ??= []).push(row);
+      const byVariant: PriceCollection['byVariant'] = {};
+      const failed: string[] = [];
+      const add = (variantId: string, row: Price) => (byVariant[variantId] ??= []).push(row);
       for (const { store, value, error, at } of results) {
-        if (!error) {
+        if (value) {
           for (const [variantId, price] of Object.entries(value))
             add(variantId, {
               code: store.code,
@@ -113,7 +140,7 @@ export const prices = async (id, options) => {
         failed.push(store.code);
         for (const [variantId, rows] of Object.entries(previous?.byVariant || {}))
           for (const row of rows)
-            if (row.code === store.code) add(variantId, { at: previous.pricedAt, ...row });
+            if (row.code === store.code) add(variantId, { at: previous?.pricedAt, ...row });
       }
       if (results.every((r) => r.error)) throw results[0].error;
       return { pricedAt: new Date().toISOString(), failed, byVariant };
@@ -122,25 +149,26 @@ export const prices = async (id, options) => {
   );
 };
 
-const storeLink = (family, variant, code) =>
+const storeLink = (family: Catalog, variant: CatalogVariant, code: string) =>
   code === 'us' && variant.name
     ? storeUrl('', 'shop/' + family.path + '/' + variant.id)
     : storeUrl(storeByCode[code].store, 'shop/' + family.path);
 // The entry configuration (lowest US price, otherwise the first) is the family's default, like Apple's "From" price.
-function defaultVariant(family, byVariant) {
-  const us = (v) => byVariant[v.id]?.find((p) => p.code === 'us')?.local ?? Infinity;
+function defaultVariant(family: Catalog, byVariant: PriceCollection['byVariant']) {
+  const us = (v: CatalogVariant) =>
+    byVariant[v.id]?.find((p) => p.code === 'us')?.local ?? Infinity;
   return (
     [...family.variants].filter((v) => byVariant[v.id]).sort((a, b) => us(a) - us(b))[0] ||
     family.variants[0]
   );
 }
 // Listing: whatever is ready now; families still loading are flagged so the client can poll.
-export function summaries() {
+export function summaries(): Summary[] {
   return families.map((f) => {
-    const family = peek('catalog-' + f.id),
-      priced = peek('prices-' + f.id);
+    const family = peek(`catalog-${f.id}`),
+      priced = peek(`prices-${f.id}`);
     if (!family || !priced) return { id: f.id, name: f.name, category: f.category, ready: false };
-    const v = family.variants.find((x) => x.id === defaultVariant(family, priced.byVariant).id);
+    const v = defaultVariant(family, priced.byVariant);
     return {
       id: f.id,
       name: f.name,
@@ -155,20 +183,19 @@ export function summaries() {
   });
 }
 // Load every persisted entry once so the listing can answer immediately after a restart.
-let hydrated = null;
+let hydrated: Promise<void[]> | null = null;
 export const hydrate = () =>
   (hydrated ??= Promise.all(
     families.flatMap((f) =>
-      ['catalog-', 'prices-'].map(async (key) => {
-        key += f.id;
-        await cache.load(key);
+      (['catalog-', 'prices-'] as const).map(async (prefix) => {
+        await cache.load(`${prefix}${f.id}`);
       }),
     ),
   ));
 // Collection runs only in the explicit worker; Vercel request handlers never import this module.
-export async function publish(id) {
-  const family = peek('catalog-' + id),
-    priced = peek('prices-' + id);
+export async function publish(id: string) {
+  const family = peek(`catalog-${id}`),
+    priced = peek(`prices-${id}`);
   if (!family || !priced) return false;
   // Use already collected values; publishing must not initiate more network work.
   const variants = family.variants.map((v) => ({

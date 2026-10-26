@@ -1,6 +1,8 @@
+import type { Product, Variant, Listing } from '../src/types';
+import type { CacheEntry, ExchangeRates } from '../server/types';
 // Deliberately small, synthetic prices for repeatable tests; never shipped as production data.
 const stamp = '2026-10-26T00:00:00.000Z';
-const makeVariant = (color, memory = '36GB') => ({
+const makeVariant = (color: string, memory = '36GB'): Variant => ({
   id: `14-inch-max-${memory.toLowerCase()}-2tb-${color.toLowerCase()}`,
   part: `TEST${color}`,
   specs: { size: '14-inch', chip: 'M5 Max', memory, storage: '2TB', color },
@@ -32,7 +34,7 @@ const makeVariant = (color, memory = '36GB') => ({
   ],
 });
 const variants = [makeVariant('Silver'), makeVariant('Black'), makeVariant('Silver', '48GB')];
-export const product = {
+export const product: Product = {
   id: 'macbook-pro',
   name: 'MacBook Pro',
   category: 'Mac',
@@ -60,7 +62,7 @@ export const product = {
   pricedAt: stamp,
   failedStores: [],
 };
-export const listing = {
+export const listing: Listing = {
   ready: false,
   products: [
     {
@@ -77,7 +79,12 @@ export const listing = {
     { id: 'ipad-pro', name: 'iPad Pro', category: 'iPad', ready: false },
   ],
 };
-export const rates = {
+export const rates: CacheEntry<ExchangeRates> = {
   at: Date.now(),
-  value: { base: 'USD', updated: stamp, rates: { USD: 1, INR: 84, JPY: 150, EUR: 0.9, GBP: 0.8 } },
+  value: {
+    base: 'USD',
+    source: 'https://rates.example.test',
+    updated: stamp,
+    rates: { USD: 1, INR: 84, JPY: 150, EUR: 0.9, GBP: 0.8 },
+  },
 };

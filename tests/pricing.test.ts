@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { effectiveLocal, rankPrices, taxNote } from '../src/pricing.js';
-import { stores, storeByCode } from '../server/stores.js';
+import { effectiveLocal, rankPrices, taxNote } from '../src/pricing.ts';
+import { stores, storeByCode } from '../server/stores.ts';
 test('US prices add estimated sales tax; VAT countries deduct the tourist refund only when asked', () => {
   assert.equal(Math.round(effectiveLocal({ local: 1999 }, storeByCode.us)), 2159);
   assert.equal(effectiveLocal({ local: 1000 }, storeByCode.de, { refund: false }), 1000);

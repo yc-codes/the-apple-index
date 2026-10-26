@@ -2,6 +2,16 @@
 import { mkdir, readFile, writeFile, rename } from 'node:fs/promises';
 import { resolve, join } from 'node:path';
 import { get, put } from '@vercel/blob';
+import type { Storage } from './types';
+type StorageOptions = {
+  token?: string;
+  production?: boolean;
+  directory?: string;
+  blobGet?: (
+    ...args: Parameters<typeof get>
+  ) => Promise<{ statusCode: number; stream: ReadableStream<Uint8Array> | null } | null>;
+  blobPut?: (...args: Parameters<typeof put>) => Promise<unknown>;
+};
 
 export function createStorage({
   token = process.env.BLOB_READ_WRITE_TOKEN,
@@ -9,8 +19,8 @@ export function createStorage({
   directory = resolve(process.env.DATA_CACHE_DIR || '.cache'),
   blobGet = get,
   blobPut = put,
-} = {}) {
-  const pathname = (key) => {
+}: StorageOptions = {}): Storage {
+  const pathname = (key: string) => {
     if (!/^[a-z0-9-]+$/.test(key)) throw new Error('Invalid storage key');
     return `apple-index/v1/${key}.json`;
   };
@@ -33,7 +43,7 @@ export function createStorage({
       try {
         return JSON.parse(await readFile(join(directory, key + '.json'), 'utf8'));
       } catch (error) {
-        if (error.code === 'ENOENT') return null;
+        if (error instanceof Error && 'code' in error && error.code === 'ENOENT') return null;
         throw error;
       }
     },

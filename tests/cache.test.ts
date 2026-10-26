@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { createCache } from '../server/cache.js';
-import { discoverFamily } from '../server/catalog.js';
+import { createCache } from '../server/cache.ts';
+import { discoverFamily } from '../server/catalog.ts';
 test('concurrent cold reads share one refresh and await durable storage', async () => {
   let reads = 0,
     loads = 0,
@@ -55,7 +55,7 @@ test('Mac discovery rejects an incomplete configuration list instead of publishi
   await assert.rejects(
     () =>
       discoverFamily(
-        { id: 'macbook-pro', category: 'Mac', path: 'buy-mac/macbook-pro' },
+        { id: 'macbook-pro', name: 'MacBook Pro', category: 'Mac', path: 'buy-mac/macbook-pro' },
         { fetchPage: async () => html, pageCache: async () => null },
       ),
     /Incomplete configuration/,

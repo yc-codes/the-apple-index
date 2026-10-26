@@ -56,14 +56,14 @@ Apple regional stores + ExchangeRate-API
          React UI + TanStack Query
 ```
 
-- `server/catalog.js` discovers standard Apple configurations from embedded product-selection data and Mac configuration-page metadata. No six-variant cap or competitor snapshot is used. The configured family list is in `server/families.js`; actual coverage depends on successful collection and Apple's current markup.
-- `server/prices.js` queries Apple's regional product-price endpoint and matches regional part numbers by specifications. This is an undocumented upstream interface, not a guaranteed public API.
-- `server/service.js` caches successful configuration pages, catalogs and per-store prices, then publishes product snapshots and a listing. A partially failed Mac discovery does not replace a complete catalog. Successful store work is checkpointed, and failed stores retain their last good rows and timestamps.
-- `server/storage.js` uses private Vercel Blob in production and atomic local writes only for development. Durable writes are awaited; errors are not swallowed.
-- `server/data.js` is read-only. It serves `/api/meta`, `/api/products`, and `/api/products/:id`, with a short in-memory/CDN cache. The browser never receives Blob credentials. Missing data is distinguished from unknown products.
+- `server/catalog.ts` discovers standard Apple configurations from embedded product-selection data and Mac configuration-page metadata. No six-variant cap or competitor snapshot is used. The configured family list is in `server/families.ts`; actual coverage depends on successful collection and Apple's current markup.
+- `server/prices.ts` queries Apple's regional product-price endpoint and matches regional part numbers by specifications. This is an undocumented upstream interface, not a guaranteed public API.
+- `server/service.ts` caches successful configuration pages, catalogs and per-store prices, then publishes product snapshots and a listing. A partially failed Mac discovery does not replace a complete catalog. Successful store work is checkpointed, and failed stores retain their last good rows and timestamps.
+- `server/storage.ts` uses private Vercel Blob in production and atomic local writes only for development. Durable writes are awaited; errors are not swallowed.
+- `server/data.ts` is read-only. It serves `/api/meta`, `/api/products`, and `/api/products/:id`, with a short in-memory/CDN cache. The browser never receives Blob credentials. Missing data is distinguished from unknown products.
 - Prices target a six-hour lifetime; configurations and their individual page metadata target 24 hours. Failed price sets are eligible for retry after 30 minutes, **on the next collector run**. The default workflow runs every six hours, so this is not a promise of 30-minute retries.
 - Apple requests are serialized and spaced by eight seconds by default. HTTP 403/429/541 pauses collection; the worker records the cooldown and stops, retaining published data. The next scheduled or manually started run resumes after that cooldown. A complete initial crawl can take hours or several runs if Apple blocks requests.
-- `server/stores.js` contains reference VAT/GST and estimated tourist-refund rules; these are not live tax feeds. `src/pricing.js` keeps shelf prices, conversion, added sales tax, and optional refunds separate. Eligibility and final checkout amounts must be verified with the store.
+- `server/stores.ts` contains reference VAT/GST and estimated tourist-refund rules; these are not live tax feeds. `src/pricing.ts` keeps shelf prices, conversion, added sales tax, and optional refunds separate. Eligibility and final checkout amounts must be verified with the store.
 
 ## UI behavior
 
@@ -86,5 +86,7 @@ bun run build:vercel         # generates .vercel/output for deployment verificat
 ```
 
 Browser tests exercise the real TanStack server routes, React hydration, region detection, color/configuration selection, history, reloads, refunds, filtering, missing-data states, and responsive overflow. They do not crawl Apple or require credentials. Synthetic fixtures are confined to `tests/` and an ignored test-cache directory; production imports none of them.
+
+All application modules, collector code, worker scripts, and tests are TypeScript. `bun run typecheck` checks them under strict mode; JavaScript fallback is disabled. Shared product contracts live in `src/types.ts`, and collector/storage contracts live in `server/types.ts`.
 
 `bun run format` applies the checked-in Biome formatting rules. The generated `src/routeTree.gen.ts` is tracked and excluded from manual formatting.

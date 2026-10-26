@@ -1,11 +1,11 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { extractObject, plainText, basePart } from '../server/apple.js';
+import { extractObject, plainText, basePart } from '../server/apple.ts';
 import {
   parseMacSpecLine,
   bootstrapConfigurations,
   macListConfigurations,
-} from '../server/catalog.js';
+} from '../server/catalog.ts';
 test('reads Apple bootstrap objects embedded in scripts', () => {
   const html =
     '<script>window.X = { productSelectionData: {"a":"}{\\"","b":{"c":[1,2]}}, other: 1 };</script>';

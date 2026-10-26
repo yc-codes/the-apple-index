@@ -10,7 +10,7 @@
     "start": "bun .output/server/index.mjs",
     "collect": "bun scripts/collect.ts",
     "data:publish": "bun scripts/collect.ts --publish-only",
-    "test": "bun test tests/*.test.js",
+    "test": "bun test tests/*.test.ts",
     "test:browser": "playwright test",
     "typecheck": "tsc --noEmit",
     "format": "biome format --write .",

@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, useRef, useState, type ReactNode } from 'react';
 import { Link, useLocation, useNavigate, useSearch } from '@tanstack/react-router';
 import { useMeta } from '../api';
-import { countryCurrencies, detectCountry, fallbackCountry } from '../region.js';
+import { countryCurrencies, detectCountry, fallbackCountry } from '../region.ts';
 import type { Preferences } from '../types';
 
 type PrefContext = {

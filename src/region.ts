@@ -1,4 +1,4 @@
-export const countryCurrencies = {
+export const countryCurrencies: Record<string, string> = {
   ae: 'AED',
   at: 'EUR',
   au: 'AUD',
@@ -39,11 +39,11 @@ export const countryCurrencies = {
   us: 'USD',
   vn: 'VND',
 };
-export function regionPreferences(country) {
+export function regionPreferences(country: string) {
   return { country, currency: countryCurrencies[country] || 'USD' };
 }
-export function fallbackCountry(timezone, languages = []) {
-  const zones = {
+export function fallbackCountry(timezone: string, languages: readonly string[] = []) {
+  const zones: Record<string, string> = {
     'Asia/Kolkata': 'in',
     'Asia/Calcutta': 'in',
     'Asia/Tokyo': 'jp',
@@ -62,17 +62,17 @@ export function fallbackCountry(timezone, languages = []) {
   for (const language of languages) {
     try {
       const country = new Intl.Locale(language).region?.toLowerCase();
-      if (countryCurrencies[country]) return country;
+      if (country && countryCurrencies[country]) return country;
     } catch {}
   }
   return 'us';
 }
-export async function detectCountry(fallback, fetcher = fetch) {
+export async function detectCountry(fallback: string, fetcher: typeof fetch = fetch) {
   try {
     const response = await fetcher('https://ipapi.co/json/', { signal: AbortSignal.timeout(2500) });
     if (!response.ok) return fallback;
     const data = await response.json();
-    const country = data.country_code?.toLowerCase();
+    const country = typeof data?.country_code === 'string' ? data.country_code.toLowerCase() : '';
     return countryCurrencies[country] ? country : fallback;
   } catch {
     return fallback;

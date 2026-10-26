@@ -1,5 +1,6 @@
+import type { Family } from './types';
 // Product family identifiers and Apple store paths; prices are collected separately.
-export const families = [
+export const families: Family[] = [
   ['macbook-air', 'MacBook Air', 'Mac', 'buy-mac/macbook-air'],
   ['macbook-neo', 'MacBook Neo', 'Mac', 'buy-mac/macbook-neo'],
   ['macbook-pro', 'MacBook Pro', 'Mac', 'buy-mac/macbook-pro'],
@@ -25,4 +26,6 @@ export const families = [
   ['homepod', 'HomePod', 'TV & Home', 'buy-homepod/homepod'],
   ['homepod-mini', 'HomePod mini', 'TV & Home', 'buy-homepod/homepod-mini'],
 ].map(([id, name, category, path]) => ({ id, name, category, path }));
-export const familyById = Object.fromEntries(families.map((f) => [f.id, f]));
+export const familyById: Record<string, Family | undefined> = Object.fromEntries(
+  families.map((f) => [f.id, f]),
+);

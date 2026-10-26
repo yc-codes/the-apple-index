@@ -5,8 +5,8 @@ import {
   regionPreferences,
   fallbackCountry,
   detectCountry,
-} from '../src/region.js';
-import { stores } from '../server/stores.js';
+} from '../src/region.ts';
+import { stores } from '../server/stores.ts';
 test('every Apple store country maps to its local currency', () => {
   for (const store of stores)
     assert.equal(countryCurrencies[store.code], store.currency, store.code);
@@ -18,24 +18,12 @@ test('India maps to INR and both common timezone names work', () => {
   assert.equal(fallbackCountry('Unknown', ['en-IN']), 'in');
 });
 test('IP country wins over timezone with safe failure fallback', async () => {
-  assert.equal(
-    await detectCountry('us', async () => ({
-      ok: true,
-      json: async () => ({ country_code: 'IN' }),
-    })),
-    'in',
-  );
+  assert.equal(await detectCountry('us', async () => Response.json({ country_code: 'IN' })), 'in');
   assert.equal(
     await detectCountry('in', async () => {
       throw Error('offline');
     }),
     'in',
   );
-  assert.equal(
-    await detectCountry('in', async () => ({
-      ok: true,
-      json: async () => ({ country_code: 'ZZ' }),
-    })),
-    'in',
-  );
+  assert.equal(await detectCountry('in', async () => Response.json({ country_code: 'ZZ' })), 'in');
 });

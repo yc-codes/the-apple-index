@@ -1,6 +1,7 @@
+import type { AppleStore } from './types';
 // Apple store regions. Tax rates and tourist-refund estimates are reference rules, not price data.
 // tax.added: shelf prices exclude tax (US/Canada), so the estimate is added on top.
-export const stores = [
+export const stores: AppleStore[] = [
   {
     code: 'ae',
     name: 'UAE',
@@ -269,4 +270,6 @@ export const stores = [
     tax: { label: 'VAT', rate: 0.08, refund: 0.07 },
   },
 ];
-export const storeByCode = Object.fromEntries(stores.map((s) => [s.code, s]));
+export const storeByCode: Record<string, AppleStore> = Object.fromEntries(
+  stores.map((s) => [s.code, s]),
+);

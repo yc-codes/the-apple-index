@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import { rankPrices, taxNote } from '../pricing.js';
+import { rankPrices, taxNote } from '../pricing.ts';
 import { useMeta } from '../api';
 import { flag, usePreferences } from './layout';
-import type { Price, Store } from '../types';
+import type { Price } from '../types';
 export function ago(iso?: string) {
   if (!iso) return 'not yet';
   const minutes = Math.max(0, Math.round((Date.now() - Date.parse(iso)) / 60_000));
@@ -20,7 +20,7 @@ export function Art({
   eager = false,
 }: {
   name: string;
-  image?: string;
+  image?: string | null;
   eager?: boolean;
 }) {
   const [failed, setFailed] = useState<string>();
@@ -46,10 +46,7 @@ export function usePricing(prices: Price[] = []) {
   const { country, currency, refund } = usePreferences();
   const stores = Object.fromEntries((meta?.stores || []).map((s) => [s.code, s]));
   const rates = meta?.rates?.rates || {};
-  const rows = rankPrices({ prices }, stores, rates, { refund }) as (Price & {
-    usd: number;
-    store: Store;
-  })[];
+  const rows = rankPrices({ prices }, stores, rates, { refund });
   const money = (usd: number) =>
     rates[currency]
       ? new Intl.NumberFormat('en-US', {

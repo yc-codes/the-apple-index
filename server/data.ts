@@ -1,24 +1,31 @@
+import type { PublishedSchema, StorageReader } from './types';
+import type { Listing, Product, Meta } from '../src/types';
+import { errorMessage } from './json';
+type Key = keyof PublishedSchema & string;
 // Read-only request path. A visitor never starts an Apple crawl or a background timer.
-import { families, familyById } from './families.js';
-import { stores } from './stores.js';
-import { storage } from './storage.js';
-export function createDataReader(store = storage, { now = Date.now, maxAge = 30000 } = {}) {
-  const memory = new Map(),
-    pending = new Map();
-  async function read(key) {
+import { families, familyById } from './families.ts';
+import { stores } from './stores.ts';
+import { storage } from './storage.ts';
+export function createDataReader(
+  store: StorageReader = storage,
+  { now = Date.now, maxAge = 30000 } = {},
+) {
+  const memory = new Map<Key, { value: unknown; at: number }>(),
+    pending = new Map<Key, Promise<unknown>>();
+  async function read<K extends Key>(key: K): Promise<PublishedSchema[K] | null> {
     const previous = memory.get(key);
-    if (previous && now() - previous.at < maxAge) return previous.value;
-    if (pending.has(key)) return pending.get(key);
+    if (previous && now() - previous.at < maxAge) return previous.value as PublishedSchema[K];
+    if (pending.has(key)) return pending.get(key) as Promise<PublishedSchema[K] | null>;
     const task = store
       .read(key)
       .then((value) => {
         memory.set(key, { value, at: now() });
-        return value;
+        return value as PublishedSchema[K] | null;
       })
       .catch((error) => {
         if (previous?.value) {
           console.warn('[data] serving last result after storage failure');
-          return previous.value;
+          return previous.value as PublishedSchema[K];
         }
         throw error;
       })
@@ -27,7 +34,7 @@ export function createDataReader(store = storage, { now = Date.now, maxAge = 300
     return task;
   }
   return {
-    async listing() {
+    async listing(): Promise<Listing> {
       return (
         (await read('index')) || {
           ready: false,
@@ -40,9 +47,11 @@ export function createDataReader(store = storage, { now = Date.now, maxAge = 300
         }
       );
     },
-    async product(id) {
+    async product(
+      id: string,
+    ): Promise<{ status: 200; body: Product } | { status: 404 | 503; body: { error: string } }> {
       if (!familyById[id]) return { status: 404, body: { error: 'Unknown product' } };
-      const data = await read('product-' + id);
+      const data = await read(`product-${id}`);
       return data
         ? { status: 200, body: data }
         : {
@@ -53,7 +62,7 @@ export function createDataReader(store = storage, { now = Date.now, maxAge = 300
             },
           };
     },
-    async meta() {
+    async meta(): Promise<Meta> {
       const rates = await read('rates');
       return {
         stores: stores.map(({ code, name, currency, tax }) => ({ code, name, currency, tax })),
@@ -63,7 +72,7 @@ export function createDataReader(store = storage, { now = Date.now, maxAge = 300
   };
 }
 export const reader = createDataReader();
-export async function handleRequest(request) {
+export async function handleRequest(request: Request) {
   const { pathname } = new URL(request.url);
   if (request.method !== 'GET' && request.method !== 'HEAD')
     return Response.json(
@@ -72,7 +81,7 @@ export async function handleRequest(request) {
     );
   try {
     let status = 200,
-      body;
+      body: unknown;
     if (pathname === '/api/meta') {
       body = await reader.meta();
     } else if (pathname === '/api/products') {
@@ -92,7 +101,7 @@ export async function handleRequest(request) {
       },
     });
   } catch (error) {
-    console.error('[api] storage unavailable:', error.message);
+    console.error('[api] storage unavailable:', errorMessage(error));
     return Response.json(
       { error: 'Price data is temporarily unavailable. Please retry shortly.' },
       { status: 503, headers: { 'Cache-Control': 'no-store', 'Retry-After': '60' } },

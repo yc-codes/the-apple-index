@@ -1,7 +1,7 @@
 export type Price = {
   code: string;
   local: number;
-  display?: string;
+  display?: string | null;
   part?: string;
   at?: string;
   url?: string;
@@ -14,8 +14,9 @@ export type Store = {
 };
 export type Variant = {
   id: string;
+  part?: string;
   label: string;
-  image?: string;
+  image?: string | null;
   specs: Record<string, string>;
   labels: Record<string, string>;
   prices: Price[];
@@ -25,7 +26,7 @@ export type Product = {
   id: string;
   name: string;
   category: string;
-  image?: string;
+  image?: string | null;
   variants: Variant[];
   dimensions: Dimension[];
   fixed: Record<string, string>;
@@ -38,7 +39,7 @@ export type Summary = {
   name: string;
   category: string;
   ready: boolean;
-  image?: string;
+  image?: string | null;
   variant?: { id: string; label: string };
   prices?: Price[];
   configurations?: number;

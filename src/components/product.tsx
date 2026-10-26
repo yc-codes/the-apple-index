@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from '@tanstack/react-router';
 import { useProduct, useMeta } from '../api';
-import { configurationOptions } from '../configuration.js';
+import { configurationOptions } from '../configuration.ts';
 import { IndexLink, flag, usePreferences } from './layout';
 import { Art, PriceRows, QueryError, ago, usePricing } from './prices';
 import type { Product as ProductData, Variant } from '../types';

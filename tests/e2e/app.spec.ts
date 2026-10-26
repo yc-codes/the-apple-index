@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { product } from '../fixtures.js';
+import { product } from '../fixtures.ts';
 test.beforeEach(async ({ page }) => {
   await page.route('https://ipapi.co/json/', (route) =>
     route.fulfill({ json: { country_code: 'IN' } }),

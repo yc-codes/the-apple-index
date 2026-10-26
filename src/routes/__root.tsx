@@ -1,7 +1,7 @@
 import { createRootRouteWithContext, HeadContent, Outlet, Scripts } from '@tanstack/react-router';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { PreferencesProvider, Layout } from '../components/layout';
-import { countryCurrencies } from '../region.js';
+import { countryCurrencies } from '../region.ts';
 import styles from '../style.css?url';
 import type { Preferences } from '../types';
 

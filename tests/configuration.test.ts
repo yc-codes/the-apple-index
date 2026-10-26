@@ -1,13 +1,21 @@
+import type { ConfigurableProduct, SelectionVariant } from '../src/configuration';
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { selectConfiguration, configurationOptions } from '../src/configuration.js';
+import { selectConfiguration, configurationOptions } from '../src/configuration.ts';
 // Shaped like /api/products/macbook-pro: dimensions + real configurations only.
-const v = (id, size, chip, memory, storage, color) => ({
+const v = (
+  id: string,
+  size: string,
+  chip: string,
+  memory: string,
+  storage: string,
+  color: string,
+): SelectionVariant => ({
   id,
   specs: { size, chip, memory, storage, color },
   labels: { size, chip, memory, storage, color },
 });
-const product = {
+const product: ConfigurableProduct = {
   dimensions: [
     ['size', 'Size'],
     ['chip', 'Chip'],

@@ -12,13 +12,13 @@ export const politeness = {
   cooldownMs: 15 * 60e3,
   maxCooldownMs: 2 * 3600e3,
 };
-const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-const priority = new AsyncLocalStorage();
+const sleep = (ms: number) => new Promise<void>((resolve) => setTimeout(resolve, ms));
+const priority = new AsyncLocalStorage<boolean>();
 // Work started inside `interactive()` (a visitor waiting on a page) runs first, and background refreshes
 // pause entirely until no visitor is waiting.
 let foreground = 0;
-const idle = [];
-export async function interactive(fn) {
+const idle: (() => void)[] = [];
+export async function interactive<T>(fn: () => Promise<T>) {
   foreground++;
   try {
     return await priority.run(true, fn);
@@ -28,13 +28,13 @@ export async function interactive(fn) {
 }
 let busy = false,
   lastStart = 0;
-const queue = [];
-async function slot(task) {
+const queue: { resolve: () => void; high: boolean }[] = [];
+async function slot<T>(task: () => T | Promise<T>): Promise<T> {
   const high = priority.getStore() === true;
   for (;;) {
-    if (!high) while (foreground > 0) await new Promise((resume) => idle.push(resume));
+    if (!high) while (foreground > 0) await new Promise<void>((resume) => idle.push(resume));
     if (!busy) break;
-    await new Promise((resolve) => {
+    await new Promise<void>((resolve) => {
       const waiter = { resolve, high };
       high ? queue.splice(queue.findIndex((w) => !w.high) >>> 0, 0, waiter) : queue.push(waiter);
     });
@@ -58,7 +58,8 @@ async function slot(task) {
 // Apple answers 541/429/403 when it wants crawlers to back off. Stop all traffic instead of retrying;
 // repeated blocks double the pause.
 export class AppleThrottled extends Error {
-  constructor(until) {
+  readonly until: number;
+  constructor(until: number) {
     super(`Apple is rate limiting requests until ${new Date(until).toISOString()}`);
     this.until = until;
   }
@@ -69,7 +70,7 @@ export const throttleState = () => ({
   blocked: Date.now() < blockedUntil,
   until: blockedUntil ? new Date(blockedUntil).toISOString() : null,
 });
-function block(status) {
+function block(status: number) {
   cooldown =
     Date.now() - blockedUntil < 2 * 3600e3
       ? Math.min(cooldown * 2, politeness.maxCooldownMs)
@@ -79,9 +80,21 @@ function block(status) {
   console.warn(`[apple] ${status}; pausing requests until ${new Date(blockedUntil).toISOString()}`);
   return new AppleThrottled(blockedUntil);
 }
-export const storeUrl = (store, path) =>
+export const storeUrl = (store: string, path: string) =>
   `https://www.apple.com/${store ? store + '/' : ''}${path.replace(/^\//, '')}`;
-export async function appleFetch(url, { retries = 2, fetcher = fetch } = {}) {
+export type AppleFetchOptions = { retries?: number; fetcher?: typeof fetch };
+export class AppleHttpError extends Error {
+  constructor(
+    public status: number,
+    url: string,
+  ) {
+    super(`${status} ${url}`);
+  }
+}
+export async function appleFetch(
+  url: string,
+  { retries = 2, fetcher = fetch }: AppleFetchOptions = {},
+) {
   for (let attempt = 0; ; attempt++) {
     if (Date.now() < blockedUntil) throw new AppleThrottled(blockedUntil);
     try {
@@ -96,13 +109,12 @@ export async function appleFetch(url, { retries = 2, fetcher = fetch } = {}) {
       if (!response) throw new AppleThrottled(blockedUntil);
       if (response.ok) return response;
       if ([403, 429, 541].includes(response.status)) throw block(response.status);
-      const error = new Error(`${response.status} ${url}`);
-      error.status = response.status;
+      const error = new AppleHttpError(response.status, url);
       if (response.status < 500 || attempt >= retries) throw error;
     } catch (error) {
       if (
         error instanceof AppleThrottled ||
-        (error.status && error.status < 500) ||
+        (error instanceof AppleHttpError && error.status < 500) ||
         attempt >= retries
       )
         throw error;
@@ -110,10 +122,12 @@ export async function appleFetch(url, { retries = 2, fetcher = fetch } = {}) {
     await sleep(1500 * 2 ** attempt);
   }
 }
-export const appleText = async (url, options) => (await appleFetch(url, options)).text();
-export const appleJson = async (url, options) => (await appleFetch(url, options)).json();
+export const appleText = async (url: string, options?: AppleFetchOptions) =>
+  (await appleFetch(url, options)).text();
+export const appleJson = async (url: string, options?: AppleFetchOptions): Promise<unknown> =>
+  (await appleFetch(url, options)).json();
 // Apple embeds JSON objects inside inline scripts (`productSelectionData: {...}`); read one by brace matching.
-export function extractObject(html, marker) {
+export function extractObject(html: string, marker: string): unknown {
   const at = html.indexOf(marker);
   if (at < 0) return null;
   const start = html.indexOf('{', at);
@@ -134,15 +148,23 @@ export function extractObject(html, marker) {
   }
   return null;
 }
-const entities = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ', '#39': "'" };
-function decodeCodePoint(entity, fallback) {
+const entities: Record<string, string> = {
+  amp: '&',
+  lt: '<',
+  gt: '>',
+  quot: '"',
+  apos: "'",
+  nbsp: ' ',
+  '#39': "'",
+};
+function decodeCodePoint(entity: string, fallback: string) {
   const hex = entity[1]?.toLowerCase() === 'x';
   const value = Number.parseInt(entity.slice(hex ? 2 : 1), hex ? 16 : 10);
   return Number.isInteger(value) && value >= 0 && value <= 0x10ffff
     ? String.fromCodePoint(value)
     : fallback;
 }
-export function plainText(html) {
+export function plainText(html: unknown) {
   return String(html ?? '')
     .replace(
       /<as-footnote[\s\S]*?<\/as-footnote>|<sup[\s\S]*?<\/sup>|<span class="(visuallyhidden|badge[^"]*)">[\s\S]*?<\/span>/g,
@@ -155,7 +177,7 @@ export function plainText(html) {
     .replace(/[ \t\u00a0]+/g, ' ')
     .trim();
 }
-export const basePart = (part) =>
+export const basePart = (part: unknown) =>
   String(part || '')
     .replace(/[A-Z]{1,3}\/A$/, '')
     .replace(/\/A$/, '');
