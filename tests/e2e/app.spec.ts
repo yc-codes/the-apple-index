@@ -1,5 +1,21 @@
 import { test, expect } from '@playwright/test';
 import { product } from '../fixtures.ts';
+test('country labels hydrate even when browser locale data differs from the server', async ({
+  page,
+}) => {
+  const errors: string[] = [];
+  page.on('pageerror', (error) => errors.push(error.message));
+  await page.addInitScript(() => {
+    // ICU releases can use different English names for the same country.
+    Intl.DisplayNames.prototype.of = function (code: string) {
+      return `Browser region ${code}`;
+    };
+  });
+  await page.goto('/');
+  await expect(page.locator('#region')).toHaveValue('in');
+  await expect(page.locator('#region option[value="tr"]')).toContainText('Türkiye');
+  expect(errors).toEqual([]);
+});
 test.beforeEach(async ({ page }) => {
   await page.route('https://ipapi.co/json/', (route) =>
     route.fulfill({ json: { country_code: 'IN' } }),

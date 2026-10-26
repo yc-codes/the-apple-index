@@ -3,6 +3,7 @@ import { Link, useLocation, useNavigate, useSearch } from '@tanstack/react-route
 import { useMeta } from '../api';
 import { countryCurrencies, detectCountry, fallbackCountry } from '../region.ts';
 import type { Preferences } from '../types';
+import { stores } from '../../server/stores';
 
 type PrefContext = {
   country: string;
@@ -140,13 +141,8 @@ export function IndexLink({
 export function Layout({ children }: { children: ReactNode }) {
   const { data: meta } = useMeta();
   const { country, currency, setCountry } = usePreferences();
-  const countries =
-    meta?.stores ||
-    Object.entries(currencies).map(([code, currency]) => ({
-      code,
-      currency,
-      name: new Intl.DisplayNames(['en'], { type: 'region' }).of(code.toUpperCase()) || code,
-    }));
+  // Static names keep server and browser markup identical across ICU versions.
+  const countries = meta?.stores || stores;
   return (
     <>
       <header>
@@ -167,7 +163,7 @@ export function Layout({ children }: { children: ReactNode }) {
                 onChange={(e) => setCountry(e.target.value)}
               >
                 {[...countries]
-                  .sort((a, b) => a.name.localeCompare(b.name))
+                  .sort((a, b) => (a.name < b.name ? -1 : a.name > b.name ? 1 : 0))
                   .map((c) => (
                     <option key={c.code} value={c.code}>
                       {flag(c.code)} {c.name} · {c.code === country ? currency : c.currency}
