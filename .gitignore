@@ -2,3 +2,11 @@ node_modules/
 dist/
 test-results/
 .cache/
+.output/
+.vercel/
+.nitro/
+.tanstack/
+playwright-report/
+.env
+.env.*
+!.env.example

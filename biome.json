@@ -1,0 +1,22 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.6.3/schema.json",
+  "files": {
+    "includes": [
+      "**",
+      "!src/routeTree.gen.ts",
+      "!.output",
+      "!.vercel",
+      "!.cache",
+      "!dist",
+      "!bun.lock",
+      "!node_modules",
+      "!.tanstack",
+      "!playwright-report",
+      "!test-results"
+    ]
+  },
+  "formatter": { "enabled": true, "indentStyle": "space", "indentWidth": 2, "lineWidth": 100 },
+  "javascript": { "formatter": { "quoteStyle": "single" } },
+  "linter": { "enabled": false },
+  "assist": { "enabled": false }
+}
