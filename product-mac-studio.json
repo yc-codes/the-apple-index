@@ -1,0 +1,988 @@
+{
+  "id": "mac-studio",
+  "name": "Mac Studio",
+  "category": "Mac",
+  "path": "buy-mac/mac-studio",
+  "url": "https://www.apple.com/shop/buy-mac/mac-studio",
+  "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/mac-studio-chip-unselect-202608-gallery-1?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1786042910172",
+  "dimensions": [
+    {
+      "key": "chip",
+      "name": "Chip",
+      "values": [
+        {
+          "key": "M5 Max",
+          "label": "M5 Max"
+        },
+        {
+          "key": "M5 Ultra",
+          "label": "M5 Ultra"
+        }
+      ]
+    },
+    {
+      "key": "cpu",
+      "name": "CPU",
+      "values": [
+        {
+          "key": "18-core",
+          "label": "18-core"
+        },
+        {
+          "key": "30-core",
+          "label": "30-core"
+        }
+      ]
+    },
+    {
+      "key": "gpu",
+      "name": "GPU",
+      "values": [
+        {
+          "key": "32-core",
+          "label": "32-core"
+        },
+        {
+          "key": "40-core",
+          "label": "40-core"
+        },
+        {
+          "key": "64-core",
+          "label": "64-core"
+        }
+      ]
+    },
+    {
+      "key": "memory",
+      "name": "Memory",
+      "values": [
+        {
+          "key": "36GB",
+          "label": "36GB"
+        },
+        {
+          "key": "64GB",
+          "label": "64GB"
+        },
+        {
+          "key": "96GB",
+          "label": "96GB"
+        }
+      ]
+    },
+    {
+      "key": "storage",
+      "name": "Storage",
+      "values": [
+        {
+          "key": "512GB",
+          "label": "512GB"
+        },
+        {
+          "key": "1TB",
+          "label": "1TB"
+        }
+      ]
+    }
+  ],
+  "fixed": {},
+  "variants": [
+    {
+      "id": "m5-max-chip-18-core-cpu-40-core-gpu-64gb-memory-1tb-storage",
+      "part": "MHQJ4",
+      "specs": {
+        "chip": "M5 Max",
+        "cpu": "18-core",
+        "gpu": "40-core",
+        "memory": "64GB",
+        "storage": "1TB"
+      },
+      "labels": {
+        "chip": "M5 Max",
+        "cpu": "18-core",
+        "gpu": "40-core",
+        "memory": "64GB",
+        "storage": "1TB"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/mac-studio-chip-unselect-202608-gallery-1?wid=1200&hei=770&fmt=jpeg&qlt=90&.v=1786042910172",
+      "name": "Mac Studio, M5 Max Chip, 18-core CPU, 40-core GPU, 64GB memory, 1TB storage",
+      "label": "M5 Max · 18-core · 40-core · 64GB · 1TB",
+      "prices": [
+        {
+          "code": "us",
+          "local": 3799,
+          "display": "$3799",
+          "part": "MHQJ4",
+          "at": "2026-10-27T12:07:34.805Z",
+          "url": "https://www.apple.com/shop/buy-mac/mac-studio/m5-max-chip-18-core-cpu-40-core-gpu-64gb-memory-1tb-storage"
+        },
+        {
+          "code": "ae",
+          "local": 16349,
+          "display": "AED 16,349",
+          "part": "MHQJ4",
+          "at": "2026-10-27T12:07:42.919Z",
+          "url": "https://www.apple.com/ae/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "at",
+          "local": 4429,
+          "display": "4.429 €",
+          "part": "MHQJ4",
+          "at": "2026-10-27T12:07:50.836Z",
+          "url": "https://www.apple.com/at/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "au",
+          "local": 6249,
+          "display": "A$6,249 ",
+          "part": "MHQJ4",
+          "at": "2026-10-27T12:07:58.977Z",
+          "url": "https://www.apple.com/au/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "be",
+          "local": 4459,
+          "display": "€ 4.459",
+          "part": "MHQJ4",
+          "at": "2026-10-27T12:08:06.904Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "br",
+          "local": 46599,
+          "display": "R$ 46.599",
+          "part": "MHQJ4",
+          "at": "2026-10-27T12:08:14.840Z",
+          "url": "https://www.apple.com/br/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "ca",
+          "local": 5449,
+          "display": "$5449",
+          "part": "MHQJ4",
+          "at": "2026-10-27T12:08:22.930Z",
+          "url": "https://www.apple.com/ca/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "ch",
+          "local": 3799,
+          "display": "CHF 3799.–",
+          "part": "MHQJ4",
+          "at": "2026-10-27T12:08:30.891Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "de",
+          "local": 4429,
+          "display": "4.429 €",
+          "part": "MHQJ4",
+          "at": "2026-10-27T12:08:54.868Z",
+          "url": "https://www.apple.com/de/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "es",
+          "local": 4459,
+          "display": "4.459 € ",
+          "part": "MHQJ4",
+          "at": "2026-10-27T12:09:10.885Z",
+          "url": "https://www.apple.com/es/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "fr",
+          "local": 4429,
+          "display": "4 429 €",
+          "part": "MHQJ4",
+          "at": "2026-10-27T12:09:27.073Z",
+          "url": "https://www.apple.com/fr/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "gb",
+          "local": 3799,
+          "display": "£3,799",
+          "part": "MHQJ4",
+          "at": "2026-10-27T12:09:34.924Z",
+          "url": "https://www.apple.com/uk/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "hk",
+          "local": 29749,
+          "display": "HK$29,749",
+          "part": "MHQJ4",
+          "at": "2026-10-27T12:09:42.933Z",
+          "url": "https://www.apple.com/hk/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "in",
+          "local": 435900,
+          "display": "₹435900.00",
+          "part": "MHQJ4",
+          "at": "2026-10-27T12:10:06.937Z",
+          "url": "https://www.apple.com/in/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "it",
+          "local": 4479,
+          "display": "€ 4.479 ",
+          "part": "MHQJ4",
+          "at": "2026-10-27T12:10:15.020Z",
+          "url": "https://www.apple.com/it/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "jp",
+          "local": 653800,
+          "display": "653,800円",
+          "part": "MHQJ4",
+          "at": "2026-10-27T12:10:23.022Z",
+          "url": "https://www.apple.com/jp/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "kr",
+          "local": 6500000,
+          "display": "₩6,500,000",
+          "part": "MHQJ4",
+          "at": "2026-10-27T12:10:31.009Z",
+          "url": "https://www.apple.com/kr/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "mx",
+          "local": 90499,
+          "display": "$90,499",
+          "part": "MHQJ4",
+          "at": "2026-10-27T12:10:46.967Z",
+          "url": "https://www.apple.com/mx/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "my",
+          "local": 16849,
+          "display": "RM 16,849",
+          "part": "MHQJ4",
+          "at": "2026-10-27T12:10:55.110Z",
+          "url": "https://www.apple.com/my/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "nl",
+          "local": 4459,
+          "display": "€ 4.459",
+          "part": "MHQJ4",
+          "at": "2026-10-27T12:11:03.033Z",
+          "url": "https://www.apple.com/nl/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "se",
+          "local": 49895,
+          "display": "49 895 kr",
+          "part": "MHQJ4",
+          "at": "2026-10-27T12:11:59.045Z",
+          "url": "https://www.apple.com/se/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "sg",
+          "local": 5449,
+          "display": "S$5,449",
+          "part": "MHQJ4",
+          "at": "2026-10-27T12:12:07.033Z",
+          "url": "https://www.apple.com/sg/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "th",
+          "local": 135400,
+          "display": "฿135,400",
+          "part": "MHQJ4",
+          "at": "2026-10-27T12:12:15.066Z",
+          "url": "https://www.apple.com/th/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "tr",
+          "local": 249249,
+          "display": "249.249 TL",
+          "part": "MHQJ4",
+          "at": "2026-10-27T12:12:23.098Z",
+          "url": "https://www.apple.com/tr/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "tw",
+          "local": 130400,
+          "display": "NT$130,400",
+          "part": "MHQJ4",
+          "at": "2026-10-27T12:12:31.099Z",
+          "url": "https://www.apple.com/tw/shop/buy-mac/mac-studio"
+        }
+      ]
+    },
+    {
+      "id": "m5-max-chip-18-core-cpu-32-core-gpu-36gb-memory-512gb-storage",
+      "part": "MHL64",
+      "specs": {
+        "chip": "M5 Max",
+        "cpu": "18-core",
+        "gpu": "32-core",
+        "memory": "36GB",
+        "storage": "512GB"
+      },
+      "labels": {
+        "chip": "M5 Max",
+        "cpu": "18-core",
+        "gpu": "32-core",
+        "memory": "36GB",
+        "storage": "512GB"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/mac-studio-chip-unselect-202608-gallery-1?wid=1200&hei=770&fmt=jpeg&qlt=90&.v=1786042910172",
+      "name": "Mac Studio, M5 Max Chip, 18-core CPU, 32-core GPU, 36GB memory, 512GB storage",
+      "label": "M5 Max · 18-core · 32-core · 36GB · 512GB",
+      "prices": [
+        {
+          "code": "us",
+          "local": 2499,
+          "display": "$2499",
+          "part": "MHL64",
+          "at": "2026-10-27T12:07:34.805Z",
+          "url": "https://www.apple.com/shop/buy-mac/mac-studio/m5-max-chip-18-core-cpu-32-core-gpu-36gb-memory-512gb-storage"
+        },
+        {
+          "code": "ae",
+          "local": 10499,
+          "display": "AED 10,499",
+          "part": "MHL64",
+          "at": "2026-10-27T12:07:42.919Z",
+          "url": "https://www.apple.com/ae/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "at",
+          "local": 2999,
+          "display": "2.999 €",
+          "part": "MHL64",
+          "at": "2026-10-27T12:07:50.836Z",
+          "url": "https://www.apple.com/at/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "au",
+          "local": 4299,
+          "display": "A$4,299 ",
+          "part": "MHL64",
+          "at": "2026-10-27T12:07:58.977Z",
+          "url": "https://www.apple.com/au/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "be",
+          "local": 3029,
+          "display": "€ 3.029",
+          "part": "MHL64",
+          "at": "2026-10-27T12:08:06.904Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "br",
+          "local": 30999,
+          "display": "R$ 30.999",
+          "part": "MHL64",
+          "at": "2026-10-27T12:08:14.840Z",
+          "url": "https://www.apple.com/br/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "ca",
+          "local": 3499,
+          "display": "$3499",
+          "part": "MHL64",
+          "at": "2026-10-27T12:08:22.930Z",
+          "url": "https://www.apple.com/ca/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "ch",
+          "local": 2499,
+          "display": "CHF 2499.–",
+          "part": "MHL64",
+          "at": "2026-10-27T12:08:30.891Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "cl",
+          "local": 2999990,
+          "display": "$2.999.990",
+          "part": "MHL64",
+          "at": "2026-10-27T12:08:38.905Z",
+          "url": "https://www.apple.com/cl/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "cz",
+          "local": 69990,
+          "display": "69 990 Kč",
+          "part": "MHL64",
+          "at": "2026-10-27T12:08:46.903Z",
+          "url": "https://www.apple.com/cz/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "de",
+          "local": 2999,
+          "display": "2.999 €",
+          "part": "MHL64",
+          "at": "2026-10-27T12:08:54.868Z",
+          "url": "https://www.apple.com/de/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "dk",
+          "local": 21999,
+          "display": "21.999 kr.",
+          "part": "MHL64",
+          "at": "2026-10-27T12:09:02.901Z",
+          "url": "https://www.apple.com/dk/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "es",
+          "local": 3029,
+          "display": "3.029 € ",
+          "part": "MHL64",
+          "at": "2026-10-27T12:09:10.885Z",
+          "url": "https://www.apple.com/es/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "fi",
+          "local": 3099,
+          "display": "3 099 €",
+          "part": "MHL64",
+          "at": "2026-10-27T12:09:19.003Z",
+          "url": "https://www.apple.com/fi/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "fr",
+          "local": 2999,
+          "display": "2 999 €",
+          "part": "MHL64",
+          "at": "2026-10-27T12:09:27.073Z",
+          "url": "https://www.apple.com/fr/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "gb",
+          "local": 2499,
+          "display": "£2,499",
+          "part": "MHL64",
+          "at": "2026-10-27T12:09:34.924Z",
+          "url": "https://www.apple.com/uk/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "hk",
+          "local": 19999,
+          "display": "HK$19,999",
+          "part": "MHL64",
+          "at": "2026-10-27T12:09:42.933Z",
+          "url": "https://www.apple.com/hk/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "hu",
+          "local": 1099990,
+          "display": "1 099 990 Ft",
+          "part": "MHL64",
+          "at": "2026-10-27T12:09:51.027Z",
+          "url": "https://www.apple.com/hu/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "ie",
+          "local": 3049,
+          "display": "€3,049",
+          "part": "MHL64",
+          "at": "2026-10-27T12:09:58.923Z",
+          "url": "https://www.apple.com/ie/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "in",
+          "local": 279900,
+          "display": "₹279900.00",
+          "part": "MHL64",
+          "at": "2026-10-27T12:10:06.937Z",
+          "url": "https://www.apple.com/in/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "it",
+          "local": 3049,
+          "display": "€ 3.049 ",
+          "part": "MHL64",
+          "at": "2026-10-27T12:10:15.020Z",
+          "url": "https://www.apple.com/it/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "jp",
+          "local": 419800,
+          "display": "419,800円",
+          "part": "MHL64",
+          "at": "2026-10-27T12:10:23.022Z",
+          "url": "https://www.apple.com/jp/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "kr",
+          "local": 4290000,
+          "display": "₩4,290,000",
+          "part": "MHL64",
+          "at": "2026-10-27T12:10:31.009Z",
+          "url": "https://www.apple.com/kr/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "lu",
+          "local": 2928.87,
+          "display": "2 928,87 €",
+          "part": "MHL64",
+          "at": "2026-10-27T12:10:38.950Z",
+          "url": "https://www.apple.com/lu/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "mx",
+          "local": 57999,
+          "display": "$57,999",
+          "part": "MHL64",
+          "at": "2026-10-27T12:10:46.967Z",
+          "url": "https://www.apple.com/mx/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "my",
+          "local": 10999,
+          "display": "RM 10,999",
+          "part": "MHL64",
+          "at": "2026-10-27T12:10:55.110Z",
+          "url": "https://www.apple.com/my/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "nl",
+          "local": 3029,
+          "display": "€ 3.029",
+          "part": "MHL64",
+          "at": "2026-10-27T12:11:03.033Z",
+          "url": "https://www.apple.com/nl/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "no",
+          "local": 32990,
+          "display": "kr 32 990",
+          "part": "MHL64",
+          "at": "2026-10-27T12:11:11.015Z",
+          "url": "https://www.apple.com/no/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "nz",
+          "local": 4999,
+          "display": "NZ$4,999",
+          "part": "MHL64",
+          "at": "2026-10-27T12:11:19.025Z",
+          "url": "https://www.apple.com/nz/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "ph",
+          "local": 169990,
+          "display": "₱169,990",
+          "part": "MHL64",
+          "at": "2026-10-27T12:11:27.003Z",
+          "url": "https://www.apple.com/ph/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "pl",
+          "local": 12499,
+          "display": "12 499 zł",
+          "part": "MHL64",
+          "at": "2026-10-27T12:11:34.997Z",
+          "url": "https://www.apple.com/pl/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "pt",
+          "local": 3049,
+          "display": "3049 €",
+          "part": "MHL64",
+          "at": "2026-10-27T12:11:43.011Z",
+          "url": "https://www.apple.com/pt/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "sa",
+          "local": 11999,
+          "display": "SAR 11,999",
+          "part": "MHL64",
+          "at": "2026-10-27T12:11:51.047Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "se",
+          "local": 32995,
+          "display": "32 995 kr",
+          "part": "MHL64",
+          "at": "2026-10-27T12:11:59.045Z",
+          "url": "https://www.apple.com/se/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "sg",
+          "local": 3499,
+          "display": "S$3,499",
+          "part": "MHL64",
+          "at": "2026-10-27T12:12:07.033Z",
+          "url": "https://www.apple.com/sg/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "th",
+          "local": 89900,
+          "display": "฿89,900",
+          "part": "MHL64",
+          "at": "2026-10-27T12:12:15.066Z",
+          "url": "https://www.apple.com/th/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "tr",
+          "local": 167999,
+          "display": "167.999 TL",
+          "part": "MHL64",
+          "at": "2026-10-27T12:12:23.098Z",
+          "url": "https://www.apple.com/tr/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "tw",
+          "local": 84900,
+          "display": "NT$84,900",
+          "part": "MHL64",
+          "at": "2026-10-27T12:12:31.099Z",
+          "url": "https://www.apple.com/tw/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "vn",
+          "local": 69999000,
+          "display": "69.999.000đ",
+          "part": "MHL64",
+          "at": "2026-10-27T12:12:39.140Z",
+          "url": "https://www.apple.com/vn/shop/buy-mac/mac-studio"
+        }
+      ]
+    },
+    {
+      "id": "m5-ultra-chip-30-core-cpu-64-core-gpu-96gb-memory-1tb-storage",
+      "part": "MHL74",
+      "specs": {
+        "chip": "M5 Ultra",
+        "cpu": "30-core",
+        "gpu": "64-core",
+        "memory": "96GB",
+        "storage": "1TB"
+      },
+      "labels": {
+        "chip": "M5 Ultra",
+        "cpu": "30-core",
+        "gpu": "64-core",
+        "memory": "96GB",
+        "storage": "1TB"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/mac-studio-chip-unselect-202608-gallery-1?wid=1200&hei=770&fmt=jpeg&qlt=90&.v=1786042910172",
+      "name": "Mac Studio, M5 Ultra Chip, 30-core CPU, 64-core GPU, 96GB memory, 1TB storage",
+      "label": "M5 Ultra · 30-core · 64-core · 96GB · 1TB",
+      "prices": [
+        {
+          "code": "us",
+          "local": 5499,
+          "display": "$5499",
+          "part": "MHL74",
+          "at": "2026-10-27T12:07:34.805Z",
+          "url": "https://www.apple.com/shop/buy-mac/mac-studio/m5-ultra-chip-30-core-cpu-64-core-gpu-96gb-memory-1tb-storage"
+        },
+        {
+          "code": "ae",
+          "local": 23999,
+          "display": "AED 23,999",
+          "part": "MHL74",
+          "at": "2026-10-27T12:07:42.919Z",
+          "url": "https://www.apple.com/ae/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "at",
+          "local": 6599,
+          "display": "6.599 €",
+          "part": "MHL74",
+          "at": "2026-10-27T12:07:50.836Z",
+          "url": "https://www.apple.com/at/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "au",
+          "local": 9499,
+          "display": "A$9,499 ",
+          "part": "MHL74",
+          "at": "2026-10-27T12:07:58.977Z",
+          "url": "https://www.apple.com/au/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "be",
+          "local": 6649,
+          "display": "€ 6.649",
+          "part": "MHL74",
+          "at": "2026-10-27T12:08:06.904Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "br",
+          "local": 69999,
+          "display": "R$ 69.999",
+          "part": "MHL74",
+          "at": "2026-10-27T12:08:14.840Z",
+          "url": "https://www.apple.com/br/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "ca",
+          "local": 7799,
+          "display": "$7799",
+          "part": "MHL74",
+          "at": "2026-10-27T12:08:22.930Z",
+          "url": "https://www.apple.com/ca/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "ch",
+          "local": 5499,
+          "display": "CHF 5499.–",
+          "part": "MHL74",
+          "at": "2026-10-27T12:08:30.891Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "cl",
+          "local": 6799990,
+          "display": "$6.799.990",
+          "part": "MHL74",
+          "at": "2026-10-27T12:08:38.905Z",
+          "url": "https://www.apple.com/cl/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "cz",
+          "local": 154990,
+          "display": "154 990 Kč",
+          "part": "MHL74",
+          "at": "2026-10-27T12:08:46.903Z",
+          "url": "https://www.apple.com/cz/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "de",
+          "local": 6599,
+          "display": "6.599 €",
+          "part": "MHL74",
+          "at": "2026-10-27T12:08:54.868Z",
+          "url": "https://www.apple.com/de/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "dk",
+          "local": 49999,
+          "display": "49.999 kr.",
+          "part": "MHL74",
+          "at": "2026-10-27T12:09:02.901Z",
+          "url": "https://www.apple.com/dk/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "es",
+          "local": 6649,
+          "display": "6.649 € ",
+          "part": "MHL74",
+          "at": "2026-10-27T12:09:10.885Z",
+          "url": "https://www.apple.com/es/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "fi",
+          "local": 6799,
+          "display": "6 799 €",
+          "part": "MHL74",
+          "at": "2026-10-27T12:09:19.003Z",
+          "url": "https://www.apple.com/fi/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "fr",
+          "local": 6599,
+          "display": "6 599 €",
+          "part": "MHL74",
+          "at": "2026-10-27T12:09:27.073Z",
+          "url": "https://www.apple.com/fr/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "gb",
+          "local": 5499,
+          "display": "£5,499",
+          "part": "MHL74",
+          "at": "2026-10-27T12:09:34.924Z",
+          "url": "https://www.apple.com/uk/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "hk",
+          "local": 44999,
+          "display": "HK$44,999",
+          "part": "MHL74",
+          "at": "2026-10-27T12:09:42.933Z",
+          "url": "https://www.apple.com/hk/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "hu",
+          "local": 2499990,
+          "display": "2 499 990 Ft",
+          "part": "MHL74",
+          "at": "2026-10-27T12:09:51.027Z",
+          "url": "https://www.apple.com/hu/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "ie",
+          "local": 6699,
+          "display": "€6,699",
+          "part": "MHL74",
+          "at": "2026-10-27T12:09:58.923Z",
+          "url": "https://www.apple.com/ie/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "in",
+          "local": 629900,
+          "display": "₹629900.00",
+          "part": "MHL74",
+          "at": "2026-10-27T12:10:06.937Z",
+          "url": "https://www.apple.com/in/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "it",
+          "local": 6699,
+          "display": "€ 6.699 ",
+          "part": "MHL74",
+          "at": "2026-10-27T12:10:15.020Z",
+          "url": "https://www.apple.com/it/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "jp",
+          "local": 949800,
+          "display": "949,800円",
+          "part": "MHL74",
+          "at": "2026-10-27T12:10:23.022Z",
+          "url": "https://www.apple.com/jp/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "kr",
+          "local": 9490000,
+          "display": "₩9,490,000",
+          "part": "MHL74",
+          "at": "2026-10-27T12:10:31.009Z",
+          "url": "https://www.apple.com/kr/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "lu",
+          "local": 6429.2,
+          "display": "6 429,20 €",
+          "part": "MHL74",
+          "at": "2026-10-27T12:10:38.950Z",
+          "url": "https://www.apple.com/lu/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "mx",
+          "local": 129999,
+          "display": "$129,999",
+          "part": "MHL74",
+          "at": "2026-10-27T12:10:46.967Z",
+          "url": "https://www.apple.com/mx/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "my",
+          "local": 24999,
+          "display": "RM 24,999",
+          "part": "MHL74",
+          "at": "2026-10-27T12:10:55.110Z",
+          "url": "https://www.apple.com/my/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "nl",
+          "local": 6649,
+          "display": "€ 6.649",
+          "part": "MHL74",
+          "at": "2026-10-27T12:11:03.033Z",
+          "url": "https://www.apple.com/nl/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "no",
+          "local": 72990,
+          "display": "kr 72 990",
+          "part": "MHL74",
+          "at": "2026-10-27T12:11:11.015Z",
+          "url": "https://www.apple.com/no/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "nz",
+          "local": 11499,
+          "display": "NZ$11,499",
+          "part": "MHL74",
+          "at": "2026-10-27T12:11:19.025Z",
+          "url": "https://www.apple.com/nz/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "ph",
+          "local": 379990,
+          "display": "₱379,990",
+          "part": "MHL74",
+          "at": "2026-10-27T12:11:27.003Z",
+          "url": "https://www.apple.com/ph/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "pl",
+          "local": 27999,
+          "display": "27 999 zł",
+          "part": "MHL74",
+          "at": "2026-10-27T12:11:34.997Z",
+          "url": "https://www.apple.com/pl/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "pt",
+          "local": 6699,
+          "display": "6699 €",
+          "part": "MHL74",
+          "at": "2026-10-27T12:11:43.011Z",
+          "url": "https://www.apple.com/pt/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "sa",
+          "local": 25999,
+          "display": "SAR 25,999",
+          "part": "MHL74",
+          "at": "2026-10-27T12:11:51.047Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "se",
+          "local": 72995,
+          "display": "72 995 kr",
+          "part": "MHL74",
+          "at": "2026-10-27T12:11:59.045Z",
+          "url": "https://www.apple.com/se/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "sg",
+          "local": 7999,
+          "display": "S$7,999",
+          "part": "MHL74",
+          "at": "2026-10-27T12:12:07.033Z",
+          "url": "https://www.apple.com/sg/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "th",
+          "local": 199900,
+          "display": "฿199,900",
+          "part": "MHL74",
+          "at": "2026-10-27T12:12:15.066Z",
+          "url": "https://www.apple.com/th/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "tr",
+          "local": 369999,
+          "display": "369.999 TL",
+          "part": "MHL74",
+          "at": "2026-10-27T12:12:23.098Z",
+          "url": "https://www.apple.com/tr/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "tw",
+          "local": 199900,
+          "display": "NT$199,900",
+          "part": "MHL74",
+          "at": "2026-10-27T12:12:31.099Z",
+          "url": "https://www.apple.com/tw/shop/buy-mac/mac-studio"
+        },
+        {
+          "code": "vn",
+          "local": 159999000,
+          "display": "159.999.000đ",
+          "part": "MHL74",
+          "at": "2026-10-27T12:12:39.140Z",
+          "url": "https://www.apple.com/vn/shop/buy-mac/mac-studio"
+        }
+      ]
+    }
+  ],
+  "discoveredAt": "2026-10-27T12:07:34.805Z",
+  "defaultVariant": "m5-max-chip-18-core-cpu-32-core-gpu-36gb-memory-512gb-storage",
+  "pricedAt": "2026-10-27T12:12:47.134Z",
+  "failedStores": []
+}
