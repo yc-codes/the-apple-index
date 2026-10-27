@@ -1,0 +1,338 @@
+{
+  "id": "apple-tv-4k",
+  "name": "Apple TV 4K",
+  "category": "TV & Home",
+  "path": "buy-tv/apple-tv-4k",
+  "url": "https://www.apple.com/shop/buy-tv/apple-tv-4k",
+  "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/apple-tv-4k-hero-select-202610?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1790131173589",
+  "dimensions": [],
+  "fixed": {},
+  "variants": [
+    {
+      "id": "",
+      "part": "MLFF4",
+      "specs": {},
+      "labels": {},
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/apple-tv-4k-hero-select-202610?wid=1200&hei=1200&fmt=png-alpha",
+      "label": "",
+      "prices": [
+        {
+          "code": "us",
+          "local": 299,
+          "display": "$299",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:10:55.794Z",
+          "url": "https://www.apple.com/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "ae",
+          "local": 1199,
+          "display": "AED 1,199",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:11:03.939Z",
+          "url": "https://www.apple.com/ae/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "at",
+          "local": 349,
+          "display": "349 €",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:11:11.862Z",
+          "url": "https://www.apple.com/at/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "au",
+          "local": 449,
+          "display": "A$449 ",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:11:19.851Z",
+          "url": "https://www.apple.com/au/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "be",
+          "local": 349,
+          "display": "€ 349",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:11:28.282Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "br",
+          "local": 3599,
+          "display": "R$ 3.599",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:11:35.920Z",
+          "url": "https://www.apple.com/br/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "ca",
+          "local": 429,
+          "display": "$429",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:11:44.062Z",
+          "url": "https://www.apple.com/ca/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "ch",
+          "local": 299,
+          "display": "CHF 299.–",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:11:51.857Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "cl",
+          "local": 359990,
+          "display": "$359.990",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:11:59.895Z",
+          "url": "https://www.apple.com/cl/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "cz",
+          "local": 7990,
+          "display": "7 990 Kč",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:12:07.951Z",
+          "url": "https://www.apple.com/cz/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "de",
+          "local": 349,
+          "display": "349 €",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:12:15.998Z",
+          "url": "https://www.apple.com/de/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "dk",
+          "local": 2699,
+          "display": "2.699 kr.",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:12:23.893Z",
+          "url": "https://www.apple.com/dk/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "es",
+          "local": 349,
+          "display": "349 € ",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:12:31.905Z",
+          "url": "https://www.apple.com/es/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "fi",
+          "local": 349,
+          "display": "349 €",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:12:39.969Z",
+          "url": "https://www.apple.com/fi/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "fr",
+          "local": 349,
+          "display": "349 €",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:12:48.064Z",
+          "url": "https://www.apple.com/fr/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "gb",
+          "local": 299,
+          "display": "£299",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:12:55.926Z",
+          "url": "https://www.apple.com/uk/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "hk",
+          "local": 2399,
+          "display": "HK$2,399",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:13:04.005Z",
+          "url": "https://www.apple.com/hk/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "hu",
+          "local": 129990,
+          "display": "129 990 Ft",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:13:12.022Z",
+          "url": "https://www.apple.com/hu/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "ie",
+          "local": 349,
+          "display": "€349",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:13:20.104Z",
+          "url": "https://www.apple.com/ie/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "in",
+          "local": 39900,
+          "display": "₹39900.00",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:13:28.007Z",
+          "url": "https://www.apple.com/in/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "it",
+          "local": 349,
+          "display": "€ 349 ",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:13:36.066Z",
+          "url": "https://www.apple.com/it/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "jp",
+          "local": 49800,
+          "display": "49,800円",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:13:43.961Z",
+          "url": "https://www.apple.com/jp/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "kr",
+          "local": 449000,
+          "display": "₩449,000",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:13:51.958Z",
+          "url": "https://www.apple.com/kr/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "lu",
+          "local": 337.46,
+          "display": "337,46 €",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:14:00.115Z",
+          "url": "https://www.apple.com/lu/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "mx",
+          "local": 6299,
+          "display": "$6,299",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:14:08.080Z",
+          "url": "https://www.apple.com/mx/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "my",
+          "local": 1349,
+          "display": "RM 1,349",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:14:16.003Z",
+          "url": "https://www.apple.com/my/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "nl",
+          "local": 349,
+          "display": "€ 349",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:14:24.015Z",
+          "url": "https://www.apple.com/nl/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "no",
+          "local": 3790,
+          "display": "kr 3 790",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:14:32.118Z",
+          "url": "https://www.apple.com/no/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "nz",
+          "local": 599,
+          "display": "NZ$599",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:14:39.997Z",
+          "url": "https://www.apple.com/nz/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "ph",
+          "local": 21990,
+          "display": "₱21,990",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:14:48.090Z",
+          "url": "https://www.apple.com/ph/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "pl",
+          "local": 1499,
+          "display": "1499 zł",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:14:56.043Z",
+          "url": "https://www.apple.com/pl/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "pt",
+          "local": 349,
+          "display": "349 €",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:15:04.175Z",
+          "url": "https://www.apple.com/pt/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "sa",
+          "local": 1349,
+          "display": "SAR 1,349",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:15:12.149Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "se",
+          "local": 3995,
+          "display": "3 995 kr",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:15:20.057Z",
+          "url": "https://www.apple.com/se/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "sg",
+          "local": 399,
+          "display": "S$399",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:15:28.051Z",
+          "url": "https://www.apple.com/sg/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "th",
+          "local": 10900,
+          "display": "฿10,900",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:15:36.334Z",
+          "url": "https://www.apple.com/th/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "tr",
+          "local": 22499,
+          "display": "22.499 TL",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:15:44.115Z",
+          "url": "https://www.apple.com/tr/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "tw",
+          "local": 9900,
+          "display": "NT$9,900",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:15:52.045Z",
+          "url": "https://www.apple.com/tw/shop/buy-tv/apple-tv-4k"
+        },
+        {
+          "code": "vn",
+          "local": 8799000,
+          "display": "8.799.000đ",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:16:00.084Z",
+          "url": "https://www.apple.com/vn/shop/buy-tv/apple-tv-4k"
+        }
+      ]
+    }
+  ],
+  "discoveredAt": "2026-10-27T15:10:55.794Z",
+  "defaultVariant": "",
+  "pricedAt": "2026-10-27T15:16:08.093Z",
+  "failedStores": []
+}

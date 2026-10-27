@@ -5181,7 +5181,289 @@
       "id": "apple-tv-4k",
       "name": "Apple TV 4K",
       "category": "TV & Home",
-      "ready": false
+      "ready": true,
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/apple-tv-4k-hero-select-202610?wid=1200&hei=1200&fmt=png-alpha",
+      "variant": {
+        "id": "",
+        "label": ""
+      },
+      "configurations": 1,
+      "prices": [
+        {
+          "code": "us",
+          "local": 299,
+          "display": "$299",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:10:55.794Z"
+        },
+        {
+          "code": "ae",
+          "local": 1199,
+          "display": "AED 1,199",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:11:03.939Z"
+        },
+        {
+          "code": "at",
+          "local": 349,
+          "display": "349 €",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:11:11.862Z"
+        },
+        {
+          "code": "au",
+          "local": 449,
+          "display": "A$449 ",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:11:19.851Z"
+        },
+        {
+          "code": "be",
+          "local": 349,
+          "display": "€ 349",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:11:28.282Z"
+        },
+        {
+          "code": "br",
+          "local": 3599,
+          "display": "R$ 3.599",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:11:35.920Z"
+        },
+        {
+          "code": "ca",
+          "local": 429,
+          "display": "$429",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:11:44.062Z"
+        },
+        {
+          "code": "ch",
+          "local": 299,
+          "display": "CHF 299.–",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:11:51.857Z"
+        },
+        {
+          "code": "cl",
+          "local": 359990,
+          "display": "$359.990",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:11:59.895Z"
+        },
+        {
+          "code": "cz",
+          "local": 7990,
+          "display": "7 990 Kč",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:12:07.951Z"
+        },
+        {
+          "code": "de",
+          "local": 349,
+          "display": "349 €",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:12:15.998Z"
+        },
+        {
+          "code": "dk",
+          "local": 2699,
+          "display": "2.699 kr.",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:12:23.893Z"
+        },
+        {
+          "code": "es",
+          "local": 349,
+          "display": "349 € ",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:12:31.905Z"
+        },
+        {
+          "code": "fi",
+          "local": 349,
+          "display": "349 €",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:12:39.969Z"
+        },
+        {
+          "code": "fr",
+          "local": 349,
+          "display": "349 €",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:12:48.064Z"
+        },
+        {
+          "code": "gb",
+          "local": 299,
+          "display": "£299",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:12:55.926Z"
+        },
+        {
+          "code": "hk",
+          "local": 2399,
+          "display": "HK$2,399",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:13:04.005Z"
+        },
+        {
+          "code": "hu",
+          "local": 129990,
+          "display": "129 990 Ft",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:13:12.022Z"
+        },
+        {
+          "code": "ie",
+          "local": 349,
+          "display": "€349",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:13:20.104Z"
+        },
+        {
+          "code": "in",
+          "local": 39900,
+          "display": "₹39900.00",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:13:28.007Z"
+        },
+        {
+          "code": "it",
+          "local": 349,
+          "display": "€ 349 ",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:13:36.066Z"
+        },
+        {
+          "code": "jp",
+          "local": 49800,
+          "display": "49,800円",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:13:43.961Z"
+        },
+        {
+          "code": "kr",
+          "local": 449000,
+          "display": "₩449,000",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:13:51.958Z"
+        },
+        {
+          "code": "lu",
+          "local": 337.46,
+          "display": "337,46 €",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:14:00.115Z"
+        },
+        {
+          "code": "mx",
+          "local": 6299,
+          "display": "$6,299",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:14:08.080Z"
+        },
+        {
+          "code": "my",
+          "local": 1349,
+          "display": "RM 1,349",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:14:16.003Z"
+        },
+        {
+          "code": "nl",
+          "local": 349,
+          "display": "€ 349",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:14:24.015Z"
+        },
+        {
+          "code": "no",
+          "local": 3790,
+          "display": "kr 3 790",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:14:32.118Z"
+        },
+        {
+          "code": "nz",
+          "local": 599,
+          "display": "NZ$599",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:14:39.997Z"
+        },
+        {
+          "code": "ph",
+          "local": 21990,
+          "display": "₱21,990",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:14:48.090Z"
+        },
+        {
+          "code": "pl",
+          "local": 1499,
+          "display": "1499 zł",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:14:56.043Z"
+        },
+        {
+          "code": "pt",
+          "local": 349,
+          "display": "349 €",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:15:04.175Z"
+        },
+        {
+          "code": "sa",
+          "local": 1349,
+          "display": "SAR 1,349",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:15:12.149Z"
+        },
+        {
+          "code": "se",
+          "local": 3995,
+          "display": "3 995 kr",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:15:20.057Z"
+        },
+        {
+          "code": "sg",
+          "local": 399,
+          "display": "S$399",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:15:28.051Z"
+        },
+        {
+          "code": "th",
+          "local": 10900,
+          "display": "฿10,900",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:15:36.334Z"
+        },
+        {
+          "code": "tr",
+          "local": 22499,
+          "display": "22.499 TL",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:15:44.115Z"
+        },
+        {
+          "code": "tw",
+          "local": 9900,
+          "display": "NT$9,900",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:15:52.045Z"
+        },
+        {
+          "code": "vn",
+          "local": 8799000,
+          "display": "8.799.000đ",
+          "part": "MLFF4",
+          "at": "2026-10-27T15:16:00.084Z"
+        }
+      ],
+      "pricedAt": "2026-10-27T15:16:08.093Z"
     },
     {
       "id": "homepod",
