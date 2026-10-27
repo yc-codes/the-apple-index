@@ -1,0 +1,3993 @@
+{
+  "id": "iphone-air",
+  "name": "iPhone Air",
+  "category": "iPhone",
+  "path": "buy-iphone/iphone-air",
+  "url": "https://www.apple.com/shop/buy-iphone/iphone-air",
+  "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-air-finish-unselect-gallery-1-202509?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1757665392198",
+  "dimensions": [
+    {
+      "key": "capacity",
+      "name": "Storage",
+      "values": [
+        {
+          "key": "256gb",
+          "label": "256GB"
+        },
+        {
+          "key": "512gb",
+          "label": "512GB"
+        },
+        {
+          "key": "1tb",
+          "label": "1TB"
+        }
+      ]
+    },
+    {
+      "key": "color",
+      "name": "Color",
+      "values": [
+        {
+          "key": "skyblue",
+          "label": "Sky Blue"
+        },
+        {
+          "key": "lightgold",
+          "label": "Light Gold"
+        },
+        {
+          "key": "cloudwhite",
+          "label": "Cloud White"
+        },
+        {
+          "key": "spaceblack",
+          "label": "Space Black"
+        }
+      ]
+    }
+  ],
+  "fixed": {},
+  "variants": [
+    {
+      "id": "6.5-inch-display-1tb-sky-blue",
+      "part": "MG1Q4",
+      "specs": {
+        "capacity": "1tb",
+        "color": "skyblue"
+      },
+      "labels": {
+        "capacity": "1TB",
+        "color": "Sky Blue"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-air-finish-select-skyblue-202509?wid=1200&hei=1200&fmt=png-alpha",
+      "label": "1TB · Sky Blue",
+      "prices": [
+        {
+          "code": "us",
+          "local": 1699,
+          "display": "$1699",
+          "part": "MG1Q4",
+          "at": "2026-10-27T12:44:52.230Z",
+          "url": "https://www.apple.com/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ae",
+          "local": 7249,
+          "display": "AED 7,249",
+          "part": "MG1Q4",
+          "at": "2026-10-27T12:44:56.734Z",
+          "url": "https://www.apple.com/ae/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "at",
+          "local": 2049,
+          "display": "2.049 €",
+          "part": "MG304",
+          "at": "2026-10-27T12:45:04.491Z",
+          "url": "https://www.apple.com/at/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "au",
+          "local": 3099,
+          "display": "A$3,099 ",
+          "part": "MG304",
+          "at": "2026-10-27T12:45:28.541Z",
+          "url": "https://www.apple.com/au/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "be",
+          "local": 2079,
+          "display": "€ 2.079",
+          "part": "MG304",
+          "at": "2026-10-27T12:45:44.792Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "br",
+          "local": 15499,
+          "display": "R$ 15.499",
+          "part": "MG304",
+          "at": "2026-10-27T12:46:00.546Z",
+          "url": "https://www.apple.com/br/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ca",
+          "local": 2499,
+          "display": "$2499",
+          "part": "MG1Q4",
+          "at": "2026-10-27T12:46:16.721Z",
+          "url": "https://www.apple.com/ca/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ch",
+          "local": 1699,
+          "display": "CHF 1699.–",
+          "part": "MG304",
+          "at": "2026-10-27T12:46:24.651Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "cl",
+          "local": 2179990,
+          "display": "$2.179.990",
+          "part": "MG304",
+          "at": "2026-10-27T12:46:40.610Z",
+          "url": "https://www.apple.com/cl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "cz",
+          "local": 49990,
+          "display": "49 990 Kč",
+          "part": "MG304",
+          "at": "2026-10-27T12:46:56.940Z",
+          "url": "https://www.apple.com/cz/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "de",
+          "local": 2049,
+          "display": "2.049 €",
+          "part": "MG304",
+          "at": "2026-10-27T12:47:12.677Z",
+          "url": "https://www.apple.com/de/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "dk",
+          "local": 15999,
+          "display": "15.999 kr.",
+          "part": "MG304",
+          "at": "2026-10-27T12:47:28.714Z",
+          "url": "https://www.apple.com/dk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "es",
+          "local": 2069,
+          "display": "2.069 € ",
+          "part": "MG304",
+          "at": "2026-10-27T12:47:44.688Z",
+          "url": "https://www.apple.com/es/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "fi",
+          "local": 2109,
+          "display": "2 109 €",
+          "part": "MG304",
+          "at": "2026-10-27T12:48:00.776Z",
+          "url": "https://www.apple.com/fi/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "fr",
+          "local": 2079,
+          "display": "2 079 €",
+          "part": "MG304",
+          "at": "2026-10-27T12:48:16.935Z",
+          "url": "https://www.apple.com/fr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "gb",
+          "local": 1699,
+          "display": "£1,699",
+          "part": "MG304",
+          "at": "2026-10-27T12:48:32.708Z",
+          "url": "https://www.apple.com/uk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "hk",
+          "local": 14799,
+          "display": "HK$14,799",
+          "part": "MG304",
+          "at": "2026-10-27T12:48:48.746Z",
+          "url": "https://www.apple.com/hk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "hu",
+          "local": 799990,
+          "display": "799 990 Ft",
+          "part": "MG304",
+          "at": "2026-10-27T12:49:04.727Z",
+          "url": "https://www.apple.com/hu/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ie",
+          "local": 2089,
+          "display": "€2,089",
+          "part": "MG304",
+          "at": "2026-10-27T12:49:20.780Z",
+          "url": "https://www.apple.com/ie/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "in",
+          "local": 224900,
+          "display": "₹224900.00",
+          "part": "MG304",
+          "at": "2026-10-27T12:49:36.796Z",
+          "url": "https://www.apple.com/in/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "it",
+          "local": 2089,
+          "display": "€ 2.089 ",
+          "part": "MG304",
+          "at": "2026-10-27T12:49:53.028Z",
+          "url": "https://www.apple.com/it/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "jp",
+          "local": 294800,
+          "display": "294,800円",
+          "part": "MG2K4",
+          "at": "2026-10-27T12:50:08.963Z",
+          "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "kr",
+          "local": 2690000,
+          "display": "₩2,690,000",
+          "part": "MG304",
+          "at": "2026-10-27T12:50:40.905Z",
+          "url": "https://www.apple.com/kr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "lu",
+          "local": 2010.27,
+          "display": "2 010,27 €",
+          "part": "MG304",
+          "at": "2026-10-27T12:51:04.886Z",
+          "url": "https://www.apple.com/lu/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "mx",
+          "local": 40999,
+          "display": "$40,999",
+          "part": "MG1Q4",
+          "at": "2026-10-27T12:51:28.779Z",
+          "url": "https://www.apple.com/mx/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "my",
+          "local": 8299,
+          "display": "RM 8,299",
+          "part": "MG304",
+          "at": "2026-10-27T12:51:36.950Z",
+          "url": "https://www.apple.com/my/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "nl",
+          "local": 2079,
+          "display": "€ 2.079",
+          "part": "MG304",
+          "at": "2026-10-27T12:52:00.821Z",
+          "url": "https://www.apple.com/nl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "no",
+          "local": 23490,
+          "display": "kr 23 490",
+          "part": "MG304",
+          "at": "2026-10-27T12:52:24.777Z",
+          "url": "https://www.apple.com/no/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "nz",
+          "local": 3499,
+          "display": "NZ$3,499",
+          "part": "MG304",
+          "at": "2026-10-27T12:52:48.817Z",
+          "url": "https://www.apple.com/nz/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ph",
+          "local": 132990,
+          "display": "₱132,990",
+          "part": "MG304",
+          "at": "2026-10-27T12:53:12.871Z",
+          "url": "https://www.apple.com/ph/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "pl",
+          "local": 8799,
+          "display": "8799 zł",
+          "part": "MG304",
+          "at": "2026-10-27T12:53:36.884Z",
+          "url": "https://www.apple.com/pl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "pt",
+          "local": 2099,
+          "display": "2099 €",
+          "part": "MG304",
+          "at": "2026-10-27T12:54:00.946Z",
+          "url": "https://www.apple.com/pt/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "sa",
+          "local": 8199,
+          "display": "SAR 8,199",
+          "part": "MG1Q4",
+          "at": "2026-10-27T12:54:24.855Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "se",
+          "local": 23995,
+          "display": "23 995 kr",
+          "part": "MG304",
+          "at": "2026-10-27T12:54:32.953Z",
+          "url": "https://www.apple.com/se/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "sg",
+          "local": 2649,
+          "display": "S$2,649",
+          "part": "MG304",
+          "at": "2026-10-27T12:54:56.897Z",
+          "url": "https://www.apple.com/sg/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "th",
+          "local": 67900,
+          "display": "฿67,900",
+          "part": "MG304",
+          "at": "2026-10-27T12:55:20.886Z",
+          "url": "https://www.apple.com/th/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "tr",
+          "local": 173999,
+          "display": "173.999 TL",
+          "part": "MG304",
+          "at": "2026-10-27T12:55:45.006Z",
+          "url": "https://www.apple.com/tr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "tw",
+          "local": 61900,
+          "display": "NT$61,900",
+          "part": "MG304",
+          "at": "2026-10-27T12:56:08.955Z",
+          "url": "https://www.apple.com/tw/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "vn",
+          "local": 54499000,
+          "display": "54.499.000đ",
+          "part": "MG304",
+          "at": "2026-10-27T12:56:33.049Z",
+          "url": "https://www.apple.com/vn/shop/buy-iphone/iphone-air"
+        }
+      ]
+    },
+    {
+      "id": "6.5-inch-display-256gb-light-gold",
+      "part": "MG1A4",
+      "specs": {
+        "capacity": "256gb",
+        "color": "lightgold"
+      },
+      "labels": {
+        "capacity": "256GB",
+        "color": "Light Gold"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-air-finish-select-lightgold-202509?wid=1200&hei=1200&fmt=png-alpha",
+      "label": "256GB · Light Gold",
+      "prices": [
+        {
+          "code": "us",
+          "local": 1099,
+          "display": "$1099",
+          "part": "MG1A4",
+          "at": "2026-10-27T12:44:52.230Z",
+          "url": "https://www.apple.com/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ae",
+          "local": 4699,
+          "display": "AED 4,699",
+          "part": "MG1A4",
+          "at": "2026-10-27T12:44:56.734Z",
+          "url": "https://www.apple.com/ae/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "at",
+          "local": 1299,
+          "display": "1.299 €",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:45:04.491Z",
+          "url": "https://www.apple.com/at/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "au",
+          "local": 1899,
+          "display": "A$1,899 ",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:45:28.541Z",
+          "url": "https://www.apple.com/au/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "be",
+          "local": 1329,
+          "display": "€ 1.329",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:45:44.792Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "br",
+          "local": 10999,
+          "display": "R$ 10.999",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:46:00.546Z",
+          "url": "https://www.apple.com/br/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ca",
+          "local": 1599,
+          "display": "$1599",
+          "part": "MG1A4",
+          "at": "2026-10-27T12:46:16.721Z",
+          "url": "https://www.apple.com/ca/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ch",
+          "local": 1099,
+          "display": "CHF 1099.–",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:46:24.651Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "cl",
+          "local": 1399990,
+          "display": "$1.399.990",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:46:40.610Z",
+          "url": "https://www.apple.com/cl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "cz",
+          "local": 31990,
+          "display": "31 990 Kč",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:46:56.940Z",
+          "url": "https://www.apple.com/cz/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "de",
+          "local": 1299,
+          "display": "1.299 €",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:47:12.677Z",
+          "url": "https://www.apple.com/de/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "dk",
+          "local": 9999,
+          "display": "9.999 kr.",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:47:28.714Z",
+          "url": "https://www.apple.com/dk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "es",
+          "local": 1319,
+          "display": "1.319 € ",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:47:44.688Z",
+          "url": "https://www.apple.com/es/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "fi",
+          "local": 1359,
+          "display": "1 359 €",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:48:00.776Z",
+          "url": "https://www.apple.com/fi/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "fr",
+          "local": 1329,
+          "display": "1 329 €",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:48:16.935Z",
+          "url": "https://www.apple.com/fr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "gb",
+          "local": 1099,
+          "display": "£1,099",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:48:32.708Z",
+          "url": "https://www.apple.com/uk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "hk",
+          "local": 9499,
+          "display": "HK$9,499",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:48:48.746Z",
+          "url": "https://www.apple.com/hk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "hu",
+          "local": 499990,
+          "display": "499 990 Ft",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:49:04.727Z",
+          "url": "https://www.apple.com/hu/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ie",
+          "local": 1339,
+          "display": "€1,339",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:49:20.780Z",
+          "url": "https://www.apple.com/ie/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "in",
+          "local": 149900,
+          "display": "₹149900.00",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:49:36.796Z",
+          "url": "https://www.apple.com/in/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "it",
+          "local": 1339,
+          "display": "€ 1.339 ",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:49:53.028Z",
+          "url": "https://www.apple.com/it/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "jp",
+          "local": 189800,
+          "display": "189,800円",
+          "part": "MG294",
+          "at": "2026-10-27T12:50:08.963Z",
+          "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "kr",
+          "local": 1790000,
+          "display": "₩1,790,000",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:50:40.905Z",
+          "url": "https://www.apple.com/kr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "lu",
+          "local": 1285.07,
+          "display": "1 285,07 €",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:51:04.886Z",
+          "url": "https://www.apple.com/lu/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "mx",
+          "local": 25999,
+          "display": "$25,999",
+          "part": "MG1A4",
+          "at": "2026-10-27T12:51:28.779Z",
+          "url": "https://www.apple.com/mx/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "my",
+          "local": 5299,
+          "display": "RM 5,299",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:51:36.950Z",
+          "url": "https://www.apple.com/my/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "nl",
+          "local": 1329,
+          "display": "€ 1.329",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:52:00.821Z",
+          "url": "https://www.apple.com/nl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "no",
+          "local": 14990,
+          "display": "kr 14 990",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:52:24.777Z",
+          "url": "https://www.apple.com/no/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "nz",
+          "local": 2299,
+          "display": "NZ$2,299",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:52:48.817Z",
+          "url": "https://www.apple.com/nz/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ph",
+          "local": 84990,
+          "display": "₱84,990",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:53:12.871Z",
+          "url": "https://www.apple.com/ph/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "pl",
+          "local": 5799,
+          "display": "5799 zł",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:53:36.884Z",
+          "url": "https://www.apple.com/pl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "pt",
+          "local": 1349,
+          "display": "1349 €",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:54:00.946Z",
+          "url": "https://www.apple.com/pt/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "sa",
+          "local": 5199,
+          "display": "SAR 5,199",
+          "part": "MG1A4",
+          "at": "2026-10-27T12:54:24.855Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "se",
+          "local": 15495,
+          "display": "15 495 kr",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:54:32.953Z",
+          "url": "https://www.apple.com/se/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "sg",
+          "local": 1749,
+          "display": "S$1,749",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:54:56.897Z",
+          "url": "https://www.apple.com/sg/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "th",
+          "local": 43900,
+          "display": "฿43,900",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:55:20.886Z",
+          "url": "https://www.apple.com/th/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "tr",
+          "local": 122999,
+          "display": "122.999 TL",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:55:45.006Z",
+          "url": "https://www.apple.com/tr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "tw",
+          "local": 39900,
+          "display": "NT$39,900",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:56:08.955Z",
+          "url": "https://www.apple.com/tw/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "vn",
+          "local": 34999000,
+          "display": "34.999.000đ",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:56:33.049Z",
+          "url": "https://www.apple.com/vn/shop/buy-iphone/iphone-air"
+        }
+      ]
+    },
+    {
+      "id": "6.5-inch-display-512gb-cloud-white",
+      "part": "MG1G4",
+      "specs": {
+        "capacity": "512gb",
+        "color": "cloudwhite"
+      },
+      "labels": {
+        "capacity": "512GB",
+        "color": "Cloud White"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-air-finish-select-cloudwhite-202509?wid=1200&hei=1200&fmt=png-alpha",
+      "label": "512GB · Cloud White",
+      "prices": [
+        {
+          "code": "us",
+          "local": 1299,
+          "display": "$1299",
+          "part": "MG1G4",
+          "at": "2026-10-27T12:44:52.230Z",
+          "url": "https://www.apple.com/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ae",
+          "local": 5549,
+          "display": "AED 5,549",
+          "part": "MG1G4",
+          "at": "2026-10-27T12:44:56.734Z",
+          "url": "https://www.apple.com/ae/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "at",
+          "local": 1549,
+          "display": "1.549 €",
+          "part": "MG2T4",
+          "at": "2026-10-27T12:45:04.491Z",
+          "url": "https://www.apple.com/at/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "au",
+          "local": 2299,
+          "display": "A$2,299 ",
+          "part": "MG2T4",
+          "at": "2026-10-27T12:45:28.541Z",
+          "url": "https://www.apple.com/au/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "be",
+          "local": 1579,
+          "display": "€ 1.579",
+          "part": "MG2T4",
+          "at": "2026-10-27T12:45:44.792Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "br",
+          "local": 12499,
+          "display": "R$ 12.499",
+          "part": "MG2T4",
+          "at": "2026-10-27T12:46:00.546Z",
+          "url": "https://www.apple.com/br/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ca",
+          "local": 1899,
+          "display": "$1899",
+          "part": "MG1G4",
+          "at": "2026-10-27T12:46:16.721Z",
+          "url": "https://www.apple.com/ca/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ch",
+          "local": 1299,
+          "display": "CHF 1299.–",
+          "part": "MG2T4",
+          "at": "2026-10-27T12:46:24.651Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "cl",
+          "local": 1659990,
+          "display": "$1.659.990",
+          "part": "MG2T4",
+          "at": "2026-10-27T12:46:40.610Z",
+          "url": "https://www.apple.com/cl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "cz",
+          "local": 37990,
+          "display": "37 990 Kč",
+          "part": "MG2T4",
+          "at": "2026-10-27T12:46:56.940Z",
+          "url": "https://www.apple.com/cz/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "de",
+          "local": 1549,
+          "display": "1.549 €",
+          "part": "MG2T4",
+          "at": "2026-10-27T12:47:12.677Z",
+          "url": "https://www.apple.com/de/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "dk",
+          "local": 11999,
+          "display": "11.999 kr.",
+          "part": "MG2T4",
+          "at": "2026-10-27T12:47:28.714Z",
+          "url": "https://www.apple.com/dk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "es",
+          "local": 1569,
+          "display": "1.569 € ",
+          "part": "MG2T4",
+          "at": "2026-10-27T12:47:44.688Z",
+          "url": "https://www.apple.com/es/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "fi",
+          "local": 1609,
+          "display": "1 609 €",
+          "part": "MG2T4",
+          "at": "2026-10-27T12:48:00.776Z",
+          "url": "https://www.apple.com/fi/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "fr",
+          "local": 1579,
+          "display": "1 579 €",
+          "part": "MG2T4",
+          "at": "2026-10-27T12:48:16.935Z",
+          "url": "https://www.apple.com/fr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "gb",
+          "local": 1299,
+          "display": "£1,299",
+          "part": "MG2T4",
+          "at": "2026-10-27T12:48:32.708Z",
+          "url": "https://www.apple.com/uk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "hk",
+          "local": 11299,
+          "display": "HK$11,299",
+          "part": "MG2T4",
+          "at": "2026-10-27T12:48:48.746Z",
+          "url": "https://www.apple.com/hk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "hu",
+          "local": 599990,
+          "display": "599 990 Ft",
+          "part": "MG2T4",
+          "at": "2026-10-27T12:49:04.727Z",
+          "url": "https://www.apple.com/hu/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ie",
+          "local": 1589,
+          "display": "€1,589",
+          "part": "MG2T4",
+          "at": "2026-10-27T12:49:20.780Z",
+          "url": "https://www.apple.com/ie/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "in",
+          "local": 174900,
+          "display": "₹174900.00",
+          "part": "MG2T4",
+          "at": "2026-10-27T12:49:36.796Z",
+          "url": "https://www.apple.com/in/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "it",
+          "local": 1589,
+          "display": "€ 1.589 ",
+          "part": "MG2T4",
+          "at": "2026-10-27T12:49:53.028Z",
+          "url": "https://www.apple.com/it/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "jp",
+          "local": 224800,
+          "display": "224,800円",
+          "part": "MG2D4",
+          "at": "2026-10-27T12:50:08.963Z",
+          "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "kr",
+          "local": 2090000,
+          "display": "₩2,090,000",
+          "part": "MG2T4",
+          "at": "2026-10-27T12:50:40.905Z",
+          "url": "https://www.apple.com/kr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "lu",
+          "local": 1526.8,
+          "display": "1 526,80 €",
+          "part": "MG2T4",
+          "at": "2026-10-27T12:51:04.886Z",
+          "url": "https://www.apple.com/lu/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "mx",
+          "local": 30999,
+          "display": "$30,999",
+          "part": "MG1G4",
+          "at": "2026-10-27T12:51:28.779Z",
+          "url": "https://www.apple.com/mx/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "my",
+          "local": 6299,
+          "display": "RM 6,299",
+          "part": "MG2T4",
+          "at": "2026-10-27T12:51:36.950Z",
+          "url": "https://www.apple.com/my/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "nl",
+          "local": 1579,
+          "display": "€ 1.579",
+          "part": "MG2T4",
+          "at": "2026-10-27T12:52:00.821Z",
+          "url": "https://www.apple.com/nl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "no",
+          "local": 17990,
+          "display": "kr 17 990",
+          "part": "MG2T4",
+          "at": "2026-10-27T12:52:24.777Z",
+          "url": "https://www.apple.com/no/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "nz",
+          "local": 2699,
+          "display": "NZ$2,699",
+          "part": "MG2T4",
+          "at": "2026-10-27T12:52:48.817Z",
+          "url": "https://www.apple.com/nz/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ph",
+          "local": 100990,
+          "display": "₱100,990",
+          "part": "MG2T4",
+          "at": "2026-10-27T12:53:12.871Z",
+          "url": "https://www.apple.com/ph/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "pl",
+          "local": 6799,
+          "display": "6799 zł",
+          "part": "MG2T4",
+          "at": "2026-10-27T12:53:36.884Z",
+          "url": "https://www.apple.com/pl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "pt",
+          "local": 1599,
+          "display": "1599 €",
+          "part": "MG2T4",
+          "at": "2026-10-27T12:54:00.946Z",
+          "url": "https://www.apple.com/pt/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "sa",
+          "local": 6199,
+          "display": "SAR 6,199",
+          "part": "MG1G4",
+          "at": "2026-10-27T12:54:24.855Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "se",
+          "local": 18495,
+          "display": "18 495 kr",
+          "part": "MG2T4",
+          "at": "2026-10-27T12:54:32.953Z",
+          "url": "https://www.apple.com/se/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "sg",
+          "local": 2049,
+          "display": "S$2,049",
+          "part": "MG2T4",
+          "at": "2026-10-27T12:54:56.897Z",
+          "url": "https://www.apple.com/sg/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "th",
+          "local": 51900,
+          "display": "฿51,900",
+          "part": "MG2T4",
+          "at": "2026-10-27T12:55:20.886Z",
+          "url": "https://www.apple.com/th/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "tr",
+          "local": 139999,
+          "display": "139.999 TL",
+          "part": "MG2T4",
+          "at": "2026-10-27T12:55:45.006Z",
+          "url": "https://www.apple.com/tr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "tw",
+          "local": 46900,
+          "display": "NT$46,900",
+          "part": "MG2T4",
+          "at": "2026-10-27T12:56:08.955Z",
+          "url": "https://www.apple.com/tw/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "vn",
+          "local": 41499000,
+          "display": "41.499.000đ",
+          "part": "MG2T4",
+          "at": "2026-10-27T12:56:33.049Z",
+          "url": "https://www.apple.com/vn/shop/buy-iphone/iphone-air"
+        }
+      ]
+    },
+    {
+      "id": "6.5-inch-display-256gb-sky-blue",
+      "part": "MG1D4",
+      "specs": {
+        "capacity": "256gb",
+        "color": "skyblue"
+      },
+      "labels": {
+        "capacity": "256GB",
+        "color": "Sky Blue"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-air-finish-select-skyblue-202509?wid=1200&hei=1200&fmt=png-alpha",
+      "label": "256GB · Sky Blue",
+      "prices": [
+        {
+          "code": "us",
+          "local": 1099,
+          "display": "$1099",
+          "part": "MG1D4",
+          "at": "2026-10-27T12:44:52.230Z",
+          "url": "https://www.apple.com/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ae",
+          "local": 4699,
+          "display": "AED 4,699",
+          "part": "MG1D4",
+          "at": "2026-10-27T12:44:56.734Z",
+          "url": "https://www.apple.com/ae/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "at",
+          "local": 1299,
+          "display": "1.299 €",
+          "part": "MG2P4",
+          "at": "2026-10-27T12:45:04.491Z",
+          "url": "https://www.apple.com/at/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "au",
+          "local": 1899,
+          "display": "A$1,899 ",
+          "part": "MG2P4",
+          "at": "2026-10-27T12:45:28.541Z",
+          "url": "https://www.apple.com/au/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "be",
+          "local": 1329,
+          "display": "€ 1.329",
+          "part": "MG2P4",
+          "at": "2026-10-27T12:45:44.792Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "br",
+          "local": 10999,
+          "display": "R$ 10.999",
+          "part": "MG2P4",
+          "at": "2026-10-27T12:46:00.546Z",
+          "url": "https://www.apple.com/br/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ca",
+          "local": 1599,
+          "display": "$1599",
+          "part": "MG1D4",
+          "at": "2026-10-27T12:46:16.721Z",
+          "url": "https://www.apple.com/ca/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ch",
+          "local": 1099,
+          "display": "CHF 1099.–",
+          "part": "MG2P4",
+          "at": "2026-10-27T12:46:24.651Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "cl",
+          "local": 1399990,
+          "display": "$1.399.990",
+          "part": "MG2P4",
+          "at": "2026-10-27T12:46:40.610Z",
+          "url": "https://www.apple.com/cl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "cz",
+          "local": 31990,
+          "display": "31 990 Kč",
+          "part": "MG2P4",
+          "at": "2026-10-27T12:46:56.940Z",
+          "url": "https://www.apple.com/cz/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "de",
+          "local": 1299,
+          "display": "1.299 €",
+          "part": "MG2P4",
+          "at": "2026-10-27T12:47:12.677Z",
+          "url": "https://www.apple.com/de/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "dk",
+          "local": 9999,
+          "display": "9.999 kr.",
+          "part": "MG2P4",
+          "at": "2026-10-27T12:47:28.714Z",
+          "url": "https://www.apple.com/dk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "es",
+          "local": 1319,
+          "display": "1.319 € ",
+          "part": "MG2P4",
+          "at": "2026-10-27T12:47:44.688Z",
+          "url": "https://www.apple.com/es/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "fi",
+          "local": 1359,
+          "display": "1 359 €",
+          "part": "MG2P4",
+          "at": "2026-10-27T12:48:00.776Z",
+          "url": "https://www.apple.com/fi/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "fr",
+          "local": 1329,
+          "display": "1 329 €",
+          "part": "MG2P4",
+          "at": "2026-10-27T12:48:16.935Z",
+          "url": "https://www.apple.com/fr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "gb",
+          "local": 1099,
+          "display": "£1,099",
+          "part": "MG2P4",
+          "at": "2026-10-27T12:48:32.708Z",
+          "url": "https://www.apple.com/uk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "hk",
+          "local": 9499,
+          "display": "HK$9,499",
+          "part": "MG2P4",
+          "at": "2026-10-27T12:48:48.746Z",
+          "url": "https://www.apple.com/hk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "hu",
+          "local": 499990,
+          "display": "499 990 Ft",
+          "part": "MG2P4",
+          "at": "2026-10-27T12:49:04.727Z",
+          "url": "https://www.apple.com/hu/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ie",
+          "local": 1339,
+          "display": "€1,339",
+          "part": "MG2P4",
+          "at": "2026-10-27T12:49:20.780Z",
+          "url": "https://www.apple.com/ie/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "in",
+          "local": 149900,
+          "display": "₹149900.00",
+          "part": "MG2P4",
+          "at": "2026-10-27T12:49:36.796Z",
+          "url": "https://www.apple.com/in/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "it",
+          "local": 1339,
+          "display": "€ 1.339 ",
+          "part": "MG2P4",
+          "at": "2026-10-27T12:49:53.028Z",
+          "url": "https://www.apple.com/it/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "jp",
+          "local": 189800,
+          "display": "189,800円",
+          "part": "MG2A4",
+          "at": "2026-10-27T12:50:08.963Z",
+          "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "kr",
+          "local": 1790000,
+          "display": "₩1,790,000",
+          "part": "MG2P4",
+          "at": "2026-10-27T12:50:40.905Z",
+          "url": "https://www.apple.com/kr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "lu",
+          "local": 1285.07,
+          "display": "1 285,07 €",
+          "part": "MG2P4",
+          "at": "2026-10-27T12:51:04.886Z",
+          "url": "https://www.apple.com/lu/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "mx",
+          "local": 25999,
+          "display": "$25,999",
+          "part": "MG1D4",
+          "at": "2026-10-27T12:51:28.779Z",
+          "url": "https://www.apple.com/mx/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "my",
+          "local": 5299,
+          "display": "RM 5,299",
+          "part": "MG2P4",
+          "at": "2026-10-27T12:51:36.950Z",
+          "url": "https://www.apple.com/my/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "nl",
+          "local": 1329,
+          "display": "€ 1.329",
+          "part": "MG2P4",
+          "at": "2026-10-27T12:52:00.821Z",
+          "url": "https://www.apple.com/nl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "no",
+          "local": 14990,
+          "display": "kr 14 990",
+          "part": "MG2P4",
+          "at": "2026-10-27T12:52:24.777Z",
+          "url": "https://www.apple.com/no/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "nz",
+          "local": 2299,
+          "display": "NZ$2,299",
+          "part": "MG2P4",
+          "at": "2026-10-27T12:52:48.817Z",
+          "url": "https://www.apple.com/nz/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ph",
+          "local": 84990,
+          "display": "₱84,990",
+          "part": "MG2P4",
+          "at": "2026-10-27T12:53:12.871Z",
+          "url": "https://www.apple.com/ph/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "pl",
+          "local": 5799,
+          "display": "5799 zł",
+          "part": "MG2P4",
+          "at": "2026-10-27T12:53:36.884Z",
+          "url": "https://www.apple.com/pl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "pt",
+          "local": 1349,
+          "display": "1349 €",
+          "part": "MG2P4",
+          "at": "2026-10-27T12:54:00.946Z",
+          "url": "https://www.apple.com/pt/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "sa",
+          "local": 5199,
+          "display": "SAR 5,199",
+          "part": "MG1D4",
+          "at": "2026-10-27T12:54:24.855Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "se",
+          "local": 15495,
+          "display": "15 495 kr",
+          "part": "MG2P4",
+          "at": "2026-10-27T12:54:32.953Z",
+          "url": "https://www.apple.com/se/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "sg",
+          "local": 1749,
+          "display": "S$1,749",
+          "part": "MG2P4",
+          "at": "2026-10-27T12:54:56.897Z",
+          "url": "https://www.apple.com/sg/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "th",
+          "local": 43900,
+          "display": "฿43,900",
+          "part": "MG2P4",
+          "at": "2026-10-27T12:55:20.886Z",
+          "url": "https://www.apple.com/th/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "tr",
+          "local": 122999,
+          "display": "122.999 TL",
+          "part": "MG2P4",
+          "at": "2026-10-27T12:55:45.006Z",
+          "url": "https://www.apple.com/tr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "tw",
+          "local": 39900,
+          "display": "NT$39,900",
+          "part": "MG2P4",
+          "at": "2026-10-27T12:56:08.955Z",
+          "url": "https://www.apple.com/tw/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "vn",
+          "local": 34999000,
+          "display": "34.999.000đ",
+          "part": "MG2P4",
+          "at": "2026-10-27T12:56:33.049Z",
+          "url": "https://www.apple.com/vn/shop/buy-iphone/iphone-air"
+        }
+      ]
+    },
+    {
+      "id": "6.5-inch-display-512gb-space-black",
+      "part": "MG1E4",
+      "specs": {
+        "capacity": "512gb",
+        "color": "spaceblack"
+      },
+      "labels": {
+        "capacity": "512GB",
+        "color": "Space Black"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-air-finish-select-spaceblack-202509?wid=1200&hei=1200&fmt=png-alpha",
+      "label": "512GB · Space Black",
+      "prices": [
+        {
+          "code": "us",
+          "local": 1299,
+          "display": "$1299",
+          "part": "MG1E4",
+          "at": "2026-10-27T12:44:52.230Z",
+          "url": "https://www.apple.com/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ae",
+          "local": 5549,
+          "display": "AED 5,549",
+          "part": "MG1E4",
+          "at": "2026-10-27T12:44:56.734Z",
+          "url": "https://www.apple.com/ae/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "at",
+          "local": 1549,
+          "display": "1.549 €",
+          "part": "MG2Q4",
+          "at": "2026-10-27T12:45:04.491Z",
+          "url": "https://www.apple.com/at/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "au",
+          "local": 2299,
+          "display": "A$2,299 ",
+          "part": "MG2Q4",
+          "at": "2026-10-27T12:45:28.541Z",
+          "url": "https://www.apple.com/au/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "be",
+          "local": 1579,
+          "display": "€ 1.579",
+          "part": "MG2Q4",
+          "at": "2026-10-27T12:45:44.792Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "br",
+          "local": 12499,
+          "display": "R$ 12.499",
+          "part": "MG2Q4",
+          "at": "2026-10-27T12:46:00.546Z",
+          "url": "https://www.apple.com/br/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ca",
+          "local": 1899,
+          "display": "$1899",
+          "part": "MG1E4",
+          "at": "2026-10-27T12:46:16.721Z",
+          "url": "https://www.apple.com/ca/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ch",
+          "local": 1299,
+          "display": "CHF 1299.–",
+          "part": "MG2Q4",
+          "at": "2026-10-27T12:46:24.651Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "cl",
+          "local": 1659990,
+          "display": "$1.659.990",
+          "part": "MG2Q4",
+          "at": "2026-10-27T12:46:40.610Z",
+          "url": "https://www.apple.com/cl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "cz",
+          "local": 37990,
+          "display": "37 990 Kč",
+          "part": "MG2Q4",
+          "at": "2026-10-27T12:46:56.940Z",
+          "url": "https://www.apple.com/cz/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "de",
+          "local": 1549,
+          "display": "1.549 €",
+          "part": "MG2Q4",
+          "at": "2026-10-27T12:47:12.677Z",
+          "url": "https://www.apple.com/de/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "dk",
+          "local": 11999,
+          "display": "11.999 kr.",
+          "part": "MG2Q4",
+          "at": "2026-10-27T12:47:28.714Z",
+          "url": "https://www.apple.com/dk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "es",
+          "local": 1569,
+          "display": "1.569 € ",
+          "part": "MG2Q4",
+          "at": "2026-10-27T12:47:44.688Z",
+          "url": "https://www.apple.com/es/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "fi",
+          "local": 1609,
+          "display": "1 609 €",
+          "part": "MG2Q4",
+          "at": "2026-10-27T12:48:00.776Z",
+          "url": "https://www.apple.com/fi/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "fr",
+          "local": 1579,
+          "display": "1 579 €",
+          "part": "MG2Q4",
+          "at": "2026-10-27T12:48:16.935Z",
+          "url": "https://www.apple.com/fr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "gb",
+          "local": 1299,
+          "display": "£1,299",
+          "part": "MG2Q4",
+          "at": "2026-10-27T12:48:32.708Z",
+          "url": "https://www.apple.com/uk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "hk",
+          "local": 11299,
+          "display": "HK$11,299",
+          "part": "MG2Q4",
+          "at": "2026-10-27T12:48:48.746Z",
+          "url": "https://www.apple.com/hk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "hu",
+          "local": 599990,
+          "display": "599 990 Ft",
+          "part": "MG2Q4",
+          "at": "2026-10-27T12:49:04.727Z",
+          "url": "https://www.apple.com/hu/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ie",
+          "local": 1589,
+          "display": "€1,589",
+          "part": "MG2Q4",
+          "at": "2026-10-27T12:49:20.780Z",
+          "url": "https://www.apple.com/ie/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "in",
+          "local": 174900,
+          "display": "₹174900.00",
+          "part": "MG2Q4",
+          "at": "2026-10-27T12:49:36.796Z",
+          "url": "https://www.apple.com/in/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "it",
+          "local": 1589,
+          "display": "€ 1.589 ",
+          "part": "MG2Q4",
+          "at": "2026-10-27T12:49:53.028Z",
+          "url": "https://www.apple.com/it/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "jp",
+          "local": 224800,
+          "display": "224,800円",
+          "part": "MG2C4",
+          "at": "2026-10-27T12:50:08.963Z",
+          "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "kr",
+          "local": 2090000,
+          "display": "₩2,090,000",
+          "part": "MG2Q4",
+          "at": "2026-10-27T12:50:40.905Z",
+          "url": "https://www.apple.com/kr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "lu",
+          "local": 1526.8,
+          "display": "1 526,80 €",
+          "part": "MG2Q4",
+          "at": "2026-10-27T12:51:04.886Z",
+          "url": "https://www.apple.com/lu/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "mx",
+          "local": 30999,
+          "display": "$30,999",
+          "part": "MG1E4",
+          "at": "2026-10-27T12:51:28.779Z",
+          "url": "https://www.apple.com/mx/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "my",
+          "local": 6299,
+          "display": "RM 6,299",
+          "part": "MG2Q4",
+          "at": "2026-10-27T12:51:36.950Z",
+          "url": "https://www.apple.com/my/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "nl",
+          "local": 1579,
+          "display": "€ 1.579",
+          "part": "MG2Q4",
+          "at": "2026-10-27T12:52:00.821Z",
+          "url": "https://www.apple.com/nl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "no",
+          "local": 17990,
+          "display": "kr 17 990",
+          "part": "MG2Q4",
+          "at": "2026-10-27T12:52:24.777Z",
+          "url": "https://www.apple.com/no/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "nz",
+          "local": 2699,
+          "display": "NZ$2,699",
+          "part": "MG2Q4",
+          "at": "2026-10-27T12:52:48.817Z",
+          "url": "https://www.apple.com/nz/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ph",
+          "local": 100990,
+          "display": "₱100,990",
+          "part": "MG2Q4",
+          "at": "2026-10-27T12:53:12.871Z",
+          "url": "https://www.apple.com/ph/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "pl",
+          "local": 6799,
+          "display": "6799 zł",
+          "part": "MG2Q4",
+          "at": "2026-10-27T12:53:36.884Z",
+          "url": "https://www.apple.com/pl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "pt",
+          "local": 1599,
+          "display": "1599 €",
+          "part": "MG2Q4",
+          "at": "2026-10-27T12:54:00.946Z",
+          "url": "https://www.apple.com/pt/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "sa",
+          "local": 6199,
+          "display": "SAR 6,199",
+          "part": "MG1E4",
+          "at": "2026-10-27T12:54:24.855Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "se",
+          "local": 18495,
+          "display": "18 495 kr",
+          "part": "MG2Q4",
+          "at": "2026-10-27T12:54:32.953Z",
+          "url": "https://www.apple.com/se/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "sg",
+          "local": 2049,
+          "display": "S$2,049",
+          "part": "MG2Q4",
+          "at": "2026-10-27T12:54:56.897Z",
+          "url": "https://www.apple.com/sg/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "th",
+          "local": 51900,
+          "display": "฿51,900",
+          "part": "MG2Q4",
+          "at": "2026-10-27T12:55:20.886Z",
+          "url": "https://www.apple.com/th/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "tr",
+          "local": 139999,
+          "display": "139.999 TL",
+          "part": "MG2Q4",
+          "at": "2026-10-27T12:55:45.006Z",
+          "url": "https://www.apple.com/tr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "tw",
+          "local": 46900,
+          "display": "NT$46,900",
+          "part": "MG2Q4",
+          "at": "2026-10-27T12:56:08.955Z",
+          "url": "https://www.apple.com/tw/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "vn",
+          "local": 41499000,
+          "display": "41.499.000đ",
+          "part": "MG2Q4",
+          "at": "2026-10-27T12:56:33.049Z",
+          "url": "https://www.apple.com/vn/shop/buy-iphone/iphone-air"
+        }
+      ]
+    },
+    {
+      "id": "6.5-inch-display-512gb-sky-blue",
+      "part": "MG1J4",
+      "specs": {
+        "capacity": "512gb",
+        "color": "skyblue"
+      },
+      "labels": {
+        "capacity": "512GB",
+        "color": "Sky Blue"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-air-finish-select-skyblue-202509?wid=1200&hei=1200&fmt=png-alpha",
+      "label": "512GB · Sky Blue",
+      "prices": [
+        {
+          "code": "us",
+          "local": 1299,
+          "display": "$1299",
+          "part": "MG1J4",
+          "at": "2026-10-27T12:44:52.230Z",
+          "url": "https://www.apple.com/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ae",
+          "local": 5549,
+          "display": "AED 5,549",
+          "part": "MG1J4",
+          "at": "2026-10-27T12:44:56.734Z",
+          "url": "https://www.apple.com/ae/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "at",
+          "local": 1549,
+          "display": "1.549 €",
+          "part": "MG2V4",
+          "at": "2026-10-27T12:45:04.491Z",
+          "url": "https://www.apple.com/at/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "au",
+          "local": 2299,
+          "display": "A$2,299 ",
+          "part": "MG2V4",
+          "at": "2026-10-27T12:45:28.541Z",
+          "url": "https://www.apple.com/au/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "be",
+          "local": 1579,
+          "display": "€ 1.579",
+          "part": "MG2V4",
+          "at": "2026-10-27T12:45:44.792Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "br",
+          "local": 12499,
+          "display": "R$ 12.499",
+          "part": "MG2V4",
+          "at": "2026-10-27T12:46:00.546Z",
+          "url": "https://www.apple.com/br/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ca",
+          "local": 1899,
+          "display": "$1899",
+          "part": "MG1J4",
+          "at": "2026-10-27T12:46:16.721Z",
+          "url": "https://www.apple.com/ca/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ch",
+          "local": 1299,
+          "display": "CHF 1299.–",
+          "part": "MG2V4",
+          "at": "2026-10-27T12:46:24.651Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "cl",
+          "local": 1659990,
+          "display": "$1.659.990",
+          "part": "MG2V4",
+          "at": "2026-10-27T12:46:40.610Z",
+          "url": "https://www.apple.com/cl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "cz",
+          "local": 37990,
+          "display": "37 990 Kč",
+          "part": "MG2V4",
+          "at": "2026-10-27T12:46:56.940Z",
+          "url": "https://www.apple.com/cz/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "de",
+          "local": 1549,
+          "display": "1.549 €",
+          "part": "MG2V4",
+          "at": "2026-10-27T12:47:12.677Z",
+          "url": "https://www.apple.com/de/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "dk",
+          "local": 11999,
+          "display": "11.999 kr.",
+          "part": "MG2V4",
+          "at": "2026-10-27T12:47:28.714Z",
+          "url": "https://www.apple.com/dk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "es",
+          "local": 1569,
+          "display": "1.569 € ",
+          "part": "MG2V4",
+          "at": "2026-10-27T12:47:44.688Z",
+          "url": "https://www.apple.com/es/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "fi",
+          "local": 1609,
+          "display": "1 609 €",
+          "part": "MG2V4",
+          "at": "2026-10-27T12:48:00.776Z",
+          "url": "https://www.apple.com/fi/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "fr",
+          "local": 1579,
+          "display": "1 579 €",
+          "part": "MG2V4",
+          "at": "2026-10-27T12:48:16.935Z",
+          "url": "https://www.apple.com/fr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "gb",
+          "local": 1299,
+          "display": "£1,299",
+          "part": "MG2V4",
+          "at": "2026-10-27T12:48:32.708Z",
+          "url": "https://www.apple.com/uk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "hk",
+          "local": 11299,
+          "display": "HK$11,299",
+          "part": "MG2V4",
+          "at": "2026-10-27T12:48:48.746Z",
+          "url": "https://www.apple.com/hk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "hu",
+          "local": 599990,
+          "display": "599 990 Ft",
+          "part": "MG2V4",
+          "at": "2026-10-27T12:49:04.727Z",
+          "url": "https://www.apple.com/hu/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ie",
+          "local": 1589,
+          "display": "€1,589",
+          "part": "MG2V4",
+          "at": "2026-10-27T12:49:20.780Z",
+          "url": "https://www.apple.com/ie/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "in",
+          "local": 174900,
+          "display": "₹174900.00",
+          "part": "MG2V4",
+          "at": "2026-10-27T12:49:36.796Z",
+          "url": "https://www.apple.com/in/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "it",
+          "local": 1589,
+          "display": "€ 1.589 ",
+          "part": "MG2V4",
+          "at": "2026-10-27T12:49:53.028Z",
+          "url": "https://www.apple.com/it/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "jp",
+          "local": 224800,
+          "display": "224,800円",
+          "part": "MG2F4",
+          "at": "2026-10-27T12:50:08.963Z",
+          "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "kr",
+          "local": 2090000,
+          "display": "₩2,090,000",
+          "part": "MG2V4",
+          "at": "2026-10-27T12:50:40.905Z",
+          "url": "https://www.apple.com/kr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "lu",
+          "local": 1526.8,
+          "display": "1 526,80 €",
+          "part": "MG2V4",
+          "at": "2026-10-27T12:51:04.886Z",
+          "url": "https://www.apple.com/lu/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "mx",
+          "local": 30999,
+          "display": "$30,999",
+          "part": "MG1J4",
+          "at": "2026-10-27T12:51:28.779Z",
+          "url": "https://www.apple.com/mx/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "my",
+          "local": 6299,
+          "display": "RM 6,299",
+          "part": "MG2V4",
+          "at": "2026-10-27T12:51:36.950Z",
+          "url": "https://www.apple.com/my/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "nl",
+          "local": 1579,
+          "display": "€ 1.579",
+          "part": "MG2V4",
+          "at": "2026-10-27T12:52:00.821Z",
+          "url": "https://www.apple.com/nl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "no",
+          "local": 17990,
+          "display": "kr 17 990",
+          "part": "MG2V4",
+          "at": "2026-10-27T12:52:24.777Z",
+          "url": "https://www.apple.com/no/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "nz",
+          "local": 2699,
+          "display": "NZ$2,699",
+          "part": "MG2V4",
+          "at": "2026-10-27T12:52:48.817Z",
+          "url": "https://www.apple.com/nz/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ph",
+          "local": 100990,
+          "display": "₱100,990",
+          "part": "MG2V4",
+          "at": "2026-10-27T12:53:12.871Z",
+          "url": "https://www.apple.com/ph/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "pl",
+          "local": 6799,
+          "display": "6799 zł",
+          "part": "MG2V4",
+          "at": "2026-10-27T12:53:36.884Z",
+          "url": "https://www.apple.com/pl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "pt",
+          "local": 1599,
+          "display": "1599 €",
+          "part": "MG2V4",
+          "at": "2026-10-27T12:54:00.946Z",
+          "url": "https://www.apple.com/pt/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "sa",
+          "local": 6199,
+          "display": "SAR 6,199",
+          "part": "MG1J4",
+          "at": "2026-10-27T12:54:24.855Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "se",
+          "local": 18495,
+          "display": "18 495 kr",
+          "part": "MG2V4",
+          "at": "2026-10-27T12:54:32.953Z",
+          "url": "https://www.apple.com/se/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "sg",
+          "local": 2049,
+          "display": "S$2,049",
+          "part": "MG2V4",
+          "at": "2026-10-27T12:54:56.897Z",
+          "url": "https://www.apple.com/sg/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "th",
+          "local": 51900,
+          "display": "฿51,900",
+          "part": "MG2V4",
+          "at": "2026-10-27T12:55:20.886Z",
+          "url": "https://www.apple.com/th/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "tr",
+          "local": 139999,
+          "display": "139.999 TL",
+          "part": "MG2V4",
+          "at": "2026-10-27T12:55:45.006Z",
+          "url": "https://www.apple.com/tr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "tw",
+          "local": 46900,
+          "display": "NT$46,900",
+          "part": "MG2V4",
+          "at": "2026-10-27T12:56:08.955Z",
+          "url": "https://www.apple.com/tw/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "vn",
+          "local": 41499000,
+          "display": "41.499.000đ",
+          "part": "MG2V4",
+          "at": "2026-10-27T12:56:33.049Z",
+          "url": "https://www.apple.com/vn/shop/buy-iphone/iphone-air"
+        }
+      ]
+    },
+    {
+      "id": "6.5-inch-display-1tb-space-black",
+      "part": "MG1L4",
+      "specs": {
+        "capacity": "1tb",
+        "color": "spaceblack"
+      },
+      "labels": {
+        "capacity": "1TB",
+        "color": "Space Black"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-air-finish-select-spaceblack-202509?wid=1200&hei=1200&fmt=png-alpha",
+      "label": "1TB · Space Black",
+      "prices": [
+        {
+          "code": "us",
+          "local": 1699,
+          "display": "$1699",
+          "part": "MG1L4",
+          "at": "2026-10-27T12:44:52.230Z",
+          "url": "https://www.apple.com/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ae",
+          "local": 7249,
+          "display": "AED 7,249",
+          "part": "MG1L4",
+          "at": "2026-10-27T12:44:56.734Z",
+          "url": "https://www.apple.com/ae/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "at",
+          "local": 2049,
+          "display": "2.049 €",
+          "part": "MG2W4",
+          "at": "2026-10-27T12:45:04.491Z",
+          "url": "https://www.apple.com/at/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "au",
+          "local": 3099,
+          "display": "A$3,099 ",
+          "part": "MG2W4",
+          "at": "2026-10-27T12:45:28.541Z",
+          "url": "https://www.apple.com/au/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "be",
+          "local": 2079,
+          "display": "€ 2.079",
+          "part": "MG2W4",
+          "at": "2026-10-27T12:45:44.792Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "br",
+          "local": 15499,
+          "display": "R$ 15.499",
+          "part": "MG2W4",
+          "at": "2026-10-27T12:46:00.546Z",
+          "url": "https://www.apple.com/br/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ca",
+          "local": 2499,
+          "display": "$2499",
+          "part": "MG1L4",
+          "at": "2026-10-27T12:46:16.721Z",
+          "url": "https://www.apple.com/ca/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ch",
+          "local": 1699,
+          "display": "CHF 1699.–",
+          "part": "MG2W4",
+          "at": "2026-10-27T12:46:24.651Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "cl",
+          "local": 2179990,
+          "display": "$2.179.990",
+          "part": "MG2W4",
+          "at": "2026-10-27T12:46:40.610Z",
+          "url": "https://www.apple.com/cl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "cz",
+          "local": 49990,
+          "display": "49 990 Kč",
+          "part": "MG2W4",
+          "at": "2026-10-27T12:46:56.940Z",
+          "url": "https://www.apple.com/cz/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "de",
+          "local": 2049,
+          "display": "2.049 €",
+          "part": "MG2W4",
+          "at": "2026-10-27T12:47:12.677Z",
+          "url": "https://www.apple.com/de/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "dk",
+          "local": 15999,
+          "display": "15.999 kr.",
+          "part": "MG2W4",
+          "at": "2026-10-27T12:47:28.714Z",
+          "url": "https://www.apple.com/dk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "es",
+          "local": 2069,
+          "display": "2.069 € ",
+          "part": "MG2W4",
+          "at": "2026-10-27T12:47:44.688Z",
+          "url": "https://www.apple.com/es/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "fi",
+          "local": 2109,
+          "display": "2 109 €",
+          "part": "MG2W4",
+          "at": "2026-10-27T12:48:00.776Z",
+          "url": "https://www.apple.com/fi/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "fr",
+          "local": 2079,
+          "display": "2 079 €",
+          "part": "MG2W4",
+          "at": "2026-10-27T12:48:16.935Z",
+          "url": "https://www.apple.com/fr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "gb",
+          "local": 1699,
+          "display": "£1,699",
+          "part": "MG2W4",
+          "at": "2026-10-27T12:48:32.708Z",
+          "url": "https://www.apple.com/uk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "hk",
+          "local": 14799,
+          "display": "HK$14,799",
+          "part": "MG2W4",
+          "at": "2026-10-27T12:48:48.746Z",
+          "url": "https://www.apple.com/hk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "hu",
+          "local": 799990,
+          "display": "799 990 Ft",
+          "part": "MG2W4",
+          "at": "2026-10-27T12:49:04.727Z",
+          "url": "https://www.apple.com/hu/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ie",
+          "local": 2089,
+          "display": "€2,089",
+          "part": "MG2W4",
+          "at": "2026-10-27T12:49:20.780Z",
+          "url": "https://www.apple.com/ie/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "in",
+          "local": 224900,
+          "display": "₹224900.00",
+          "part": "MG2W4",
+          "at": "2026-10-27T12:49:36.796Z",
+          "url": "https://www.apple.com/in/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "it",
+          "local": 2089,
+          "display": "€ 2.089 ",
+          "part": "MG2W4",
+          "at": "2026-10-27T12:49:53.028Z",
+          "url": "https://www.apple.com/it/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "jp",
+          "local": 294800,
+          "display": "294,800円",
+          "part": "MG2G4",
+          "at": "2026-10-27T12:50:08.963Z",
+          "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "kr",
+          "local": 2690000,
+          "display": "₩2,690,000",
+          "part": "MG2W4",
+          "at": "2026-10-27T12:50:40.905Z",
+          "url": "https://www.apple.com/kr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "lu",
+          "local": 2010.27,
+          "display": "2 010,27 €",
+          "part": "MG2W4",
+          "at": "2026-10-27T12:51:04.886Z",
+          "url": "https://www.apple.com/lu/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "mx",
+          "local": 40999,
+          "display": "$40,999",
+          "part": "MG1L4",
+          "at": "2026-10-27T12:51:28.779Z",
+          "url": "https://www.apple.com/mx/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "my",
+          "local": 8299,
+          "display": "RM 8,299",
+          "part": "MG2W4",
+          "at": "2026-10-27T12:51:36.950Z",
+          "url": "https://www.apple.com/my/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "nl",
+          "local": 2079,
+          "display": "€ 2.079",
+          "part": "MG2W4",
+          "at": "2026-10-27T12:52:00.821Z",
+          "url": "https://www.apple.com/nl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "no",
+          "local": 23490,
+          "display": "kr 23 490",
+          "part": "MG2W4",
+          "at": "2026-10-27T12:52:24.777Z",
+          "url": "https://www.apple.com/no/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "nz",
+          "local": 3499,
+          "display": "NZ$3,499",
+          "part": "MG2W4",
+          "at": "2026-10-27T12:52:48.817Z",
+          "url": "https://www.apple.com/nz/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ph",
+          "local": 132990,
+          "display": "₱132,990",
+          "part": "MG2W4",
+          "at": "2026-10-27T12:53:12.871Z",
+          "url": "https://www.apple.com/ph/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "pl",
+          "local": 8799,
+          "display": "8799 zł",
+          "part": "MG2W4",
+          "at": "2026-10-27T12:53:36.884Z",
+          "url": "https://www.apple.com/pl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "pt",
+          "local": 2099,
+          "display": "2099 €",
+          "part": "MG2W4",
+          "at": "2026-10-27T12:54:00.946Z",
+          "url": "https://www.apple.com/pt/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "sa",
+          "local": 8199,
+          "display": "SAR 8,199",
+          "part": "MG1L4",
+          "at": "2026-10-27T12:54:24.855Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "se",
+          "local": 23995,
+          "display": "23 995 kr",
+          "part": "MG2W4",
+          "at": "2026-10-27T12:54:32.953Z",
+          "url": "https://www.apple.com/se/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "sg",
+          "local": 2649,
+          "display": "S$2,649",
+          "part": "MG2W4",
+          "at": "2026-10-27T12:54:56.897Z",
+          "url": "https://www.apple.com/sg/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "th",
+          "local": 67900,
+          "display": "฿67,900",
+          "part": "MG2W4",
+          "at": "2026-10-27T12:55:20.886Z",
+          "url": "https://www.apple.com/th/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "tr",
+          "local": 173999,
+          "display": "173.999 TL",
+          "part": "MG2W4",
+          "at": "2026-10-27T12:55:45.006Z",
+          "url": "https://www.apple.com/tr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "tw",
+          "local": 61900,
+          "display": "NT$61,900",
+          "part": "MG2W4",
+          "at": "2026-10-27T12:56:08.955Z",
+          "url": "https://www.apple.com/tw/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "vn",
+          "local": 54499000,
+          "display": "54.499.000đ",
+          "part": "MG2W4",
+          "at": "2026-10-27T12:56:33.049Z",
+          "url": "https://www.apple.com/vn/shop/buy-iphone/iphone-air"
+        }
+      ]
+    },
+    {
+      "id": "6.5-inch-display-256gb-space-black",
+      "part": "MG184",
+      "specs": {
+        "capacity": "256gb",
+        "color": "spaceblack"
+      },
+      "labels": {
+        "capacity": "256GB",
+        "color": "Space Black"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-air-finish-select-spaceblack-202509?wid=1200&hei=1200&fmt=png-alpha",
+      "label": "256GB · Space Black",
+      "prices": [
+        {
+          "code": "us",
+          "local": 1099,
+          "display": "$1099",
+          "part": "MG184",
+          "at": "2026-10-27T12:44:52.230Z",
+          "url": "https://www.apple.com/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ae",
+          "local": 4699,
+          "display": "AED 4,699",
+          "part": "MG184",
+          "at": "2026-10-27T12:44:56.734Z",
+          "url": "https://www.apple.com/ae/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "at",
+          "local": 1299,
+          "display": "1.299 €",
+          "part": "MG2L4",
+          "at": "2026-10-27T12:45:04.491Z",
+          "url": "https://www.apple.com/at/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "au",
+          "local": 1899,
+          "display": "A$1,899 ",
+          "part": "MG2L4",
+          "at": "2026-10-27T12:45:28.541Z",
+          "url": "https://www.apple.com/au/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "be",
+          "local": 1329,
+          "display": "€ 1.329",
+          "part": "MG2L4",
+          "at": "2026-10-27T12:45:44.792Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "br",
+          "local": 10999,
+          "display": "R$ 10.999",
+          "part": "MG2L4",
+          "at": "2026-10-27T12:46:00.546Z",
+          "url": "https://www.apple.com/br/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ca",
+          "local": 1599,
+          "display": "$1599",
+          "part": "MG184",
+          "at": "2026-10-27T12:46:16.721Z",
+          "url": "https://www.apple.com/ca/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ch",
+          "local": 1099,
+          "display": "CHF 1099.–",
+          "part": "MG2L4",
+          "at": "2026-10-27T12:46:24.651Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "cl",
+          "local": 1399990,
+          "display": "$1.399.990",
+          "part": "MG2L4",
+          "at": "2026-10-27T12:46:40.610Z",
+          "url": "https://www.apple.com/cl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "cz",
+          "local": 31990,
+          "display": "31 990 Kč",
+          "part": "MG2L4",
+          "at": "2026-10-27T12:46:56.940Z",
+          "url": "https://www.apple.com/cz/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "de",
+          "local": 1299,
+          "display": "1.299 €",
+          "part": "MG2L4",
+          "at": "2026-10-27T12:47:12.677Z",
+          "url": "https://www.apple.com/de/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "dk",
+          "local": 9999,
+          "display": "9.999 kr.",
+          "part": "MG2L4",
+          "at": "2026-10-27T12:47:28.714Z",
+          "url": "https://www.apple.com/dk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "es",
+          "local": 1319,
+          "display": "1.319 € ",
+          "part": "MG2L4",
+          "at": "2026-10-27T12:47:44.688Z",
+          "url": "https://www.apple.com/es/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "fi",
+          "local": 1359,
+          "display": "1 359 €",
+          "part": "MG2L4",
+          "at": "2026-10-27T12:48:00.776Z",
+          "url": "https://www.apple.com/fi/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "fr",
+          "local": 1329,
+          "display": "1 329 €",
+          "part": "MG2L4",
+          "at": "2026-10-27T12:48:16.935Z",
+          "url": "https://www.apple.com/fr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "gb",
+          "local": 1099,
+          "display": "£1,099",
+          "part": "MG2L4",
+          "at": "2026-10-27T12:48:32.708Z",
+          "url": "https://www.apple.com/uk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "hk",
+          "local": 9499,
+          "display": "HK$9,499",
+          "part": "MG2L4",
+          "at": "2026-10-27T12:48:48.746Z",
+          "url": "https://www.apple.com/hk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "hu",
+          "local": 499990,
+          "display": "499 990 Ft",
+          "part": "MG2L4",
+          "at": "2026-10-27T12:49:04.727Z",
+          "url": "https://www.apple.com/hu/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ie",
+          "local": 1339,
+          "display": "€1,339",
+          "part": "MG2L4",
+          "at": "2026-10-27T12:49:20.780Z",
+          "url": "https://www.apple.com/ie/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "in",
+          "local": 149900,
+          "display": "₹149900.00",
+          "part": "MG2L4",
+          "at": "2026-10-27T12:49:36.796Z",
+          "url": "https://www.apple.com/in/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "it",
+          "local": 1339,
+          "display": "€ 1.339 ",
+          "part": "MG2L4",
+          "at": "2026-10-27T12:49:53.028Z",
+          "url": "https://www.apple.com/it/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "jp",
+          "local": 189800,
+          "display": "189,800円",
+          "part": "MG274",
+          "at": "2026-10-27T12:50:08.963Z",
+          "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "kr",
+          "local": 1790000,
+          "display": "₩1,790,000",
+          "part": "MG2L4",
+          "at": "2026-10-27T12:50:40.905Z",
+          "url": "https://www.apple.com/kr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "lu",
+          "local": 1285.07,
+          "display": "1 285,07 €",
+          "part": "MG2L4",
+          "at": "2026-10-27T12:51:04.886Z",
+          "url": "https://www.apple.com/lu/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "mx",
+          "local": 25999,
+          "display": "$25,999",
+          "part": "MG184",
+          "at": "2026-10-27T12:51:28.779Z",
+          "url": "https://www.apple.com/mx/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "my",
+          "local": 5299,
+          "display": "RM 5,299",
+          "part": "MG2L4",
+          "at": "2026-10-27T12:51:36.950Z",
+          "url": "https://www.apple.com/my/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "nl",
+          "local": 1329,
+          "display": "€ 1.329",
+          "part": "MG2L4",
+          "at": "2026-10-27T12:52:00.821Z",
+          "url": "https://www.apple.com/nl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "no",
+          "local": 14990,
+          "display": "kr 14 990",
+          "part": "MG2L4",
+          "at": "2026-10-27T12:52:24.777Z",
+          "url": "https://www.apple.com/no/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "nz",
+          "local": 2299,
+          "display": "NZ$2,299",
+          "part": "MG2L4",
+          "at": "2026-10-27T12:52:48.817Z",
+          "url": "https://www.apple.com/nz/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ph",
+          "local": 84990,
+          "display": "₱84,990",
+          "part": "MG2L4",
+          "at": "2026-10-27T12:53:12.871Z",
+          "url": "https://www.apple.com/ph/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "pl",
+          "local": 5799,
+          "display": "5799 zł",
+          "part": "MG2L4",
+          "at": "2026-10-27T12:53:36.884Z",
+          "url": "https://www.apple.com/pl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "pt",
+          "local": 1349,
+          "display": "1349 €",
+          "part": "MG2L4",
+          "at": "2026-10-27T12:54:00.946Z",
+          "url": "https://www.apple.com/pt/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "sa",
+          "local": 5199,
+          "display": "SAR 5,199",
+          "part": "MG184",
+          "at": "2026-10-27T12:54:24.855Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "se",
+          "local": 15495,
+          "display": "15 495 kr",
+          "part": "MG2L4",
+          "at": "2026-10-27T12:54:32.953Z",
+          "url": "https://www.apple.com/se/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "sg",
+          "local": 1749,
+          "display": "S$1,749",
+          "part": "MG2L4",
+          "at": "2026-10-27T12:54:56.897Z",
+          "url": "https://www.apple.com/sg/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "th",
+          "local": 43900,
+          "display": "฿43,900",
+          "part": "MG2L4",
+          "at": "2026-10-27T12:55:20.886Z",
+          "url": "https://www.apple.com/th/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "tr",
+          "local": 122999,
+          "display": "122.999 TL",
+          "part": "MG2L4",
+          "at": "2026-10-27T12:55:45.006Z",
+          "url": "https://www.apple.com/tr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "tw",
+          "local": 39900,
+          "display": "NT$39,900",
+          "part": "MG2L4",
+          "at": "2026-10-27T12:56:08.955Z",
+          "url": "https://www.apple.com/tw/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "vn",
+          "local": 34999000,
+          "display": "34.999.000đ",
+          "part": "MG2L4",
+          "at": "2026-10-27T12:56:33.049Z",
+          "url": "https://www.apple.com/vn/shop/buy-iphone/iphone-air"
+        }
+      ]
+    },
+    {
+      "id": "6.5-inch-display-512gb-light-gold",
+      "part": "MG1H4",
+      "specs": {
+        "capacity": "512gb",
+        "color": "lightgold"
+      },
+      "labels": {
+        "capacity": "512GB",
+        "color": "Light Gold"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-air-finish-select-lightgold-202509?wid=1200&hei=1200&fmt=png-alpha",
+      "label": "512GB · Light Gold",
+      "prices": [
+        {
+          "code": "us",
+          "local": 1299,
+          "display": "$1299",
+          "part": "MG1H4",
+          "at": "2026-10-27T12:44:52.230Z",
+          "url": "https://www.apple.com/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ae",
+          "local": 5549,
+          "display": "AED 5,549",
+          "part": "MG1H4",
+          "at": "2026-10-27T12:44:56.734Z",
+          "url": "https://www.apple.com/ae/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "at",
+          "local": 1549,
+          "display": "1.549 €",
+          "part": "MG2U4",
+          "at": "2026-10-27T12:45:04.491Z",
+          "url": "https://www.apple.com/at/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "au",
+          "local": 2299,
+          "display": "A$2,299 ",
+          "part": "MG2U4",
+          "at": "2026-10-27T12:45:28.541Z",
+          "url": "https://www.apple.com/au/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "be",
+          "local": 1579,
+          "display": "€ 1.579",
+          "part": "MG2U4",
+          "at": "2026-10-27T12:45:44.792Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "br",
+          "local": 12499,
+          "display": "R$ 12.499",
+          "part": "MG2U4",
+          "at": "2026-10-27T12:46:00.546Z",
+          "url": "https://www.apple.com/br/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ca",
+          "local": 1899,
+          "display": "$1899",
+          "part": "MG1H4",
+          "at": "2026-10-27T12:46:16.721Z",
+          "url": "https://www.apple.com/ca/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ch",
+          "local": 1299,
+          "display": "CHF 1299.–",
+          "part": "MG2U4",
+          "at": "2026-10-27T12:46:24.651Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "cl",
+          "local": 1659990,
+          "display": "$1.659.990",
+          "part": "MG2U4",
+          "at": "2026-10-27T12:46:40.610Z",
+          "url": "https://www.apple.com/cl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "cz",
+          "local": 37990,
+          "display": "37 990 Kč",
+          "part": "MG2U4",
+          "at": "2026-10-27T12:46:56.940Z",
+          "url": "https://www.apple.com/cz/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "de",
+          "local": 1549,
+          "display": "1.549 €",
+          "part": "MG2U4",
+          "at": "2026-10-27T12:47:12.677Z",
+          "url": "https://www.apple.com/de/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "dk",
+          "local": 11999,
+          "display": "11.999 kr.",
+          "part": "MG2U4",
+          "at": "2026-10-27T12:47:28.714Z",
+          "url": "https://www.apple.com/dk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "es",
+          "local": 1569,
+          "display": "1.569 € ",
+          "part": "MG2U4",
+          "at": "2026-10-27T12:47:44.688Z",
+          "url": "https://www.apple.com/es/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "fi",
+          "local": 1609,
+          "display": "1 609 €",
+          "part": "MG2U4",
+          "at": "2026-10-27T12:48:00.776Z",
+          "url": "https://www.apple.com/fi/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "fr",
+          "local": 1579,
+          "display": "1 579 €",
+          "part": "MG2U4",
+          "at": "2026-10-27T12:48:16.935Z",
+          "url": "https://www.apple.com/fr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "gb",
+          "local": 1299,
+          "display": "£1,299",
+          "part": "MG2U4",
+          "at": "2026-10-27T12:48:32.708Z",
+          "url": "https://www.apple.com/uk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "hk",
+          "local": 11299,
+          "display": "HK$11,299",
+          "part": "MG2U4",
+          "at": "2026-10-27T12:48:48.746Z",
+          "url": "https://www.apple.com/hk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "hu",
+          "local": 599990,
+          "display": "599 990 Ft",
+          "part": "MG2U4",
+          "at": "2026-10-27T12:49:04.727Z",
+          "url": "https://www.apple.com/hu/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ie",
+          "local": 1589,
+          "display": "€1,589",
+          "part": "MG2U4",
+          "at": "2026-10-27T12:49:20.780Z",
+          "url": "https://www.apple.com/ie/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "in",
+          "local": 174900,
+          "display": "₹174900.00",
+          "part": "MG2U4",
+          "at": "2026-10-27T12:49:36.796Z",
+          "url": "https://www.apple.com/in/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "it",
+          "local": 1589,
+          "display": "€ 1.589 ",
+          "part": "MG2U4",
+          "at": "2026-10-27T12:49:53.028Z",
+          "url": "https://www.apple.com/it/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "jp",
+          "local": 224800,
+          "display": "224,800円",
+          "part": "MG2E4",
+          "at": "2026-10-27T12:50:08.963Z",
+          "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "kr",
+          "local": 2090000,
+          "display": "₩2,090,000",
+          "part": "MG2U4",
+          "at": "2026-10-27T12:50:40.905Z",
+          "url": "https://www.apple.com/kr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "lu",
+          "local": 1526.8,
+          "display": "1 526,80 €",
+          "part": "MG2U4",
+          "at": "2026-10-27T12:51:04.886Z",
+          "url": "https://www.apple.com/lu/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "mx",
+          "local": 30999,
+          "display": "$30,999",
+          "part": "MG1H4",
+          "at": "2026-10-27T12:51:28.779Z",
+          "url": "https://www.apple.com/mx/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "my",
+          "local": 6299,
+          "display": "RM 6,299",
+          "part": "MG2U4",
+          "at": "2026-10-27T12:51:36.950Z",
+          "url": "https://www.apple.com/my/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "nl",
+          "local": 1579,
+          "display": "€ 1.579",
+          "part": "MG2U4",
+          "at": "2026-10-27T12:52:00.821Z",
+          "url": "https://www.apple.com/nl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "no",
+          "local": 17990,
+          "display": "kr 17 990",
+          "part": "MG2U4",
+          "at": "2026-10-27T12:52:24.777Z",
+          "url": "https://www.apple.com/no/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "nz",
+          "local": 2699,
+          "display": "NZ$2,699",
+          "part": "MG2U4",
+          "at": "2026-10-27T12:52:48.817Z",
+          "url": "https://www.apple.com/nz/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ph",
+          "local": 100990,
+          "display": "₱100,990",
+          "part": "MG2U4",
+          "at": "2026-10-27T12:53:12.871Z",
+          "url": "https://www.apple.com/ph/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "pl",
+          "local": 6799,
+          "display": "6799 zł",
+          "part": "MG2U4",
+          "at": "2026-10-27T12:53:36.884Z",
+          "url": "https://www.apple.com/pl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "pt",
+          "local": 1599,
+          "display": "1599 €",
+          "part": "MG2U4",
+          "at": "2026-10-27T12:54:00.946Z",
+          "url": "https://www.apple.com/pt/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "sa",
+          "local": 6199,
+          "display": "SAR 6,199",
+          "part": "MG1H4",
+          "at": "2026-10-27T12:54:24.855Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "se",
+          "local": 18495,
+          "display": "18 495 kr",
+          "part": "MG2U4",
+          "at": "2026-10-27T12:54:32.953Z",
+          "url": "https://www.apple.com/se/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "sg",
+          "local": 2049,
+          "display": "S$2,049",
+          "part": "MG2U4",
+          "at": "2026-10-27T12:54:56.897Z",
+          "url": "https://www.apple.com/sg/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "th",
+          "local": 51900,
+          "display": "฿51,900",
+          "part": "MG2U4",
+          "at": "2026-10-27T12:55:20.886Z",
+          "url": "https://www.apple.com/th/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "tr",
+          "local": 139999,
+          "display": "139.999 TL",
+          "part": "MG2U4",
+          "at": "2026-10-27T12:55:45.006Z",
+          "url": "https://www.apple.com/tr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "tw",
+          "local": 46900,
+          "display": "NT$46,900",
+          "part": "MG2U4",
+          "at": "2026-10-27T12:56:08.955Z",
+          "url": "https://www.apple.com/tw/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "vn",
+          "local": 41499000,
+          "display": "41.499.000đ",
+          "part": "MG2U4",
+          "at": "2026-10-27T12:56:33.049Z",
+          "url": "https://www.apple.com/vn/shop/buy-iphone/iphone-air"
+        }
+      ]
+    },
+    {
+      "id": "6.5-inch-display-256gb-cloud-white",
+      "part": "MG194",
+      "specs": {
+        "capacity": "256gb",
+        "color": "cloudwhite"
+      },
+      "labels": {
+        "capacity": "256GB",
+        "color": "Cloud White"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-air-finish-select-cloudwhite-202509?wid=1200&hei=1200&fmt=png-alpha",
+      "label": "256GB · Cloud White",
+      "prices": [
+        {
+          "code": "us",
+          "local": 1099,
+          "display": "$1099",
+          "part": "MG194",
+          "at": "2026-10-27T12:44:52.230Z",
+          "url": "https://www.apple.com/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ae",
+          "local": 4699,
+          "display": "AED 4,699",
+          "part": "MG194",
+          "at": "2026-10-27T12:44:56.734Z",
+          "url": "https://www.apple.com/ae/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "at",
+          "local": 1299,
+          "display": "1.299 €",
+          "part": "MG2M4",
+          "at": "2026-10-27T12:45:04.491Z",
+          "url": "https://www.apple.com/at/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "au",
+          "local": 1899,
+          "display": "A$1,899 ",
+          "part": "MG2M4",
+          "at": "2026-10-27T12:45:28.541Z",
+          "url": "https://www.apple.com/au/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "be",
+          "local": 1329,
+          "display": "€ 1.329",
+          "part": "MG2M4",
+          "at": "2026-10-27T12:45:44.792Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "br",
+          "local": 10999,
+          "display": "R$ 10.999",
+          "part": "MG2M4",
+          "at": "2026-10-27T12:46:00.546Z",
+          "url": "https://www.apple.com/br/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ca",
+          "local": 1599,
+          "display": "$1599",
+          "part": "MG194",
+          "at": "2026-10-27T12:46:16.721Z",
+          "url": "https://www.apple.com/ca/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ch",
+          "local": 1099,
+          "display": "CHF 1099.–",
+          "part": "MG2M4",
+          "at": "2026-10-27T12:46:24.651Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "cl",
+          "local": 1399990,
+          "display": "$1.399.990",
+          "part": "MG2M4",
+          "at": "2026-10-27T12:46:40.610Z",
+          "url": "https://www.apple.com/cl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "cz",
+          "local": 31990,
+          "display": "31 990 Kč",
+          "part": "MG2M4",
+          "at": "2026-10-27T12:46:56.940Z",
+          "url": "https://www.apple.com/cz/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "de",
+          "local": 1299,
+          "display": "1.299 €",
+          "part": "MG2M4",
+          "at": "2026-10-27T12:47:12.677Z",
+          "url": "https://www.apple.com/de/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "dk",
+          "local": 9999,
+          "display": "9.999 kr.",
+          "part": "MG2M4",
+          "at": "2026-10-27T12:47:28.714Z",
+          "url": "https://www.apple.com/dk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "es",
+          "local": 1319,
+          "display": "1.319 € ",
+          "part": "MG2M4",
+          "at": "2026-10-27T12:47:44.688Z",
+          "url": "https://www.apple.com/es/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "fi",
+          "local": 1359,
+          "display": "1 359 €",
+          "part": "MG2M4",
+          "at": "2026-10-27T12:48:00.776Z",
+          "url": "https://www.apple.com/fi/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "fr",
+          "local": 1329,
+          "display": "1 329 €",
+          "part": "MG2M4",
+          "at": "2026-10-27T12:48:16.935Z",
+          "url": "https://www.apple.com/fr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "gb",
+          "local": 1099,
+          "display": "£1,099",
+          "part": "MG2M4",
+          "at": "2026-10-27T12:48:32.708Z",
+          "url": "https://www.apple.com/uk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "hk",
+          "local": 9499,
+          "display": "HK$9,499",
+          "part": "MG2M4",
+          "at": "2026-10-27T12:48:48.746Z",
+          "url": "https://www.apple.com/hk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "hu",
+          "local": 499990,
+          "display": "499 990 Ft",
+          "part": "MG2M4",
+          "at": "2026-10-27T12:49:04.727Z",
+          "url": "https://www.apple.com/hu/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ie",
+          "local": 1339,
+          "display": "€1,339",
+          "part": "MG2M4",
+          "at": "2026-10-27T12:49:20.780Z",
+          "url": "https://www.apple.com/ie/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "in",
+          "local": 149900,
+          "display": "₹149900.00",
+          "part": "MG2M4",
+          "at": "2026-10-27T12:49:36.796Z",
+          "url": "https://www.apple.com/in/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "it",
+          "local": 1339,
+          "display": "€ 1.339 ",
+          "part": "MG2M4",
+          "at": "2026-10-27T12:49:53.028Z",
+          "url": "https://www.apple.com/it/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "jp",
+          "local": 189800,
+          "display": "189,800円",
+          "part": "MG284",
+          "at": "2026-10-27T12:50:08.963Z",
+          "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "kr",
+          "local": 1790000,
+          "display": "₩1,790,000",
+          "part": "MG2M4",
+          "at": "2026-10-27T12:50:40.905Z",
+          "url": "https://www.apple.com/kr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "lu",
+          "local": 1285.07,
+          "display": "1 285,07 €",
+          "part": "MG2M4",
+          "at": "2026-10-27T12:51:04.886Z",
+          "url": "https://www.apple.com/lu/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "mx",
+          "local": 25999,
+          "display": "$25,999",
+          "part": "MG194",
+          "at": "2026-10-27T12:51:28.779Z",
+          "url": "https://www.apple.com/mx/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "my",
+          "local": 5299,
+          "display": "RM 5,299",
+          "part": "MG2M4",
+          "at": "2026-10-27T12:51:36.950Z",
+          "url": "https://www.apple.com/my/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "nl",
+          "local": 1329,
+          "display": "€ 1.329",
+          "part": "MG2M4",
+          "at": "2026-10-27T12:52:00.821Z",
+          "url": "https://www.apple.com/nl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "no",
+          "local": 14990,
+          "display": "kr 14 990",
+          "part": "MG2M4",
+          "at": "2026-10-27T12:52:24.777Z",
+          "url": "https://www.apple.com/no/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "nz",
+          "local": 2299,
+          "display": "NZ$2,299",
+          "part": "MG2M4",
+          "at": "2026-10-27T12:52:48.817Z",
+          "url": "https://www.apple.com/nz/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ph",
+          "local": 84990,
+          "display": "₱84,990",
+          "part": "MG2M4",
+          "at": "2026-10-27T12:53:12.871Z",
+          "url": "https://www.apple.com/ph/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "pl",
+          "local": 5799,
+          "display": "5799 zł",
+          "part": "MG2M4",
+          "at": "2026-10-27T12:53:36.884Z",
+          "url": "https://www.apple.com/pl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "pt",
+          "local": 1349,
+          "display": "1349 €",
+          "part": "MG2M4",
+          "at": "2026-10-27T12:54:00.946Z",
+          "url": "https://www.apple.com/pt/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "sa",
+          "local": 5199,
+          "display": "SAR 5,199",
+          "part": "MG194",
+          "at": "2026-10-27T12:54:24.855Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "se",
+          "local": 15495,
+          "display": "15 495 kr",
+          "part": "MG2M4",
+          "at": "2026-10-27T12:54:32.953Z",
+          "url": "https://www.apple.com/se/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "sg",
+          "local": 1749,
+          "display": "S$1,749",
+          "part": "MG2M4",
+          "at": "2026-10-27T12:54:56.897Z",
+          "url": "https://www.apple.com/sg/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "th",
+          "local": 43900,
+          "display": "฿43,900",
+          "part": "MG2M4",
+          "at": "2026-10-27T12:55:20.886Z",
+          "url": "https://www.apple.com/th/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "tr",
+          "local": 122999,
+          "display": "122.999 TL",
+          "part": "MG2M4",
+          "at": "2026-10-27T12:55:45.006Z",
+          "url": "https://www.apple.com/tr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "tw",
+          "local": 39900,
+          "display": "NT$39,900",
+          "part": "MG2M4",
+          "at": "2026-10-27T12:56:08.955Z",
+          "url": "https://www.apple.com/tw/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "vn",
+          "local": 34999000,
+          "display": "34.999.000đ",
+          "part": "MG2M4",
+          "at": "2026-10-27T12:56:33.049Z",
+          "url": "https://www.apple.com/vn/shop/buy-iphone/iphone-air"
+        }
+      ]
+    },
+    {
+      "id": "6.5-inch-display-1tb-light-gold",
+      "part": "MG1P4",
+      "specs": {
+        "capacity": "1tb",
+        "color": "lightgold"
+      },
+      "labels": {
+        "capacity": "1TB",
+        "color": "Light Gold"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-air-finish-select-lightgold-202509?wid=1200&hei=1200&fmt=png-alpha",
+      "label": "1TB · Light Gold",
+      "prices": [
+        {
+          "code": "us",
+          "local": 1699,
+          "display": "$1699",
+          "part": "MG1P4",
+          "at": "2026-10-27T12:44:52.230Z",
+          "url": "https://www.apple.com/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ae",
+          "local": 7249,
+          "display": "AED 7,249",
+          "part": "MG1P4",
+          "at": "2026-10-27T12:44:56.734Z",
+          "url": "https://www.apple.com/ae/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "at",
+          "local": 2049,
+          "display": "2.049 €",
+          "part": "MG2Y4",
+          "at": "2026-10-27T12:45:04.491Z",
+          "url": "https://www.apple.com/at/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "au",
+          "local": 3099,
+          "display": "A$3,099 ",
+          "part": "MG2Y4",
+          "at": "2026-10-27T12:45:28.541Z",
+          "url": "https://www.apple.com/au/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "be",
+          "local": 2079,
+          "display": "€ 2.079",
+          "part": "MG2Y4",
+          "at": "2026-10-27T12:45:44.792Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "br",
+          "local": 15499,
+          "display": "R$ 15.499",
+          "part": "MG2Y4",
+          "at": "2026-10-27T12:46:00.546Z",
+          "url": "https://www.apple.com/br/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ca",
+          "local": 2499,
+          "display": "$2499",
+          "part": "MG1P4",
+          "at": "2026-10-27T12:46:16.721Z",
+          "url": "https://www.apple.com/ca/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ch",
+          "local": 1699,
+          "display": "CHF 1699.–",
+          "part": "MG2Y4",
+          "at": "2026-10-27T12:46:24.651Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "cl",
+          "local": 2179990,
+          "display": "$2.179.990",
+          "part": "MG2Y4",
+          "at": "2026-10-27T12:46:40.610Z",
+          "url": "https://www.apple.com/cl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "cz",
+          "local": 49990,
+          "display": "49 990 Kč",
+          "part": "MG2Y4",
+          "at": "2026-10-27T12:46:56.940Z",
+          "url": "https://www.apple.com/cz/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "de",
+          "local": 2049,
+          "display": "2.049 €",
+          "part": "MG2Y4",
+          "at": "2026-10-27T12:47:12.677Z",
+          "url": "https://www.apple.com/de/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "dk",
+          "local": 15999,
+          "display": "15.999 kr.",
+          "part": "MG2Y4",
+          "at": "2026-10-27T12:47:28.714Z",
+          "url": "https://www.apple.com/dk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "es",
+          "local": 2069,
+          "display": "2.069 € ",
+          "part": "MG2Y4",
+          "at": "2026-10-27T12:47:44.688Z",
+          "url": "https://www.apple.com/es/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "fi",
+          "local": 2109,
+          "display": "2 109 €",
+          "part": "MG2Y4",
+          "at": "2026-10-27T12:48:00.776Z",
+          "url": "https://www.apple.com/fi/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "fr",
+          "local": 2079,
+          "display": "2 079 €",
+          "part": "MG2Y4",
+          "at": "2026-10-27T12:48:16.935Z",
+          "url": "https://www.apple.com/fr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "gb",
+          "local": 1699,
+          "display": "£1,699",
+          "part": "MG2Y4",
+          "at": "2026-10-27T12:48:32.708Z",
+          "url": "https://www.apple.com/uk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "hk",
+          "local": 14799,
+          "display": "HK$14,799",
+          "part": "MG2Y4",
+          "at": "2026-10-27T12:48:48.746Z",
+          "url": "https://www.apple.com/hk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "hu",
+          "local": 799990,
+          "display": "799 990 Ft",
+          "part": "MG2Y4",
+          "at": "2026-10-27T12:49:04.727Z",
+          "url": "https://www.apple.com/hu/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ie",
+          "local": 2089,
+          "display": "€2,089",
+          "part": "MG2Y4",
+          "at": "2026-10-27T12:49:20.780Z",
+          "url": "https://www.apple.com/ie/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "in",
+          "local": 224900,
+          "display": "₹224900.00",
+          "part": "MG2Y4",
+          "at": "2026-10-27T12:49:36.796Z",
+          "url": "https://www.apple.com/in/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "it",
+          "local": 2089,
+          "display": "€ 2.089 ",
+          "part": "MG2Y4",
+          "at": "2026-10-27T12:49:53.028Z",
+          "url": "https://www.apple.com/it/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "jp",
+          "local": 294800,
+          "display": "294,800円",
+          "part": "MG2J4",
+          "at": "2026-10-27T12:50:08.963Z",
+          "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "kr",
+          "local": 2690000,
+          "display": "₩2,690,000",
+          "part": "MG2Y4",
+          "at": "2026-10-27T12:50:40.905Z",
+          "url": "https://www.apple.com/kr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "lu",
+          "local": 2010.27,
+          "display": "2 010,27 €",
+          "part": "MG2Y4",
+          "at": "2026-10-27T12:51:04.886Z",
+          "url": "https://www.apple.com/lu/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "mx",
+          "local": 40999,
+          "display": "$40,999",
+          "part": "MG1P4",
+          "at": "2026-10-27T12:51:28.779Z",
+          "url": "https://www.apple.com/mx/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "my",
+          "local": 8299,
+          "display": "RM 8,299",
+          "part": "MG2Y4",
+          "at": "2026-10-27T12:51:36.950Z",
+          "url": "https://www.apple.com/my/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "nl",
+          "local": 2079,
+          "display": "€ 2.079",
+          "part": "MG2Y4",
+          "at": "2026-10-27T12:52:00.821Z",
+          "url": "https://www.apple.com/nl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "no",
+          "local": 23490,
+          "display": "kr 23 490",
+          "part": "MG2Y4",
+          "at": "2026-10-27T12:52:24.777Z",
+          "url": "https://www.apple.com/no/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "nz",
+          "local": 3499,
+          "display": "NZ$3,499",
+          "part": "MG2Y4",
+          "at": "2026-10-27T12:52:48.817Z",
+          "url": "https://www.apple.com/nz/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ph",
+          "local": 132990,
+          "display": "₱132,990",
+          "part": "MG2Y4",
+          "at": "2026-10-27T12:53:12.871Z",
+          "url": "https://www.apple.com/ph/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "pl",
+          "local": 8799,
+          "display": "8799 zł",
+          "part": "MG2Y4",
+          "at": "2026-10-27T12:53:36.884Z",
+          "url": "https://www.apple.com/pl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "pt",
+          "local": 2099,
+          "display": "2099 €",
+          "part": "MG2Y4",
+          "at": "2026-10-27T12:54:00.946Z",
+          "url": "https://www.apple.com/pt/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "sa",
+          "local": 8199,
+          "display": "SAR 8,199",
+          "part": "MG1P4",
+          "at": "2026-10-27T12:54:24.855Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "se",
+          "local": 23995,
+          "display": "23 995 kr",
+          "part": "MG2Y4",
+          "at": "2026-10-27T12:54:32.953Z",
+          "url": "https://www.apple.com/se/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "sg",
+          "local": 2649,
+          "display": "S$2,649",
+          "part": "MG2Y4",
+          "at": "2026-10-27T12:54:56.897Z",
+          "url": "https://www.apple.com/sg/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "th",
+          "local": 67900,
+          "display": "฿67,900",
+          "part": "MG2Y4",
+          "at": "2026-10-27T12:55:20.886Z",
+          "url": "https://www.apple.com/th/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "tr",
+          "local": 173999,
+          "display": "173.999 TL",
+          "part": "MG2Y4",
+          "at": "2026-10-27T12:55:45.006Z",
+          "url": "https://www.apple.com/tr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "tw",
+          "local": 61900,
+          "display": "NT$61,900",
+          "part": "MG2Y4",
+          "at": "2026-10-27T12:56:08.955Z",
+          "url": "https://www.apple.com/tw/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "vn",
+          "local": 54499000,
+          "display": "54.499.000đ",
+          "part": "MG2Y4",
+          "at": "2026-10-27T12:56:33.049Z",
+          "url": "https://www.apple.com/vn/shop/buy-iphone/iphone-air"
+        }
+      ]
+    },
+    {
+      "id": "6.5-inch-display-1tb-cloud-white",
+      "part": "MG1N4",
+      "specs": {
+        "capacity": "1tb",
+        "color": "cloudwhite"
+      },
+      "labels": {
+        "capacity": "1TB",
+        "color": "Cloud White"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-air-finish-select-cloudwhite-202509?wid=1200&hei=1200&fmt=png-alpha",
+      "label": "1TB · Cloud White",
+      "prices": [
+        {
+          "code": "us",
+          "local": 1699,
+          "display": "$1699",
+          "part": "MG1N4",
+          "at": "2026-10-27T12:44:52.230Z",
+          "url": "https://www.apple.com/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ae",
+          "local": 7249,
+          "display": "AED 7,249",
+          "part": "MG1N4",
+          "at": "2026-10-27T12:44:56.734Z",
+          "url": "https://www.apple.com/ae/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "at",
+          "local": 2049,
+          "display": "2.049 €",
+          "part": "MG2X4",
+          "at": "2026-10-27T12:45:04.491Z",
+          "url": "https://www.apple.com/at/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "au",
+          "local": 3099,
+          "display": "A$3,099 ",
+          "part": "MG2X4",
+          "at": "2026-10-27T12:45:28.541Z",
+          "url": "https://www.apple.com/au/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "be",
+          "local": 2079,
+          "display": "€ 2.079",
+          "part": "MG2X4",
+          "at": "2026-10-27T12:45:44.792Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "br",
+          "local": 15499,
+          "display": "R$ 15.499",
+          "part": "MG2X4",
+          "at": "2026-10-27T12:46:00.546Z",
+          "url": "https://www.apple.com/br/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ca",
+          "local": 2499,
+          "display": "$2499",
+          "part": "MG1N4",
+          "at": "2026-10-27T12:46:16.721Z",
+          "url": "https://www.apple.com/ca/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ch",
+          "local": 1699,
+          "display": "CHF 1699.–",
+          "part": "MG2X4",
+          "at": "2026-10-27T12:46:24.651Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "cl",
+          "local": 2179990,
+          "display": "$2.179.990",
+          "part": "MG2X4",
+          "at": "2026-10-27T12:46:40.610Z",
+          "url": "https://www.apple.com/cl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "cz",
+          "local": 49990,
+          "display": "49 990 Kč",
+          "part": "MG2X4",
+          "at": "2026-10-27T12:46:56.940Z",
+          "url": "https://www.apple.com/cz/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "de",
+          "local": 2049,
+          "display": "2.049 €",
+          "part": "MG2X4",
+          "at": "2026-10-27T12:47:12.677Z",
+          "url": "https://www.apple.com/de/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "dk",
+          "local": 15999,
+          "display": "15.999 kr.",
+          "part": "MG2X4",
+          "at": "2026-10-27T12:47:28.714Z",
+          "url": "https://www.apple.com/dk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "es",
+          "local": 2069,
+          "display": "2.069 € ",
+          "part": "MG2X4",
+          "at": "2026-10-27T12:47:44.688Z",
+          "url": "https://www.apple.com/es/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "fi",
+          "local": 2109,
+          "display": "2 109 €",
+          "part": "MG2X4",
+          "at": "2026-10-27T12:48:00.776Z",
+          "url": "https://www.apple.com/fi/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "fr",
+          "local": 2079,
+          "display": "2 079 €",
+          "part": "MG2X4",
+          "at": "2026-10-27T12:48:16.935Z",
+          "url": "https://www.apple.com/fr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "gb",
+          "local": 1699,
+          "display": "£1,699",
+          "part": "MG2X4",
+          "at": "2026-10-27T12:48:32.708Z",
+          "url": "https://www.apple.com/uk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "hk",
+          "local": 14799,
+          "display": "HK$14,799",
+          "part": "MG2X4",
+          "at": "2026-10-27T12:48:48.746Z",
+          "url": "https://www.apple.com/hk/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "hu",
+          "local": 799990,
+          "display": "799 990 Ft",
+          "part": "MG2X4",
+          "at": "2026-10-27T12:49:04.727Z",
+          "url": "https://www.apple.com/hu/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ie",
+          "local": 2089,
+          "display": "€2,089",
+          "part": "MG2X4",
+          "at": "2026-10-27T12:49:20.780Z",
+          "url": "https://www.apple.com/ie/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "in",
+          "local": 224900,
+          "display": "₹224900.00",
+          "part": "MG2X4",
+          "at": "2026-10-27T12:49:36.796Z",
+          "url": "https://www.apple.com/in/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "it",
+          "local": 2089,
+          "display": "€ 2.089 ",
+          "part": "MG2X4",
+          "at": "2026-10-27T12:49:53.028Z",
+          "url": "https://www.apple.com/it/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "jp",
+          "local": 294800,
+          "display": "294,800円",
+          "part": "MG2H4",
+          "at": "2026-10-27T12:50:08.963Z",
+          "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "kr",
+          "local": 2690000,
+          "display": "₩2,690,000",
+          "part": "MG2X4",
+          "at": "2026-10-27T12:50:40.905Z",
+          "url": "https://www.apple.com/kr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "lu",
+          "local": 2010.27,
+          "display": "2 010,27 €",
+          "part": "MG2X4",
+          "at": "2026-10-27T12:51:04.886Z",
+          "url": "https://www.apple.com/lu/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "mx",
+          "local": 40999,
+          "display": "$40,999",
+          "part": "MG1N4",
+          "at": "2026-10-27T12:51:28.779Z",
+          "url": "https://www.apple.com/mx/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "my",
+          "local": 8299,
+          "display": "RM 8,299",
+          "part": "MG2X4",
+          "at": "2026-10-27T12:51:36.950Z",
+          "url": "https://www.apple.com/my/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "nl",
+          "local": 2079,
+          "display": "€ 2.079",
+          "part": "MG2X4",
+          "at": "2026-10-27T12:52:00.821Z",
+          "url": "https://www.apple.com/nl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "no",
+          "local": 23490,
+          "display": "kr 23 490",
+          "part": "MG2X4",
+          "at": "2026-10-27T12:52:24.777Z",
+          "url": "https://www.apple.com/no/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "nz",
+          "local": 3499,
+          "display": "NZ$3,499",
+          "part": "MG2X4",
+          "at": "2026-10-27T12:52:48.817Z",
+          "url": "https://www.apple.com/nz/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "ph",
+          "local": 132990,
+          "display": "₱132,990",
+          "part": "MG2X4",
+          "at": "2026-10-27T12:53:12.871Z",
+          "url": "https://www.apple.com/ph/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "pl",
+          "local": 8799,
+          "display": "8799 zł",
+          "part": "MG2X4",
+          "at": "2026-10-27T12:53:36.884Z",
+          "url": "https://www.apple.com/pl/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "pt",
+          "local": 2099,
+          "display": "2099 €",
+          "part": "MG2X4",
+          "at": "2026-10-27T12:54:00.946Z",
+          "url": "https://www.apple.com/pt/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "sa",
+          "local": 8199,
+          "display": "SAR 8,199",
+          "part": "MG1N4",
+          "at": "2026-10-27T12:54:24.855Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "se",
+          "local": 23995,
+          "display": "23 995 kr",
+          "part": "MG2X4",
+          "at": "2026-10-27T12:54:32.953Z",
+          "url": "https://www.apple.com/se/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "sg",
+          "local": 2649,
+          "display": "S$2,649",
+          "part": "MG2X4",
+          "at": "2026-10-27T12:54:56.897Z",
+          "url": "https://www.apple.com/sg/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "th",
+          "local": 67900,
+          "display": "฿67,900",
+          "part": "MG2X4",
+          "at": "2026-10-27T12:55:20.886Z",
+          "url": "https://www.apple.com/th/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "tr",
+          "local": 173999,
+          "display": "173.999 TL",
+          "part": "MG2X4",
+          "at": "2026-10-27T12:55:45.006Z",
+          "url": "https://www.apple.com/tr/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "tw",
+          "local": 61900,
+          "display": "NT$61,900",
+          "part": "MG2X4",
+          "at": "2026-10-27T12:56:08.955Z",
+          "url": "https://www.apple.com/tw/shop/buy-iphone/iphone-air"
+        },
+        {
+          "code": "vn",
+          "local": 54499000,
+          "display": "54.499.000đ",
+          "part": "MG2X4",
+          "at": "2026-10-27T12:56:33.049Z",
+          "url": "https://www.apple.com/vn/shop/buy-iphone/iphone-air"
+        }
+      ]
+    }
+  ],
+  "discoveredAt": "2026-10-27T12:44:52.230Z",
+  "defaultVariant": "6.5-inch-display-256gb-light-gold",
+  "pricedAt": "2026-10-27T12:56:57.121Z",
+  "failedStores": []
+}

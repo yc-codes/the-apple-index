@@ -2033,7 +2033,289 @@
       "id": "iphone-air",
       "name": "iPhone Air",
       "category": "iPhone",
-      "ready": false
+      "ready": true,
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-air-finish-select-lightgold-202509?wid=1200&hei=1200&fmt=png-alpha",
+      "variant": {
+        "id": "6.5-inch-display-256gb-light-gold",
+        "label": "256GB · Light Gold"
+      },
+      "configurations": 12,
+      "prices": [
+        {
+          "code": "us",
+          "local": 1099,
+          "display": "$1099",
+          "part": "MG1A4",
+          "at": "2026-10-27T12:44:52.230Z"
+        },
+        {
+          "code": "ae",
+          "local": 4699,
+          "display": "AED 4,699",
+          "part": "MG1A4",
+          "at": "2026-10-27T12:44:56.734Z"
+        },
+        {
+          "code": "at",
+          "local": 1299,
+          "display": "1.299 €",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:45:04.491Z"
+        },
+        {
+          "code": "au",
+          "local": 1899,
+          "display": "A$1,899 ",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:45:28.541Z"
+        },
+        {
+          "code": "be",
+          "local": 1329,
+          "display": "€ 1.329",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:45:44.792Z"
+        },
+        {
+          "code": "br",
+          "local": 10999,
+          "display": "R$ 10.999",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:46:00.546Z"
+        },
+        {
+          "code": "ca",
+          "local": 1599,
+          "display": "$1599",
+          "part": "MG1A4",
+          "at": "2026-10-27T12:46:16.721Z"
+        },
+        {
+          "code": "ch",
+          "local": 1099,
+          "display": "CHF 1099.–",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:46:24.651Z"
+        },
+        {
+          "code": "cl",
+          "local": 1399990,
+          "display": "$1.399.990",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:46:40.610Z"
+        },
+        {
+          "code": "cz",
+          "local": 31990,
+          "display": "31 990 Kč",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:46:56.940Z"
+        },
+        {
+          "code": "de",
+          "local": 1299,
+          "display": "1.299 €",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:47:12.677Z"
+        },
+        {
+          "code": "dk",
+          "local": 9999,
+          "display": "9.999 kr.",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:47:28.714Z"
+        },
+        {
+          "code": "es",
+          "local": 1319,
+          "display": "1.319 € ",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:47:44.688Z"
+        },
+        {
+          "code": "fi",
+          "local": 1359,
+          "display": "1 359 €",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:48:00.776Z"
+        },
+        {
+          "code": "fr",
+          "local": 1329,
+          "display": "1 329 €",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:48:16.935Z"
+        },
+        {
+          "code": "gb",
+          "local": 1099,
+          "display": "£1,099",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:48:32.708Z"
+        },
+        {
+          "code": "hk",
+          "local": 9499,
+          "display": "HK$9,499",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:48:48.746Z"
+        },
+        {
+          "code": "hu",
+          "local": 499990,
+          "display": "499 990 Ft",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:49:04.727Z"
+        },
+        {
+          "code": "ie",
+          "local": 1339,
+          "display": "€1,339",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:49:20.780Z"
+        },
+        {
+          "code": "in",
+          "local": 149900,
+          "display": "₹149900.00",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:49:36.796Z"
+        },
+        {
+          "code": "it",
+          "local": 1339,
+          "display": "€ 1.339 ",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:49:53.028Z"
+        },
+        {
+          "code": "jp",
+          "local": 189800,
+          "display": "189,800円",
+          "part": "MG294",
+          "at": "2026-10-27T12:50:08.963Z"
+        },
+        {
+          "code": "kr",
+          "local": 1790000,
+          "display": "₩1,790,000",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:50:40.905Z"
+        },
+        {
+          "code": "lu",
+          "local": 1285.07,
+          "display": "1 285,07 €",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:51:04.886Z"
+        },
+        {
+          "code": "mx",
+          "local": 25999,
+          "display": "$25,999",
+          "part": "MG1A4",
+          "at": "2026-10-27T12:51:28.779Z"
+        },
+        {
+          "code": "my",
+          "local": 5299,
+          "display": "RM 5,299",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:51:36.950Z"
+        },
+        {
+          "code": "nl",
+          "local": 1329,
+          "display": "€ 1.329",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:52:00.821Z"
+        },
+        {
+          "code": "no",
+          "local": 14990,
+          "display": "kr 14 990",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:52:24.777Z"
+        },
+        {
+          "code": "nz",
+          "local": 2299,
+          "display": "NZ$2,299",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:52:48.817Z"
+        },
+        {
+          "code": "ph",
+          "local": 84990,
+          "display": "₱84,990",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:53:12.871Z"
+        },
+        {
+          "code": "pl",
+          "local": 5799,
+          "display": "5799 zł",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:53:36.884Z"
+        },
+        {
+          "code": "pt",
+          "local": 1349,
+          "display": "1349 €",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:54:00.946Z"
+        },
+        {
+          "code": "sa",
+          "local": 5199,
+          "display": "SAR 5,199",
+          "part": "MG1A4",
+          "at": "2026-10-27T12:54:24.855Z"
+        },
+        {
+          "code": "se",
+          "local": 15495,
+          "display": "15 495 kr",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:54:32.953Z"
+        },
+        {
+          "code": "sg",
+          "local": 1749,
+          "display": "S$1,749",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:54:56.897Z"
+        },
+        {
+          "code": "th",
+          "local": 43900,
+          "display": "฿43,900",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:55:20.886Z"
+        },
+        {
+          "code": "tr",
+          "local": 122999,
+          "display": "122.999 TL",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:55:45.006Z"
+        },
+        {
+          "code": "tw",
+          "local": 39900,
+          "display": "NT$39,900",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:56:08.955Z"
+        },
+        {
+          "code": "vn",
+          "local": 34999000,
+          "display": "34.999.000đ",
+          "part": "MG2N4",
+          "at": "2026-10-27T12:56:33.049Z"
+        }
+      ],
+      "pricedAt": "2026-10-27T12:56:57.121Z"
     },
     {
       "id": "iphone-duo",
