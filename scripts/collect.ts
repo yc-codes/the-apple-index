@@ -1,4 +1,5 @@
 import type { CollectorStatus } from '../server/types';
+import { spawnSync } from 'node:child_process';
 import { errorMessage } from '../server/json';
 // A long-running Bun worker. Never run this inside a Vercel Function.
 import { families } from '../server/catalog.ts';
@@ -7,6 +8,37 @@ import { throttleState } from '../server/apple.ts';
 import { storage } from '../server/storage.ts';
 
 const publishOnly = process.argv.includes('--publish-only');
+// In Actions, each collected family is pushed to the data branch immediately so the site fills in progressively.
+const pushDirectory = process.env.DATA_PUSH_DIR;
+const hook = process.env.VERCEL_DEPLOY_HOOK_URL;
+const rebuildGap = Number(process.env.REBUILD_GAP_MS || 20 * 60e3);
+let lastRebuild = 0,
+  pendingRebuild = false;
+async function push(label: string) {
+  if (!pushDirectory) return;
+  const git = (...args: string[]) =>
+    spawnSync('git', ['-C', pushDirectory, ...args], { encoding: 'utf8' });
+  git('add', '-A');
+  if (git('diff', '--cached', '--quiet').status === 0) return;
+  git('commit', '-m', `Update ${label} ${new Date().toISOString()}`);
+  const pushed = git('push', 'origin', 'HEAD:data');
+  if (pushed.status) return console.error('Push failed:', pushed.stderr);
+  pendingRebuild = true;
+  await rebuild();
+}
+// Vercel limits deployments per day, so rebuilds are spaced out; the final push always rebuilds.
+async function rebuild(force = false) {
+  if (!hook || !pendingRebuild || (!force && Date.now() - lastRebuild < rebuildGap)) return;
+  try {
+    const response = await fetch(hook, { method: 'POST', signal: AbortSignal.timeout(15000) });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    lastRebuild = Date.now();
+    pendingRebuild = false;
+    console.log('Triggered site rebuild');
+  } catch (error) {
+    console.error('Rebuild:', errorMessage(error));
+  }
+}
 const requested = process.argv.find((arg) => arg.startsWith('--family='))?.split('=')[1];
 if (requested && !families.some((f) => f.id === requested))
   throw new Error('Unknown product family');
@@ -51,9 +83,11 @@ for (const family of selected) {
       blockedUntil: throttleState().until,
       failed,
     });
-    if (throttleState().blocked) break;
   }
+  await push(family.id);
+  if (!publishOnly && throttleState().blocked) break;
 }
+await rebuild(true);
 if (failed) {
   console.error(`${failed} collection steps need retry; last good data was retained.`);
   process.exitCode = 1;
