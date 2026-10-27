@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-27T12:56:57.124Z",
+  "at": "2026-10-27T13:07:45.722Z",
   "attempts": {
     "macbook-air": 1793099856748,
     "macbook-neo": 1793100721573,
@@ -10,7 +10,8 @@
     "studio-display": 1793103168437,
     "studio-display-xdr": 1793103200153,
     "iphone-18-pro": 1793103232179,
-    "iphone-air": 1793105087867
+    "iphone-air": 1793105087867,
+    "iphone-duo": 1793105818358
   },
   "blockedUntil": null,
   "failed": 2
