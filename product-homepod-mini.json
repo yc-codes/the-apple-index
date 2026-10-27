@@ -1,0 +1,1273 @@
+{
+  "id": "homepod-mini",
+  "name": "HomePod mini",
+  "category": "TV & Home",
+  "path": "buy-homepod/homepod-mini",
+  "url": "https://www.apple.com/shop/buy-homepod/homepod-mini",
+  "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/homepod-mini-og-image-202610?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1790352758848",
+  "dimensions": [
+    {
+      "key": "color",
+      "name": "Color",
+      "values": [
+        {
+          "key": "white",
+          "label": "White"
+        },
+        {
+          "key": "pink",
+          "label": "Pink"
+        },
+        {
+          "key": "blue",
+          "label": "Blue"
+        },
+        {
+          "key": "green",
+          "label": "Green"
+        },
+        {
+          "key": "midnight",
+          "label": "Midnight"
+        }
+      ]
+    }
+  ],
+  "fixed": {},
+  "variants": [
+    {
+      "id": "white",
+      "part": "MGHK4",
+      "specs": {
+        "color": "white"
+      },
+      "labels": {
+        "color": "White"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/homepod-mini-select-white-202610_FV1?wid=1200&hei=1200&fmt=png-alpha",
+      "label": "White",
+      "prices": [
+        {
+          "code": "us",
+          "local": 149,
+          "display": "$149",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:22:56.938Z",
+          "url": "https://www.apple.com/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "at",
+          "local": 169,
+          "display": "169 €",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:23:21.423Z",
+          "url": "https://www.apple.com/at/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "au",
+          "local": 229,
+          "display": "A$229 ",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:23:28.706Z",
+          "url": "https://www.apple.com/au/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "be",
+          "local": 169,
+          "display": "€ 169",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:23:36.945Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "ca",
+          "local": 199,
+          "display": "$199",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:24:00.762Z",
+          "url": "https://www.apple.com/ca/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "ch",
+          "local": 139,
+          "display": "CHF 139.–",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:24:08.764Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "cl",
+          "local": 179990,
+          "display": "$179.990",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:24:16.750Z",
+          "url": "https://www.apple.com/cl/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "de",
+          "local": 169,
+          "display": "169 €",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:24:41.306Z",
+          "url": "https://www.apple.com/de/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "dk",
+          "local": 1299,
+          "display": "1.299 kr.",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:24:48.824Z",
+          "url": "https://www.apple.com/dk/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "es",
+          "local": 169,
+          "display": "169 € ",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:24:56.886Z",
+          "url": "https://www.apple.com/es/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "fi",
+          "local": 169,
+          "display": "169 €",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:25:04.844Z",
+          "url": "https://www.apple.com/fi/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "fr",
+          "local": 169,
+          "display": "169 €",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:25:12.812Z",
+          "url": "https://www.apple.com/fr/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "gb",
+          "local": 149,
+          "display": "£149",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:25:20.837Z",
+          "url": "https://www.apple.com/uk/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "hk",
+          "local": 1099,
+          "display": "HK$1,099",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:25:28.827Z",
+          "url": "https://www.apple.com/hk/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "ie",
+          "local": 169,
+          "display": "€169",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:25:53.465Z",
+          "url": "https://www.apple.com/ie/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "in",
+          "local": 18900,
+          "display": "₹18900.00",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:26:00.866Z",
+          "url": "https://www.apple.com/in/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "it",
+          "local": 169,
+          "display": "€ 169 ",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:26:09.065Z",
+          "url": "https://www.apple.com/it/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "jp",
+          "local": 24800,
+          "display": "24,800円",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:26:16.897Z",
+          "url": "https://www.apple.com/jp/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "lu",
+          "local": 163.41,
+          "display": "163,41 €",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:26:40.931Z",
+          "url": "https://www.apple.com/lu/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "mx",
+          "local": 2999,
+          "display": "$2,999",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:26:48.960Z",
+          "url": "https://www.apple.com/mx/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "my",
+          "local": 649,
+          "display": "RM 649",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:26:56.973Z",
+          "url": "https://www.apple.com/my/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "nl",
+          "local": 169,
+          "display": "€ 169",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:27:04.940Z",
+          "url": "https://www.apple.com/nl/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "no",
+          "local": 1790,
+          "display": "kr 1 790",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:27:12.948Z",
+          "url": "https://www.apple.com/no/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "nz",
+          "local": 299,
+          "display": "NZ$299",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:27:21.405Z",
+          "url": "https://www.apple.com/nz/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "se",
+          "local": 1895,
+          "display": "1 895 kr",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:28:33.129Z",
+          "url": "https://www.apple.com/se/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "sg",
+          "local": 199,
+          "display": "S$199",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:28:40.978Z",
+          "url": "https://www.apple.com/sg/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "th",
+          "local": 5200,
+          "display": "฿5,200",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:28:49.077Z",
+          "url": "https://www.apple.com/th/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "tr",
+          "local": 9999,
+          "display": "9.999 TL",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:28:57.027Z",
+          "url": "https://www.apple.com/tr/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "tw",
+          "local": 4790,
+          "display": "NT$4,790",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:29:05.020Z",
+          "url": "https://www.apple.com/tw/shop/buy-homepod/homepod-mini"
+        }
+      ]
+    },
+    {
+      "id": "pink",
+      "part": "MGKR4",
+      "specs": {
+        "color": "pink"
+      },
+      "labels": {
+        "color": "Pink"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/homepod-mini-select-pink-202610_FV1?wid=1200&hei=1200&fmt=png-alpha",
+      "label": "Pink",
+      "prices": [
+        {
+          "code": "us",
+          "local": 149,
+          "display": "$149",
+          "part": "MGKR4",
+          "at": "2026-10-27T15:22:56.938Z",
+          "url": "https://www.apple.com/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "at",
+          "local": 169,
+          "display": "169 €",
+          "part": "MGKR4",
+          "at": "2026-10-27T15:23:21.423Z",
+          "url": "https://www.apple.com/at/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "au",
+          "local": 229,
+          "display": "A$229 ",
+          "part": "MGKR4",
+          "at": "2026-10-27T15:23:28.706Z",
+          "url": "https://www.apple.com/au/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "be",
+          "local": 169,
+          "display": "€ 169",
+          "part": "MGKR4",
+          "at": "2026-10-27T15:23:36.945Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "ca",
+          "local": 199,
+          "display": "$199",
+          "part": "MGKR4",
+          "at": "2026-10-27T15:24:00.762Z",
+          "url": "https://www.apple.com/ca/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "ch",
+          "local": 139,
+          "display": "CHF 139.–",
+          "part": "MGKR4",
+          "at": "2026-10-27T15:24:08.764Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "cl",
+          "local": 179990,
+          "display": "$179.990",
+          "part": "MGKR4",
+          "at": "2026-10-27T15:24:16.750Z",
+          "url": "https://www.apple.com/cl/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "de",
+          "local": 169,
+          "display": "169 €",
+          "part": "MGKR4",
+          "at": "2026-10-27T15:24:41.306Z",
+          "url": "https://www.apple.com/de/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "dk",
+          "local": 1299,
+          "display": "1.299 kr.",
+          "part": "MGKR4",
+          "at": "2026-10-27T15:24:48.824Z",
+          "url": "https://www.apple.com/dk/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "es",
+          "local": 169,
+          "display": "169 € ",
+          "part": "MGKR4",
+          "at": "2026-10-27T15:24:56.886Z",
+          "url": "https://www.apple.com/es/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "fi",
+          "local": 169,
+          "display": "169 €",
+          "part": "MGKR4",
+          "at": "2026-10-27T15:25:04.844Z",
+          "url": "https://www.apple.com/fi/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "fr",
+          "local": 169,
+          "display": "169 €",
+          "part": "MGKR4",
+          "at": "2026-10-27T15:25:12.812Z",
+          "url": "https://www.apple.com/fr/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "gb",
+          "local": 149,
+          "display": "£149",
+          "part": "MGKR4",
+          "at": "2026-10-27T15:25:20.837Z",
+          "url": "https://www.apple.com/uk/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "hk",
+          "local": 1099,
+          "display": "HK$1,099",
+          "part": "MGKR4",
+          "at": "2026-10-27T15:25:28.827Z",
+          "url": "https://www.apple.com/hk/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "ie",
+          "local": 169,
+          "display": "€169",
+          "part": "MGKR4",
+          "at": "2026-10-27T15:25:53.465Z",
+          "url": "https://www.apple.com/ie/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "in",
+          "local": 18900,
+          "display": "₹18900.00",
+          "part": "MGKR4",
+          "at": "2026-10-27T15:26:00.866Z",
+          "url": "https://www.apple.com/in/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "it",
+          "local": 169,
+          "display": "€ 169 ",
+          "part": "MGKR4",
+          "at": "2026-10-27T15:26:09.065Z",
+          "url": "https://www.apple.com/it/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "jp",
+          "local": 24800,
+          "display": "24,800円",
+          "part": "MGKR4",
+          "at": "2026-10-27T15:26:16.897Z",
+          "url": "https://www.apple.com/jp/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "lu",
+          "local": 163.41,
+          "display": "163,41 €",
+          "part": "MGKR4",
+          "at": "2026-10-27T15:26:40.931Z",
+          "url": "https://www.apple.com/lu/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "mx",
+          "local": 2999,
+          "display": "$2,999",
+          "part": "MGKR4",
+          "at": "2026-10-27T15:26:48.960Z",
+          "url": "https://www.apple.com/mx/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "my",
+          "local": 649,
+          "display": "RM 649",
+          "part": "MGKR4",
+          "at": "2026-10-27T15:26:56.973Z",
+          "url": "https://www.apple.com/my/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "nl",
+          "local": 169,
+          "display": "€ 169",
+          "part": "MGKR4",
+          "at": "2026-10-27T15:27:04.940Z",
+          "url": "https://www.apple.com/nl/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "no",
+          "local": 1790,
+          "display": "kr 1 790",
+          "part": "MGKR4",
+          "at": "2026-10-27T15:27:12.948Z",
+          "url": "https://www.apple.com/no/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "nz",
+          "local": 299,
+          "display": "NZ$299",
+          "part": "MGKR4",
+          "at": "2026-10-27T15:27:21.405Z",
+          "url": "https://www.apple.com/nz/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "se",
+          "local": 1895,
+          "display": "1 895 kr",
+          "part": "MGKR4",
+          "at": "2026-10-27T15:28:33.129Z",
+          "url": "https://www.apple.com/se/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "sg",
+          "local": 199,
+          "display": "S$199",
+          "part": "MGKR4",
+          "at": "2026-10-27T15:28:40.978Z",
+          "url": "https://www.apple.com/sg/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "th",
+          "local": 5200,
+          "display": "฿5,200",
+          "part": "MGKR4",
+          "at": "2026-10-27T15:28:49.077Z",
+          "url": "https://www.apple.com/th/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "tr",
+          "local": 9999,
+          "display": "9.999 TL",
+          "part": "MGKR4",
+          "at": "2026-10-27T15:28:57.027Z",
+          "url": "https://www.apple.com/tr/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "tw",
+          "local": 4790,
+          "display": "NT$4,790",
+          "part": "MGKR4",
+          "at": "2026-10-27T15:29:05.020Z",
+          "url": "https://www.apple.com/tw/shop/buy-homepod/homepod-mini"
+        }
+      ]
+    },
+    {
+      "id": "blue",
+      "part": "MGHM4",
+      "specs": {
+        "color": "blue"
+      },
+      "labels": {
+        "color": "Blue"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/homepod-mini-select-blue-202610_FV1?wid=1200&hei=1200&fmt=png-alpha",
+      "label": "Blue",
+      "prices": [
+        {
+          "code": "us",
+          "local": 149,
+          "display": "$149",
+          "part": "MGHM4",
+          "at": "2026-10-27T15:22:56.938Z",
+          "url": "https://www.apple.com/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "at",
+          "local": 169,
+          "display": "169 €",
+          "part": "MGHM4",
+          "at": "2026-10-27T15:23:21.423Z",
+          "url": "https://www.apple.com/at/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "au",
+          "local": 229,
+          "display": "A$229 ",
+          "part": "MGHM4",
+          "at": "2026-10-27T15:23:28.706Z",
+          "url": "https://www.apple.com/au/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "be",
+          "local": 169,
+          "display": "€ 169",
+          "part": "MGHM4",
+          "at": "2026-10-27T15:23:36.945Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "ca",
+          "local": 199,
+          "display": "$199",
+          "part": "MGHM4",
+          "at": "2026-10-27T15:24:00.762Z",
+          "url": "https://www.apple.com/ca/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "ch",
+          "local": 139,
+          "display": "CHF 139.–",
+          "part": "MGHM4",
+          "at": "2026-10-27T15:24:08.764Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "cl",
+          "local": 179990,
+          "display": "$179.990",
+          "part": "MGHM4",
+          "at": "2026-10-27T15:24:16.750Z",
+          "url": "https://www.apple.com/cl/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "de",
+          "local": 169,
+          "display": "169 €",
+          "part": "MGHM4",
+          "at": "2026-10-27T15:24:41.306Z",
+          "url": "https://www.apple.com/de/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "dk",
+          "local": 1299,
+          "display": "1.299 kr.",
+          "part": "MGHM4",
+          "at": "2026-10-27T15:24:48.824Z",
+          "url": "https://www.apple.com/dk/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "es",
+          "local": 169,
+          "display": "169 € ",
+          "part": "MGHM4",
+          "at": "2026-10-27T15:24:56.886Z",
+          "url": "https://www.apple.com/es/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "fi",
+          "local": 169,
+          "display": "169 €",
+          "part": "MGHM4",
+          "at": "2026-10-27T15:25:04.844Z",
+          "url": "https://www.apple.com/fi/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "fr",
+          "local": 169,
+          "display": "169 €",
+          "part": "MGHM4",
+          "at": "2026-10-27T15:25:12.812Z",
+          "url": "https://www.apple.com/fr/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "gb",
+          "local": 149,
+          "display": "£149",
+          "part": "MGHM4",
+          "at": "2026-10-27T15:25:20.837Z",
+          "url": "https://www.apple.com/uk/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "hk",
+          "local": 1099,
+          "display": "HK$1,099",
+          "part": "MGHM4",
+          "at": "2026-10-27T15:25:28.827Z",
+          "url": "https://www.apple.com/hk/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "ie",
+          "local": 169,
+          "display": "€169",
+          "part": "MGHM4",
+          "at": "2026-10-27T15:25:53.465Z",
+          "url": "https://www.apple.com/ie/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "in",
+          "local": 18900,
+          "display": "₹18900.00",
+          "part": "MGHM4",
+          "at": "2026-10-27T15:26:00.866Z",
+          "url": "https://www.apple.com/in/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "it",
+          "local": 169,
+          "display": "€ 169 ",
+          "part": "MGHM4",
+          "at": "2026-10-27T15:26:09.065Z",
+          "url": "https://www.apple.com/it/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "jp",
+          "local": 24800,
+          "display": "24,800円",
+          "part": "MGHM4",
+          "at": "2026-10-27T15:26:16.897Z",
+          "url": "https://www.apple.com/jp/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "lu",
+          "local": 163.41,
+          "display": "163,41 €",
+          "part": "MGHM4",
+          "at": "2026-10-27T15:26:40.931Z",
+          "url": "https://www.apple.com/lu/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "mx",
+          "local": 2999,
+          "display": "$2,999",
+          "part": "MGHM4",
+          "at": "2026-10-27T15:26:48.960Z",
+          "url": "https://www.apple.com/mx/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "my",
+          "local": 649,
+          "display": "RM 649",
+          "part": "MGHM4",
+          "at": "2026-10-27T15:26:56.973Z",
+          "url": "https://www.apple.com/my/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "nl",
+          "local": 169,
+          "display": "€ 169",
+          "part": "MGHM4",
+          "at": "2026-10-27T15:27:04.940Z",
+          "url": "https://www.apple.com/nl/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "no",
+          "local": 1790,
+          "display": "kr 1 790",
+          "part": "MGHM4",
+          "at": "2026-10-27T15:27:12.948Z",
+          "url": "https://www.apple.com/no/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "nz",
+          "local": 299,
+          "display": "NZ$299",
+          "part": "MGHM4",
+          "at": "2026-10-27T15:27:21.405Z",
+          "url": "https://www.apple.com/nz/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "se",
+          "local": 1895,
+          "display": "1 895 kr",
+          "part": "MGHM4",
+          "at": "2026-10-27T15:28:33.129Z",
+          "url": "https://www.apple.com/se/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "sg",
+          "local": 199,
+          "display": "S$199",
+          "part": "MGHM4",
+          "at": "2026-10-27T15:28:40.978Z",
+          "url": "https://www.apple.com/sg/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "th",
+          "local": 5200,
+          "display": "฿5,200",
+          "part": "MGHM4",
+          "at": "2026-10-27T15:28:49.077Z",
+          "url": "https://www.apple.com/th/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "tr",
+          "local": 9999,
+          "display": "9.999 TL",
+          "part": "MGHM4",
+          "at": "2026-10-27T15:28:57.027Z",
+          "url": "https://www.apple.com/tr/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "tw",
+          "local": 4790,
+          "display": "NT$4,790",
+          "part": "MGHM4",
+          "at": "2026-10-27T15:29:05.020Z",
+          "url": "https://www.apple.com/tw/shop/buy-homepod/homepod-mini"
+        }
+      ]
+    },
+    {
+      "id": "green",
+      "part": "MGHL4",
+      "specs": {
+        "color": "green"
+      },
+      "labels": {
+        "color": "Green"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/homepod-mini-select-green-202610_FV1?wid=1200&hei=1200&fmt=png-alpha",
+      "label": "Green",
+      "prices": [
+        {
+          "code": "us",
+          "local": 149,
+          "display": "$149",
+          "part": "MGHL4",
+          "at": "2026-10-27T15:22:56.938Z",
+          "url": "https://www.apple.com/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "at",
+          "local": 169,
+          "display": "169 €",
+          "part": "MGHL4",
+          "at": "2026-10-27T15:23:21.423Z",
+          "url": "https://www.apple.com/at/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "au",
+          "local": 229,
+          "display": "A$229 ",
+          "part": "MGHL4",
+          "at": "2026-10-27T15:23:28.706Z",
+          "url": "https://www.apple.com/au/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "be",
+          "local": 169,
+          "display": "€ 169",
+          "part": "MGHL4",
+          "at": "2026-10-27T15:23:36.945Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "ca",
+          "local": 199,
+          "display": "$199",
+          "part": "MGHL4",
+          "at": "2026-10-27T15:24:00.762Z",
+          "url": "https://www.apple.com/ca/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "ch",
+          "local": 139,
+          "display": "CHF 139.–",
+          "part": "MGHL4",
+          "at": "2026-10-27T15:24:08.764Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "cl",
+          "local": 179990,
+          "display": "$179.990",
+          "part": "MGHL4",
+          "at": "2026-10-27T15:24:16.750Z",
+          "url": "https://www.apple.com/cl/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "de",
+          "local": 169,
+          "display": "169 €",
+          "part": "MGHL4",
+          "at": "2026-10-27T15:24:41.306Z",
+          "url": "https://www.apple.com/de/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "dk",
+          "local": 1299,
+          "display": "1.299 kr.",
+          "part": "MGHL4",
+          "at": "2026-10-27T15:24:48.824Z",
+          "url": "https://www.apple.com/dk/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "es",
+          "local": 169,
+          "display": "169 € ",
+          "part": "MGHL4",
+          "at": "2026-10-27T15:24:56.886Z",
+          "url": "https://www.apple.com/es/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "fi",
+          "local": 169,
+          "display": "169 €",
+          "part": "MGHL4",
+          "at": "2026-10-27T15:25:04.844Z",
+          "url": "https://www.apple.com/fi/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "fr",
+          "local": 169,
+          "display": "169 €",
+          "part": "MGHL4",
+          "at": "2026-10-27T15:25:12.812Z",
+          "url": "https://www.apple.com/fr/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "gb",
+          "local": 149,
+          "display": "£149",
+          "part": "MGHL4",
+          "at": "2026-10-27T15:25:20.837Z",
+          "url": "https://www.apple.com/uk/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "hk",
+          "local": 1099,
+          "display": "HK$1,099",
+          "part": "MGHL4",
+          "at": "2026-10-27T15:25:28.827Z",
+          "url": "https://www.apple.com/hk/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "ie",
+          "local": 169,
+          "display": "€169",
+          "part": "MGHL4",
+          "at": "2026-10-27T15:25:53.465Z",
+          "url": "https://www.apple.com/ie/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "in",
+          "local": 18900,
+          "display": "₹18900.00",
+          "part": "MGHL4",
+          "at": "2026-10-27T15:26:00.866Z",
+          "url": "https://www.apple.com/in/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "it",
+          "local": 169,
+          "display": "€ 169 ",
+          "part": "MGHL4",
+          "at": "2026-10-27T15:26:09.065Z",
+          "url": "https://www.apple.com/it/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "jp",
+          "local": 24800,
+          "display": "24,800円",
+          "part": "MGHL4",
+          "at": "2026-10-27T15:26:16.897Z",
+          "url": "https://www.apple.com/jp/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "lu",
+          "local": 163.41,
+          "display": "163,41 €",
+          "part": "MGHL4",
+          "at": "2026-10-27T15:26:40.931Z",
+          "url": "https://www.apple.com/lu/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "mx",
+          "local": 2999,
+          "display": "$2,999",
+          "part": "MGHL4",
+          "at": "2026-10-27T15:26:48.960Z",
+          "url": "https://www.apple.com/mx/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "my",
+          "local": 649,
+          "display": "RM 649",
+          "part": "MGHL4",
+          "at": "2026-10-27T15:26:56.973Z",
+          "url": "https://www.apple.com/my/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "nl",
+          "local": 169,
+          "display": "€ 169",
+          "part": "MGHL4",
+          "at": "2026-10-27T15:27:04.940Z",
+          "url": "https://www.apple.com/nl/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "no",
+          "local": 1790,
+          "display": "kr 1 790",
+          "part": "MGHL4",
+          "at": "2026-10-27T15:27:12.948Z",
+          "url": "https://www.apple.com/no/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "nz",
+          "local": 299,
+          "display": "NZ$299",
+          "part": "MGHL4",
+          "at": "2026-10-27T15:27:21.405Z",
+          "url": "https://www.apple.com/nz/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "se",
+          "local": 1895,
+          "display": "1 895 kr",
+          "part": "MGHL4",
+          "at": "2026-10-27T15:28:33.129Z",
+          "url": "https://www.apple.com/se/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "sg",
+          "local": 199,
+          "display": "S$199",
+          "part": "MGHL4",
+          "at": "2026-10-27T15:28:40.978Z",
+          "url": "https://www.apple.com/sg/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "th",
+          "local": 5200,
+          "display": "฿5,200",
+          "part": "MGHL4",
+          "at": "2026-10-27T15:28:49.077Z",
+          "url": "https://www.apple.com/th/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "tr",
+          "local": 9999,
+          "display": "9.999 TL",
+          "part": "MGHL4",
+          "at": "2026-10-27T15:28:57.027Z",
+          "url": "https://www.apple.com/tr/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "tw",
+          "local": 4790,
+          "display": "NT$4,790",
+          "part": "MGHL4",
+          "at": "2026-10-27T15:29:05.020Z",
+          "url": "https://www.apple.com/tw/shop/buy-homepod/homepod-mini"
+        }
+      ]
+    },
+    {
+      "id": "midnight",
+      "part": "MGHJ4",
+      "specs": {
+        "color": "midnight"
+      },
+      "labels": {
+        "color": "Midnight"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/homepod-mini-select-midnight-202610_FV1?wid=1200&hei=1200&fmt=png-alpha",
+      "label": "Midnight",
+      "prices": [
+        {
+          "code": "us",
+          "local": 149,
+          "display": "$149",
+          "part": "MGHJ4",
+          "at": "2026-10-27T15:22:56.938Z",
+          "url": "https://www.apple.com/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "at",
+          "local": 169,
+          "display": "169 €",
+          "part": "MGHJ4",
+          "at": "2026-10-27T15:23:21.423Z",
+          "url": "https://www.apple.com/at/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "au",
+          "local": 229,
+          "display": "A$229 ",
+          "part": "MGHJ4",
+          "at": "2026-10-27T15:23:28.706Z",
+          "url": "https://www.apple.com/au/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "be",
+          "local": 169,
+          "display": "€ 169",
+          "part": "MGHJ4",
+          "at": "2026-10-27T15:23:36.945Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "ca",
+          "local": 199,
+          "display": "$199",
+          "part": "MGHJ4",
+          "at": "2026-10-27T15:24:00.762Z",
+          "url": "https://www.apple.com/ca/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "ch",
+          "local": 139,
+          "display": "CHF 139.–",
+          "part": "MGHJ4",
+          "at": "2026-10-27T15:24:08.764Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "cl",
+          "local": 179990,
+          "display": "$179.990",
+          "part": "MGHJ4",
+          "at": "2026-10-27T15:24:16.750Z",
+          "url": "https://www.apple.com/cl/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "de",
+          "local": 169,
+          "display": "169 €",
+          "part": "MGHJ4",
+          "at": "2026-10-27T15:24:41.306Z",
+          "url": "https://www.apple.com/de/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "dk",
+          "local": 1299,
+          "display": "1.299 kr.",
+          "part": "MGHJ4",
+          "at": "2026-10-27T15:24:48.824Z",
+          "url": "https://www.apple.com/dk/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "es",
+          "local": 169,
+          "display": "169 € ",
+          "part": "MGHJ4",
+          "at": "2026-10-27T15:24:56.886Z",
+          "url": "https://www.apple.com/es/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "fi",
+          "local": 169,
+          "display": "169 €",
+          "part": "MGHJ4",
+          "at": "2026-10-27T15:25:04.844Z",
+          "url": "https://www.apple.com/fi/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "fr",
+          "local": 169,
+          "display": "169 €",
+          "part": "MGHJ4",
+          "at": "2026-10-27T15:25:12.812Z",
+          "url": "https://www.apple.com/fr/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "gb",
+          "local": 149,
+          "display": "£149",
+          "part": "MGHJ4",
+          "at": "2026-10-27T15:25:20.837Z",
+          "url": "https://www.apple.com/uk/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "hk",
+          "local": 1099,
+          "display": "HK$1,099",
+          "part": "MGHJ4",
+          "at": "2026-10-27T15:25:28.827Z",
+          "url": "https://www.apple.com/hk/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "ie",
+          "local": 169,
+          "display": "€169",
+          "part": "MGHJ4",
+          "at": "2026-10-27T15:25:53.465Z",
+          "url": "https://www.apple.com/ie/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "in",
+          "local": 18900,
+          "display": "₹18900.00",
+          "part": "MGHJ4",
+          "at": "2026-10-27T15:26:00.866Z",
+          "url": "https://www.apple.com/in/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "it",
+          "local": 169,
+          "display": "€ 169 ",
+          "part": "MGHJ4",
+          "at": "2026-10-27T15:26:09.065Z",
+          "url": "https://www.apple.com/it/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "jp",
+          "local": 24800,
+          "display": "24,800円",
+          "part": "MGHJ4",
+          "at": "2026-10-27T15:26:16.897Z",
+          "url": "https://www.apple.com/jp/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "lu",
+          "local": 163.41,
+          "display": "163,41 €",
+          "part": "MGHJ4",
+          "at": "2026-10-27T15:26:40.931Z",
+          "url": "https://www.apple.com/lu/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "mx",
+          "local": 2999,
+          "display": "$2,999",
+          "part": "MGHJ4",
+          "at": "2026-10-27T15:26:48.960Z",
+          "url": "https://www.apple.com/mx/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "my",
+          "local": 649,
+          "display": "RM 649",
+          "part": "MGHJ4",
+          "at": "2026-10-27T15:26:56.973Z",
+          "url": "https://www.apple.com/my/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "nl",
+          "local": 169,
+          "display": "€ 169",
+          "part": "MGHJ4",
+          "at": "2026-10-27T15:27:04.940Z",
+          "url": "https://www.apple.com/nl/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "no",
+          "local": 1790,
+          "display": "kr 1 790",
+          "part": "MGHJ4",
+          "at": "2026-10-27T15:27:12.948Z",
+          "url": "https://www.apple.com/no/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "nz",
+          "local": 299,
+          "display": "NZ$299",
+          "part": "MGHJ4",
+          "at": "2026-10-27T15:27:21.405Z",
+          "url": "https://www.apple.com/nz/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "se",
+          "local": 1895,
+          "display": "1 895 kr",
+          "part": "MGHJ4",
+          "at": "2026-10-27T15:28:33.129Z",
+          "url": "https://www.apple.com/se/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "sg",
+          "local": 199,
+          "display": "S$199",
+          "part": "MGHJ4",
+          "at": "2026-10-27T15:28:40.978Z",
+          "url": "https://www.apple.com/sg/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "th",
+          "local": 5200,
+          "display": "฿5,200",
+          "part": "MGHJ4",
+          "at": "2026-10-27T15:28:49.077Z",
+          "url": "https://www.apple.com/th/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "tr",
+          "local": 9999,
+          "display": "9.999 TL",
+          "part": "MGHJ4",
+          "at": "2026-10-27T15:28:57.027Z",
+          "url": "https://www.apple.com/tr/shop/buy-homepod/homepod-mini"
+        },
+        {
+          "code": "tw",
+          "local": 4790,
+          "display": "NT$4,790",
+          "part": "MGHJ4",
+          "at": "2026-10-27T15:29:05.020Z",
+          "url": "https://www.apple.com/tw/shop/buy-homepod/homepod-mini"
+        }
+      ]
+    }
+  ],
+  "discoveredAt": "2026-10-27T15:22:56.938Z",
+  "defaultVariant": "white",
+  "pricedAt": "2026-10-27T15:29:29.205Z",
+  "failedStores": []
+}

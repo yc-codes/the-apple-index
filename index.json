@@ -5687,7 +5687,219 @@
       "id": "homepod-mini",
       "name": "HomePod mini",
       "category": "TV & Home",
-      "ready": false
+      "ready": true,
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/homepod-mini-select-white-202610_FV1?wid=1200&hei=1200&fmt=png-alpha",
+      "variant": {
+        "id": "white",
+        "label": "White"
+      },
+      "configurations": 5,
+      "prices": [
+        {
+          "code": "us",
+          "local": 149,
+          "display": "$149",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:22:56.938Z"
+        },
+        {
+          "code": "at",
+          "local": 169,
+          "display": "169 €",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:23:21.423Z"
+        },
+        {
+          "code": "au",
+          "local": 229,
+          "display": "A$229 ",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:23:28.706Z"
+        },
+        {
+          "code": "be",
+          "local": 169,
+          "display": "€ 169",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:23:36.945Z"
+        },
+        {
+          "code": "ca",
+          "local": 199,
+          "display": "$199",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:24:00.762Z"
+        },
+        {
+          "code": "ch",
+          "local": 139,
+          "display": "CHF 139.–",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:24:08.764Z"
+        },
+        {
+          "code": "cl",
+          "local": 179990,
+          "display": "$179.990",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:24:16.750Z"
+        },
+        {
+          "code": "de",
+          "local": 169,
+          "display": "169 €",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:24:41.306Z"
+        },
+        {
+          "code": "dk",
+          "local": 1299,
+          "display": "1.299 kr.",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:24:48.824Z"
+        },
+        {
+          "code": "es",
+          "local": 169,
+          "display": "169 € ",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:24:56.886Z"
+        },
+        {
+          "code": "fi",
+          "local": 169,
+          "display": "169 €",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:25:04.844Z"
+        },
+        {
+          "code": "fr",
+          "local": 169,
+          "display": "169 €",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:25:12.812Z"
+        },
+        {
+          "code": "gb",
+          "local": 149,
+          "display": "£149",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:25:20.837Z"
+        },
+        {
+          "code": "hk",
+          "local": 1099,
+          "display": "HK$1,099",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:25:28.827Z"
+        },
+        {
+          "code": "ie",
+          "local": 169,
+          "display": "€169",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:25:53.465Z"
+        },
+        {
+          "code": "in",
+          "local": 18900,
+          "display": "₹18900.00",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:26:00.866Z"
+        },
+        {
+          "code": "it",
+          "local": 169,
+          "display": "€ 169 ",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:26:09.065Z"
+        },
+        {
+          "code": "jp",
+          "local": 24800,
+          "display": "24,800円",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:26:16.897Z"
+        },
+        {
+          "code": "lu",
+          "local": 163.41,
+          "display": "163,41 €",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:26:40.931Z"
+        },
+        {
+          "code": "mx",
+          "local": 2999,
+          "display": "$2,999",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:26:48.960Z"
+        },
+        {
+          "code": "my",
+          "local": 649,
+          "display": "RM 649",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:26:56.973Z"
+        },
+        {
+          "code": "nl",
+          "local": 169,
+          "display": "€ 169",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:27:04.940Z"
+        },
+        {
+          "code": "no",
+          "local": 1790,
+          "display": "kr 1 790",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:27:12.948Z"
+        },
+        {
+          "code": "nz",
+          "local": 299,
+          "display": "NZ$299",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:27:21.405Z"
+        },
+        {
+          "code": "se",
+          "local": 1895,
+          "display": "1 895 kr",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:28:33.129Z"
+        },
+        {
+          "code": "sg",
+          "local": 199,
+          "display": "S$199",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:28:40.978Z"
+        },
+        {
+          "code": "th",
+          "local": 5200,
+          "display": "฿5,200",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:28:49.077Z"
+        },
+        {
+          "code": "tr",
+          "local": 9999,
+          "display": "9.999 TL",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:28:57.027Z"
+        },
+        {
+          "code": "tw",
+          "local": 4790,
+          "display": "NT$4,790",
+          "part": "MGHK4",
+          "at": "2026-10-27T15:29:05.020Z"
+        }
+      ],
+      "pricedAt": "2026-10-27T15:29:29.205Z"
     }
   ]
 }
