@@ -1,0 +1,2559 @@
+{
+  "id": "apple-watch-se",
+  "name": "Apple Watch SE",
+  "category": "Watch",
+  "path": "buy-watch/apple-watch-se",
+  "url": "https://www.apple.com/shop/buy-watch/apple-watch-se",
+  "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/se-case-unselect-gallery-1-202609?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1786074163493",
+  "dimensions": [
+    {
+      "key": "casesize",
+      "name": "Case size",
+      "values": [
+        {
+          "key": "40mm",
+          "label": "40mm"
+        },
+        {
+          "key": "44mm",
+          "label": "44mm"
+        }
+      ]
+    },
+    {
+      "key": "connection",
+      "name": "Connectivity",
+      "values": [
+        {
+          "key": "gps",
+          "label": "GPS"
+        },
+        {
+          "key": "gpscell",
+          "label": "GPS + Cellular"
+        }
+      ]
+    },
+    {
+      "key": "color",
+      "name": "Color",
+      "values": [
+        {
+          "key": "midnight",
+          "label": "Midnight"
+        },
+        {
+          "key": "starlight",
+          "label": "Starlight"
+        }
+      ]
+    }
+  ],
+  "fixed": {
+    "Material": "Aluminum"
+  },
+  "variants": [
+    {
+      "id": "40mm-aluminum-midnight-gps",
+      "part": "MEHX4",
+      "specs": {
+        "casesize": "40mm",
+        "casematerial": "aluminum",
+        "color": "midnight",
+        "connection": "gps"
+      },
+      "labels": {
+        "casesize": "40mm",
+        "casematerial": "Aluminum",
+        "color": "Midnight",
+        "connection": "GPS"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/se-case-unselect-gallery-1-202609?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1786074163493",
+      "label": "40mm · Aluminum · Midnight · GPS",
+      "prices": [
+        {
+          "code": "us",
+          "local": 200,
+          "display": "$200",
+          "part": "MEHX4",
+          "at": "2026-10-27T14:58:07.300Z",
+          "url": "https://www.apple.com/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ae",
+          "local": 800,
+          "display": "AED 800",
+          "part": "MEHX4",
+          "at": "2026-10-27T14:58:15.491Z",
+          "url": "https://www.apple.com/ae/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "at",
+          "local": 220,
+          "display": "220 €",
+          "part": "MEHX4",
+          "at": "2026-10-27T14:58:23.739Z",
+          "url": "https://www.apple.com/at/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "au",
+          "local": 320,
+          "display": "A$320 ",
+          "part": "MEHX4",
+          "at": "2026-10-27T14:58:31.519Z",
+          "url": "https://www.apple.com/au/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "be",
+          "local": 220,
+          "display": "€ 220",
+          "part": "MEHX4",
+          "at": "2026-10-27T14:58:39.742Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ca",
+          "local": 270,
+          "display": "$270",
+          "part": "MEHX4",
+          "at": "2026-10-27T14:59:27.433Z",
+          "url": "https://www.apple.com/ca/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ch",
+          "local": 180,
+          "display": "CHF 180.–",
+          "part": "MEHX4",
+          "at": "2026-10-27T14:59:35.562Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "cl",
+          "local": 240000,
+          "display": "$240.000",
+          "part": "MEHX4",
+          "at": "2026-10-27T14:59:43.598Z",
+          "url": "https://www.apple.com/cl/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "cz",
+          "local": 4700,
+          "display": "4 700 Kč",
+          "part": "MEHX4",
+          "at": "2026-10-27T14:59:51.778Z",
+          "url": "https://www.apple.com/cz/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "de",
+          "local": 220,
+          "display": "220 €",
+          "part": "MEHX4",
+          "at": "2026-10-27T14:59:59.800Z",
+          "url": "https://www.apple.com/de/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "dk",
+          "local": 1600,
+          "display": "1.600 kr.",
+          "part": "MEHX4",
+          "at": "2026-10-27T15:00:07.659Z",
+          "url": "https://www.apple.com/dk/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "es",
+          "local": 220,
+          "display": "220 € ",
+          "part": "MEHX4",
+          "at": "2026-10-27T15:00:15.693Z",
+          "url": "https://www.apple.com/es/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "fi",
+          "local": 230,
+          "display": "230 €",
+          "part": "MEHX4",
+          "at": "2026-10-27T15:00:23.724Z",
+          "url": "https://www.apple.com/fi/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "fr",
+          "local": 220,
+          "display": "220 €",
+          "part": "MEHX4",
+          "at": "2026-10-27T15:00:31.659Z",
+          "url": "https://www.apple.com/fr/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "gb",
+          "local": 170,
+          "display": "£170",
+          "part": "MEHX4",
+          "at": "2026-10-27T15:00:39.767Z",
+          "url": "https://www.apple.com/uk/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "hk",
+          "local": 1620,
+          "display": "HK$1,620",
+          "part": "MEHX4",
+          "at": "2026-10-27T15:00:47.810Z",
+          "url": "https://www.apple.com/hk/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "hu",
+          "local": 80000,
+          "display": "80 000 Ft",
+          "part": "MEHX4",
+          "at": "2026-10-27T15:00:55.791Z",
+          "url": "https://www.apple.com/hu/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ie",
+          "local": 220,
+          "display": "€220",
+          "part": "MEHX4",
+          "at": "2026-10-27T15:01:03.761Z",
+          "url": "https://www.apple.com/ie/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "it",
+          "local": 230,
+          "display": "€ 230 ",
+          "part": "MEHX4",
+          "at": "2026-10-27T15:01:27.468Z",
+          "url": "https://www.apple.com/it/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "jp",
+          "local": 34000,
+          "display": "34,000円",
+          "part": "MEHX4",
+          "at": "2026-10-27T15:01:35.976Z",
+          "url": "https://www.apple.com/jp/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "kr",
+          "local": 294000,
+          "display": "₩294,000",
+          "part": "MEHX4",
+          "at": "2026-10-27T15:01:43.692Z",
+          "url": "https://www.apple.com/kr/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "lu",
+          "local": 212.73,
+          "display": "212,73 €",
+          "part": "MEHX4",
+          "at": "2026-10-27T15:01:51.738Z",
+          "url": "https://www.apple.com/lu/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "mx",
+          "local": 4400,
+          "display": "$4,400",
+          "part": "MEHX4",
+          "at": "2026-10-27T15:02:10.821Z",
+          "url": "https://www.apple.com/mx/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "my",
+          "local": 850,
+          "display": "RM 850",
+          "part": "MEHX4",
+          "at": "2026-10-27T15:02:15.746Z",
+          "url": "https://www.apple.com/my/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "nl",
+          "local": 220,
+          "display": "€ 220",
+          "part": "MEHX4",
+          "at": "2026-10-27T15:02:23.699Z",
+          "url": "https://www.apple.com/nl/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "no",
+          "local": 2400,
+          "display": "kr 2 400",
+          "part": "MEHX4",
+          "at": "2026-10-27T15:02:31.801Z",
+          "url": "https://www.apple.com/no/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "nz",
+          "local": 380,
+          "display": "NZ$380",
+          "part": "MEHX4",
+          "at": "2026-10-27T15:02:39.823Z",
+          "url": "https://www.apple.com/nz/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ph",
+          "local": 15000,
+          "display": "₱15,000",
+          "part": "MEHX4",
+          "at": "2026-10-27T15:02:47.921Z",
+          "url": "https://www.apple.com/ph/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "pl",
+          "local": 900,
+          "display": "900 zł",
+          "part": "MEHX4",
+          "at": "2026-10-27T15:02:55.713Z",
+          "url": "https://www.apple.com/pl/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "pt",
+          "local": 230,
+          "display": "230 €",
+          "part": "MEHX4",
+          "at": "2026-10-27T15:03:03.771Z",
+          "url": "https://www.apple.com/pt/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "sa",
+          "local": 900,
+          "display": "SAR 900",
+          "part": "MEHX4",
+          "at": "2026-10-27T15:03:11.726Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "se",
+          "local": 2400,
+          "display": "2 400 kr",
+          "part": "MEHX4",
+          "at": "2026-10-27T15:03:19.742Z",
+          "url": "https://www.apple.com/se/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "sg",
+          "local": 280,
+          "display": "S$280",
+          "part": "MEHX4",
+          "at": "2026-10-27T15:03:27.823Z",
+          "url": "https://www.apple.com/sg/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "th",
+          "local": 6700,
+          "display": "฿6,700",
+          "part": "MEHX4",
+          "at": "2026-10-27T15:03:35.855Z",
+          "url": "https://www.apple.com/th/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "tr",
+          "local": 14500,
+          "display": "14.500 TL",
+          "part": "MEHX4",
+          "at": "2026-10-27T15:03:43.802Z",
+          "url": "https://www.apple.com/tr/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "tw",
+          "local": 6300,
+          "display": "NT$6,300",
+          "part": "MEHX4",
+          "at": "2026-10-27T15:03:52.047Z",
+          "url": "https://www.apple.com/tw/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "vn",
+          "local": 5500000,
+          "display": "5.500.000đ",
+          "part": "MEHX4",
+          "at": "2026-10-27T15:03:59.920Z",
+          "url": "https://www.apple.com/vn/shop/buy-watch/apple-watch-se"
+        }
+      ]
+    },
+    {
+      "id": "40mm-aluminum-midnight-gps-cellular",
+      "part": "MEQ24",
+      "specs": {
+        "casesize": "40mm",
+        "casematerial": "aluminum",
+        "color": "midnight",
+        "connection": "gpscell"
+      },
+      "labels": {
+        "casesize": "40mm",
+        "casematerial": "Aluminum",
+        "color": "Midnight",
+        "connection": "GPS + Cellular"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/se-case-unselect-gallery-1-202609?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1786074163493",
+      "label": "40mm · Aluminum · Midnight · GPS + Cellular",
+      "prices": [
+        {
+          "code": "us",
+          "local": 250,
+          "display": "$250",
+          "part": "MEQ24",
+          "at": "2026-10-27T14:58:07.300Z",
+          "url": "https://www.apple.com/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ae",
+          "local": 1000,
+          "display": "AED 1,000",
+          "part": "MEQ24",
+          "at": "2026-10-27T14:58:15.491Z",
+          "url": "https://www.apple.com/ae/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "at",
+          "local": 270,
+          "display": "270 €",
+          "part": "MEQ24",
+          "at": "2026-10-27T14:58:23.739Z",
+          "url": "https://www.apple.com/at/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "au",
+          "local": 410,
+          "display": "A$410 ",
+          "part": "MEQ24",
+          "at": "2026-10-27T14:58:31.519Z",
+          "url": "https://www.apple.com/au/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "be",
+          "local": 270,
+          "display": "€ 270",
+          "part": "MEQ24",
+          "at": "2026-10-27T14:58:39.742Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ca",
+          "local": 340,
+          "display": "$340",
+          "part": "MEQ24",
+          "at": "2026-10-27T14:59:27.433Z",
+          "url": "https://www.apple.com/ca/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ch",
+          "local": 230,
+          "display": "CHF 230.–",
+          "part": "MEQ24",
+          "at": "2026-10-27T14:59:35.562Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "cl",
+          "local": 300000,
+          "display": "$300.000",
+          "part": "MEQ24",
+          "at": "2026-10-27T14:59:43.598Z",
+          "url": "https://www.apple.com/cl/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "cz",
+          "local": 6200,
+          "display": "6 200 Kč",
+          "part": "MEQ24",
+          "at": "2026-10-27T14:59:51.778Z",
+          "url": "https://www.apple.com/cz/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "de",
+          "local": 270,
+          "display": "270 €",
+          "part": "MEQ24",
+          "at": "2026-10-27T14:59:59.800Z",
+          "url": "https://www.apple.com/de/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "dk",
+          "local": 2050,
+          "display": "2.050 kr.",
+          "part": "MEQ24",
+          "at": "2026-10-27T15:00:07.659Z",
+          "url": "https://www.apple.com/dk/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "es",
+          "local": 270,
+          "display": "270 € ",
+          "part": "MEQ24",
+          "at": "2026-10-27T15:00:15.693Z",
+          "url": "https://www.apple.com/es/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "fi",
+          "local": 280,
+          "display": "280 €",
+          "part": "MEQ24",
+          "at": "2026-10-27T15:00:23.724Z",
+          "url": "https://www.apple.com/fi/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "fr",
+          "local": 270,
+          "display": "270 €",
+          "part": "MEQ24",
+          "at": "2026-10-27T15:00:31.659Z",
+          "url": "https://www.apple.com/fr/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "gb",
+          "local": 240,
+          "display": "£240",
+          "part": "MEQ24",
+          "at": "2026-10-27T15:00:39.767Z",
+          "url": "https://www.apple.com/uk/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "hk",
+          "local": 2020,
+          "display": "HK$2,020",
+          "part": "MEQ24",
+          "at": "2026-10-27T15:00:47.810Z",
+          "url": "https://www.apple.com/hk/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "hu",
+          "local": 105000,
+          "display": "105 000 Ft",
+          "part": "MEQ24",
+          "at": "2026-10-27T15:00:55.791Z",
+          "url": "https://www.apple.com/hu/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ie",
+          "local": 270,
+          "display": "€270",
+          "part": "MEQ24",
+          "at": "2026-10-27T15:01:03.761Z",
+          "url": "https://www.apple.com/ie/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "it",
+          "local": 280,
+          "display": "€ 280 ",
+          "part": "MEQ24",
+          "at": "2026-10-27T15:01:27.468Z",
+          "url": "https://www.apple.com/it/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "jp",
+          "local": 43000,
+          "display": "43,000円",
+          "part": "MEQ24",
+          "at": "2026-10-27T15:01:35.976Z",
+          "url": "https://www.apple.com/jp/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "kr",
+          "local": 364000,
+          "display": "₩364,000",
+          "part": "MEQ24",
+          "at": "2026-10-27T15:01:43.692Z",
+          "url": "https://www.apple.com/kr/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "mx",
+          "local": 5650,
+          "display": "$5,650",
+          "part": "MEQ24",
+          "at": "2026-10-27T15:02:10.821Z",
+          "url": "https://www.apple.com/mx/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "my",
+          "local": 1100,
+          "display": "RM 1,100",
+          "part": "MEQ24",
+          "at": "2026-10-27T15:02:15.746Z",
+          "url": "https://www.apple.com/my/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "nl",
+          "local": 270,
+          "display": "€ 270",
+          "part": "MEQ24",
+          "at": "2026-10-27T15:02:23.699Z",
+          "url": "https://www.apple.com/nl/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "no",
+          "local": 3100,
+          "display": "kr 3 100",
+          "part": "MEQ24",
+          "at": "2026-10-27T15:02:31.801Z",
+          "url": "https://www.apple.com/no/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "nz",
+          "local": 480,
+          "display": "NZ$480",
+          "part": "MEQ24",
+          "at": "2026-10-27T15:02:39.823Z",
+          "url": "https://www.apple.com/nz/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ph",
+          "local": 18000,
+          "display": "₱18,000",
+          "part": "MEQ24",
+          "at": "2026-10-27T15:02:47.921Z",
+          "url": "https://www.apple.com/ph/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "pl",
+          "local": 1200,
+          "display": "1200 zł",
+          "part": "MEQ24",
+          "at": "2026-10-27T15:02:55.713Z",
+          "url": "https://www.apple.com/pl/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "pt",
+          "local": 280,
+          "display": "280 €",
+          "part": "MEQ24",
+          "at": "2026-10-27T15:03:03.771Z",
+          "url": "https://www.apple.com/pt/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "sa",
+          "local": 1120,
+          "display": "SAR 1,120",
+          "part": "MEQ24",
+          "at": "2026-10-27T15:03:11.726Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "se",
+          "local": 3000,
+          "display": "3 000 kr",
+          "part": "MEQ24",
+          "at": "2026-10-27T15:03:19.742Z",
+          "url": "https://www.apple.com/se/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "sg",
+          "local": 350,
+          "display": "S$350",
+          "part": "MEQ24",
+          "at": "2026-10-27T15:03:27.823Z",
+          "url": "https://www.apple.com/sg/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "th",
+          "local": 8700,
+          "display": "฿8,700",
+          "part": "MEQ24",
+          "at": "2026-10-27T15:03:35.855Z",
+          "url": "https://www.apple.com/th/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "tr",
+          "local": 30500,
+          "display": "30.500 TL",
+          "part": "MEQ24",
+          "at": "2026-10-27T15:03:43.802Z",
+          "url": "https://www.apple.com/tr/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "tw",
+          "local": 7800,
+          "display": "NT$7,800",
+          "part": "MEQ24",
+          "at": "2026-10-27T15:03:52.047Z",
+          "url": "https://www.apple.com/tw/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "vn",
+          "local": 7000000,
+          "display": "7.000.000đ",
+          "part": "MEQ24",
+          "at": "2026-10-27T15:03:59.920Z",
+          "url": "https://www.apple.com/vn/shop/buy-watch/apple-watch-se"
+        }
+      ]
+    },
+    {
+      "id": "44mm-aluminum-midnight-gps-cellular",
+      "part": "MEQ44",
+      "specs": {
+        "casesize": "44mm",
+        "casematerial": "aluminum",
+        "color": "midnight",
+        "connection": "gpscell"
+      },
+      "labels": {
+        "casesize": "44mm",
+        "casematerial": "Aluminum",
+        "color": "Midnight",
+        "connection": "GPS + Cellular"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/se-case-unselect-gallery-1-202609?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1786074163493",
+      "label": "44mm · Aluminum · Midnight · GPS + Cellular",
+      "prices": [
+        {
+          "code": "us",
+          "local": 280,
+          "display": "$280",
+          "part": "MEQ44",
+          "at": "2026-10-27T14:58:07.300Z",
+          "url": "https://www.apple.com/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ae",
+          "local": 1120,
+          "display": "AED 1,120",
+          "part": "MEQ44",
+          "at": "2026-10-27T14:58:15.491Z",
+          "url": "https://www.apple.com/ae/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "at",
+          "local": 300,
+          "display": "300 €",
+          "part": "MEQ44",
+          "at": "2026-10-27T14:58:23.739Z",
+          "url": "https://www.apple.com/at/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "au",
+          "local": 460,
+          "display": "A$460 ",
+          "part": "MEQ44",
+          "at": "2026-10-27T14:58:31.519Z",
+          "url": "https://www.apple.com/au/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "be",
+          "local": 300,
+          "display": "€ 300",
+          "part": "MEQ44",
+          "at": "2026-10-27T14:58:39.742Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ca",
+          "local": 380,
+          "display": "$380",
+          "part": "MEQ44",
+          "at": "2026-10-27T14:59:27.433Z",
+          "url": "https://www.apple.com/ca/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ch",
+          "local": 260,
+          "display": "CHF 260.–",
+          "part": "MEQ44",
+          "at": "2026-10-27T14:59:35.562Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "cl",
+          "local": 334000,
+          "display": "$334.000",
+          "part": "MEQ44",
+          "at": "2026-10-27T14:59:43.598Z",
+          "url": "https://www.apple.com/cl/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "cz",
+          "local": 7000,
+          "display": "7 000 Kč",
+          "part": "MEQ44",
+          "at": "2026-10-27T14:59:51.778Z",
+          "url": "https://www.apple.com/cz/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "de",
+          "local": 300,
+          "display": "300 €",
+          "part": "MEQ44",
+          "at": "2026-10-27T14:59:59.800Z",
+          "url": "https://www.apple.com/de/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "dk",
+          "local": 2350,
+          "display": "2.350 kr.",
+          "part": "MEQ44",
+          "at": "2026-10-27T15:00:07.659Z",
+          "url": "https://www.apple.com/dk/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "es",
+          "local": 300,
+          "display": "300 € ",
+          "part": "MEQ44",
+          "at": "2026-10-27T15:00:15.693Z",
+          "url": "https://www.apple.com/es/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "fi",
+          "local": 310,
+          "display": "310 €",
+          "part": "MEQ44",
+          "at": "2026-10-27T15:00:23.724Z",
+          "url": "https://www.apple.com/fi/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "fr",
+          "local": 300,
+          "display": "300 €",
+          "part": "MEQ44",
+          "at": "2026-10-27T15:00:31.659Z",
+          "url": "https://www.apple.com/fr/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "gb",
+          "local": 270,
+          "display": "£270",
+          "part": "MEQ44",
+          "at": "2026-10-27T15:00:39.767Z",
+          "url": "https://www.apple.com/uk/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "hk",
+          "local": 2220,
+          "display": "HK$2,220",
+          "part": "MEQ44",
+          "at": "2026-10-27T15:00:47.810Z",
+          "url": "https://www.apple.com/hk/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "hu",
+          "local": 120000,
+          "display": "120 000 Ft",
+          "part": "MEQ44",
+          "at": "2026-10-27T15:00:55.791Z",
+          "url": "https://www.apple.com/hu/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ie",
+          "local": 300,
+          "display": "€300",
+          "part": "MEQ44",
+          "at": "2026-10-27T15:01:03.761Z",
+          "url": "https://www.apple.com/ie/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "it",
+          "local": 310,
+          "display": "€ 310 ",
+          "part": "MEQ44",
+          "at": "2026-10-27T15:01:27.468Z",
+          "url": "https://www.apple.com/it/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "jp",
+          "local": 48000,
+          "display": "48,000円",
+          "part": "MEQ44",
+          "at": "2026-10-27T15:01:35.976Z",
+          "url": "https://www.apple.com/jp/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "kr",
+          "local": 404000,
+          "display": "₩404,000",
+          "part": "MEQ44",
+          "at": "2026-10-27T15:01:43.692Z",
+          "url": "https://www.apple.com/kr/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "mx",
+          "local": 6400,
+          "display": "$6,400",
+          "part": "MEQ44",
+          "at": "2026-10-27T15:02:10.821Z",
+          "url": "https://www.apple.com/mx/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "my",
+          "local": 1250,
+          "display": "RM 1,250",
+          "part": "MEQ44",
+          "at": "2026-10-27T15:02:15.746Z",
+          "url": "https://www.apple.com/my/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "nl",
+          "local": 300,
+          "display": "€ 300",
+          "part": "MEQ44",
+          "at": "2026-10-27T15:02:23.699Z",
+          "url": "https://www.apple.com/nl/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "no",
+          "local": 3500,
+          "display": "kr 3 500",
+          "part": "MEQ44",
+          "at": "2026-10-27T15:02:31.801Z",
+          "url": "https://www.apple.com/no/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "nz",
+          "local": 540,
+          "display": "NZ$540",
+          "part": "MEQ44",
+          "at": "2026-10-27T15:02:39.823Z",
+          "url": "https://www.apple.com/nz/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ph",
+          "local": 20000,
+          "display": "₱20,000",
+          "part": "MEQ44",
+          "at": "2026-10-27T15:02:47.921Z",
+          "url": "https://www.apple.com/ph/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "pl",
+          "local": 1400,
+          "display": "1400 zł",
+          "part": "MEQ44",
+          "at": "2026-10-27T15:02:55.713Z",
+          "url": "https://www.apple.com/pl/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "pt",
+          "local": 310,
+          "display": "310 €",
+          "part": "MEQ44",
+          "at": "2026-10-27T15:03:03.771Z",
+          "url": "https://www.apple.com/pt/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "sa",
+          "local": 1250,
+          "display": "SAR 1,250",
+          "part": "MEQ44",
+          "at": "2026-10-27T15:03:11.726Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "se",
+          "local": 3400,
+          "display": "3 400 kr",
+          "part": "MEQ44",
+          "at": "2026-10-27T15:03:19.742Z",
+          "url": "https://www.apple.com/se/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "sg",
+          "local": 390,
+          "display": "S$390",
+          "part": "MEQ44",
+          "at": "2026-10-27T15:03:27.823Z",
+          "url": "https://www.apple.com/sg/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "th",
+          "local": 9700,
+          "display": "฿9,700",
+          "part": "MEQ44",
+          "at": "2026-10-27T15:03:35.855Z",
+          "url": "https://www.apple.com/th/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "tr",
+          "local": 32300,
+          "display": "32.300 TL",
+          "part": "MEQ44",
+          "at": "2026-10-27T15:03:43.802Z",
+          "url": "https://www.apple.com/tr/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "tw",
+          "local": 8800,
+          "display": "NT$8,800",
+          "part": "MEQ44",
+          "at": "2026-10-27T15:03:52.047Z",
+          "url": "https://www.apple.com/tw/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "vn",
+          "local": 7850000,
+          "display": "7.850.000đ",
+          "part": "MEQ44",
+          "at": "2026-10-27T15:03:59.920Z",
+          "url": "https://www.apple.com/vn/shop/buy-watch/apple-watch-se"
+        }
+      ]
+    },
+    {
+      "id": "40mm-aluminum-starlight-gps-cellular",
+      "part": "MEQ14",
+      "specs": {
+        "casesize": "40mm",
+        "casematerial": "aluminum",
+        "color": "starlight",
+        "connection": "gpscell"
+      },
+      "labels": {
+        "casesize": "40mm",
+        "casematerial": "Aluminum",
+        "color": "Starlight",
+        "connection": "GPS + Cellular"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/se-case-unselect-gallery-1-202609?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1786074163493",
+      "label": "40mm · Aluminum · Starlight · GPS + Cellular",
+      "prices": [
+        {
+          "code": "us",
+          "local": 250,
+          "display": "$250",
+          "part": "MEQ14",
+          "at": "2026-10-27T14:58:07.300Z",
+          "url": "https://www.apple.com/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ae",
+          "local": 1000,
+          "display": "AED 1,000",
+          "part": "MEQ14",
+          "at": "2026-10-27T14:58:15.491Z",
+          "url": "https://www.apple.com/ae/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "at",
+          "local": 270,
+          "display": "270 €",
+          "part": "MEQ14",
+          "at": "2026-10-27T14:58:23.739Z",
+          "url": "https://www.apple.com/at/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "au",
+          "local": 410,
+          "display": "A$410 ",
+          "part": "MEQ14",
+          "at": "2026-10-27T14:58:31.519Z",
+          "url": "https://www.apple.com/au/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "be",
+          "local": 270,
+          "display": "€ 270",
+          "part": "MEQ14",
+          "at": "2026-10-27T14:58:39.742Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ca",
+          "local": 340,
+          "display": "$340",
+          "part": "MEQ14",
+          "at": "2026-10-27T14:59:27.433Z",
+          "url": "https://www.apple.com/ca/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ch",
+          "local": 230,
+          "display": "CHF 230.–",
+          "part": "MEQ14",
+          "at": "2026-10-27T14:59:35.562Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "cl",
+          "local": 300000,
+          "display": "$300.000",
+          "part": "MEQ14",
+          "at": "2026-10-27T14:59:43.598Z",
+          "url": "https://www.apple.com/cl/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "cz",
+          "local": 6200,
+          "display": "6 200 Kč",
+          "part": "MEQ14",
+          "at": "2026-10-27T14:59:51.778Z",
+          "url": "https://www.apple.com/cz/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "de",
+          "local": 270,
+          "display": "270 €",
+          "part": "MEQ14",
+          "at": "2026-10-27T14:59:59.800Z",
+          "url": "https://www.apple.com/de/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "dk",
+          "local": 2050,
+          "display": "2.050 kr.",
+          "part": "MEQ14",
+          "at": "2026-10-27T15:00:07.659Z",
+          "url": "https://www.apple.com/dk/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "es",
+          "local": 270,
+          "display": "270 € ",
+          "part": "MEQ14",
+          "at": "2026-10-27T15:00:15.693Z",
+          "url": "https://www.apple.com/es/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "fi",
+          "local": 280,
+          "display": "280 €",
+          "part": "MEQ14",
+          "at": "2026-10-27T15:00:23.724Z",
+          "url": "https://www.apple.com/fi/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "fr",
+          "local": 270,
+          "display": "270 €",
+          "part": "MEQ14",
+          "at": "2026-10-27T15:00:31.659Z",
+          "url": "https://www.apple.com/fr/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "gb",
+          "local": 240,
+          "display": "£240",
+          "part": "MEQ14",
+          "at": "2026-10-27T15:00:39.767Z",
+          "url": "https://www.apple.com/uk/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "hk",
+          "local": 2020,
+          "display": "HK$2,020",
+          "part": "MEQ14",
+          "at": "2026-10-27T15:00:47.810Z",
+          "url": "https://www.apple.com/hk/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "hu",
+          "local": 105000,
+          "display": "105 000 Ft",
+          "part": "MEQ14",
+          "at": "2026-10-27T15:00:55.791Z",
+          "url": "https://www.apple.com/hu/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ie",
+          "local": 270,
+          "display": "€270",
+          "part": "MEQ14",
+          "at": "2026-10-27T15:01:03.761Z",
+          "url": "https://www.apple.com/ie/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "it",
+          "local": 280,
+          "display": "€ 280 ",
+          "part": "MEQ14",
+          "at": "2026-10-27T15:01:27.468Z",
+          "url": "https://www.apple.com/it/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "jp",
+          "local": 43000,
+          "display": "43,000円",
+          "part": "MEQ14",
+          "at": "2026-10-27T15:01:35.976Z",
+          "url": "https://www.apple.com/jp/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "kr",
+          "local": 364000,
+          "display": "₩364,000",
+          "part": "MEQ14",
+          "at": "2026-10-27T15:01:43.692Z",
+          "url": "https://www.apple.com/kr/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "mx",
+          "local": 5650,
+          "display": "$5,650",
+          "part": "MEQ14",
+          "at": "2026-10-27T15:02:10.821Z",
+          "url": "https://www.apple.com/mx/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "my",
+          "local": 1100,
+          "display": "RM 1,100",
+          "part": "MEQ14",
+          "at": "2026-10-27T15:02:15.746Z",
+          "url": "https://www.apple.com/my/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "nl",
+          "local": 270,
+          "display": "€ 270",
+          "part": "MEQ14",
+          "at": "2026-10-27T15:02:23.699Z",
+          "url": "https://www.apple.com/nl/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "no",
+          "local": 3100,
+          "display": "kr 3 100",
+          "part": "MEQ14",
+          "at": "2026-10-27T15:02:31.801Z",
+          "url": "https://www.apple.com/no/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "nz",
+          "local": 480,
+          "display": "NZ$480",
+          "part": "MEQ14",
+          "at": "2026-10-27T15:02:39.823Z",
+          "url": "https://www.apple.com/nz/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ph",
+          "local": 18000,
+          "display": "₱18,000",
+          "part": "MEQ14",
+          "at": "2026-10-27T15:02:47.921Z",
+          "url": "https://www.apple.com/ph/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "pl",
+          "local": 1200,
+          "display": "1200 zł",
+          "part": "MEQ14",
+          "at": "2026-10-27T15:02:55.713Z",
+          "url": "https://www.apple.com/pl/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "pt",
+          "local": 280,
+          "display": "280 €",
+          "part": "MEQ14",
+          "at": "2026-10-27T15:03:03.771Z",
+          "url": "https://www.apple.com/pt/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "sa",
+          "local": 1120,
+          "display": "SAR 1,120",
+          "part": "MEQ14",
+          "at": "2026-10-27T15:03:11.726Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "se",
+          "local": 3000,
+          "display": "3 000 kr",
+          "part": "MEQ14",
+          "at": "2026-10-27T15:03:19.742Z",
+          "url": "https://www.apple.com/se/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "sg",
+          "local": 350,
+          "display": "S$350",
+          "part": "MEQ14",
+          "at": "2026-10-27T15:03:27.823Z",
+          "url": "https://www.apple.com/sg/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "th",
+          "local": 8700,
+          "display": "฿8,700",
+          "part": "MEQ14",
+          "at": "2026-10-27T15:03:35.855Z",
+          "url": "https://www.apple.com/th/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "tr",
+          "local": 30500,
+          "display": "30.500 TL",
+          "part": "MEQ14",
+          "at": "2026-10-27T15:03:43.802Z",
+          "url": "https://www.apple.com/tr/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "tw",
+          "local": 7800,
+          "display": "NT$7,800",
+          "part": "MEQ14",
+          "at": "2026-10-27T15:03:52.047Z",
+          "url": "https://www.apple.com/tw/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "vn",
+          "local": 7000000,
+          "display": "7.000.000đ",
+          "part": "MEQ14",
+          "at": "2026-10-27T15:03:59.920Z",
+          "url": "https://www.apple.com/vn/shop/buy-watch/apple-watch-se"
+        }
+      ]
+    },
+    {
+      "id": "44mm-aluminum-midnight-gps",
+      "part": "MEP34",
+      "specs": {
+        "casesize": "44mm",
+        "casematerial": "aluminum",
+        "color": "midnight",
+        "connection": "gps"
+      },
+      "labels": {
+        "casesize": "44mm",
+        "casematerial": "Aluminum",
+        "color": "Midnight",
+        "connection": "GPS"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/se-case-unselect-gallery-1-202609?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1786074163493",
+      "label": "44mm · Aluminum · Midnight · GPS",
+      "prices": [
+        {
+          "code": "us",
+          "local": 230,
+          "display": "$230",
+          "part": "MEP34",
+          "at": "2026-10-27T14:58:07.300Z",
+          "url": "https://www.apple.com/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ae",
+          "local": 920,
+          "display": "AED 920",
+          "part": "MEP34",
+          "at": "2026-10-27T14:58:15.491Z",
+          "url": "https://www.apple.com/ae/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "at",
+          "local": 250,
+          "display": "250 €",
+          "part": "MEP34",
+          "at": "2026-10-27T14:58:23.739Z",
+          "url": "https://www.apple.com/at/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "au",
+          "local": 370,
+          "display": "A$370 ",
+          "part": "MEP34",
+          "at": "2026-10-27T14:58:31.519Z",
+          "url": "https://www.apple.com/au/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "be",
+          "local": 250,
+          "display": "€ 250",
+          "part": "MEP34",
+          "at": "2026-10-27T14:58:39.742Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ca",
+          "local": 310,
+          "display": "$310",
+          "part": "MEP34",
+          "at": "2026-10-27T14:59:27.433Z",
+          "url": "https://www.apple.com/ca/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ch",
+          "local": 210,
+          "display": "CHF 210.–",
+          "part": "MEP34",
+          "at": "2026-10-27T14:59:35.562Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "cl",
+          "local": 274000,
+          "display": "$274.000",
+          "part": "MEP34",
+          "at": "2026-10-27T14:59:43.598Z",
+          "url": "https://www.apple.com/cl/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "cz",
+          "local": 5500,
+          "display": "5 500 Kč",
+          "part": "MEP34",
+          "at": "2026-10-27T14:59:51.778Z",
+          "url": "https://www.apple.com/cz/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "de",
+          "local": 250,
+          "display": "250 €",
+          "part": "MEP34",
+          "at": "2026-10-27T14:59:59.800Z",
+          "url": "https://www.apple.com/de/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "dk",
+          "local": 1900,
+          "display": "1.900 kr.",
+          "part": "MEP34",
+          "at": "2026-10-27T15:00:07.659Z",
+          "url": "https://www.apple.com/dk/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "es",
+          "local": 250,
+          "display": "250 € ",
+          "part": "MEP34",
+          "at": "2026-10-27T15:00:15.693Z",
+          "url": "https://www.apple.com/es/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "fi",
+          "local": 260,
+          "display": "260 €",
+          "part": "MEP34",
+          "at": "2026-10-27T15:00:23.724Z",
+          "url": "https://www.apple.com/fi/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "fr",
+          "local": 250,
+          "display": "250 €",
+          "part": "MEP34",
+          "at": "2026-10-27T15:00:31.659Z",
+          "url": "https://www.apple.com/fr/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "gb",
+          "local": 200,
+          "display": "£200",
+          "part": "MEP34",
+          "at": "2026-10-27T15:00:39.767Z",
+          "url": "https://www.apple.com/uk/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "hk",
+          "local": 1820,
+          "display": "HK$1,820",
+          "part": "MEP34",
+          "at": "2026-10-27T15:00:47.810Z",
+          "url": "https://www.apple.com/hk/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "hu",
+          "local": 95000,
+          "display": "95 000 Ft",
+          "part": "MEP34",
+          "at": "2026-10-27T15:00:55.791Z",
+          "url": "https://www.apple.com/hu/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ie",
+          "local": 250,
+          "display": "€250",
+          "part": "MEP34",
+          "at": "2026-10-27T15:01:03.761Z",
+          "url": "https://www.apple.com/ie/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "it",
+          "local": 260,
+          "display": "€ 260 ",
+          "part": "MEP34",
+          "at": "2026-10-27T15:01:27.468Z",
+          "url": "https://www.apple.com/it/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "jp",
+          "local": 39000,
+          "display": "39,000円",
+          "part": "MEP34",
+          "at": "2026-10-27T15:01:35.976Z",
+          "url": "https://www.apple.com/jp/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "kr",
+          "local": 334000,
+          "display": "₩334,000",
+          "part": "MEP34",
+          "at": "2026-10-27T15:01:43.692Z",
+          "url": "https://www.apple.com/kr/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "lu",
+          "local": 241.73,
+          "display": "241,73 €",
+          "part": "MEP34",
+          "at": "2026-10-27T15:01:51.738Z",
+          "url": "https://www.apple.com/lu/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "mx",
+          "local": 5150,
+          "display": "$5,150",
+          "part": "MEP34",
+          "at": "2026-10-27T15:02:10.821Z",
+          "url": "https://www.apple.com/mx/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "my",
+          "local": 1000,
+          "display": "RM 1,000",
+          "part": "MEP34",
+          "at": "2026-10-27T15:02:15.746Z",
+          "url": "https://www.apple.com/my/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "nl",
+          "local": 250,
+          "display": "€ 250",
+          "part": "MEP34",
+          "at": "2026-10-27T15:02:23.699Z",
+          "url": "https://www.apple.com/nl/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "no",
+          "local": 2800,
+          "display": "kr 2 800",
+          "part": "MEP34",
+          "at": "2026-10-27T15:02:31.801Z",
+          "url": "https://www.apple.com/no/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "nz",
+          "local": 440,
+          "display": "NZ$440",
+          "part": "MEP34",
+          "at": "2026-10-27T15:02:39.823Z",
+          "url": "https://www.apple.com/nz/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ph",
+          "local": 17000,
+          "display": "₱17,000",
+          "part": "MEP34",
+          "at": "2026-10-27T15:02:47.921Z",
+          "url": "https://www.apple.com/ph/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "pl",
+          "local": 1100,
+          "display": "1100 zł",
+          "part": "MEP34",
+          "at": "2026-10-27T15:02:55.713Z",
+          "url": "https://www.apple.com/pl/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "pt",
+          "local": 260,
+          "display": "260 €",
+          "part": "MEP34",
+          "at": "2026-10-27T15:03:03.771Z",
+          "url": "https://www.apple.com/pt/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "sa",
+          "local": 1030,
+          "display": "SAR 1,030",
+          "part": "MEP34",
+          "at": "2026-10-27T15:03:11.726Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "se",
+          "local": 2800,
+          "display": "2 800 kr",
+          "part": "MEP34",
+          "at": "2026-10-27T15:03:19.742Z",
+          "url": "https://www.apple.com/se/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "sg",
+          "local": 320,
+          "display": "S$320",
+          "part": "MEP34",
+          "at": "2026-10-27T15:03:27.823Z",
+          "url": "https://www.apple.com/sg/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "th",
+          "local": 7700,
+          "display": "฿7,700",
+          "part": "MEP34",
+          "at": "2026-10-27T15:03:35.855Z",
+          "url": "https://www.apple.com/th/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "tr",
+          "local": 16300,
+          "display": "16.300 TL",
+          "part": "MEP34",
+          "at": "2026-10-27T15:03:43.802Z",
+          "url": "https://www.apple.com/tr/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "tw",
+          "local": 7300,
+          "display": "NT$7,300",
+          "part": "MEP34",
+          "at": "2026-10-27T15:03:52.047Z",
+          "url": "https://www.apple.com/tw/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "vn",
+          "local": 6350000,
+          "display": "6.350.000đ",
+          "part": "MEP34",
+          "at": "2026-10-27T15:03:59.920Z",
+          "url": "https://www.apple.com/vn/shop/buy-watch/apple-watch-se"
+        }
+      ]
+    },
+    {
+      "id": "40mm-aluminum-starlight-gps",
+      "part": "MEHV4",
+      "specs": {
+        "casesize": "40mm",
+        "casematerial": "aluminum",
+        "color": "starlight",
+        "connection": "gps"
+      },
+      "labels": {
+        "casesize": "40mm",
+        "casematerial": "Aluminum",
+        "color": "Starlight",
+        "connection": "GPS"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/se-case-unselect-gallery-1-202609?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1786074163493",
+      "label": "40mm · Aluminum · Starlight · GPS",
+      "prices": [
+        {
+          "code": "us",
+          "local": 200,
+          "display": "$200",
+          "part": "MEHV4",
+          "at": "2026-10-27T14:58:07.300Z",
+          "url": "https://www.apple.com/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ae",
+          "local": 800,
+          "display": "AED 800",
+          "part": "MEHV4",
+          "at": "2026-10-27T14:58:15.491Z",
+          "url": "https://www.apple.com/ae/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "at",
+          "local": 220,
+          "display": "220 €",
+          "part": "MEHV4",
+          "at": "2026-10-27T14:58:23.739Z",
+          "url": "https://www.apple.com/at/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "au",
+          "local": 320,
+          "display": "A$320 ",
+          "part": "MEHV4",
+          "at": "2026-10-27T14:58:31.519Z",
+          "url": "https://www.apple.com/au/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "be",
+          "local": 220,
+          "display": "€ 220",
+          "part": "MEHV4",
+          "at": "2026-10-27T14:58:39.742Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ca",
+          "local": 270,
+          "display": "$270",
+          "part": "MEHV4",
+          "at": "2026-10-27T14:59:27.433Z",
+          "url": "https://www.apple.com/ca/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ch",
+          "local": 180,
+          "display": "CHF 180.–",
+          "part": "MEHV4",
+          "at": "2026-10-27T14:59:35.562Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "cl",
+          "local": 240000,
+          "display": "$240.000",
+          "part": "MEHV4",
+          "at": "2026-10-27T14:59:43.598Z",
+          "url": "https://www.apple.com/cl/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "cz",
+          "local": 4700,
+          "display": "4 700 Kč",
+          "part": "MEHV4",
+          "at": "2026-10-27T14:59:51.778Z",
+          "url": "https://www.apple.com/cz/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "de",
+          "local": 220,
+          "display": "220 €",
+          "part": "MEHV4",
+          "at": "2026-10-27T14:59:59.800Z",
+          "url": "https://www.apple.com/de/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "dk",
+          "local": 1600,
+          "display": "1.600 kr.",
+          "part": "MEHV4",
+          "at": "2026-10-27T15:00:07.659Z",
+          "url": "https://www.apple.com/dk/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "es",
+          "local": 220,
+          "display": "220 € ",
+          "part": "MEHV4",
+          "at": "2026-10-27T15:00:15.693Z",
+          "url": "https://www.apple.com/es/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "fi",
+          "local": 230,
+          "display": "230 €",
+          "part": "MEHV4",
+          "at": "2026-10-27T15:00:23.724Z",
+          "url": "https://www.apple.com/fi/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "fr",
+          "local": 220,
+          "display": "220 €",
+          "part": "MEHV4",
+          "at": "2026-10-27T15:00:31.659Z",
+          "url": "https://www.apple.com/fr/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "gb",
+          "local": 170,
+          "display": "£170",
+          "part": "MEHV4",
+          "at": "2026-10-27T15:00:39.767Z",
+          "url": "https://www.apple.com/uk/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "hk",
+          "local": 1620,
+          "display": "HK$1,620",
+          "part": "MEHV4",
+          "at": "2026-10-27T15:00:47.810Z",
+          "url": "https://www.apple.com/hk/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "hu",
+          "local": 80000,
+          "display": "80 000 Ft",
+          "part": "MEHV4",
+          "at": "2026-10-27T15:00:55.791Z",
+          "url": "https://www.apple.com/hu/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ie",
+          "local": 220,
+          "display": "€220",
+          "part": "MEHV4",
+          "at": "2026-10-27T15:01:03.761Z",
+          "url": "https://www.apple.com/ie/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "it",
+          "local": 230,
+          "display": "€ 230 ",
+          "part": "MEHV4",
+          "at": "2026-10-27T15:01:27.468Z",
+          "url": "https://www.apple.com/it/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "jp",
+          "local": 34000,
+          "display": "34,000円",
+          "part": "MEHV4",
+          "at": "2026-10-27T15:01:35.976Z",
+          "url": "https://www.apple.com/jp/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "kr",
+          "local": 294000,
+          "display": "₩294,000",
+          "part": "MEHV4",
+          "at": "2026-10-27T15:01:43.692Z",
+          "url": "https://www.apple.com/kr/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "lu",
+          "local": 212.73,
+          "display": "212,73 €",
+          "part": "MEHV4",
+          "at": "2026-10-27T15:01:51.738Z",
+          "url": "https://www.apple.com/lu/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "mx",
+          "local": 4400,
+          "display": "$4,400",
+          "part": "MEHV4",
+          "at": "2026-10-27T15:02:10.821Z",
+          "url": "https://www.apple.com/mx/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "my",
+          "local": 850,
+          "display": "RM 850",
+          "part": "MEHV4",
+          "at": "2026-10-27T15:02:15.746Z",
+          "url": "https://www.apple.com/my/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "nl",
+          "local": 220,
+          "display": "€ 220",
+          "part": "MEHV4",
+          "at": "2026-10-27T15:02:23.699Z",
+          "url": "https://www.apple.com/nl/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "no",
+          "local": 2400,
+          "display": "kr 2 400",
+          "part": "MEHV4",
+          "at": "2026-10-27T15:02:31.801Z",
+          "url": "https://www.apple.com/no/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "nz",
+          "local": 380,
+          "display": "NZ$380",
+          "part": "MEHV4",
+          "at": "2026-10-27T15:02:39.823Z",
+          "url": "https://www.apple.com/nz/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ph",
+          "local": 15000,
+          "display": "₱15,000",
+          "part": "MEHV4",
+          "at": "2026-10-27T15:02:47.921Z",
+          "url": "https://www.apple.com/ph/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "pl",
+          "local": 900,
+          "display": "900 zł",
+          "part": "MEHV4",
+          "at": "2026-10-27T15:02:55.713Z",
+          "url": "https://www.apple.com/pl/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "pt",
+          "local": 230,
+          "display": "230 €",
+          "part": "MEHV4",
+          "at": "2026-10-27T15:03:03.771Z",
+          "url": "https://www.apple.com/pt/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "sa",
+          "local": 900,
+          "display": "SAR 900",
+          "part": "MEHV4",
+          "at": "2026-10-27T15:03:11.726Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "se",
+          "local": 2400,
+          "display": "2 400 kr",
+          "part": "MEHV4",
+          "at": "2026-10-27T15:03:19.742Z",
+          "url": "https://www.apple.com/se/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "sg",
+          "local": 280,
+          "display": "S$280",
+          "part": "MEHV4",
+          "at": "2026-10-27T15:03:27.823Z",
+          "url": "https://www.apple.com/sg/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "th",
+          "local": 6700,
+          "display": "฿6,700",
+          "part": "MEHV4",
+          "at": "2026-10-27T15:03:35.855Z",
+          "url": "https://www.apple.com/th/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "tr",
+          "local": 14500,
+          "display": "14.500 TL",
+          "part": "MEHV4",
+          "at": "2026-10-27T15:03:43.802Z",
+          "url": "https://www.apple.com/tr/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "tw",
+          "local": 6300,
+          "display": "NT$6,300",
+          "part": "MEHV4",
+          "at": "2026-10-27T15:03:52.047Z",
+          "url": "https://www.apple.com/tw/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "vn",
+          "local": 5500000,
+          "display": "5.500.000đ",
+          "part": "MEHV4",
+          "at": "2026-10-27T15:03:59.920Z",
+          "url": "https://www.apple.com/vn/shop/buy-watch/apple-watch-se"
+        }
+      ]
+    },
+    {
+      "id": "44mm-aluminum-starlight-gps-cellular",
+      "part": "MEQ34",
+      "specs": {
+        "casesize": "44mm",
+        "casematerial": "aluminum",
+        "color": "starlight",
+        "connection": "gpscell"
+      },
+      "labels": {
+        "casesize": "44mm",
+        "casematerial": "Aluminum",
+        "color": "Starlight",
+        "connection": "GPS + Cellular"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/se-case-unselect-gallery-1-202609?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1786074163493",
+      "label": "44mm · Aluminum · Starlight · GPS + Cellular",
+      "prices": [
+        {
+          "code": "us",
+          "local": 280,
+          "display": "$280",
+          "part": "MEQ34",
+          "at": "2026-10-27T14:58:07.300Z",
+          "url": "https://www.apple.com/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ae",
+          "local": 1120,
+          "display": "AED 1,120",
+          "part": "MEQ34",
+          "at": "2026-10-27T14:58:15.491Z",
+          "url": "https://www.apple.com/ae/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "at",
+          "local": 300,
+          "display": "300 €",
+          "part": "MEQ34",
+          "at": "2026-10-27T14:58:23.739Z",
+          "url": "https://www.apple.com/at/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "au",
+          "local": 460,
+          "display": "A$460 ",
+          "part": "MEQ34",
+          "at": "2026-10-27T14:58:31.519Z",
+          "url": "https://www.apple.com/au/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "be",
+          "local": 300,
+          "display": "€ 300",
+          "part": "MEQ34",
+          "at": "2026-10-27T14:58:39.742Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ca",
+          "local": 380,
+          "display": "$380",
+          "part": "MEQ34",
+          "at": "2026-10-27T14:59:27.433Z",
+          "url": "https://www.apple.com/ca/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ch",
+          "local": 260,
+          "display": "CHF 260.–",
+          "part": "MEQ34",
+          "at": "2026-10-27T14:59:35.562Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "cl",
+          "local": 334000,
+          "display": "$334.000",
+          "part": "MEQ34",
+          "at": "2026-10-27T14:59:43.598Z",
+          "url": "https://www.apple.com/cl/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "cz",
+          "local": 7000,
+          "display": "7 000 Kč",
+          "part": "MEQ34",
+          "at": "2026-10-27T14:59:51.778Z",
+          "url": "https://www.apple.com/cz/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "de",
+          "local": 300,
+          "display": "300 €",
+          "part": "MEQ34",
+          "at": "2026-10-27T14:59:59.800Z",
+          "url": "https://www.apple.com/de/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "dk",
+          "local": 2350,
+          "display": "2.350 kr.",
+          "part": "MEQ34",
+          "at": "2026-10-27T15:00:07.659Z",
+          "url": "https://www.apple.com/dk/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "es",
+          "local": 300,
+          "display": "300 € ",
+          "part": "MEQ34",
+          "at": "2026-10-27T15:00:15.693Z",
+          "url": "https://www.apple.com/es/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "fi",
+          "local": 310,
+          "display": "310 €",
+          "part": "MEQ34",
+          "at": "2026-10-27T15:00:23.724Z",
+          "url": "https://www.apple.com/fi/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "fr",
+          "local": 300,
+          "display": "300 €",
+          "part": "MEQ34",
+          "at": "2026-10-27T15:00:31.659Z",
+          "url": "https://www.apple.com/fr/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "gb",
+          "local": 270,
+          "display": "£270",
+          "part": "MEQ34",
+          "at": "2026-10-27T15:00:39.767Z",
+          "url": "https://www.apple.com/uk/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "hk",
+          "local": 2220,
+          "display": "HK$2,220",
+          "part": "MEQ34",
+          "at": "2026-10-27T15:00:47.810Z",
+          "url": "https://www.apple.com/hk/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "hu",
+          "local": 120000,
+          "display": "120 000 Ft",
+          "part": "MEQ34",
+          "at": "2026-10-27T15:00:55.791Z",
+          "url": "https://www.apple.com/hu/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ie",
+          "local": 300,
+          "display": "€300",
+          "part": "MEQ34",
+          "at": "2026-10-27T15:01:03.761Z",
+          "url": "https://www.apple.com/ie/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "it",
+          "local": 310,
+          "display": "€ 310 ",
+          "part": "MEQ34",
+          "at": "2026-10-27T15:01:27.468Z",
+          "url": "https://www.apple.com/it/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "jp",
+          "local": 48000,
+          "display": "48,000円",
+          "part": "MEQ34",
+          "at": "2026-10-27T15:01:35.976Z",
+          "url": "https://www.apple.com/jp/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "kr",
+          "local": 404000,
+          "display": "₩404,000",
+          "part": "MEQ34",
+          "at": "2026-10-27T15:01:43.692Z",
+          "url": "https://www.apple.com/kr/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "mx",
+          "local": 6400,
+          "display": "$6,400",
+          "part": "MEQ34",
+          "at": "2026-10-27T15:02:10.821Z",
+          "url": "https://www.apple.com/mx/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "my",
+          "local": 1250,
+          "display": "RM 1,250",
+          "part": "MEQ34",
+          "at": "2026-10-27T15:02:15.746Z",
+          "url": "https://www.apple.com/my/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "nl",
+          "local": 300,
+          "display": "€ 300",
+          "part": "MEQ34",
+          "at": "2026-10-27T15:02:23.699Z",
+          "url": "https://www.apple.com/nl/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "no",
+          "local": 3500,
+          "display": "kr 3 500",
+          "part": "MEQ34",
+          "at": "2026-10-27T15:02:31.801Z",
+          "url": "https://www.apple.com/no/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "nz",
+          "local": 540,
+          "display": "NZ$540",
+          "part": "MEQ34",
+          "at": "2026-10-27T15:02:39.823Z",
+          "url": "https://www.apple.com/nz/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ph",
+          "local": 20000,
+          "display": "₱20,000",
+          "part": "MEQ34",
+          "at": "2026-10-27T15:02:47.921Z",
+          "url": "https://www.apple.com/ph/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "pl",
+          "local": 1400,
+          "display": "1400 zł",
+          "part": "MEQ34",
+          "at": "2026-10-27T15:02:55.713Z",
+          "url": "https://www.apple.com/pl/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "pt",
+          "local": 310,
+          "display": "310 €",
+          "part": "MEQ34",
+          "at": "2026-10-27T15:03:03.771Z",
+          "url": "https://www.apple.com/pt/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "sa",
+          "local": 1250,
+          "display": "SAR 1,250",
+          "part": "MEQ34",
+          "at": "2026-10-27T15:03:11.726Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "se",
+          "local": 3400,
+          "display": "3 400 kr",
+          "part": "MEQ34",
+          "at": "2026-10-27T15:03:19.742Z",
+          "url": "https://www.apple.com/se/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "sg",
+          "local": 390,
+          "display": "S$390",
+          "part": "MEQ34",
+          "at": "2026-10-27T15:03:27.823Z",
+          "url": "https://www.apple.com/sg/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "th",
+          "local": 9700,
+          "display": "฿9,700",
+          "part": "MEQ34",
+          "at": "2026-10-27T15:03:35.855Z",
+          "url": "https://www.apple.com/th/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "tr",
+          "local": 32300,
+          "display": "32.300 TL",
+          "part": "MEQ34",
+          "at": "2026-10-27T15:03:43.802Z",
+          "url": "https://www.apple.com/tr/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "tw",
+          "local": 8800,
+          "display": "NT$8,800",
+          "part": "MEQ34",
+          "at": "2026-10-27T15:03:52.047Z",
+          "url": "https://www.apple.com/tw/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "vn",
+          "local": 7850000,
+          "display": "7.850.000đ",
+          "part": "MEQ34",
+          "at": "2026-10-27T15:03:59.920Z",
+          "url": "https://www.apple.com/vn/shop/buy-watch/apple-watch-se"
+        }
+      ]
+    },
+    {
+      "id": "44mm-aluminum-starlight-gps",
+      "part": "MEP04",
+      "specs": {
+        "casesize": "44mm",
+        "casematerial": "aluminum",
+        "color": "starlight",
+        "connection": "gps"
+      },
+      "labels": {
+        "casesize": "44mm",
+        "casematerial": "Aluminum",
+        "color": "Starlight",
+        "connection": "GPS"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/se-case-unselect-gallery-1-202609?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1786074163493",
+      "label": "44mm · Aluminum · Starlight · GPS",
+      "prices": [
+        {
+          "code": "us",
+          "local": 230,
+          "display": "$230",
+          "part": "MEP04",
+          "at": "2026-10-27T14:58:07.300Z",
+          "url": "https://www.apple.com/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ae",
+          "local": 920,
+          "display": "AED 920",
+          "part": "MEP04",
+          "at": "2026-10-27T14:58:15.491Z",
+          "url": "https://www.apple.com/ae/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "at",
+          "local": 250,
+          "display": "250 €",
+          "part": "MEP04",
+          "at": "2026-10-27T14:58:23.739Z",
+          "url": "https://www.apple.com/at/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "au",
+          "local": 370,
+          "display": "A$370 ",
+          "part": "MEP04",
+          "at": "2026-10-27T14:58:31.519Z",
+          "url": "https://www.apple.com/au/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "be",
+          "local": 250,
+          "display": "€ 250",
+          "part": "MEP04",
+          "at": "2026-10-27T14:58:39.742Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ca",
+          "local": 310,
+          "display": "$310",
+          "part": "MEP04",
+          "at": "2026-10-27T14:59:27.433Z",
+          "url": "https://www.apple.com/ca/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ch",
+          "local": 210,
+          "display": "CHF 210.–",
+          "part": "MEP04",
+          "at": "2026-10-27T14:59:35.562Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "cl",
+          "local": 274000,
+          "display": "$274.000",
+          "part": "MEP04",
+          "at": "2026-10-27T14:59:43.598Z",
+          "url": "https://www.apple.com/cl/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "cz",
+          "local": 5500,
+          "display": "5 500 Kč",
+          "part": "MEP04",
+          "at": "2026-10-27T14:59:51.778Z",
+          "url": "https://www.apple.com/cz/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "de",
+          "local": 250,
+          "display": "250 €",
+          "part": "MEP04",
+          "at": "2026-10-27T14:59:59.800Z",
+          "url": "https://www.apple.com/de/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "dk",
+          "local": 1900,
+          "display": "1.900 kr.",
+          "part": "MEP04",
+          "at": "2026-10-27T15:00:07.659Z",
+          "url": "https://www.apple.com/dk/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "es",
+          "local": 250,
+          "display": "250 € ",
+          "part": "MEP04",
+          "at": "2026-10-27T15:00:15.693Z",
+          "url": "https://www.apple.com/es/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "fi",
+          "local": 260,
+          "display": "260 €",
+          "part": "MEP04",
+          "at": "2026-10-27T15:00:23.724Z",
+          "url": "https://www.apple.com/fi/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "fr",
+          "local": 250,
+          "display": "250 €",
+          "part": "MEP04",
+          "at": "2026-10-27T15:00:31.659Z",
+          "url": "https://www.apple.com/fr/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "gb",
+          "local": 200,
+          "display": "£200",
+          "part": "MEP04",
+          "at": "2026-10-27T15:00:39.767Z",
+          "url": "https://www.apple.com/uk/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "hk",
+          "local": 1820,
+          "display": "HK$1,820",
+          "part": "MEP04",
+          "at": "2026-10-27T15:00:47.810Z",
+          "url": "https://www.apple.com/hk/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "hu",
+          "local": 95000,
+          "display": "95 000 Ft",
+          "part": "MEP04",
+          "at": "2026-10-27T15:00:55.791Z",
+          "url": "https://www.apple.com/hu/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ie",
+          "local": 250,
+          "display": "€250",
+          "part": "MEP04",
+          "at": "2026-10-27T15:01:03.761Z",
+          "url": "https://www.apple.com/ie/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "it",
+          "local": 260,
+          "display": "€ 260 ",
+          "part": "MEP04",
+          "at": "2026-10-27T15:01:27.468Z",
+          "url": "https://www.apple.com/it/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "jp",
+          "local": 39000,
+          "display": "39,000円",
+          "part": "MEP04",
+          "at": "2026-10-27T15:01:35.976Z",
+          "url": "https://www.apple.com/jp/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "kr",
+          "local": 334000,
+          "display": "₩334,000",
+          "part": "MEP04",
+          "at": "2026-10-27T15:01:43.692Z",
+          "url": "https://www.apple.com/kr/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "lu",
+          "local": 241.73,
+          "display": "241,73 €",
+          "part": "MEP04",
+          "at": "2026-10-27T15:01:51.738Z",
+          "url": "https://www.apple.com/lu/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "mx",
+          "local": 5150,
+          "display": "$5,150",
+          "part": "MEP04",
+          "at": "2026-10-27T15:02:10.821Z",
+          "url": "https://www.apple.com/mx/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "my",
+          "local": 1000,
+          "display": "RM 1,000",
+          "part": "MEP04",
+          "at": "2026-10-27T15:02:15.746Z",
+          "url": "https://www.apple.com/my/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "nl",
+          "local": 250,
+          "display": "€ 250",
+          "part": "MEP04",
+          "at": "2026-10-27T15:02:23.699Z",
+          "url": "https://www.apple.com/nl/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "no",
+          "local": 2800,
+          "display": "kr 2 800",
+          "part": "MEP04",
+          "at": "2026-10-27T15:02:31.801Z",
+          "url": "https://www.apple.com/no/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "nz",
+          "local": 440,
+          "display": "NZ$440",
+          "part": "MEP04",
+          "at": "2026-10-27T15:02:39.823Z",
+          "url": "https://www.apple.com/nz/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "ph",
+          "local": 17000,
+          "display": "₱17,000",
+          "part": "MEP04",
+          "at": "2026-10-27T15:02:47.921Z",
+          "url": "https://www.apple.com/ph/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "pl",
+          "local": 1100,
+          "display": "1100 zł",
+          "part": "MEP04",
+          "at": "2026-10-27T15:02:55.713Z",
+          "url": "https://www.apple.com/pl/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "pt",
+          "local": 260,
+          "display": "260 €",
+          "part": "MEP04",
+          "at": "2026-10-27T15:03:03.771Z",
+          "url": "https://www.apple.com/pt/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "sa",
+          "local": 1030,
+          "display": "SAR 1,030",
+          "part": "MEP04",
+          "at": "2026-10-27T15:03:11.726Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "se",
+          "local": 2800,
+          "display": "2 800 kr",
+          "part": "MEP04",
+          "at": "2026-10-27T15:03:19.742Z",
+          "url": "https://www.apple.com/se/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "sg",
+          "local": 320,
+          "display": "S$320",
+          "part": "MEP04",
+          "at": "2026-10-27T15:03:27.823Z",
+          "url": "https://www.apple.com/sg/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "th",
+          "local": 7700,
+          "display": "฿7,700",
+          "part": "MEP04",
+          "at": "2026-10-27T15:03:35.855Z",
+          "url": "https://www.apple.com/th/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "tr",
+          "local": 16300,
+          "display": "16.300 TL",
+          "part": "MEP04",
+          "at": "2026-10-27T15:03:43.802Z",
+          "url": "https://www.apple.com/tr/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "tw",
+          "local": 7300,
+          "display": "NT$7,300",
+          "part": "MEP04",
+          "at": "2026-10-27T15:03:52.047Z",
+          "url": "https://www.apple.com/tw/shop/buy-watch/apple-watch-se"
+        },
+        {
+          "code": "vn",
+          "local": 6350000,
+          "display": "6.350.000đ",
+          "part": "MEP04",
+          "at": "2026-10-27T15:03:59.920Z",
+          "url": "https://www.apple.com/vn/shop/buy-watch/apple-watch-se"
+        }
+      ]
+    }
+  ],
+  "discoveredAt": "2026-10-27T14:58:07.299Z",
+  "defaultVariant": "40mm-aluminum-midnight-gps",
+  "pricedAt": "2026-10-27T15:04:07.952Z",
+  "failedStores": [
+    "br"
+  ]
+}
