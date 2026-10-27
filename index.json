@@ -3495,7 +3495,289 @@
       "id": "ipad-air",
       "name": "iPad Air",
       "category": "iPad",
-      "ready": false
+      "ready": true,
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-air-select-11in-wifi-spacegray-202405?wid=1200&hei=1200&fmt=png-alpha",
+      "variant": {
+        "id": "128gb-11-inch-wi-fi-space-gray",
+        "label": "128GB · 11-inch · Wi-Fi · Space Gray"
+      },
+      "configurations": 64,
+      "prices": [
+        {
+          "code": "us",
+          "local": 749,
+          "display": "$749",
+          "part": "MH304",
+          "at": "2026-10-27T13:54:52.382Z"
+        },
+        {
+          "code": "ae",
+          "local": 2999,
+          "display": "AED 2,999",
+          "part": "MH304",
+          "at": "2026-10-27T13:55:24.604Z"
+        },
+        {
+          "code": "at",
+          "local": 799,
+          "display": "799 €",
+          "part": "MH304",
+          "at": "2026-10-27T13:55:56.646Z"
+        },
+        {
+          "code": "au",
+          "local": 1249,
+          "display": "A$1,249 ",
+          "part": "MH304",
+          "at": "2026-10-27T13:56:28.575Z"
+        },
+        {
+          "code": "be",
+          "local": 829,
+          "display": "€ 829",
+          "part": "MH304",
+          "at": "2026-10-27T13:57:00.760Z"
+        },
+        {
+          "code": "br",
+          "local": 8999,
+          "display": "R$ 8.999",
+          "part": "MH304",
+          "at": "2026-10-27T13:57:32.642Z"
+        },
+        {
+          "code": "ca",
+          "local": 999,
+          "display": "$999",
+          "part": "MH304",
+          "at": "2026-10-27T13:58:04.694Z"
+        },
+        {
+          "code": "ch",
+          "local": 729,
+          "display": "CHF 729.–",
+          "part": "MH304",
+          "at": "2026-10-27T13:58:36.701Z"
+        },
+        {
+          "code": "cl",
+          "local": 939990,
+          "display": "$939.990",
+          "part": "MH304",
+          "at": "2026-10-27T13:59:08.806Z"
+        },
+        {
+          "code": "cz",
+          "local": 20990,
+          "display": "20 990 Kč",
+          "part": "MH304",
+          "at": "2026-10-27T13:59:40.929Z"
+        },
+        {
+          "code": "de",
+          "local": 799,
+          "display": "799 €",
+          "part": "MH304",
+          "at": "2026-10-27T14:00:12.807Z"
+        },
+        {
+          "code": "dk",
+          "local": 6799,
+          "display": "6.799 kr.",
+          "part": "MH304",
+          "at": "2026-10-27T14:00:44.783Z"
+        },
+        {
+          "code": "es",
+          "local": 799,
+          "display": "799 € ",
+          "part": "MH304",
+          "at": "2026-10-27T14:01:16.810Z"
+        },
+        {
+          "code": "fi",
+          "local": 849,
+          "display": "849 €",
+          "part": "MH304",
+          "at": "2026-10-27T14:01:49.078Z"
+        },
+        {
+          "code": "fr",
+          "local": 819,
+          "display": "819 €",
+          "part": "MH304",
+          "at": "2026-10-27T14:02:20.861Z"
+        },
+        {
+          "code": "gb",
+          "local": 749,
+          "display": "£749",
+          "part": "MH304",
+          "at": "2026-10-27T14:02:52.894Z"
+        },
+        {
+          "code": "hk",
+          "local": 5999,
+          "display": "HK$5,999",
+          "part": "MH304",
+          "at": "2026-10-27T14:03:24.985Z"
+        },
+        {
+          "code": "hu",
+          "local": 349990,
+          "display": "349 990 Ft",
+          "part": "MH304",
+          "at": "2026-10-27T14:03:56.892Z"
+        },
+        {
+          "code": "ie",
+          "local": 839,
+          "display": "€839",
+          "part": "MH304",
+          "at": "2026-10-27T14:04:28.984Z"
+        },
+        {
+          "code": "in",
+          "local": 89900,
+          "display": "₹89900.00",
+          "part": "MH304",
+          "at": "2026-10-27T14:05:00.979Z"
+        },
+        {
+          "code": "it",
+          "local": 829,
+          "display": "€ 829 ",
+          "part": "MH304",
+          "at": "2026-10-27T14:05:33.086Z"
+        },
+        {
+          "code": "jp",
+          "local": 129800,
+          "display": "129,800円",
+          "part": "MH304",
+          "at": "2026-10-27T14:06:05.089Z"
+        },
+        {
+          "code": "kr",
+          "local": 1249000,
+          "display": "₩1,249,000",
+          "part": "MH304",
+          "at": "2026-10-27T14:06:37.321Z"
+        },
+        {
+          "code": "lu",
+          "local": 801.59,
+          "display": "801,59 €",
+          "part": "MH304",
+          "at": "2026-10-27T14:07:09.076Z"
+        },
+        {
+          "code": "mx",
+          "local": 18799,
+          "display": "$18,799",
+          "part": "MH304",
+          "at": "2026-10-27T14:07:41.136Z"
+        },
+        {
+          "code": "my",
+          "local": 3499,
+          "display": "RM 3,499",
+          "part": "MH304",
+          "at": "2026-10-27T14:08:13.234Z"
+        },
+        {
+          "code": "nl",
+          "local": 829,
+          "display": "€ 829",
+          "part": "MH304",
+          "at": "2026-10-27T14:08:45.227Z"
+        },
+        {
+          "code": "no",
+          "local": 9990,
+          "display": "kr 9 990",
+          "part": "MH304",
+          "at": "2026-10-27T14:09:17.238Z"
+        },
+        {
+          "code": "nz",
+          "local": 1499,
+          "display": "NZ$1,499",
+          "part": "MH304",
+          "at": "2026-10-27T14:09:49.259Z"
+        },
+        {
+          "code": "ph",
+          "local": 54990,
+          "display": "₱54,990",
+          "part": "MH304",
+          "at": "2026-10-27T14:10:21.241Z"
+        },
+        {
+          "code": "pl",
+          "local": 3699,
+          "display": "3699 zł",
+          "part": "MH304",
+          "at": "2026-10-27T14:10:53.248Z"
+        },
+        {
+          "code": "pt",
+          "local": 829,
+          "display": "829 €",
+          "part": "MH304",
+          "at": "2026-10-27T14:11:25.303Z"
+        },
+        {
+          "code": "sa",
+          "local": 3499,
+          "display": "SAR 3,499",
+          "part": "MH304",
+          "at": "2026-10-27T14:11:57.430Z"
+        },
+        {
+          "code": "se",
+          "local": 9795,
+          "display": "9 795 kr",
+          "part": "MH304",
+          "at": "2026-10-27T14:12:29.310Z"
+        },
+        {
+          "code": "sg",
+          "local": 1149,
+          "display": "S$1,149",
+          "part": "MH304",
+          "at": "2026-10-27T14:13:01.343Z"
+        },
+        {
+          "code": "th",
+          "local": 27900,
+          "display": "฿27,900",
+          "part": "MH304",
+          "at": "2026-10-27T14:13:33.354Z"
+        },
+        {
+          "code": "tr",
+          "local": 52499,
+          "display": "52.499 TL",
+          "part": "MH304",
+          "at": "2026-10-27T14:14:05.385Z"
+        },
+        {
+          "code": "tw",
+          "local": 24900,
+          "display": "NT$24,900",
+          "part": "MH304",
+          "at": "2026-10-27T14:14:37.412Z"
+        },
+        {
+          "code": "vn",
+          "local": 20999000,
+          "display": "20.999.000đ",
+          "part": "MH304",
+          "at": "2026-10-27T14:15:09.433Z"
+        }
+      ],
+      "pricedAt": "2026-10-27T14:15:41.526Z"
     },
     {
       "id": "ipad",
