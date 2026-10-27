@@ -4359,7 +4359,275 @@
       "id": "apple-watch",
       "name": "Apple Watch Series 12",
       "category": "Watch",
-      "ready": false
+      "ready": true,
+      "image": null,
+      "variant": {
+        "id": "42mm-aluminum-space-gray-gps",
+        "label": "42mm · Aluminum · Space Gray · GPS"
+      },
+      "configurations": 24,
+      "prices": [
+        {
+          "code": "us",
+          "local": 350,
+          "display": "$350",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:31:42.094Z"
+        },
+        {
+          "code": "ae",
+          "local": 1400,
+          "display": "AED 1,400",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:31:58.328Z"
+        },
+        {
+          "code": "at",
+          "local": 400,
+          "display": "400 €",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:32:14.277Z"
+        },
+        {
+          "code": "au",
+          "local": 570,
+          "display": "A$570 ",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:32:30.315Z"
+        },
+        {
+          "code": "be",
+          "local": 400,
+          "display": "€ 400",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:32:46.489Z"
+        },
+        {
+          "code": "ca",
+          "local": 490,
+          "display": "$490",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:39:50.567Z"
+        },
+        {
+          "code": "ch",
+          "local": 320,
+          "display": "CHF 320.–",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:40:06.699Z"
+        },
+        {
+          "code": "cl",
+          "local": 440000,
+          "display": "$440.000",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:40:22.643Z"
+        },
+        {
+          "code": "cz",
+          "local": 9700,
+          "display": "9 700 Kč",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:40:38.660Z"
+        },
+        {
+          "code": "de",
+          "local": 400,
+          "display": "400 €",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:40:54.603Z"
+        },
+        {
+          "code": "dk",
+          "local": 3100,
+          "display": "3.100 kr.",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:41:10.683Z"
+        },
+        {
+          "code": "es",
+          "local": 400,
+          "display": "400 € ",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:41:26.670Z"
+        },
+        {
+          "code": "fi",
+          "local": 420,
+          "display": "420 €",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:41:42.723Z"
+        },
+        {
+          "code": "fr",
+          "local": 400,
+          "display": "400 €",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:41:58.782Z"
+        },
+        {
+          "code": "gb",
+          "local": 320,
+          "display": "£320",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:42:14.703Z"
+        },
+        {
+          "code": "hk",
+          "local": 2820,
+          "display": "HK$2,820",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:42:30.743Z"
+        },
+        {
+          "code": "hu",
+          "local": 150000,
+          "display": "150 000 Ft",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:42:46.743Z"
+        },
+        {
+          "code": "ie",
+          "local": 400,
+          "display": "€400",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:43:02.714Z"
+        },
+        {
+          "code": "it",
+          "local": 410,
+          "display": "€ 410 ",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:52:47.070Z"
+        },
+        {
+          "code": "jp",
+          "local": 64000,
+          "display": "64,000円",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:53:03.303Z"
+        },
+        {
+          "code": "kr",
+          "local": 524000,
+          "display": "₩524,000",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:53:19.192Z"
+        },
+        {
+          "code": "lu",
+          "local": 386.78,
+          "display": "386,78 €",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:53:35.187Z"
+        },
+        {
+          "code": "mx",
+          "local": 7900,
+          "display": "$7,900",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:53:59.215Z"
+        },
+        {
+          "code": "my",
+          "local": 1600,
+          "display": "RM 1,600",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:54:15.276Z"
+        },
+        {
+          "code": "nl",
+          "local": 400,
+          "display": "€ 400",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:54:31.391Z"
+        },
+        {
+          "code": "no",
+          "local": 4400,
+          "display": "kr 4 400",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:54:47.326Z"
+        },
+        {
+          "code": "nz",
+          "local": 660,
+          "display": "NZ$660",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:55:03.316Z"
+        },
+        {
+          "code": "ph",
+          "local": 26000,
+          "display": "₱26,000",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:55:19.443Z"
+        },
+        {
+          "code": "pl",
+          "local": 1700,
+          "display": "1700 zł",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:55:35.261Z"
+        },
+        {
+          "code": "pt",
+          "local": 410,
+          "display": "410 €",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:55:51.278Z"
+        },
+        {
+          "code": "sa",
+          "local": 1600,
+          "display": "SAR 1,600",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:56:07.377Z"
+        },
+        {
+          "code": "se",
+          "local": 4400,
+          "display": "4 400 kr",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:56:23.314Z"
+        },
+        {
+          "code": "sg",
+          "local": 530,
+          "display": "S$530",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:56:39.300Z"
+        },
+        {
+          "code": "th",
+          "local": 13100,
+          "display": "฿13,100",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:56:55.302Z"
+        },
+        {
+          "code": "tr",
+          "local": 25500,
+          "display": "25.500 TL",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:57:11.390Z"
+        },
+        {
+          "code": "tw",
+          "local": 12300,
+          "display": "NT$12,300",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:57:27.391Z"
+        },
+        {
+          "code": "vn",
+          "local": 10000000,
+          "display": "10.000.000đ",
+          "part": "MJFN4",
+          "at": "2026-10-27T14:57:43.451Z"
+        }
+      ],
+      "pricedAt": "2026-10-27T14:57:59.547Z"
     },
     {
       "id": "apple-watch-se",

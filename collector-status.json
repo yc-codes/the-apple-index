@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-27T14:31:34.725Z",
+  "at": "2026-10-27T14:57:59.551Z",
   "attempts": {
     "macbook-air": 1793099856748,
     "macbook-neo": 1793100721573,
@@ -18,8 +18,9 @@
     "ipad-pro": 1793108343246,
     "ipad-air": 1793109292314,
     "ipad": 1793110548742,
-    "ipad-mini": 1793111175621
+    "ipad-mini": 1793111175621,
+    "apple-watch": 1793111496099
   },
   "blockedUntil": null,
-  "failed": 2
+  "failed": 3
 }
