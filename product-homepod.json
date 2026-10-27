@@ -1,0 +1,523 @@
+{
+  "id": "homepod",
+  "name": "HomePod",
+  "category": "TV & Home",
+  "path": "buy-homepod/homepod",
+  "url": "https://www.apple.com/shop/buy-homepod/homepod",
+  "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/homepod-og-202301?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1670391082906",
+  "dimensions": [
+    {
+      "key": "color",
+      "name": "Color",
+      "values": [
+        {
+          "key": "midnight",
+          "label": "Midnight"
+        },
+        {
+          "key": "white",
+          "label": "White"
+        }
+      ]
+    }
+  ],
+  "fixed": {},
+  "variants": [
+    {
+      "id": "midnight",
+      "part": "MDEW4",
+      "specs": {
+        "color": "midnight"
+      },
+      "labels": {
+        "color": "Midnight"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/homepod-select-midnight-202610?wid=1200&hei=1200&fmt=png-alpha",
+      "label": "Midnight",
+      "prices": [
+        {
+          "code": "us",
+          "local": 349,
+          "display": "$349",
+          "part": "MDEW4",
+          "at": "2026-10-27T15:16:16.320Z",
+          "url": "https://www.apple.com/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "at",
+          "local": 399,
+          "display": "399 €",
+          "part": "MDEW4",
+          "at": "2026-10-27T15:16:40.611Z",
+          "url": "https://www.apple.com/at/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "au",
+          "local": 549,
+          "display": "A$549 ",
+          "part": "MDEW4",
+          "at": "2026-10-27T15:16:48.148Z",
+          "url": "https://www.apple.com/au/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "be",
+          "local": 399,
+          "display": "€ 399",
+          "part": "MDEW4",
+          "at": "2026-10-27T15:16:56.499Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "ca",
+          "local": 479,
+          "display": "$479",
+          "part": "MDEW4",
+          "at": "2026-10-27T15:17:20.658Z",
+          "url": "https://www.apple.com/ca/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "ch",
+          "local": 329,
+          "display": "CHF 329.–",
+          "part": "MDEW4",
+          "at": "2026-10-27T15:17:28.290Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "cl",
+          "local": 399990,
+          "display": "$399.990",
+          "part": "MDEW4",
+          "at": "2026-10-27T15:17:36.113Z",
+          "url": "https://www.apple.com/cl/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "de",
+          "local": 399,
+          "display": "399 €",
+          "part": "MDEW4",
+          "at": "2026-10-27T15:18:00.622Z",
+          "url": "https://www.apple.com/de/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "dk",
+          "local": 2999,
+          "display": "2.999 kr.",
+          "part": "MDEW4",
+          "at": "2026-10-27T15:18:08.244Z",
+          "url": "https://www.apple.com/dk/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "es",
+          "local": 399,
+          "display": "399 € ",
+          "part": "MDEW4",
+          "at": "2026-10-27T15:18:16.179Z",
+          "url": "https://www.apple.com/es/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "fi",
+          "local": 399,
+          "display": "399 €",
+          "part": "MDEW4",
+          "at": "2026-10-27T15:18:24.181Z",
+          "url": "https://www.apple.com/fi/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "fr",
+          "local": 399,
+          "display": "399 €",
+          "part": "MDEW4",
+          "at": "2026-10-27T15:18:32.253Z",
+          "url": "https://www.apple.com/fr/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "gb",
+          "local": 349,
+          "display": "£349",
+          "part": "MDEW4",
+          "at": "2026-10-27T15:18:40.195Z",
+          "url": "https://www.apple.com/uk/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "hk",
+          "local": 2699,
+          "display": "HK$2,699",
+          "part": "MDEW4",
+          "at": "2026-10-27T15:18:48.336Z",
+          "url": "https://www.apple.com/hk/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "ie",
+          "local": 399,
+          "display": "€399",
+          "part": "MDEW4",
+          "at": "2026-10-27T15:19:12.730Z",
+          "url": "https://www.apple.com/ie/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "in",
+          "local": 44900,
+          "display": "₹44900.00",
+          "part": "MDEW4",
+          "at": "2026-10-27T15:19:20.257Z",
+          "url": "https://www.apple.com/in/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "it",
+          "local": 399,
+          "display": "€ 399 ",
+          "part": "MDEW4",
+          "at": "2026-10-27T15:19:28.198Z",
+          "url": "https://www.apple.com/it/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "jp",
+          "local": 59800,
+          "display": "59,800円",
+          "part": "MDEW4",
+          "at": "2026-10-27T15:19:36.275Z",
+          "url": "https://www.apple.com/jp/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "lu",
+          "local": 385.81,
+          "display": "385,81 €",
+          "part": "MDEW4",
+          "at": "2026-10-27T15:20:00.891Z",
+          "url": "https://www.apple.com/lu/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "mx",
+          "local": 7499,
+          "display": "$7,499",
+          "part": "MDEW4",
+          "at": "2026-10-27T15:20:08.460Z",
+          "url": "https://www.apple.com/mx/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "my",
+          "local": 1499,
+          "display": "RM 1,499",
+          "part": "MDEW4",
+          "at": "2026-10-27T15:20:16.254Z",
+          "url": "https://www.apple.com/my/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "nl",
+          "local": 399,
+          "display": "€ 399",
+          "part": "MDEW4",
+          "at": "2026-10-27T15:20:24.285Z",
+          "url": "https://www.apple.com/nl/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "no",
+          "local": 4490,
+          "display": "kr 4 490",
+          "part": "MDEW4",
+          "at": "2026-10-27T15:20:32.265Z",
+          "url": "https://www.apple.com/no/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "nz",
+          "local": 679,
+          "display": "NZ$679",
+          "part": "MDEW4",
+          "at": "2026-10-27T15:20:40.279Z",
+          "url": "https://www.apple.com/nz/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "se",
+          "local": 4695,
+          "display": "4 695 kr",
+          "part": "MDEW4",
+          "at": "2026-10-27T15:21:52.378Z",
+          "url": "https://www.apple.com/se/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "sg",
+          "local": 499,
+          "display": "S$499",
+          "part": "MDEW4",
+          "at": "2026-10-27T15:22:00.344Z",
+          "url": "https://www.apple.com/sg/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "th",
+          "local": 12900,
+          "display": "฿12,900",
+          "part": "MDEW4",
+          "at": "2026-10-27T15:22:08.599Z",
+          "url": "https://www.apple.com/th/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "tr",
+          "local": 22299,
+          "display": "22.299 TL",
+          "part": "MDEW4",
+          "at": "2026-10-27T15:22:16.357Z",
+          "url": "https://www.apple.com/tr/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "tw",
+          "local": 10990,
+          "display": "NT$10,990",
+          "part": "MDEW4",
+          "at": "2026-10-27T15:22:24.456Z",
+          "url": "https://www.apple.com/tw/shop/buy-homepod/homepod"
+        }
+      ]
+    },
+    {
+      "id": "white",
+      "part": "MDEY4",
+      "specs": {
+        "color": "white"
+      },
+      "labels": {
+        "color": "White"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/homepod-select-white-202610?wid=1200&hei=1200&fmt=png-alpha",
+      "label": "White",
+      "prices": [
+        {
+          "code": "us",
+          "local": 349,
+          "display": "$349",
+          "part": "MDEY4",
+          "at": "2026-10-27T15:16:16.320Z",
+          "url": "https://www.apple.com/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "at",
+          "local": 399,
+          "display": "399 €",
+          "part": "MDEY4",
+          "at": "2026-10-27T15:16:40.611Z",
+          "url": "https://www.apple.com/at/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "au",
+          "local": 549,
+          "display": "A$549 ",
+          "part": "MDEY4",
+          "at": "2026-10-27T15:16:48.148Z",
+          "url": "https://www.apple.com/au/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "be",
+          "local": 399,
+          "display": "€ 399",
+          "part": "MDEY4",
+          "at": "2026-10-27T15:16:56.499Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "ca",
+          "local": 479,
+          "display": "$479",
+          "part": "MDEY4",
+          "at": "2026-10-27T15:17:20.658Z",
+          "url": "https://www.apple.com/ca/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "ch",
+          "local": 329,
+          "display": "CHF 329.–",
+          "part": "MDEY4",
+          "at": "2026-10-27T15:17:28.290Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "cl",
+          "local": 399990,
+          "display": "$399.990",
+          "part": "MDEY4",
+          "at": "2026-10-27T15:17:36.113Z",
+          "url": "https://www.apple.com/cl/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "de",
+          "local": 399,
+          "display": "399 €",
+          "part": "MDEY4",
+          "at": "2026-10-27T15:18:00.622Z",
+          "url": "https://www.apple.com/de/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "dk",
+          "local": 2999,
+          "display": "2.999 kr.",
+          "part": "MDEY4",
+          "at": "2026-10-27T15:18:08.244Z",
+          "url": "https://www.apple.com/dk/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "es",
+          "local": 399,
+          "display": "399 € ",
+          "part": "MDEY4",
+          "at": "2026-10-27T15:18:16.179Z",
+          "url": "https://www.apple.com/es/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "fi",
+          "local": 399,
+          "display": "399 €",
+          "part": "MDEY4",
+          "at": "2026-10-27T15:18:24.181Z",
+          "url": "https://www.apple.com/fi/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "fr",
+          "local": 399,
+          "display": "399 €",
+          "part": "MDEY4",
+          "at": "2026-10-27T15:18:32.253Z",
+          "url": "https://www.apple.com/fr/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "gb",
+          "local": 349,
+          "display": "£349",
+          "part": "MDEY4",
+          "at": "2026-10-27T15:18:40.195Z",
+          "url": "https://www.apple.com/uk/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "hk",
+          "local": 2699,
+          "display": "HK$2,699",
+          "part": "MDEY4",
+          "at": "2026-10-27T15:18:48.336Z",
+          "url": "https://www.apple.com/hk/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "ie",
+          "local": 399,
+          "display": "€399",
+          "part": "MDEY4",
+          "at": "2026-10-27T15:19:12.730Z",
+          "url": "https://www.apple.com/ie/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "in",
+          "local": 44900,
+          "display": "₹44900.00",
+          "part": "MDEY4",
+          "at": "2026-10-27T15:19:20.257Z",
+          "url": "https://www.apple.com/in/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "it",
+          "local": 399,
+          "display": "€ 399 ",
+          "part": "MDEY4",
+          "at": "2026-10-27T15:19:28.198Z",
+          "url": "https://www.apple.com/it/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "jp",
+          "local": 59800,
+          "display": "59,800円",
+          "part": "MDEY4",
+          "at": "2026-10-27T15:19:36.275Z",
+          "url": "https://www.apple.com/jp/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "lu",
+          "local": 385.81,
+          "display": "385,81 €",
+          "part": "MDEY4",
+          "at": "2026-10-27T15:20:00.891Z",
+          "url": "https://www.apple.com/lu/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "mx",
+          "local": 7499,
+          "display": "$7,499",
+          "part": "MDEY4",
+          "at": "2026-10-27T15:20:08.460Z",
+          "url": "https://www.apple.com/mx/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "my",
+          "local": 1499,
+          "display": "RM 1,499",
+          "part": "MDEY4",
+          "at": "2026-10-27T15:20:16.254Z",
+          "url": "https://www.apple.com/my/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "nl",
+          "local": 399,
+          "display": "€ 399",
+          "part": "MDEY4",
+          "at": "2026-10-27T15:20:24.285Z",
+          "url": "https://www.apple.com/nl/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "no",
+          "local": 4490,
+          "display": "kr 4 490",
+          "part": "MDEY4",
+          "at": "2026-10-27T15:20:32.265Z",
+          "url": "https://www.apple.com/no/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "nz",
+          "local": 679,
+          "display": "NZ$679",
+          "part": "MDEY4",
+          "at": "2026-10-27T15:20:40.279Z",
+          "url": "https://www.apple.com/nz/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "se",
+          "local": 4695,
+          "display": "4 695 kr",
+          "part": "MDEY4",
+          "at": "2026-10-27T15:21:52.378Z",
+          "url": "https://www.apple.com/se/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "sg",
+          "local": 499,
+          "display": "S$499",
+          "part": "MDEY4",
+          "at": "2026-10-27T15:22:00.344Z",
+          "url": "https://www.apple.com/sg/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "th",
+          "local": 12900,
+          "display": "฿12,900",
+          "part": "MDEY4",
+          "at": "2026-10-27T15:22:08.599Z",
+          "url": "https://www.apple.com/th/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "tr",
+          "local": 22299,
+          "display": "22.299 TL",
+          "part": "MDEY4",
+          "at": "2026-10-27T15:22:16.357Z",
+          "url": "https://www.apple.com/tr/shop/buy-homepod/homepod"
+        },
+        {
+          "code": "tw",
+          "local": 10990,
+          "display": "NT$10,990",
+          "part": "MDEY4",
+          "at": "2026-10-27T15:22:24.456Z",
+          "url": "https://www.apple.com/tw/shop/buy-homepod/homepod"
+        }
+      ]
+    }
+  ],
+  "discoveredAt": "2026-10-27T15:16:16.319Z",
+  "defaultVariant": "midnight",
+  "pricedAt": "2026-10-27T15:22:48.763Z",
+  "failedStores": []
+}
