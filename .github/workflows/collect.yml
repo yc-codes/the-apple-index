@@ -7,18 +7,70 @@ concurrency:
   group: apple-price-collector
   cancel-in-progress: false
 permissions:
-  contents: read
+  contents: write
 jobs:
   collect:
     runs-on: ubuntu-latest
     timeout-minutes: 330
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Prepare published data
+        run: |
+          if git ls-remote --exit-code --heads origin data; then
+            git fetch origin data
+            git worktree add -B data ./data FETCH_HEAD
+          else
+            status=$?
+            if [ "$status" -ne 2 ]; then exit "$status"; fi
+            git worktree add --orphan -b data ./data
+          fi
+      - uses: actions/cache/restore@v4
+        with:
+          path: .cache
+          key: collector-${{ github.run_id }}
+          restore-keys: collector-
       - uses: oven-sh/setup-bun@v2
         with:
           bun-version: "1.4.4"
       - run: bun install --frozen-lockfile
-      - run: bun run collect
+      - id: collect
+        run: bun run collect
+        timeout-minutes: 300
+        continue-on-error: true
         env:
-          BLOB_READ_WRITE_TOKEN: ${{ secrets.BLOB_READ_WRITE_TOKEN }}
           APPLE_BACKGROUND_GAP_MS: "8000"
+      - uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: .cache
+          key: collector-${{ github.run_id }}
+      - name: Publish data
+        id: publish
+        if: always()
+        working-directory: data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          if git diff --cached --quiet; then
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Update Apple prices $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push origin HEAD:data
+            echo 'changed=true' >> "$GITHUB_OUTPUT"
+          fi
+      - name: Rebuild site
+        if: always() && steps.publish.outputs.changed == 'true'
+        env:
+          VERCEL_DEPLOY_HOOK_URL: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
+        run: |
+          if [ -n "$VERCEL_DEPLOY_HOOK_URL" ]; then
+            curl -fsS -X POST "$VERCEL_DEPLOY_HOOK_URL"
+          else
+            echo '::warning::Set VERCEL_DEPLOY_HOOK_URL to rebuild after collection.'
+          fi
+      - name: Report collection failure
+        if: always() && steps.collect.outcome == 'failure'
+        run: exit 1

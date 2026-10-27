@@ -10,8 +10,6 @@ const publishOnly = process.argv.includes('--publish-only');
 const requested = process.argv.find((arg) => arg.startsWith('--family='))?.split('=')[1];
 if (requested && !families.some((f) => f.id === requested))
   throw new Error('Unknown product family');
-if (process.env.CI && !process.env.BLOB_READ_WRITE_TOKEN)
-  throw new Error('Configure the BLOB_READ_WRITE_TOKEN repository secret before collecting.');
 const prior = (await storage.read('collector-status')) as CollectorStatus | null;
 if (!publishOnly && prior?.blockedUntil && Date.parse(prior.blockedUntil) > Date.now()) {
   console.log('Apple cooldown is still active. Keeping the previous prices.');
