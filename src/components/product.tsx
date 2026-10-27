@@ -3,10 +3,10 @@ import { useNavigate } from '@tanstack/react-router';
 import { useProduct, useMeta } from '../api';
 import { configurationOptions } from '../configuration.ts';
 import { IndexLink, flag, usePreferences } from './layout';
-import { Art, PriceRows, QueryError, ago, usePricing } from './prices';
+import { Art, PriceRows, ago, usePricing } from './prices';
 import type { Product as ProductData, Variant } from '../types';
 export function ProductPage({ id, variantId }: { id: string; variantId?: string }) {
-  const query = useProduct(id);
+  const query = useProduct();
   useEffect(() => {
     if (query.data) document.title = `${query.data.name} — The Apple Index`;
     return () => {
@@ -24,21 +24,17 @@ export function ProductPage({ id, variantId }: { id: string; variantId?: string 
         replace: true,
       });
   }, [query.data, variantId, id, navigate, search.country, search.currency]);
-  if (query.error)
+  if (!query.data)
     return (
       <>
         <IndexLink className="back">← All products</IndexLink>
-        <QueryError message={query.error.message} retry={() => void query.refetch()} />
+        <div className="boot" role="alert">
+          <p>Prices for this product have not been collected yet. Please check again later.</p>
+        </div>
       </>
     );
-  if (!query.data)
-    return (
-      <p className="boot" role="status">
-        Loading Apple prices…
-      </p>
-    );
   const variant = query.data.variants.find(
-    (v) => v.id === (variantId || query.data.defaultVariant),
+    (v) => v.id === (variantId || query.data?.defaultVariant),
   );
   if (!variant)
     return (

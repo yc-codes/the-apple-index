@@ -113,13 +113,3 @@ export function PriceRows({
     </>
   );
 }
-export function QueryError({ message, retry }: { message: string; retry: () => void }) {
-  return (
-    <div className="boot" role="alert">
-      <p>{message}</p>
-      <button type="button" className="primary" onClick={retry}>
-        Try again
-      </button>
-    </div>
-  );
-}

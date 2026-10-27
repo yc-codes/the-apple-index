@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useListing, useMeta } from '../api';
 import { IndexLink, flag, usePreferences } from './layout';
-import { Art, PriceRows, QueryError, usePricing } from './prices';
+import { Art, PriceRows, usePricing } from './prices';
 import type { Summary } from '../types';
 const categories = ['All products', 'Mac', 'iPhone', 'iPad', 'Watch', 'TV & Home'];
 function Card({ product: p }: { product: Summary }) {
@@ -47,8 +47,6 @@ export function Catalog() {
   const [filter, setFilter] = useState('All products'),
     [search, setSearch] = useState('');
   const countries = meta?.stores || [];
-  if (listing.error)
-    return <QueryError message={listing.error.message} retry={() => void listing.refetch()} />;
   const products = listing.data?.products || [];
   const tracked = products.reduce((n, p) => n + (p.configurations || 0), 0);
   const visible = products.filter(
@@ -135,17 +133,13 @@ export function Catalog() {
             />
           </label>
         </div>
-        {listing.isPending ? (
-          <p role="status">Loading the index…</p>
-        ) : (
-          <div className="product-grid">
-            {visible.length ? (
-              visible.map((p) => <Card key={p.id} product={p} />)
-            ) : (
-              <p className="empty">No products found. Try another search or category.</p>
-            )}
-          </div>
-        )}
+        <div className="product-grid">
+          {visible.length ? (
+            visible.map((p) => <Card key={p.id} product={p} />)
+          ) : (
+            <p className="empty">No products found. Try another search or category.</p>
+          )}
+        </div>
       </section>
     </>
   );

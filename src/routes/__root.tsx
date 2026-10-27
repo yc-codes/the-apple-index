@@ -1,11 +1,12 @@
-import { createRootRouteWithContext, HeadContent, Outlet, Scripts } from '@tanstack/react-router';
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { createRootRoute, HeadContent, Outlet, Scripts } from '@tanstack/react-router';
+import { getMeta } from '../data';
 import { PreferencesProvider, Layout } from '../components/layout';
 import { countryCurrencies } from '../region.ts';
 import styles from '../style.css?url';
 import type { Preferences } from '../types';
 
-export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
+export const Route = createRootRoute({
+  loader: getMeta,
   validateSearch: (search: Record<string, unknown>): Preferences => ({
     country:
       typeof search.country === 'string' && search.country in countryCurrencies
@@ -46,20 +47,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
   ),
 });
 function Root() {
-  const { queryClient } = Route.useRouteContext();
   return (
     <html lang="en">
       <head>
         <HeadContent />
       </head>
       <body>
-        <QueryClientProvider client={queryClient}>
-          <PreferencesProvider>
-            <Layout>
-              <Outlet />
-            </Layout>
-          </PreferencesProvider>
-        </QueryClientProvider>
+        <PreferencesProvider>
+          <Layout>
+            <Outlet />
+          </Layout>
+        </PreferencesProvider>
         <Scripts />
       </body>
     </html>

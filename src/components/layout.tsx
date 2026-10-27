@@ -37,8 +37,8 @@ export function PreferencesProvider({ children }: { children: ReactNode }) {
   const revision = useRef(0);
   const current = useRef({ location, search });
   current.current = { location, search };
-  const country = search.country || 'us';
-  const currency = search.currency || currencies[country];
+  const country = (initialized && search.country) || 'us';
+  const currency = (initialized && search.currency) || currencies[country];
   useEffect(() => {
     let cancelled = false;
     let saved: { country?: string; currency?: string; refund?: boolean } = {};

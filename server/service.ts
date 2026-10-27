@@ -162,7 +162,7 @@ function defaultVariant(family: Catalog, byVariant: PriceCollection['byVariant']
     family.variants[0]
   );
 }
-// Listing: whatever is ready now; families still loading are flagged so the client can poll.
+// Listing: whatever is ready now; families still loading are flagged as pending.
 export function summaries(): Summary[] {
   return families.map((f) => {
     const family = peek(`catalog-${f.id}`),

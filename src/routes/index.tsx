@@ -1,3 +1,4 @@
 import { createFileRoute } from '@tanstack/react-router';
 import { Catalog } from '../components/catalog';
-export const Route = createFileRoute('/')({ component: Catalog });
+import { getListing } from '../data';
+export const Route = createFileRoute('/')({ loader: getListing, component: Catalog });
