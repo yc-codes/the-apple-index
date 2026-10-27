@@ -4071,7 +4071,289 @@
       "id": "ipad-mini",
       "name": "iPad mini",
       "category": "iPad",
-      "ready": false
+      "ready": true,
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-mini-finish-select-wifi-midnight-202610?wid=1200&hei=1200&fmt=png-alpha",
+      "variant": {
+        "id": "128gb-standard-glass-wi-fi-midnight",
+        "label": "128GB · Standard glass · Wi-Fi · Midnight"
+      },
+      "configurations": 20,
+      "prices": [
+        {
+          "code": "us",
+          "local": 699,
+          "display": "$699",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:26:21.779Z"
+        },
+        {
+          "code": "ae",
+          "local": 2849,
+          "display": "AED 2,849",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:26:30.612Z"
+        },
+        {
+          "code": "at",
+          "local": 749,
+          "display": "749 €",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:26:38.144Z"
+        },
+        {
+          "code": "au",
+          "local": 1099,
+          "display": "A$1,099 ",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:26:46.225Z"
+        },
+        {
+          "code": "be",
+          "local": 759,
+          "display": "€ 759",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:26:54.464Z"
+        },
+        {
+          "code": "br",
+          "local": 8499,
+          "display": "R$ 8.499",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:27:02.186Z"
+        },
+        {
+          "code": "ca",
+          "local": 949,
+          "display": "$949",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:27:10.455Z"
+        },
+        {
+          "code": "ch",
+          "local": 679,
+          "display": "CHF 679.–",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:27:18.316Z"
+        },
+        {
+          "code": "cl",
+          "local": 899990,
+          "display": "$899.990",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:27:26.139Z"
+        },
+        {
+          "code": "cz",
+          "local": 19990,
+          "display": "19 990 Kč",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:27:34.568Z"
+        },
+        {
+          "code": "de",
+          "local": 749,
+          "display": "749 €",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:27:42.149Z"
+        },
+        {
+          "code": "dk",
+          "local": 6299,
+          "display": "6.299 kr.",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:27:50.294Z"
+        },
+        {
+          "code": "es",
+          "local": 749,
+          "display": "749 € ",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:27:58.268Z"
+        },
+        {
+          "code": "fi",
+          "local": 779,
+          "display": "779 €",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:28:06.485Z"
+        },
+        {
+          "code": "fr",
+          "local": 759,
+          "display": "759 €",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:28:14.305Z"
+        },
+        {
+          "code": "gb",
+          "local": 699,
+          "display": "£699",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:28:22.456Z"
+        },
+        {
+          "code": "hk",
+          "local": 5299,
+          "display": "HK$5,299",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:28:30.310Z"
+        },
+        {
+          "code": "hu",
+          "local": 329990,
+          "display": "329 990 Ft",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:28:38.519Z"
+        },
+        {
+          "code": "ie",
+          "local": 769,
+          "display": "€769",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:28:46.452Z"
+        },
+        {
+          "code": "in",
+          "local": 82900,
+          "display": "₹82900.00",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:28:54.224Z"
+        },
+        {
+          "code": "it",
+          "local": 759,
+          "display": "€ 759 ",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:29:02.709Z"
+        },
+        {
+          "code": "jp",
+          "local": 119800,
+          "display": "119,800円",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:29:10.533Z"
+        },
+        {
+          "code": "kr",
+          "local": 1149000,
+          "display": "₩1,149,000",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:29:18.263Z"
+        },
+        {
+          "code": "lu",
+          "local": 733.91,
+          "display": "733,91 €",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:29:26.191Z"
+        },
+        {
+          "code": "mx",
+          "local": 16999,
+          "display": "$16,999",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:29:34.333Z"
+        },
+        {
+          "code": "my",
+          "local": 2999,
+          "display": "RM 2,999",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:29:42.508Z"
+        },
+        {
+          "code": "nl",
+          "local": 759,
+          "display": "€ 759",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:29:50.533Z"
+        },
+        {
+          "code": "no",
+          "local": 8990,
+          "display": "kr 8 990",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:29:58.275Z"
+        },
+        {
+          "code": "nz",
+          "local": 1399,
+          "display": "NZ$1,399",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:30:06.304Z"
+        },
+        {
+          "code": "ph",
+          "local": 49990,
+          "display": "₱49,990",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:30:14.481Z"
+        },
+        {
+          "code": "pl",
+          "local": 3499,
+          "display": "3499 zł",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:30:22.314Z"
+        },
+        {
+          "code": "pt",
+          "local": 769,
+          "display": "769 €",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:30:30.314Z"
+        },
+        {
+          "code": "sa",
+          "local": 3299,
+          "display": "SAR 3,299",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:30:38.432Z"
+        },
+        {
+          "code": "se",
+          "local": 9295,
+          "display": "9 295 kr",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:30:46.334Z"
+        },
+        {
+          "code": "sg",
+          "local": 999,
+          "display": "S$999",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:30:54.396Z"
+        },
+        {
+          "code": "th",
+          "local": 24900,
+          "display": "฿24,900",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:31:02.458Z"
+        },
+        {
+          "code": "tr",
+          "local": 48999,
+          "display": "48.999 TL",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:31:10.529Z"
+        },
+        {
+          "code": "tw",
+          "local": 22900,
+          "display": "NT$22,900",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:31:18.694Z"
+        },
+        {
+          "code": "vn",
+          "local": 19499000,
+          "display": "19.499.000đ",
+          "part": "MJ6F4",
+          "at": "2026-10-27T14:31:26.811Z"
+        }
+      ],
+      "pricedAt": "2026-10-27T14:31:34.723Z"
     },
     {
       "id": "apple-watch",
