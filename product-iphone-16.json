@@ -1,0 +1,165 @@
+{
+  "id": "iphone-16",
+  "name": "iPhone 16",
+  "category": "iPhone",
+  "path": "buy-iphone/iphone-16",
+  "url": "https://www.apple.com/shop/buy-iphone/iphone-16",
+  "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-16-finish-select-202409-6-1inch_GEO_US?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1724710494447",
+  "dimensions": [
+    {
+      "key": "color",
+      "name": "Color",
+      "values": [
+        {
+          "key": "pink",
+          "label": "Pink"
+        },
+        {
+          "key": "white",
+          "label": "White"
+        },
+        {
+          "key": "black",
+          "label": "Black"
+        },
+        {
+          "key": "ultramarine",
+          "label": "Ultramarine"
+        },
+        {
+          "key": "teal",
+          "label": "Teal"
+        }
+      ]
+    }
+  ],
+  "fixed": {
+    "Size": "iPhone 16"
+  },
+  "variants": [
+    {
+      "id": "6.1-inch-display-128gb-pink",
+      "part": "MYAR3",
+      "specs": {
+        "screensize": "6_1inch",
+        "color": "pink"
+      },
+      "labels": {
+        "screensize": "iPhone 16",
+        "color": "Pink"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-16-pink-select-202409?wid=1200&hei=1200&fmt=png-alpha",
+      "label": "iPhone 16 · Pink",
+      "prices": [
+        {
+          "code": "us",
+          "local": 799,
+          "display": "$799",
+          "part": "MYAR3",
+          "at": "2026-10-27T13:28:34.952Z",
+          "url": "https://www.apple.com/shop/buy-iphone/iphone-16"
+        }
+      ]
+    },
+    {
+      "id": "6.1-inch-display-128gb-white",
+      "part": "MYAQ3",
+      "specs": {
+        "screensize": "6_1inch",
+        "color": "white"
+      },
+      "labels": {
+        "screensize": "iPhone 16",
+        "color": "White"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-16-white-select-202409?wid=1200&hei=1200&fmt=png-alpha",
+      "label": "iPhone 16 · White",
+      "prices": [
+        {
+          "code": "us",
+          "local": 799,
+          "display": "$799",
+          "part": "MYAQ3",
+          "at": "2026-10-27T13:28:34.952Z",
+          "url": "https://www.apple.com/shop/buy-iphone/iphone-16"
+        }
+      ]
+    },
+    {
+      "id": "6.1-inch-display-128gb-black",
+      "part": "MYAP3",
+      "specs": {
+        "screensize": "6_1inch",
+        "color": "black"
+      },
+      "labels": {
+        "screensize": "iPhone 16",
+        "color": "Black"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-16-black-select-202409?wid=1200&hei=1200&fmt=png-alpha",
+      "label": "iPhone 16 · Black",
+      "prices": [
+        {
+          "code": "us",
+          "local": 799,
+          "display": "$799",
+          "part": "MYAP3",
+          "at": "2026-10-27T13:28:34.952Z",
+          "url": "https://www.apple.com/shop/buy-iphone/iphone-16"
+        }
+      ]
+    },
+    {
+      "id": "6.1-inch-display-128gb-ultramarine",
+      "part": "MYAT3",
+      "specs": {
+        "screensize": "6_1inch",
+        "color": "ultramarine"
+      },
+      "labels": {
+        "screensize": "iPhone 16",
+        "color": "Ultramarine"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-16-ultramarine-select-202409?wid=1200&hei=1200&fmt=png-alpha",
+      "label": "iPhone 16 · Ultramarine",
+      "prices": [
+        {
+          "code": "us",
+          "local": 799,
+          "display": "$799",
+          "part": "MYAT3",
+          "at": "2026-10-27T13:28:34.952Z",
+          "url": "https://www.apple.com/shop/buy-iphone/iphone-16"
+        }
+      ]
+    },
+    {
+      "id": "6.1-inch-display-128gb-teal",
+      "part": "MYAW3",
+      "specs": {
+        "screensize": "6_1inch",
+        "color": "teal"
+      },
+      "labels": {
+        "screensize": "iPhone 16",
+        "color": "Teal"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-16-teal-select-202409?wid=1200&hei=1200&fmt=png-alpha",
+      "label": "iPhone 16 · Teal",
+      "prices": [
+        {
+          "code": "us",
+          "local": 799,
+          "display": "$799",
+          "part": "MYAW3",
+          "at": "2026-10-27T13:28:34.952Z",
+          "url": "https://www.apple.com/shop/buy-iphone/iphone-16"
+        }
+      ]
+    }
+  ],
+  "discoveredAt": "2026-10-27T13:28:34.952Z",
+  "defaultVariant": "6.1-inch-display-128gb-pink",
+  "pricedAt": "2026-10-27T13:39:01.952Z",
+  "failedStores": []
+}

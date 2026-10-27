@@ -3185,7 +3185,23 @@
       "id": "iphone-16",
       "name": "iPhone 16",
       "category": "iPhone",
-      "ready": false
+      "ready": true,
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-16-pink-select-202409?wid=1200&hei=1200&fmt=png-alpha",
+      "variant": {
+        "id": "6.1-inch-display-128gb-pink",
+        "label": "iPhone 16 · Pink"
+      },
+      "configurations": 5,
+      "prices": [
+        {
+          "code": "us",
+          "local": 799,
+          "display": "$799",
+          "part": "MYAR3",
+          "at": "2026-10-27T13:28:34.952Z"
+        }
+      ],
+      "pricedAt": "2026-10-27T13:39:01.952Z"
     },
     {
       "id": "ipad-pro",
