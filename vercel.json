@@ -3,5 +3,10 @@
   "framework": "tanstack-start",
   "installCommand": "bun install --frozen-lockfile",
   "buildCommand": "bun run build",
-  "devCommand": "bun run dev"
+  "devCommand": "bun run dev",
+  "git": {
+    "deploymentEnabled": {
+      "data": false
+    }
+  }
 }

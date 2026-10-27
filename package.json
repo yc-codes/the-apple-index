@@ -4,9 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite --host 0.0.0.0",
-    "build": "vite build",
-    "build:vercel": "VERCEL=1 vite build",
+    "dev": "bun scripts/fetch-data.ts && vite --host 0.0.0.0",
+    "build": "bun scripts/fetch-data.ts && vite build",
+    "build:vercel": "VERCEL=1 bun run build",
     "start": "bun .output/server/index.mjs",
     "collect": "bun scripts/collect.ts",
     "data:publish": "bun scripts/collect.ts --publish-only",
@@ -14,7 +14,9 @@
     "test:browser": "playwright test",
     "typecheck": "tsc --noEmit",
     "format": "biome format --write .",
-    "format:check": "biome format ."
+    "format:check": "biome format .",
+    "data:fetch": "bun scripts/fetch-data.ts",
+    "data:local": "bun scripts/fetch-data.ts --from=.cache"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.6.3",
