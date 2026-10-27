@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 330
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           ref: main
       - name: Prepare published data
@@ -26,7 +26,7 @@ jobs:
             if [ "$status" -ne 2 ]; then exit "$status"; fi
             git worktree add --orphan -b data ./data
           fi
-      - uses: actions/cache/restore@v4
+      - uses: actions/cache/restore@v5
         with:
           path: .cache
           key: collector-${{ github.run_id }}
@@ -41,7 +41,7 @@ jobs:
         continue-on-error: true
         env:
           APPLE_BACKGROUND_GAP_MS: "8000"
-      - uses: actions/cache/save@v4
+      - uses: actions/cache/save@v5
         if: always()
         with:
           path: .cache
