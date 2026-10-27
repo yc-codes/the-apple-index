@@ -20,6 +20,15 @@ export function ago(iso?: string, now: number | null = null) {
         ? `${Math.round(minutes / 60)} h ago`
         : new Date(iso).toLocaleDateString('en-GB');
 }
+// UTC until hydrated (stable prerendered markup), then the visitor's local time.
+export function fetchedAt(iso: string, now: number | null) {
+  const d = new Date(iso);
+  if (now !== null) return d.toLocaleString('en-GB', { dateStyle: 'medium', timeStyle: 'short' });
+  // Built by hand: server and browser ICU data can format the same date differently.
+  const month = 'Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec'.split(' ')[d.getUTCMonth()];
+  const time = [d.getUTCHours(), d.getUTCMinutes()].map((n) => String(n).padStart(2, '0'));
+  return `${d.getUTCDate()} ${month} ${d.getUTCFullYear()}, ${time.join(':')} UTC`;
+}
 export function Art({
   name,
   image,

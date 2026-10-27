@@ -184,7 +184,8 @@ h1 em {
   background: #e9ecdf;
   border: 1px solid #dce1d1;
   border-radius: 13px;
-  padding: 30px;
+  --note-pad: 30px;
+  padding: var(--note-pad);
   overflow: hidden;
   min-height: 260px;
 }
@@ -229,6 +230,58 @@ h1 em {
 }
 .note-bottom span {
   font-size: 18px;
+}
+.deal-window {
+  position: relative;
+  overflow: hidden;
+  margin: 0 calc(-1 * var(--note-pad));
+}
+.deal-track {
+  display: flex;
+  transition: transform 0.7s cubic-bezier(0.65, 0, 0.35, 1);
+}
+.deal {
+  flex: 0 0 100%;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 14px var(--note-pad) 30px;
+}
+.deal-kicker {
+  font-size: 14px;
+  color: #4b5944;
+}
+.deal-country {
+  font-family: Manrope, sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 4px;
+}
+.deal-price {
+  font-family: Manrope, sans-serif;
+  font-weight: 500;
+  font-size: clamp(40px, 4.4vw, 62px);
+  letter-spacing: -2.5px;
+  line-height: 1.1;
+  color: var(--green);
+  margin: 14px 0 6px;
+  white-space: nowrap;
+}
+.deal-note {
+  font-size: 12px;
+  color: #58664d;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.note-bottom .deal-count {
+  font-size: 9px;
+  font-variant-numeric: tabular-nums;
+}
+@media (prefers-reduced-motion: reduce) {
+  .deal-track {
+    transition: none;
+  }
 }
 .section-heading {
   display: flex;
@@ -455,9 +508,10 @@ footer p {
   color: var(--muted);
   font-size: 10px;
 }
-footer > a:not(.brand) {
-  font-size: 10px;
+.last-fetched {
+  padding: 20px 0 40px;
   color: var(--muted);
+  font-size: 12px;
 }
 .back {
   display: inline-block;
@@ -606,7 +660,7 @@ html {
     margin: 0 28px;
   }
   .hero-note {
-    padding: 22px;
+    --note-pad: 22px;
   }
   .stat strong {
     font-size: 75px;
@@ -652,7 +706,10 @@ html {
   .hero-note {
     margin-top: 30px;
     min-height: 0;
-    padding: 20px;
+    --note-pad: 20px;
+  }
+  .deal-price {
+    font-size: 44px;
   }
   .stat {
     padding: 0 0 20px;

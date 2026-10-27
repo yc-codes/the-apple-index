@@ -11,7 +11,6 @@ type PrefContext = {
   refund: boolean;
   setRefund: (value: boolean) => void;
   setCountry: (value: string) => void;
-  search: Preferences;
 };
 const Context = createContext<PrefContext | null>(null);
 export function usePreferences() {
@@ -33,12 +32,13 @@ export function PreferencesProvider({ children }: { children: ReactNode }) {
   const location = useLocation();
   const navigate = useNavigate();
   const [refund, setRefundValue] = useState(true);
-  const [initialized, setInitialized] = useState(false);
+  // Null until the browser has chosen a country, so server and first client render match.
+  const [selected, setSelected] = useState<{ country: string; currency: string } | null>(null);
   const revision = useRef(0);
   const current = useRef({ location, search });
   current.current = { location, search };
-  const country = (initialized && search.country) || 'us';
-  const currency = (initialized && search.currency) || currencies[country];
+  const country = selected?.country || 'us';
+  const currency = selected?.currency || currencies[country];
   useEffect(() => {
     let cancelled = false;
     let saved: { country?: string; currency?: string; refund?: boolean } = {};
@@ -51,27 +51,25 @@ export function PreferencesProvider({ children }: { children: ReactNode }) {
       /* Storage can be unavailable. */
     }
     setRefundValue(saved.refund ?? true);
+    // Older shared links may carry ?country=&currency=; honour them once, then drop them.
     const initial = current.current.search;
+    if (initial.country || initial.currency)
+      void navigate({ to: current.current.location.pathname as '/', search: {}, replace: true });
     const preferred =
       initial.country || (saved.country && currencies[saved.country] ? saved.country : null);
     const fallback = fallbackCountry(Intl.DateTimeFormat().resolvedOptions().timeZone, [
       ...navigator.languages,
     ]);
     const version = revision.current;
-    const apply = (selected: string) => {
+    const apply = (choice: string) => {
       if (cancelled || revision.current !== version) return;
-      void navigate({
-        to: current.current.location.pathname as '/',
-        search: {
-          country: selected,
-          currency:
-            initial.currency ||
-            (preferred && saved.country === selected ? saved.currency : null) ||
-            currencies[selected],
-        },
-        replace: true,
+      setSelected({
+        country: choice,
+        currency:
+          initial.currency ||
+          (preferred && saved.country === choice ? saved.currency : null) ||
+          currencies[choice],
       });
-      setInitialized(true);
     };
     if (preferred || initial.currency) apply(preferred || fallback);
     else {
@@ -83,21 +81,13 @@ export function PreferencesProvider({ children }: { children: ReactNode }) {
     };
   }, [navigate]);
   useEffect(() => {
-    if (!initialized) return;
+    if (!selected) return;
     try {
-      localStorage.setItem(key, JSON.stringify({ country, currency, refund }));
+      localStorage.setItem(key, JSON.stringify({ ...selected, refund }));
     } catch {
       /* Optional persistence. */
     }
-  }, [country, currency, refund, initialized]);
-  const setCountry = (value: string) => {
-    revision.current++;
-    setInitialized(true);
-    void navigate({
-      to: location.pathname as '/',
-      search: { country: value, currency: currencies[value] },
-    });
-  };
+  }, [selected, refund]);
   return (
     <Context.Provider
       value={{
@@ -106,10 +96,12 @@ export function PreferencesProvider({ children }: { children: ReactNode }) {
         refund,
         setRefund: (value) => {
           setRefundValue(value);
-          setInitialized(true);
+          setSelected((s) => s ?? { country, currency });
         },
-        setCountry,
-        search: { country, currency },
+        setCountry: (value) => {
+          revision.current++;
+          setSelected({ country: value, currency: currencies[value] });
+        },
       }}
     >
       {children}
@@ -131,9 +123,8 @@ export function IndexLink({
   'data-value'?: string;
   'data-product'?: string;
 }) {
-  const { search } = usePreferences();
   return (
-    <Link to={path as '/'} search={search} {...props}>
+    <Link to={path as '/'} {...props}>
       {children}
     </Link>
   );
@@ -191,12 +182,6 @@ export function Layout({ children }: { children: ReactNode }) {
       <footer>
         <IndexLink className="brand">The Apple Index.</IndexLink>
         <p>A better view of what you pay.</p>
-        <a href="https://www.apple.com/choose-country-region/" target="_blank" rel="noreferrer">
-          Apple Stores ↗
-        </a>
-        <a href="https://www.exchangerate-api.com" target="_blank" rel="noreferrer">
-          Exchange rates ↗
-        </a>
       </footer>
     </>
   );

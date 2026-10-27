@@ -2,7 +2,9 @@ import { useState } from 'react';
 import { useListing, useMeta } from '../api';
 import { IndexLink, flag, usePreferences } from './layout';
 import { Art, PriceRows, usePricing } from './prices';
+import { Deals } from './deals';
 import type { Summary } from '../types';
+import { artwork } from '../../server/families';
 const categories = ['All products', 'Mac', 'iPhone', 'iPad', 'Watch', 'TV & Home'];
 function Card({ product: p }: { product: Summary }) {
   const { rows, money } = usePricing(p.prices);
@@ -22,7 +24,7 @@ function Card({ product: p }: { product: Summary }) {
         </div>
         <span className="circle-arrow">↗</span>
       </IndexLink>
-      <Art name={p.name} image={p.image} />
+      <Art name={p.name} image={p.image || artwork[p.id]} />
       <div className="card-prices">
         {p.ready && (
           <>
@@ -75,22 +77,27 @@ export function Catalog() {
             Find your next Apple <span>↘</span>
           </a>
         </div>
-        <div className="hero-note">
-          <span className="orbit">◎</span>
-          <div className="stat">
-            <strong>{countries.length || 39}</strong>
-            <span>
-              countries.
-              <br />
-              {listing.data?.ready
-                ? `${tracked} configurations tracked.`
-                : `${products.filter((p) => p.ready).length} product families ready.`}
-            </span>
-          </div>
-          <div className="note-bottom">
-            LOCAL PRICES. GLOBAL PERSPECTIVE.<span>↗</span>
-          </div>
-        </div>
+        <Deals
+          products={products}
+          fallback={
+            <div className="hero-note">
+              <span className="orbit">◎</span>
+              <div className="stat">
+                <strong>{countries.length || 39}</strong>
+                <span>
+                  countries.
+                  <br />
+                  {listing.data?.ready
+                    ? `${tracked} configurations tracked.`
+                    : `${products.filter((p) => p.ready).length} product families ready.`}
+                </span>
+              </div>
+              <div className="note-bottom">
+                LOCAL PRICES. GLOBAL PERSPECTIVE.<span>↗</span>
+              </div>
+            </div>
+          }
+        />
       </section>
       <section id="catalog">
         <div className="section-heading">

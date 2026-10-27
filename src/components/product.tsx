@@ -3,8 +3,9 @@ import { useNavigate } from '@tanstack/react-router';
 import { useProduct, useMeta } from '../api';
 import { configurationOptions } from '../configuration.ts';
 import { IndexLink, flag, usePreferences } from './layout';
-import { Art, PriceRows, ago, useNow, usePricing } from './prices';
+import { Art, PriceRows, ago, fetchedAt, useNow, usePricing } from './prices';
 import type { Product as ProductData, Variant } from '../types';
+import { artwork } from '../../server/families';
 export function ProductPage({ id, variantId }: { id: string; variantId?: string }) {
   const query = useProduct();
   useEffect(() => {
@@ -14,16 +15,14 @@ export function ProductPage({ id, variantId }: { id: string; variantId?: string 
     };
   }, [query.data?.name]);
   const navigate = useNavigate();
-  const { search } = usePreferences();
   useEffect(() => {
     if (query.data && !variantId)
       void navigate({
         to: '/products/$productId/$variantId',
         params: { productId: id, variantId: query.data.defaultVariant },
-        search,
         replace: true,
       });
-  }, [query.data, variantId, id, navigate, search.country, search.currency]);
+  }, [query.data, variantId, id, navigate]);
   if (!query.data)
     return (
       <>
@@ -115,13 +114,10 @@ function ProductDetail({ product, variant }: { product: ProductData; variant: Va
           <p className="configuration-notice" role="status" id="configuration-notice">
             {notice.variant === variant.id ? notice.text : ''}
           </p>
-          <p className="selection-note">
-            Your configuration stays selected when you change your country.
-          </p>
         </div>
         <Art
           name={product.name + ' ' + (variant.labels.color || '')}
-          image={variant.image || product.image}
+          image={variant.image || product.image || artwork[product.id]}
           eager
         />
       </section>
@@ -182,6 +178,7 @@ function ProductDetail({ product, variant }: { product: ProductData; variant: Va
           )}
         </div>
       </section>
+      <p className="last-fetched">Last fetched {fetchedAt(product.pricedAt, now)}</p>
     </>
   );
 }
