@@ -17,6 +17,10 @@ if (existsSync('data')) {
 }
 
 export default defineConfig({
+  define: {
+    // Local-data builds (tests, DATA_SOURCE=local) must not read the live data branch.
+    'import.meta.env.VITE_LIVE_DATA': JSON.stringify(process.env.DATA_SOURCE !== 'local'),
+  },
   server: { port: 5173, host: '0.0.0.0' },
   plugins: [
     tanstackStart({

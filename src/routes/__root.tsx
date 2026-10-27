@@ -1,4 +1,5 @@
-import { createRootRoute, HeadContent, Outlet, Scripts } from '@tanstack/react-router';
+import { createRootRoute, HeadContent, Outlet, Scripts, useRouter } from '@tanstack/react-router';
+import { useEffect } from 'react';
 import { getMeta } from '../data';
 import { PreferencesProvider, Layout } from '../components/layout';
 import { countryCurrencies } from '../region.ts';
@@ -47,6 +48,11 @@ export const Route = createRootRoute({
   ),
 });
 function Root() {
+  const router = useRouter();
+  // After hydration, reload route data from GitHub; the prerendered snapshot stays until it arrives.
+  useEffect(() => {
+    router.invalidate();
+  }, [router]);
   return (
     <html lang="en">
       <head>
