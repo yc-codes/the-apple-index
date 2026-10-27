@@ -97,17 +97,41 @@ test('late country lookup cannot overwrite a manual selection', async ({ page })
   await expect(page.locator('#region')).toHaveValue('jp');
   await expect(page).toHaveURL(/currency=JPY/);
 });
-test('server APIs serve stored results and report pending and unknown products', async ({
+test('bundled prices render without API requests and retain pending and unknown states', async ({
+  page,
   request,
 }) => {
-  const listing = await request.get('/api/products');
-  expect(listing.status()).toBe(200);
-  expect((await listing.json()).products[0].id).toBe('macbook-pro');
-  const detail = await request.get('/api/products/macbook-pro');
-  expect((await detail.json()).variants).toHaveLength(3);
-  expect((await request.get('/api/products/ipad-pro')).status()).toBe(503);
-  expect((await request.get('/api/products/unknown')).status()).toBe(404);
-  expect((await request.post('/api/products')).status()).toBe(405);
+  await page.addInitScript(() => {
+    Date.now = () => Date.parse('2030-01-01T00:00:00Z');
+  });
+  const requests: string[] = [];
+  const errors: string[] = [];
+  page.on('request', (request) => {
+    if (new URL(request.url()).pathname.startsWith('/api/')) requests.push(request.url());
+  });
+  page.on('pageerror', (error) => errors.push(error.message));
   const html = await (await request.get('/')).text();
-  expect(html).toContain('The Apple Index');
+  expect(html).toContain('MacBook Pro');
+  expect(html).toContain('card-prices');
+  const detail = await (
+    await request.get(`/products/macbook-pro/${product.variants[0].id}`)
+  ).text();
+  expect(detail).toContain('Prices around the world');
+  expect(detail).toContain('United States');
+  await page.goto('/?country=jp&currency=JPY');
+  await expect(page.locator('#region')).toHaveValue('jp');
+  await page.locator('[data-product="macbook-pro"]').click();
+  await expect(page.locator('.comparison-table .price strong').first()).toBeVisible();
+  await page.reload();
+  await expect(page.locator('#region')).toHaveValue('jp');
+  await page.goto('/products/macbook-pro?country=jp&currency=JPY');
+  await expect(page).toHaveURL(new RegExp(product.defaultVariant + '\\?country=jp&currency=JPY'));
+  await expect(page.locator('#region')).toHaveValue('jp');
+  await page.goto('/products/ipad-pro');
+  await expect(
+    page.getByText('Prices for this product have not been collected yet.', { exact: false }),
+  ).toBeVisible();
+  expect((await request.get('/products/unknown')).status()).toBe(404);
+  expect(requests).toEqual([]);
+  expect(errors).toEqual([]);
 });

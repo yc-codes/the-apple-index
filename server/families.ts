@@ -1,4 +1,4 @@
-import type { Family } from './types';
+import type { Family } from './types.ts';
 // Product family identifiers and Apple store paths; prices are collected separately.
 export const families: Family[] = [
   ['macbook-air', 'MacBook Air', 'Mac', 'buy-mac/macbook-air'],

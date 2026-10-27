@@ -1,11 +1,17 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { rankPrices, taxNote } from '../pricing.ts';
 import { useMeta } from '../api';
 import { flag, usePreferences } from './layout';
 import type { Price } from '../types';
-export function ago(iso?: string) {
+export function useNow() {
+  const [now, setNow] = useState<number | null>(null);
+  useEffect(() => setNow(Date.now()), []);
+  return now;
+}
+export function ago(iso?: string, now: number | null = null) {
   if (!iso) return 'not yet';
-  const minutes = Math.max(0, Math.round((Date.now() - Date.parse(iso)) / 60_000));
+  if (now === null) return new Date(iso).toLocaleDateString('en-GB', { timeZone: 'UTC' });
+  const minutes = Math.max(0, Math.round((now - Date.parse(iso)) / 60_000));
   return minutes < 1
     ? 'just now'
     : minutes < 60
@@ -67,6 +73,7 @@ export function PriceRows({
   pricedAt?: string;
 }) {
   const { rows, base, money, country, refund } = usePricing(prices);
+  const now = useNow();
   return (
     <>
       {(compact ? rows.slice(0, 3) : rows).map((row, i) => {
@@ -92,7 +99,7 @@ export function PriceRows({
               {!compact && (
                 <small className="shelf">
                   Apple: {row.display || `${row.local} ${row.store.currency}`}
-                  {stale && ` · from ${ago(row.at)}`}
+                  {stale && ` · from ${ago(row.at, now)}`}
                 </small>
               )}
             </div>

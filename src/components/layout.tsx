@@ -182,7 +182,7 @@ export function Layout({ children }: { children: ReactNode }) {
             Prices are collected from Apple’s regional stores. Tax and tourist refunds are
             estimates; eligibility varies.{' '}
             {meta?.rates
-              ? `Exchange rates updated ${new Date(meta.rates.updated).toLocaleDateString('en-GB')}.`
+              ? `Exchange rates updated ${new Date(meta.rates.updated).toLocaleDateString('en-GB', { timeZone: 'UTC' })}.`
               : 'Exchange rates have not been collected yet.'}{' '}
             Check with Apple before purchasing.
           </p>

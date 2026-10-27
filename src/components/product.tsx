@@ -3,7 +3,7 @@ import { useNavigate } from '@tanstack/react-router';
 import { useProduct, useMeta } from '../api';
 import { configurationOptions } from '../configuration.ts';
 import { IndexLink, flag, usePreferences } from './layout';
-import { Art, PriceRows, ago, usePricing } from './prices';
+import { Art, PriceRows, ago, useNow, usePricing } from './prices';
 import type { Product as ProductData, Variant } from '../types';
 export function ProductPage({ id, variantId }: { id: string; variantId?: string }) {
   const query = useProduct();
@@ -56,6 +56,7 @@ function ProductDetail({ product, variant }: { product: ProductData; variant: Va
   const { rows, base, money, stores } = usePricing(variant.prices);
   const [notice, setNotice] = useState({ variant: '', text: '' });
   const best = rows[0];
+  const now = useNow();
   const unavailable = (meta?.stores || []).filter(
     (s) => !variant.prices.some((p) => p.code === s.code),
   );
@@ -158,7 +159,7 @@ function ProductDetail({ product, variant }: { product: ProductData; variant: Va
             Include estimated tourist refunds
           </label>
           <p className="selection-note">
-            Collected {ago(product.pricedAt)}. Each store’s link shows its original currency.
+            Collected {ago(product.pricedAt, now)}. Each store’s link shows its original currency.
           </p>
         </aside>
         <div className="comparison-table">
