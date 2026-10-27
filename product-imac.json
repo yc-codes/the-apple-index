@@ -1,0 +1,6065 @@
+{
+  "id": "imac",
+  "name": "iMac",
+  "category": "Mac",
+  "path": "buy-mac/imac",
+  "url": "https://www.apple.com/shop/buy-mac/imac",
+  "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/imac-color-unselect-202601-gallery-1?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1767917121718",
+  "dimensions": [
+    {
+      "key": "cpu",
+      "name": "CPU",
+      "values": [
+        {
+          "key": "8-core",
+          "label": "8-core"
+        },
+        {
+          "key": "10-core",
+          "label": "10-core"
+        }
+      ]
+    },
+    {
+      "key": "gpu",
+      "name": "GPU",
+      "values": [
+        {
+          "key": "8-core",
+          "label": "8-core"
+        },
+        {
+          "key": "10-core",
+          "label": "10-core"
+        }
+      ]
+    },
+    {
+      "key": "memory",
+      "name": "Memory",
+      "values": [
+        {
+          "key": "16GB",
+          "label": "16GB"
+        },
+        {
+          "key": "24GB",
+          "label": "24GB"
+        }
+      ]
+    },
+    {
+      "key": "storage",
+      "name": "Storage",
+      "values": [
+        {
+          "key": "256GB",
+          "label": "256GB"
+        },
+        {
+          "key": "512GB",
+          "label": "512GB"
+        }
+      ]
+    },
+    {
+      "key": "display",
+      "name": "Display",
+      "values": [
+        {
+          "key": "Standard glass",
+          "label": "Standard glass"
+        },
+        {
+          "key": "Nano-texture glass",
+          "label": "Nano-texture glass"
+        }
+      ]
+    },
+    {
+      "key": "color",
+      "name": "Color",
+      "values": [
+        {
+          "key": "Blue",
+          "label": "Blue"
+        },
+        {
+          "key": "Pink",
+          "label": "Pink"
+        },
+        {
+          "key": "Silver",
+          "label": "Silver"
+        },
+        {
+          "key": "Orange",
+          "label": "Orange"
+        },
+        {
+          "key": "Green",
+          "label": "Green"
+        },
+        {
+          "key": "Purple",
+          "label": "Purple"
+        },
+        {
+          "key": "Yellow",
+          "label": "Yellow"
+        }
+      ]
+    }
+  ],
+  "fixed": {
+    "Size": "24-inch",
+    "Chip": "M4",
+    "Stand": "Stand"
+  },
+  "variants": [
+    {
+      "id": "24-inch-blue-m4-chip-10-core-cpu-10-core-gpu-24gb-memory-512gb-storage-standard-glass-stand",
+      "part": "MD2T4",
+      "specs": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "10-core",
+        "gpu": "10-core",
+        "color": "Blue",
+        "display": "Standard glass",
+        "stand": "Stand",
+        "memory": "24GB",
+        "storage": "512GB"
+      },
+      "labels": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "10-core",
+        "gpu": "10-core",
+        "color": "Blue",
+        "display": "Standard glass",
+        "stand": "Stand",
+        "memory": "24GB",
+        "storage": "512GB"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/imac-specs-select-202601-blue-10-10?wid=1200&hei=770&fmt=jpeg&qlt=90&.v=1767921464342",
+      "name": "iMac, 24-inch, M4 Chip, 10-core CPU, 10-core GPU, Blue, Standard glass, Stand, 24GB memory, 512GB storage",
+      "label": "24-inch · M4 · 10-core · 10-core · Blue · Standard glass · Stand · 24GB · 512GB",
+      "prices": [
+        {
+          "code": "us",
+          "local": 2099,
+          "display": "$2099",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:54:50.157Z",
+          "url": "https://www.apple.com/shop/buy-mac/imac/24-inch-blue-m4-chip-10-core-cpu-10-core-gpu-24gb-memory-512gb-storage-standard-glass-stand"
+        },
+        {
+          "code": "ae",
+          "local": 9299,
+          "display": "AED 9,299",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:54:58.677Z",
+          "url": "https://www.apple.com/ae/shop/buy-mac/imac"
+        },
+        {
+          "code": "at",
+          "local": 2439,
+          "display": "2.439 €",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:55:06.221Z",
+          "url": "https://www.apple.com/at/shop/buy-mac/imac"
+        },
+        {
+          "code": "au",
+          "local": 3299,
+          "display": "A$3,299 ",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:55:14.225Z",
+          "url": "https://www.apple.com/au/shop/buy-mac/imac"
+        },
+        {
+          "code": "be",
+          "local": 2459,
+          "display": "€ 2.459",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:55:22.754Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-mac/imac"
+        },
+        {
+          "code": "br",
+          "local": 24799,
+          "display": "R$ 24.799",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:55:30.438Z",
+          "url": "https://www.apple.com/br/shop/buy-mac/imac"
+        },
+        {
+          "code": "ca",
+          "local": 2899,
+          "display": "$2899",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:55:38.597Z",
+          "url": "https://www.apple.com/ca/shop/buy-mac/imac"
+        },
+        {
+          "code": "ch",
+          "local": 2099,
+          "display": "CHF 2099.–",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:55:46.484Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-mac/imac"
+        },
+        {
+          "code": "cl",
+          "local": 2479990,
+          "display": "$2.479.990",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:55:54.489Z",
+          "url": "https://www.apple.com/cl/shop/buy-mac/imac"
+        },
+        {
+          "code": "cz",
+          "local": 60990,
+          "display": "60 990 Kč",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:56:02.780Z",
+          "url": "https://www.apple.com/cz/shop/buy-mac/imac"
+        },
+        {
+          "code": "de",
+          "local": 2439,
+          "display": "2.439 €",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:56:10.575Z",
+          "url": "https://www.apple.com/de/shop/buy-mac/imac"
+        },
+        {
+          "code": "dk",
+          "local": 19499,
+          "display": "19.499 kr.",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:56:18.456Z",
+          "url": "https://www.apple.com/dk/shop/buy-mac/imac"
+        },
+        {
+          "code": "es",
+          "local": 2459,
+          "display": "2.459 € ",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:56:26.416Z",
+          "url": "https://www.apple.com/es/shop/buy-mac/imac"
+        },
+        {
+          "code": "fi",
+          "local": 2539,
+          "display": "2 539 €",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:56:34.574Z",
+          "url": "https://www.apple.com/fi/shop/buy-mac/imac"
+        },
+        {
+          "code": "fr",
+          "local": 2439,
+          "display": "2 439 €",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:56:42.446Z",
+          "url": "https://www.apple.com/fr/shop/buy-mac/imac"
+        },
+        {
+          "code": "gb",
+          "local": 2099,
+          "display": "£2,099",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:56:50.568Z",
+          "url": "https://www.apple.com/uk/shop/buy-mac/imac"
+        },
+        {
+          "code": "hk",
+          "local": 15999,
+          "display": "HK$15,999",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:56:58.552Z",
+          "url": "https://www.apple.com/hk/shop/buy-mac/imac"
+        },
+        {
+          "code": "hu",
+          "local": 979990,
+          "display": "979 990 Ft",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:57:06.509Z",
+          "url": "https://www.apple.com/hu/shop/buy-mac/imac"
+        },
+        {
+          "code": "ie",
+          "local": 2469,
+          "display": "€2,469",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:57:14.467Z",
+          "url": "https://www.apple.com/ie/shop/buy-mac/imac"
+        },
+        {
+          "code": "in",
+          "local": 247900,
+          "display": "₹247900.00",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:57:22.444Z",
+          "url": "https://www.apple.com/in/shop/buy-mac/imac"
+        },
+        {
+          "code": "it",
+          "local": 2469,
+          "display": "€ 2.469 ",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:57:30.807Z",
+          "url": "https://www.apple.com/it/shop/buy-mac/imac"
+        },
+        {
+          "code": "jp",
+          "local": 361800,
+          "display": "361,800円",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:57:38.635Z",
+          "url": "https://www.apple.com/jp/shop/buy-mac/imac"
+        },
+        {
+          "code": "kr",
+          "local": 3570000,
+          "display": "₩3,570,000",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:57:46.773Z",
+          "url": "https://www.apple.com/kr/shop/buy-mac/imac"
+        },
+        {
+          "code": "lu",
+          "local": 2377.71,
+          "display": "2 377,71 €",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:57:54.558Z",
+          "url": "https://www.apple.com/lu/shop/buy-mac/imac"
+        },
+        {
+          "code": "mx",
+          "local": 49999,
+          "display": "$49,999",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:58:02.455Z",
+          "url": "https://www.apple.com/mx/shop/buy-mac/imac"
+        },
+        {
+          "code": "my",
+          "local": 9299,
+          "display": "RM 9,299",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:58:10.712Z",
+          "url": "https://www.apple.com/my/shop/buy-mac/imac"
+        },
+        {
+          "code": "nl",
+          "local": 2459,
+          "display": "€ 2.459",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:58:18.643Z",
+          "url": "https://www.apple.com/nl/shop/buy-mac/imac"
+        },
+        {
+          "code": "no",
+          "local": 28990,
+          "display": "kr 28 990",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:58:26.464Z",
+          "url": "https://www.apple.com/no/shop/buy-mac/imac"
+        },
+        {
+          "code": "nz",
+          "local": 4099,
+          "display": "NZ$4,099",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:58:34.574Z",
+          "url": "https://www.apple.com/nz/shop/buy-mac/imac"
+        },
+        {
+          "code": "ph",
+          "local": 143990,
+          "display": "₱143,990",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:58:42.501Z",
+          "url": "https://www.apple.com/ph/shop/buy-mac/imac"
+        },
+        {
+          "code": "pl",
+          "local": 10499,
+          "display": "10 499 zł",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:58:50.482Z",
+          "url": "https://www.apple.com/pl/shop/buy-mac/imac"
+        },
+        {
+          "code": "pt",
+          "local": 2469,
+          "display": "2469 €",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:58:58.377Z",
+          "url": "https://www.apple.com/pt/shop/buy-mac/imac"
+        },
+        {
+          "code": "sa",
+          "local": 9999,
+          "display": "SAR 9,999",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:59:06.531Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-mac/imac"
+        },
+        {
+          "code": "se",
+          "local": 28195,
+          "display": "28 195 kr",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:59:14.496Z",
+          "url": "https://www.apple.com/se/shop/buy-mac/imac"
+        },
+        {
+          "code": "sg",
+          "local": 2999,
+          "display": "S$2,999",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:59:22.424Z",
+          "url": "https://www.apple.com/sg/shop/buy-mac/imac"
+        },
+        {
+          "code": "th",
+          "local": 73900,
+          "display": "฿73,900",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:59:30.639Z",
+          "url": "https://www.apple.com/th/shop/buy-mac/imac"
+        },
+        {
+          "code": "tr",
+          "local": 139999,
+          "display": "139.999 TL",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:59:38.731Z",
+          "url": "https://www.apple.com/tr/shop/buy-mac/imac"
+        },
+        {
+          "code": "tw",
+          "local": 71900,
+          "display": "NT$71,900",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:59:46.578Z",
+          "url": "https://www.apple.com/tw/shop/buy-mac/imac"
+        },
+        {
+          "code": "vn",
+          "local": 57999000,
+          "display": "57.999.000đ",
+          "part": "MD2T4",
+          "at": "2026-10-27T11:59:54.671Z",
+          "url": "https://www.apple.com/vn/shop/buy-mac/imac"
+        }
+      ]
+    },
+    {
+      "id": "24-inch-pink-m4-chip-10-core-cpu-10-core-gpu-24gb-memory-512gb-storage-standard-glass-stand",
+      "part": "MD2U4",
+      "specs": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "10-core",
+        "gpu": "10-core",
+        "color": "Pink",
+        "display": "Standard glass",
+        "stand": "Stand",
+        "memory": "24GB",
+        "storage": "512GB"
+      },
+      "labels": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "10-core",
+        "gpu": "10-core",
+        "color": "Pink",
+        "display": "Standard glass",
+        "stand": "Stand",
+        "memory": "24GB",
+        "storage": "512GB"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/imac-specs-select-202601-pink-10-10?wid=1200&hei=770&fmt=jpeg&qlt=90&.v=1767921464181",
+      "name": "iMac, 24-inch, M4 Chip, 10-core CPU, 10-core GPU, Pink, Standard glass, Stand, 24GB memory, 512GB storage",
+      "label": "24-inch · M4 · 10-core · 10-core · Pink · Standard glass · Stand · 24GB · 512GB",
+      "prices": [
+        {
+          "code": "us",
+          "local": 2099,
+          "display": "$2099",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:54:50.157Z",
+          "url": "https://www.apple.com/shop/buy-mac/imac/24-inch-pink-m4-chip-10-core-cpu-10-core-gpu-24gb-memory-512gb-storage-standard-glass-stand"
+        },
+        {
+          "code": "ae",
+          "local": 9299,
+          "display": "AED 9,299",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:54:58.677Z",
+          "url": "https://www.apple.com/ae/shop/buy-mac/imac"
+        },
+        {
+          "code": "at",
+          "local": 2439,
+          "display": "2.439 €",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:55:06.221Z",
+          "url": "https://www.apple.com/at/shop/buy-mac/imac"
+        },
+        {
+          "code": "au",
+          "local": 3299,
+          "display": "A$3,299 ",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:55:14.225Z",
+          "url": "https://www.apple.com/au/shop/buy-mac/imac"
+        },
+        {
+          "code": "be",
+          "local": 2459,
+          "display": "€ 2.459",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:55:22.754Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-mac/imac"
+        },
+        {
+          "code": "br",
+          "local": 24799,
+          "display": "R$ 24.799",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:55:30.438Z",
+          "url": "https://www.apple.com/br/shop/buy-mac/imac"
+        },
+        {
+          "code": "ca",
+          "local": 2899,
+          "display": "$2899",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:55:38.597Z",
+          "url": "https://www.apple.com/ca/shop/buy-mac/imac"
+        },
+        {
+          "code": "ch",
+          "local": 2099,
+          "display": "CHF 2099.–",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:55:46.484Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-mac/imac"
+        },
+        {
+          "code": "cl",
+          "local": 2479990,
+          "display": "$2.479.990",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:55:54.489Z",
+          "url": "https://www.apple.com/cl/shop/buy-mac/imac"
+        },
+        {
+          "code": "cz",
+          "local": 60990,
+          "display": "60 990 Kč",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:56:02.780Z",
+          "url": "https://www.apple.com/cz/shop/buy-mac/imac"
+        },
+        {
+          "code": "de",
+          "local": 2439,
+          "display": "2.439 €",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:56:10.575Z",
+          "url": "https://www.apple.com/de/shop/buy-mac/imac"
+        },
+        {
+          "code": "dk",
+          "local": 19499,
+          "display": "19.499 kr.",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:56:18.456Z",
+          "url": "https://www.apple.com/dk/shop/buy-mac/imac"
+        },
+        {
+          "code": "es",
+          "local": 2459,
+          "display": "2.459 € ",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:56:26.416Z",
+          "url": "https://www.apple.com/es/shop/buy-mac/imac"
+        },
+        {
+          "code": "fi",
+          "local": 2539,
+          "display": "2 539 €",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:56:34.574Z",
+          "url": "https://www.apple.com/fi/shop/buy-mac/imac"
+        },
+        {
+          "code": "fr",
+          "local": 2439,
+          "display": "2 439 €",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:56:42.446Z",
+          "url": "https://www.apple.com/fr/shop/buy-mac/imac"
+        },
+        {
+          "code": "gb",
+          "local": 2099,
+          "display": "£2,099",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:56:50.568Z",
+          "url": "https://www.apple.com/uk/shop/buy-mac/imac"
+        },
+        {
+          "code": "hk",
+          "local": 15999,
+          "display": "HK$15,999",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:56:58.552Z",
+          "url": "https://www.apple.com/hk/shop/buy-mac/imac"
+        },
+        {
+          "code": "hu",
+          "local": 979990,
+          "display": "979 990 Ft",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:57:06.509Z",
+          "url": "https://www.apple.com/hu/shop/buy-mac/imac"
+        },
+        {
+          "code": "ie",
+          "local": 2469,
+          "display": "€2,469",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:57:14.467Z",
+          "url": "https://www.apple.com/ie/shop/buy-mac/imac"
+        },
+        {
+          "code": "in",
+          "local": 247900,
+          "display": "₹247900.00",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:57:22.444Z",
+          "url": "https://www.apple.com/in/shop/buy-mac/imac"
+        },
+        {
+          "code": "it",
+          "local": 2469,
+          "display": "€ 2.469 ",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:57:30.807Z",
+          "url": "https://www.apple.com/it/shop/buy-mac/imac"
+        },
+        {
+          "code": "jp",
+          "local": 361800,
+          "display": "361,800円",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:57:38.635Z",
+          "url": "https://www.apple.com/jp/shop/buy-mac/imac"
+        },
+        {
+          "code": "kr",
+          "local": 3570000,
+          "display": "₩3,570,000",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:57:46.773Z",
+          "url": "https://www.apple.com/kr/shop/buy-mac/imac"
+        },
+        {
+          "code": "lu",
+          "local": 2377.71,
+          "display": "2 377,71 €",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:57:54.558Z",
+          "url": "https://www.apple.com/lu/shop/buy-mac/imac"
+        },
+        {
+          "code": "mx",
+          "local": 49999,
+          "display": "$49,999",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:58:02.455Z",
+          "url": "https://www.apple.com/mx/shop/buy-mac/imac"
+        },
+        {
+          "code": "my",
+          "local": 9299,
+          "display": "RM 9,299",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:58:10.712Z",
+          "url": "https://www.apple.com/my/shop/buy-mac/imac"
+        },
+        {
+          "code": "nl",
+          "local": 2459,
+          "display": "€ 2.459",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:58:18.643Z",
+          "url": "https://www.apple.com/nl/shop/buy-mac/imac"
+        },
+        {
+          "code": "no",
+          "local": 28990,
+          "display": "kr 28 990",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:58:26.464Z",
+          "url": "https://www.apple.com/no/shop/buy-mac/imac"
+        },
+        {
+          "code": "nz",
+          "local": 4099,
+          "display": "NZ$4,099",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:58:34.574Z",
+          "url": "https://www.apple.com/nz/shop/buy-mac/imac"
+        },
+        {
+          "code": "ph",
+          "local": 143990,
+          "display": "₱143,990",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:58:42.501Z",
+          "url": "https://www.apple.com/ph/shop/buy-mac/imac"
+        },
+        {
+          "code": "pl",
+          "local": 10499,
+          "display": "10 499 zł",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:58:50.482Z",
+          "url": "https://www.apple.com/pl/shop/buy-mac/imac"
+        },
+        {
+          "code": "pt",
+          "local": 2469,
+          "display": "2469 €",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:58:58.377Z",
+          "url": "https://www.apple.com/pt/shop/buy-mac/imac"
+        },
+        {
+          "code": "sa",
+          "local": 9999,
+          "display": "SAR 9,999",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:59:06.531Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-mac/imac"
+        },
+        {
+          "code": "se",
+          "local": 28195,
+          "display": "28 195 kr",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:59:14.496Z",
+          "url": "https://www.apple.com/se/shop/buy-mac/imac"
+        },
+        {
+          "code": "sg",
+          "local": 2999,
+          "display": "S$2,999",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:59:22.424Z",
+          "url": "https://www.apple.com/sg/shop/buy-mac/imac"
+        },
+        {
+          "code": "th",
+          "local": 73900,
+          "display": "฿73,900",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:59:30.639Z",
+          "url": "https://www.apple.com/th/shop/buy-mac/imac"
+        },
+        {
+          "code": "tr",
+          "local": 139999,
+          "display": "139.999 TL",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:59:38.731Z",
+          "url": "https://www.apple.com/tr/shop/buy-mac/imac"
+        },
+        {
+          "code": "tw",
+          "local": 71900,
+          "display": "NT$71,900",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:59:46.578Z",
+          "url": "https://www.apple.com/tw/shop/buy-mac/imac"
+        },
+        {
+          "code": "vn",
+          "local": 57999000,
+          "display": "57.999.000đ",
+          "part": "MD2U4",
+          "at": "2026-10-27T11:59:54.671Z",
+          "url": "https://www.apple.com/vn/shop/buy-mac/imac"
+        }
+      ]
+    },
+    {
+      "id": "24-inch-silver-m4-chip-10-core-cpu-10-core-gpu-16gb-memory-256gb-storage-nano-texture-glass-stand",
+      "part": "MD3H4",
+      "specs": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "10-core",
+        "gpu": "10-core",
+        "color": "Silver",
+        "display": "Nano-texture glass",
+        "stand": "Stand",
+        "memory": "16GB",
+        "storage": "256GB"
+      },
+      "labels": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "10-core",
+        "gpu": "10-core",
+        "color": "Silver",
+        "display": "Nano-texture glass",
+        "stand": "Stand",
+        "memory": "16GB",
+        "storage": "256GB"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/imac-specs-select-202601-silver-10-10?wid=1200&hei=770&fmt=jpeg&qlt=90&.v=1767921463478",
+      "name": "iMac, 24-inch, M4 Chip, 10-core CPU, 10-core GPU, Silver, Nano-texture glass, Stand, 16GB memory, 256GB storage",
+      "label": "24-inch · M4 · 10-core · 10-core · Silver · Nano-texture glass · Stand · 16GB · 256GB",
+      "prices": [
+        {
+          "code": "us",
+          "local": 1899,
+          "display": "$1899",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:54:50.157Z",
+          "url": "https://www.apple.com/shop/buy-mac/imac/24-inch-silver-m4-chip-10-core-cpu-10-core-gpu-16gb-memory-256gb-storage-nano-texture-glass-stand"
+        },
+        {
+          "code": "ae",
+          "local": 8399,
+          "display": "AED 8,399",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:54:58.677Z",
+          "url": "https://www.apple.com/ae/shop/buy-mac/imac"
+        },
+        {
+          "code": "at",
+          "local": 2219,
+          "display": "2.219 €",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:55:06.221Z",
+          "url": "https://www.apple.com/at/shop/buy-mac/imac"
+        },
+        {
+          "code": "au",
+          "local": 2999,
+          "display": "A$2,999 ",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:55:14.225Z",
+          "url": "https://www.apple.com/au/shop/buy-mac/imac"
+        },
+        {
+          "code": "be",
+          "local": 2239,
+          "display": "€ 2.239",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:55:22.754Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-mac/imac"
+        },
+        {
+          "code": "br",
+          "local": 22399,
+          "display": "R$ 22.399",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:55:30.438Z",
+          "url": "https://www.apple.com/br/shop/buy-mac/imac"
+        },
+        {
+          "code": "ca",
+          "local": 2599,
+          "display": "$2599",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:55:38.597Z",
+          "url": "https://www.apple.com/ca/shop/buy-mac/imac"
+        },
+        {
+          "code": "ch",
+          "local": 1899,
+          "display": "CHF 1899.–",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:55:46.484Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-mac/imac"
+        },
+        {
+          "code": "cl",
+          "local": 2239990,
+          "display": "$2.239.990",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:55:54.489Z",
+          "url": "https://www.apple.com/cl/shop/buy-mac/imac"
+        },
+        {
+          "code": "cz",
+          "local": 54990,
+          "display": "54 990 Kč",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:56:02.780Z",
+          "url": "https://www.apple.com/cz/shop/buy-mac/imac"
+        },
+        {
+          "code": "de",
+          "local": 2219,
+          "display": "2.219 €",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:56:10.575Z",
+          "url": "https://www.apple.com/de/shop/buy-mac/imac"
+        },
+        {
+          "code": "dk",
+          "local": 17499,
+          "display": "17.499 kr.",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:56:18.456Z",
+          "url": "https://www.apple.com/dk/shop/buy-mac/imac"
+        },
+        {
+          "code": "es",
+          "local": 2239,
+          "display": "2.239 € ",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:56:26.416Z",
+          "url": "https://www.apple.com/es/shop/buy-mac/imac"
+        },
+        {
+          "code": "fi",
+          "local": 2319,
+          "display": "2 319 €",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:56:34.574Z",
+          "url": "https://www.apple.com/fi/shop/buy-mac/imac"
+        },
+        {
+          "code": "fr",
+          "local": 2219,
+          "display": "2 219 €",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:56:42.446Z",
+          "url": "https://www.apple.com/fr/shop/buy-mac/imac"
+        },
+        {
+          "code": "gb",
+          "local": 1899,
+          "display": "£1,899",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:56:50.568Z",
+          "url": "https://www.apple.com/uk/shop/buy-mac/imac"
+        },
+        {
+          "code": "hk",
+          "local": 14499,
+          "display": "HK$14,499",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:56:58.552Z",
+          "url": "https://www.apple.com/hk/shop/buy-mac/imac"
+        },
+        {
+          "code": "hu",
+          "local": 879990,
+          "display": "879 990 Ft",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:57:06.509Z",
+          "url": "https://www.apple.com/hu/shop/buy-mac/imac"
+        },
+        {
+          "code": "ie",
+          "local": 2249,
+          "display": "€2,249",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:57:14.467Z",
+          "url": "https://www.apple.com/ie/shop/buy-mac/imac"
+        },
+        {
+          "code": "in",
+          "local": 223900,
+          "display": "₹223900.00",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:57:22.444Z",
+          "url": "https://www.apple.com/in/shop/buy-mac/imac"
+        },
+        {
+          "code": "it",
+          "local": 2249,
+          "display": "€ 2.249 ",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:57:30.807Z",
+          "url": "https://www.apple.com/it/shop/buy-mac/imac"
+        },
+        {
+          "code": "jp",
+          "local": 325800,
+          "display": "325,800円",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:57:38.635Z",
+          "url": "https://www.apple.com/jp/shop/buy-mac/imac"
+        },
+        {
+          "code": "kr",
+          "local": 3230000,
+          "display": "₩3,230,000",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:57:46.773Z",
+          "url": "https://www.apple.com/kr/shop/buy-mac/imac"
+        },
+        {
+          "code": "lu",
+          "local": 2164.98,
+          "display": "2 164,98 €",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:57:54.558Z",
+          "url": "https://www.apple.com/lu/shop/buy-mac/imac"
+        },
+        {
+          "code": "mx",
+          "local": 44999,
+          "display": "$44,999",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:58:02.455Z",
+          "url": "https://www.apple.com/mx/shop/buy-mac/imac"
+        },
+        {
+          "code": "my",
+          "local": 8399,
+          "display": "RM 8,399",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:58:10.712Z",
+          "url": "https://www.apple.com/my/shop/buy-mac/imac"
+        },
+        {
+          "code": "nl",
+          "local": 2239,
+          "display": "€ 2.239",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:58:18.643Z",
+          "url": "https://www.apple.com/nl/shop/buy-mac/imac"
+        },
+        {
+          "code": "no",
+          "local": 25990,
+          "display": "kr 25 990",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:58:26.464Z",
+          "url": "https://www.apple.com/no/shop/buy-mac/imac"
+        },
+        {
+          "code": "nz",
+          "local": 3699,
+          "display": "NZ$3,699",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:58:34.574Z",
+          "url": "https://www.apple.com/nz/shop/buy-mac/imac"
+        },
+        {
+          "code": "ph",
+          "local": 130990,
+          "display": "₱130,990",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:58:42.501Z",
+          "url": "https://www.apple.com/ph/shop/buy-mac/imac"
+        },
+        {
+          "code": "pl",
+          "local": 9499,
+          "display": "9499 zł",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:58:50.482Z",
+          "url": "https://www.apple.com/pl/shop/buy-mac/imac"
+        },
+        {
+          "code": "pt",
+          "local": 2249,
+          "display": "2249 €",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:58:58.377Z",
+          "url": "https://www.apple.com/pt/shop/buy-mac/imac"
+        },
+        {
+          "code": "sa",
+          "local": 8999,
+          "display": "SAR 8,999",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:59:06.531Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-mac/imac"
+        },
+        {
+          "code": "se",
+          "local": 25595,
+          "display": "25 595 kr",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:59:14.496Z",
+          "url": "https://www.apple.com/se/shop/buy-mac/imac"
+        },
+        {
+          "code": "sg",
+          "local": 2699,
+          "display": "S$2,699",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:59:22.424Z",
+          "url": "https://www.apple.com/sg/shop/buy-mac/imac"
+        },
+        {
+          "code": "th",
+          "local": 66900,
+          "display": "฿66,900",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:59:30.639Z",
+          "url": "https://www.apple.com/th/shop/buy-mac/imac"
+        },
+        {
+          "code": "tr",
+          "local": 127499,
+          "display": "127.499 TL",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:59:38.731Z",
+          "url": "https://www.apple.com/tr/shop/buy-mac/imac"
+        },
+        {
+          "code": "tw",
+          "local": 64900,
+          "display": "NT$64,900",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:59:46.578Z",
+          "url": "https://www.apple.com/tw/shop/buy-mac/imac"
+        },
+        {
+          "code": "vn",
+          "local": 52499000,
+          "display": "52.499.000đ",
+          "part": "MD3H4",
+          "at": "2026-10-27T11:59:54.671Z",
+          "url": "https://www.apple.com/vn/shop/buy-mac/imac"
+        }
+      ]
+    },
+    {
+      "id": "24-inch-pink-m4-chip-8-core-cpu-8-core-gpu-16gb-memory-256gb-storage-stand",
+      "part": "MWUG3",
+      "specs": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "8-core",
+        "gpu": "8-core",
+        "color": "Pink",
+        "stand": "Stand",
+        "memory": "16GB",
+        "storage": "256GB"
+      },
+      "labels": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "8-core",
+        "gpu": "8-core",
+        "color": "Pink",
+        "stand": "Stand",
+        "memory": "16GB",
+        "storage": "256GB"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/imac-specs-select-202601-pink-8-8?wid=1200&hei=770&fmt=jpeg&qlt=90&.v=1767921463993",
+      "name": "iMac, 24-inch, M4 Chip, 8-core CPU, 8-core GPU, Pink, Stand, 16GB memory, 256GB storage",
+      "label": "24-inch · M4 · 8-core · 8-core · Pink · Stand · 16GB · 256GB",
+      "prices": [
+        {
+          "code": "us",
+          "local": 1499,
+          "display": "$1499",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:54:50.157Z",
+          "url": "https://www.apple.com/shop/buy-mac/imac/24-inch-pink-m4-chip-8-core-cpu-8-core-gpu-16gb-memory-256gb-storage-stand"
+        },
+        {
+          "code": "ae",
+          "local": 6499,
+          "display": "AED 6,499",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:54:58.677Z",
+          "url": "https://www.apple.com/ae/shop/buy-mac/imac"
+        },
+        {
+          "code": "at",
+          "local": 1799,
+          "display": "1.799 €",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:55:06.221Z",
+          "url": "https://www.apple.com/at/shop/buy-mac/imac"
+        },
+        {
+          "code": "au",
+          "local": 2399,
+          "display": "A$2,399 ",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:55:14.225Z",
+          "url": "https://www.apple.com/au/shop/buy-mac/imac"
+        },
+        {
+          "code": "be",
+          "local": 1819,
+          "display": "€ 1.819",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:55:22.754Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-mac/imac"
+        },
+        {
+          "code": "br",
+          "local": 17999,
+          "display": "R$ 17.999",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:55:30.438Z",
+          "url": "https://www.apple.com/br/shop/buy-mac/imac"
+        },
+        {
+          "code": "ca",
+          "local": 2099,
+          "display": "$2099",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:55:38.597Z",
+          "url": "https://www.apple.com/ca/shop/buy-mac/imac"
+        },
+        {
+          "code": "ch",
+          "local": 1499,
+          "display": "CHF 1499.–",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:55:46.484Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-mac/imac"
+        },
+        {
+          "code": "cl",
+          "local": 1799990,
+          "display": "$1.799.990",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:55:54.489Z",
+          "url": "https://www.apple.com/cl/shop/buy-mac/imac"
+        },
+        {
+          "code": "cz",
+          "local": 42990,
+          "display": "42 990 Kč",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:56:02.780Z",
+          "url": "https://www.apple.com/cz/shop/buy-mac/imac"
+        },
+        {
+          "code": "de",
+          "local": 1799,
+          "display": "1.799 €",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:56:10.575Z",
+          "url": "https://www.apple.com/de/shop/buy-mac/imac"
+        },
+        {
+          "code": "dk",
+          "local": 13499,
+          "display": "13.499 kr.",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:56:18.456Z",
+          "url": "https://www.apple.com/dk/shop/buy-mac/imac"
+        },
+        {
+          "code": "es",
+          "local": 1819,
+          "display": "1.819 € ",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:56:26.416Z",
+          "url": "https://www.apple.com/es/shop/buy-mac/imac"
+        },
+        {
+          "code": "fi",
+          "local": 1899,
+          "display": "1 899 €",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:56:34.574Z",
+          "url": "https://www.apple.com/fi/shop/buy-mac/imac"
+        },
+        {
+          "code": "fr",
+          "local": 1799,
+          "display": "1 799 €",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:56:42.446Z",
+          "url": "https://www.apple.com/fr/shop/buy-mac/imac"
+        },
+        {
+          "code": "gb",
+          "local": 1499,
+          "display": "£1,499",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:56:50.568Z",
+          "url": "https://www.apple.com/uk/shop/buy-mac/imac"
+        },
+        {
+          "code": "hk",
+          "local": 11499,
+          "display": "HK$11,499",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:56:58.552Z",
+          "url": "https://www.apple.com/hk/shop/buy-mac/imac"
+        },
+        {
+          "code": "hu",
+          "local": 679990,
+          "display": "679 990 Ft",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:57:06.509Z",
+          "url": "https://www.apple.com/hu/shop/buy-mac/imac"
+        },
+        {
+          "code": "ie",
+          "local": 1829,
+          "display": "€1,829",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:57:14.467Z",
+          "url": "https://www.apple.com/ie/shop/buy-mac/imac"
+        },
+        {
+          "code": "in",
+          "local": 174900,
+          "display": "₹174900.00",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:57:22.444Z",
+          "url": "https://www.apple.com/in/shop/buy-mac/imac"
+        },
+        {
+          "code": "it",
+          "local": 1829,
+          "display": "€ 1.829 ",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:57:30.807Z",
+          "url": "https://www.apple.com/it/shop/buy-mac/imac"
+        },
+        {
+          "code": "jp",
+          "local": 249800,
+          "display": "249,800円",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:57:38.635Z",
+          "url": "https://www.apple.com/jp/shop/buy-mac/imac"
+        },
+        {
+          "code": "kr",
+          "local": 2490000,
+          "display": "₩2,490,000",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:57:46.773Z",
+          "url": "https://www.apple.com/kr/shop/buy-mac/imac"
+        },
+        {
+          "code": "lu",
+          "local": 1758.87,
+          "display": "1 758,87 €",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:57:54.558Z",
+          "url": "https://www.apple.com/lu/shop/buy-mac/imac"
+        },
+        {
+          "code": "mx",
+          "local": 35999,
+          "display": "$35,999",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:58:02.455Z",
+          "url": "https://www.apple.com/mx/shop/buy-mac/imac"
+        },
+        {
+          "code": "my",
+          "local": 6499,
+          "display": "RM 6,499",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:58:10.712Z",
+          "url": "https://www.apple.com/my/shop/buy-mac/imac"
+        },
+        {
+          "code": "nl",
+          "local": 1819,
+          "display": "€ 1.819",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:58:18.643Z",
+          "url": "https://www.apple.com/nl/shop/buy-mac/imac"
+        },
+        {
+          "code": "no",
+          "local": 19990,
+          "display": "kr 19 990",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:58:26.464Z",
+          "url": "https://www.apple.com/no/shop/buy-mac/imac"
+        },
+        {
+          "code": "nz",
+          "local": 2899,
+          "display": "NZ$2,899",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:58:34.574Z",
+          "url": "https://www.apple.com/nz/shop/buy-mac/imac"
+        },
+        {
+          "code": "ph",
+          "local": 104990,
+          "display": "₱104,990",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:58:42.501Z",
+          "url": "https://www.apple.com/ph/shop/buy-mac/imac"
+        },
+        {
+          "code": "pl",
+          "local": 7499,
+          "display": "7499 zł",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:58:50.482Z",
+          "url": "https://www.apple.com/pl/shop/buy-mac/imac"
+        },
+        {
+          "code": "pt",
+          "local": 1829,
+          "display": "1829 €",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:58:58.377Z",
+          "url": "https://www.apple.com/pt/shop/buy-mac/imac"
+        },
+        {
+          "code": "sa",
+          "local": 6999,
+          "display": "SAR 6,999",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:59:06.531Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-mac/imac"
+        },
+        {
+          "code": "se",
+          "local": 19995,
+          "display": "19 995 kr",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:59:14.496Z",
+          "url": "https://www.apple.com/se/shop/buy-mac/imac"
+        },
+        {
+          "code": "sg",
+          "local": 2099,
+          "display": "S$2,099",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:59:22.424Z",
+          "url": "https://www.apple.com/sg/shop/buy-mac/imac"
+        },
+        {
+          "code": "th",
+          "local": 52900,
+          "display": "฿52,900",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:59:30.639Z",
+          "url": "https://www.apple.com/th/shop/buy-mac/imac"
+        },
+        {
+          "code": "tr",
+          "local": 99999,
+          "display": "99.999 TL",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:59:38.731Z",
+          "url": "https://www.apple.com/tr/shop/buy-mac/imac"
+        },
+        {
+          "code": "tw",
+          "local": 49900,
+          "display": "NT$49,900",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:59:46.578Z",
+          "url": "https://www.apple.com/tw/shop/buy-mac/imac"
+        },
+        {
+          "code": "vn",
+          "local": 41499000,
+          "display": "41.499.000đ",
+          "part": "MWUG3",
+          "at": "2026-10-27T11:59:54.671Z",
+          "url": "https://www.apple.com/vn/shop/buy-mac/imac"
+        }
+      ]
+    },
+    {
+      "id": "24-inch-orange-m4-chip-10-core-cpu-10-core-gpu-16gb-memory-256gb-storage-standard-glass-stand",
+      "part": "MWV83",
+      "specs": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "10-core",
+        "gpu": "10-core",
+        "color": "Orange",
+        "display": "Standard glass",
+        "stand": "Stand",
+        "memory": "16GB",
+        "storage": "256GB"
+      },
+      "labels": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "10-core",
+        "gpu": "10-core",
+        "color": "Orange",
+        "display": "Standard glass",
+        "stand": "Stand",
+        "memory": "16GB",
+        "storage": "256GB"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/imac-specs-select-202601-orange-10-10?wid=1200&hei=770&fmt=jpeg&qlt=90&.v=1767921464296",
+      "name": "iMac, 24-inch, M4 Chip, 10-core CPU, 10-core GPU, Orange, Standard glass, Stand, 16GB memory, 256GB storage",
+      "label": "24-inch · M4 · 10-core · 10-core · Orange · Standard glass · Stand · 16GB · 256GB",
+      "prices": [
+        {
+          "code": "us",
+          "local": 1699,
+          "display": "$1699",
+          "part": "MWV83",
+          "at": "2026-10-27T11:54:50.157Z",
+          "url": "https://www.apple.com/shop/buy-mac/imac/24-inch-orange-m4-chip-10-core-cpu-10-core-gpu-16gb-memory-256gb-storage-standard-glass-stand"
+        }
+      ]
+    },
+    {
+      "id": "24-inch-green-m4-chip-10-core-cpu-10-core-gpu-24gb-memory-512gb-storage-standard-glass-stand",
+      "part": "MD2Q4",
+      "specs": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "10-core",
+        "gpu": "10-core",
+        "color": "Green",
+        "display": "Standard glass",
+        "stand": "Stand",
+        "memory": "24GB",
+        "storage": "512GB"
+      },
+      "labels": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "10-core",
+        "gpu": "10-core",
+        "color": "Green",
+        "display": "Standard glass",
+        "stand": "Stand",
+        "memory": "24GB",
+        "storage": "512GB"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/imac-specs-select-202601-green-10-10?wid=1200&hei=770&fmt=jpeg&qlt=90&.v=1767921464220",
+      "name": "iMac, 24-inch, M4 Chip, 10-core CPU, 10-core GPU, Green, Standard glass, Stand, 24GB memory, 512GB storage",
+      "label": "24-inch · M4 · 10-core · 10-core · Green · Standard glass · Stand · 24GB · 512GB",
+      "prices": [
+        {
+          "code": "us",
+          "local": 2099,
+          "display": "$2099",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:54:50.157Z",
+          "url": "https://www.apple.com/shop/buy-mac/imac/24-inch-green-m4-chip-10-core-cpu-10-core-gpu-24gb-memory-512gb-storage-standard-glass-stand"
+        },
+        {
+          "code": "ae",
+          "local": 9299,
+          "display": "AED 9,299",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:54:58.677Z",
+          "url": "https://www.apple.com/ae/shop/buy-mac/imac"
+        },
+        {
+          "code": "at",
+          "local": 2439,
+          "display": "2.439 €",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:55:06.221Z",
+          "url": "https://www.apple.com/at/shop/buy-mac/imac"
+        },
+        {
+          "code": "au",
+          "local": 3299,
+          "display": "A$3,299 ",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:55:14.225Z",
+          "url": "https://www.apple.com/au/shop/buy-mac/imac"
+        },
+        {
+          "code": "be",
+          "local": 2459,
+          "display": "€ 2.459",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:55:22.754Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-mac/imac"
+        },
+        {
+          "code": "br",
+          "local": 24799,
+          "display": "R$ 24.799",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:55:30.438Z",
+          "url": "https://www.apple.com/br/shop/buy-mac/imac"
+        },
+        {
+          "code": "ca",
+          "local": 2899,
+          "display": "$2899",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:55:38.597Z",
+          "url": "https://www.apple.com/ca/shop/buy-mac/imac"
+        },
+        {
+          "code": "ch",
+          "local": 2099,
+          "display": "CHF 2099.–",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:55:46.484Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-mac/imac"
+        },
+        {
+          "code": "cl",
+          "local": 2479990,
+          "display": "$2.479.990",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:55:54.489Z",
+          "url": "https://www.apple.com/cl/shop/buy-mac/imac"
+        },
+        {
+          "code": "cz",
+          "local": 60990,
+          "display": "60 990 Kč",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:56:02.780Z",
+          "url": "https://www.apple.com/cz/shop/buy-mac/imac"
+        },
+        {
+          "code": "de",
+          "local": 2439,
+          "display": "2.439 €",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:56:10.575Z",
+          "url": "https://www.apple.com/de/shop/buy-mac/imac"
+        },
+        {
+          "code": "dk",
+          "local": 19499,
+          "display": "19.499 kr.",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:56:18.456Z",
+          "url": "https://www.apple.com/dk/shop/buy-mac/imac"
+        },
+        {
+          "code": "es",
+          "local": 2459,
+          "display": "2.459 € ",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:56:26.416Z",
+          "url": "https://www.apple.com/es/shop/buy-mac/imac"
+        },
+        {
+          "code": "fi",
+          "local": 2539,
+          "display": "2 539 €",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:56:34.574Z",
+          "url": "https://www.apple.com/fi/shop/buy-mac/imac"
+        },
+        {
+          "code": "fr",
+          "local": 2439,
+          "display": "2 439 €",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:56:42.446Z",
+          "url": "https://www.apple.com/fr/shop/buy-mac/imac"
+        },
+        {
+          "code": "gb",
+          "local": 2099,
+          "display": "£2,099",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:56:50.568Z",
+          "url": "https://www.apple.com/uk/shop/buy-mac/imac"
+        },
+        {
+          "code": "hk",
+          "local": 15999,
+          "display": "HK$15,999",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:56:58.552Z",
+          "url": "https://www.apple.com/hk/shop/buy-mac/imac"
+        },
+        {
+          "code": "hu",
+          "local": 979990,
+          "display": "979 990 Ft",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:57:06.509Z",
+          "url": "https://www.apple.com/hu/shop/buy-mac/imac"
+        },
+        {
+          "code": "ie",
+          "local": 2469,
+          "display": "€2,469",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:57:14.467Z",
+          "url": "https://www.apple.com/ie/shop/buy-mac/imac"
+        },
+        {
+          "code": "in",
+          "local": 247900,
+          "display": "₹247900.00",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:57:22.444Z",
+          "url": "https://www.apple.com/in/shop/buy-mac/imac"
+        },
+        {
+          "code": "it",
+          "local": 2469,
+          "display": "€ 2.469 ",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:57:30.807Z",
+          "url": "https://www.apple.com/it/shop/buy-mac/imac"
+        },
+        {
+          "code": "jp",
+          "local": 361800,
+          "display": "361,800円",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:57:38.635Z",
+          "url": "https://www.apple.com/jp/shop/buy-mac/imac"
+        },
+        {
+          "code": "kr",
+          "local": 3570000,
+          "display": "₩3,570,000",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:57:46.773Z",
+          "url": "https://www.apple.com/kr/shop/buy-mac/imac"
+        },
+        {
+          "code": "lu",
+          "local": 2377.71,
+          "display": "2 377,71 €",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:57:54.558Z",
+          "url": "https://www.apple.com/lu/shop/buy-mac/imac"
+        },
+        {
+          "code": "mx",
+          "local": 49999,
+          "display": "$49,999",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:58:02.455Z",
+          "url": "https://www.apple.com/mx/shop/buy-mac/imac"
+        },
+        {
+          "code": "my",
+          "local": 9299,
+          "display": "RM 9,299",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:58:10.712Z",
+          "url": "https://www.apple.com/my/shop/buy-mac/imac"
+        },
+        {
+          "code": "nl",
+          "local": 2459,
+          "display": "€ 2.459",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:58:18.643Z",
+          "url": "https://www.apple.com/nl/shop/buy-mac/imac"
+        },
+        {
+          "code": "no",
+          "local": 28990,
+          "display": "kr 28 990",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:58:26.464Z",
+          "url": "https://www.apple.com/no/shop/buy-mac/imac"
+        },
+        {
+          "code": "nz",
+          "local": 4099,
+          "display": "NZ$4,099",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:58:34.574Z",
+          "url": "https://www.apple.com/nz/shop/buy-mac/imac"
+        },
+        {
+          "code": "ph",
+          "local": 143990,
+          "display": "₱143,990",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:58:42.501Z",
+          "url": "https://www.apple.com/ph/shop/buy-mac/imac"
+        },
+        {
+          "code": "pl",
+          "local": 10499,
+          "display": "10 499 zł",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:58:50.482Z",
+          "url": "https://www.apple.com/pl/shop/buy-mac/imac"
+        },
+        {
+          "code": "pt",
+          "local": 2469,
+          "display": "2469 €",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:58:58.377Z",
+          "url": "https://www.apple.com/pt/shop/buy-mac/imac"
+        },
+        {
+          "code": "sa",
+          "local": 9999,
+          "display": "SAR 9,999",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:59:06.531Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-mac/imac"
+        },
+        {
+          "code": "se",
+          "local": 28195,
+          "display": "28 195 kr",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:59:14.496Z",
+          "url": "https://www.apple.com/se/shop/buy-mac/imac"
+        },
+        {
+          "code": "sg",
+          "local": 2999,
+          "display": "S$2,999",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:59:22.424Z",
+          "url": "https://www.apple.com/sg/shop/buy-mac/imac"
+        },
+        {
+          "code": "th",
+          "local": 73900,
+          "display": "฿73,900",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:59:30.639Z",
+          "url": "https://www.apple.com/th/shop/buy-mac/imac"
+        },
+        {
+          "code": "tr",
+          "local": 139999,
+          "display": "139.999 TL",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:59:38.731Z",
+          "url": "https://www.apple.com/tr/shop/buy-mac/imac"
+        },
+        {
+          "code": "tw",
+          "local": 71900,
+          "display": "NT$71,900",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:59:46.578Z",
+          "url": "https://www.apple.com/tw/shop/buy-mac/imac"
+        },
+        {
+          "code": "vn",
+          "local": 57999000,
+          "display": "57.999.000đ",
+          "part": "MD2Q4",
+          "at": "2026-10-27T11:59:54.671Z",
+          "url": "https://www.apple.com/vn/shop/buy-mac/imac"
+        }
+      ]
+    },
+    {
+      "id": "24-inch-silver-m4-chip-10-core-cpu-10-core-gpu-16gb-memory-512gb-storage-standard-glass-stand",
+      "part": "MWUV3",
+      "specs": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "10-core",
+        "gpu": "10-core",
+        "color": "Silver",
+        "display": "Standard glass",
+        "stand": "Stand",
+        "memory": "16GB",
+        "storage": "512GB"
+      },
+      "labels": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "10-core",
+        "gpu": "10-core",
+        "color": "Silver",
+        "display": "Standard glass",
+        "stand": "Stand",
+        "memory": "16GB",
+        "storage": "512GB"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/imac-specs-select-202601-silver-10-10?wid=1200&hei=770&fmt=jpeg&qlt=90&.v=1767921463478",
+      "name": "iMac, 24-inch, M4 Chip, 10-core CPU, 10-core GPU, Silver, Standard glass, Stand, 16GB memory, 512GB storage",
+      "label": "24-inch · M4 · 10-core · 10-core · Silver · Standard glass · Stand · 16GB · 512GB",
+      "prices": [
+        {
+          "code": "us",
+          "local": 1899,
+          "display": "$1899",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:54:50.157Z",
+          "url": "https://www.apple.com/shop/buy-mac/imac/24-inch-silver-m4-chip-10-core-cpu-10-core-gpu-16gb-memory-512gb-storage-standard-glass-stand"
+        },
+        {
+          "code": "ae",
+          "local": 8399,
+          "display": "AED 8,399",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:54:58.677Z",
+          "url": "https://www.apple.com/ae/shop/buy-mac/imac"
+        },
+        {
+          "code": "at",
+          "local": 2219,
+          "display": "2.219 €",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:55:06.221Z",
+          "url": "https://www.apple.com/at/shop/buy-mac/imac"
+        },
+        {
+          "code": "au",
+          "local": 2999,
+          "display": "A$2,999 ",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:55:14.225Z",
+          "url": "https://www.apple.com/au/shop/buy-mac/imac"
+        },
+        {
+          "code": "be",
+          "local": 2239,
+          "display": "€ 2.239",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:55:22.754Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-mac/imac"
+        },
+        {
+          "code": "br",
+          "local": 22399,
+          "display": "R$ 22.399",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:55:30.438Z",
+          "url": "https://www.apple.com/br/shop/buy-mac/imac"
+        },
+        {
+          "code": "ca",
+          "local": 2599,
+          "display": "$2599",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:55:38.597Z",
+          "url": "https://www.apple.com/ca/shop/buy-mac/imac"
+        },
+        {
+          "code": "ch",
+          "local": 1899,
+          "display": "CHF 1899.–",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:55:46.484Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-mac/imac"
+        },
+        {
+          "code": "cl",
+          "local": 2239990,
+          "display": "$2.239.990",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:55:54.489Z",
+          "url": "https://www.apple.com/cl/shop/buy-mac/imac"
+        },
+        {
+          "code": "cz",
+          "local": 54990,
+          "display": "54 990 Kč",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:56:02.780Z",
+          "url": "https://www.apple.com/cz/shop/buy-mac/imac"
+        },
+        {
+          "code": "de",
+          "local": 2219,
+          "display": "2.219 €",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:56:10.575Z",
+          "url": "https://www.apple.com/de/shop/buy-mac/imac"
+        },
+        {
+          "code": "dk",
+          "local": 17499,
+          "display": "17.499 kr.",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:56:18.456Z",
+          "url": "https://www.apple.com/dk/shop/buy-mac/imac"
+        },
+        {
+          "code": "es",
+          "local": 2239,
+          "display": "2.239 € ",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:56:26.416Z",
+          "url": "https://www.apple.com/es/shop/buy-mac/imac"
+        },
+        {
+          "code": "fi",
+          "local": 2319,
+          "display": "2 319 €",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:56:34.574Z",
+          "url": "https://www.apple.com/fi/shop/buy-mac/imac"
+        },
+        {
+          "code": "fr",
+          "local": 2219,
+          "display": "2 219 €",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:56:42.446Z",
+          "url": "https://www.apple.com/fr/shop/buy-mac/imac"
+        },
+        {
+          "code": "gb",
+          "local": 1899,
+          "display": "£1,899",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:56:50.568Z",
+          "url": "https://www.apple.com/uk/shop/buy-mac/imac"
+        },
+        {
+          "code": "hk",
+          "local": 14499,
+          "display": "HK$14,499",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:56:58.552Z",
+          "url": "https://www.apple.com/hk/shop/buy-mac/imac"
+        },
+        {
+          "code": "hu",
+          "local": 879990,
+          "display": "879 990 Ft",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:57:06.509Z",
+          "url": "https://www.apple.com/hu/shop/buy-mac/imac"
+        },
+        {
+          "code": "ie",
+          "local": 2249,
+          "display": "€2,249",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:57:14.467Z",
+          "url": "https://www.apple.com/ie/shop/buy-mac/imac"
+        },
+        {
+          "code": "in",
+          "local": 223900,
+          "display": "₹223900.00",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:57:22.444Z",
+          "url": "https://www.apple.com/in/shop/buy-mac/imac"
+        },
+        {
+          "code": "it",
+          "local": 2249,
+          "display": "€ 2.249 ",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:57:30.807Z",
+          "url": "https://www.apple.com/it/shop/buy-mac/imac"
+        },
+        {
+          "code": "jp",
+          "local": 325800,
+          "display": "325,800円",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:57:38.635Z",
+          "url": "https://www.apple.com/jp/shop/buy-mac/imac"
+        },
+        {
+          "code": "kr",
+          "local": 3230000,
+          "display": "₩3,230,000",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:57:46.773Z",
+          "url": "https://www.apple.com/kr/shop/buy-mac/imac"
+        },
+        {
+          "code": "lu",
+          "local": 2164.98,
+          "display": "2 164,98 €",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:57:54.558Z",
+          "url": "https://www.apple.com/lu/shop/buy-mac/imac"
+        },
+        {
+          "code": "mx",
+          "local": 44999,
+          "display": "$44,999",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:58:02.455Z",
+          "url": "https://www.apple.com/mx/shop/buy-mac/imac"
+        },
+        {
+          "code": "my",
+          "local": 8399,
+          "display": "RM 8,399",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:58:10.712Z",
+          "url": "https://www.apple.com/my/shop/buy-mac/imac"
+        },
+        {
+          "code": "nl",
+          "local": 2239,
+          "display": "€ 2.239",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:58:18.643Z",
+          "url": "https://www.apple.com/nl/shop/buy-mac/imac"
+        },
+        {
+          "code": "no",
+          "local": 25990,
+          "display": "kr 25 990",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:58:26.464Z",
+          "url": "https://www.apple.com/no/shop/buy-mac/imac"
+        },
+        {
+          "code": "nz",
+          "local": 3699,
+          "display": "NZ$3,699",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:58:34.574Z",
+          "url": "https://www.apple.com/nz/shop/buy-mac/imac"
+        },
+        {
+          "code": "ph",
+          "local": 130990,
+          "display": "₱130,990",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:58:42.501Z",
+          "url": "https://www.apple.com/ph/shop/buy-mac/imac"
+        },
+        {
+          "code": "pl",
+          "local": 9499,
+          "display": "9499 zł",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:58:50.482Z",
+          "url": "https://www.apple.com/pl/shop/buy-mac/imac"
+        },
+        {
+          "code": "pt",
+          "local": 2249,
+          "display": "2249 €",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:58:58.377Z",
+          "url": "https://www.apple.com/pt/shop/buy-mac/imac"
+        },
+        {
+          "code": "sa",
+          "local": 8999,
+          "display": "SAR 8,999",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:59:06.531Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-mac/imac"
+        },
+        {
+          "code": "se",
+          "local": 25595,
+          "display": "25 595 kr",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:59:14.496Z",
+          "url": "https://www.apple.com/se/shop/buy-mac/imac"
+        },
+        {
+          "code": "sg",
+          "local": 2699,
+          "display": "S$2,699",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:59:22.424Z",
+          "url": "https://www.apple.com/sg/shop/buy-mac/imac"
+        },
+        {
+          "code": "th",
+          "local": 66900,
+          "display": "฿66,900",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:59:30.639Z",
+          "url": "https://www.apple.com/th/shop/buy-mac/imac"
+        },
+        {
+          "code": "tr",
+          "local": 127499,
+          "display": "127.499 TL",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:59:38.731Z",
+          "url": "https://www.apple.com/tr/shop/buy-mac/imac"
+        },
+        {
+          "code": "tw",
+          "local": 64900,
+          "display": "NT$64,900",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:59:46.578Z",
+          "url": "https://www.apple.com/tw/shop/buy-mac/imac"
+        },
+        {
+          "code": "vn",
+          "local": 52499000,
+          "display": "52.499.000đ",
+          "part": "MWUV3",
+          "at": "2026-10-27T11:59:54.671Z",
+          "url": "https://www.apple.com/vn/shop/buy-mac/imac"
+        }
+      ]
+    },
+    {
+      "id": "24-inch-green-m4-chip-10-core-cpu-10-core-gpu-16gb-memory-512gb-storage-standard-glass-stand",
+      "part": "MWV03",
+      "specs": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "10-core",
+        "gpu": "10-core",
+        "color": "Green",
+        "display": "Standard glass",
+        "stand": "Stand",
+        "memory": "16GB",
+        "storage": "512GB"
+      },
+      "labels": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "10-core",
+        "gpu": "10-core",
+        "color": "Green",
+        "display": "Standard glass",
+        "stand": "Stand",
+        "memory": "16GB",
+        "storage": "512GB"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/imac-specs-select-202601-green-10-10?wid=1200&hei=770&fmt=jpeg&qlt=90&.v=1767921464220",
+      "name": "iMac, 24-inch, M4 Chip, 10-core CPU, 10-core GPU, Green, Standard glass, Stand, 16GB memory, 512GB storage",
+      "label": "24-inch · M4 · 10-core · 10-core · Green · Standard glass · Stand · 16GB · 512GB",
+      "prices": [
+        {
+          "code": "us",
+          "local": 1899,
+          "display": "$1899",
+          "part": "MWV03",
+          "at": "2026-10-27T11:54:50.157Z",
+          "url": "https://www.apple.com/shop/buy-mac/imac/24-inch-green-m4-chip-10-core-cpu-10-core-gpu-16gb-memory-512gb-storage-standard-glass-stand"
+        },
+        {
+          "code": "ae",
+          "local": 8399,
+          "display": "AED 8,399",
+          "part": "MWV03",
+          "at": "2026-10-27T11:54:58.677Z",
+          "url": "https://www.apple.com/ae/shop/buy-mac/imac"
+        },
+        {
+          "code": "at",
+          "local": 2219,
+          "display": "2.219 €",
+          "part": "MWV03",
+          "at": "2026-10-27T11:55:06.221Z",
+          "url": "https://www.apple.com/at/shop/buy-mac/imac"
+        },
+        {
+          "code": "au",
+          "local": 2999,
+          "display": "A$2,999 ",
+          "part": "MWV03",
+          "at": "2026-10-27T11:55:14.225Z",
+          "url": "https://www.apple.com/au/shop/buy-mac/imac"
+        },
+        {
+          "code": "be",
+          "local": 2239,
+          "display": "€ 2.239",
+          "part": "MWV03",
+          "at": "2026-10-27T11:55:22.754Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-mac/imac"
+        },
+        {
+          "code": "br",
+          "local": 22399,
+          "display": "R$ 22.399",
+          "part": "MWV03",
+          "at": "2026-10-27T11:55:30.438Z",
+          "url": "https://www.apple.com/br/shop/buy-mac/imac"
+        },
+        {
+          "code": "ca",
+          "local": 2599,
+          "display": "$2599",
+          "part": "MWV03",
+          "at": "2026-10-27T11:55:38.597Z",
+          "url": "https://www.apple.com/ca/shop/buy-mac/imac"
+        },
+        {
+          "code": "ch",
+          "local": 1899,
+          "display": "CHF 1899.–",
+          "part": "MWV03",
+          "at": "2026-10-27T11:55:46.484Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-mac/imac"
+        },
+        {
+          "code": "cl",
+          "local": 2239990,
+          "display": "$2.239.990",
+          "part": "MWV03",
+          "at": "2026-10-27T11:55:54.489Z",
+          "url": "https://www.apple.com/cl/shop/buy-mac/imac"
+        },
+        {
+          "code": "cz",
+          "local": 54990,
+          "display": "54 990 Kč",
+          "part": "MWV03",
+          "at": "2026-10-27T11:56:02.780Z",
+          "url": "https://www.apple.com/cz/shop/buy-mac/imac"
+        },
+        {
+          "code": "de",
+          "local": 2219,
+          "display": "2.219 €",
+          "part": "MWV03",
+          "at": "2026-10-27T11:56:10.575Z",
+          "url": "https://www.apple.com/de/shop/buy-mac/imac"
+        },
+        {
+          "code": "dk",
+          "local": 17499,
+          "display": "17.499 kr.",
+          "part": "MWV03",
+          "at": "2026-10-27T11:56:18.456Z",
+          "url": "https://www.apple.com/dk/shop/buy-mac/imac"
+        },
+        {
+          "code": "es",
+          "local": 2239,
+          "display": "2.239 € ",
+          "part": "MWV03",
+          "at": "2026-10-27T11:56:26.416Z",
+          "url": "https://www.apple.com/es/shop/buy-mac/imac"
+        },
+        {
+          "code": "fi",
+          "local": 2319,
+          "display": "2 319 €",
+          "part": "MWV03",
+          "at": "2026-10-27T11:56:34.574Z",
+          "url": "https://www.apple.com/fi/shop/buy-mac/imac"
+        },
+        {
+          "code": "fr",
+          "local": 2219,
+          "display": "2 219 €",
+          "part": "MWV03",
+          "at": "2026-10-27T11:56:42.446Z",
+          "url": "https://www.apple.com/fr/shop/buy-mac/imac"
+        },
+        {
+          "code": "gb",
+          "local": 1899,
+          "display": "£1,899",
+          "part": "MWV03",
+          "at": "2026-10-27T11:56:50.568Z",
+          "url": "https://www.apple.com/uk/shop/buy-mac/imac"
+        },
+        {
+          "code": "hk",
+          "local": 14499,
+          "display": "HK$14,499",
+          "part": "MWV03",
+          "at": "2026-10-27T11:56:58.552Z",
+          "url": "https://www.apple.com/hk/shop/buy-mac/imac"
+        },
+        {
+          "code": "hu",
+          "local": 879990,
+          "display": "879 990 Ft",
+          "part": "MWV03",
+          "at": "2026-10-27T11:57:06.509Z",
+          "url": "https://www.apple.com/hu/shop/buy-mac/imac"
+        },
+        {
+          "code": "ie",
+          "local": 2249,
+          "display": "€2,249",
+          "part": "MWV03",
+          "at": "2026-10-27T11:57:14.467Z",
+          "url": "https://www.apple.com/ie/shop/buy-mac/imac"
+        },
+        {
+          "code": "in",
+          "local": 223900,
+          "display": "₹223900.00",
+          "part": "MWV03",
+          "at": "2026-10-27T11:57:22.444Z",
+          "url": "https://www.apple.com/in/shop/buy-mac/imac"
+        },
+        {
+          "code": "it",
+          "local": 2249,
+          "display": "€ 2.249 ",
+          "part": "MWV03",
+          "at": "2026-10-27T11:57:30.807Z",
+          "url": "https://www.apple.com/it/shop/buy-mac/imac"
+        },
+        {
+          "code": "jp",
+          "local": 325800,
+          "display": "325,800円",
+          "part": "MWV03",
+          "at": "2026-10-27T11:57:38.635Z",
+          "url": "https://www.apple.com/jp/shop/buy-mac/imac"
+        },
+        {
+          "code": "kr",
+          "local": 3230000,
+          "display": "₩3,230,000",
+          "part": "MWV03",
+          "at": "2026-10-27T11:57:46.773Z",
+          "url": "https://www.apple.com/kr/shop/buy-mac/imac"
+        },
+        {
+          "code": "lu",
+          "local": 2164.98,
+          "display": "2 164,98 €",
+          "part": "MWV03",
+          "at": "2026-10-27T11:57:54.558Z",
+          "url": "https://www.apple.com/lu/shop/buy-mac/imac"
+        },
+        {
+          "code": "mx",
+          "local": 44999,
+          "display": "$44,999",
+          "part": "MWV03",
+          "at": "2026-10-27T11:58:02.455Z",
+          "url": "https://www.apple.com/mx/shop/buy-mac/imac"
+        },
+        {
+          "code": "my",
+          "local": 8399,
+          "display": "RM 8,399",
+          "part": "MWV03",
+          "at": "2026-10-27T11:58:10.712Z",
+          "url": "https://www.apple.com/my/shop/buy-mac/imac"
+        },
+        {
+          "code": "nl",
+          "local": 2239,
+          "display": "€ 2.239",
+          "part": "MWV03",
+          "at": "2026-10-27T11:58:18.643Z",
+          "url": "https://www.apple.com/nl/shop/buy-mac/imac"
+        },
+        {
+          "code": "no",
+          "local": 25990,
+          "display": "kr 25 990",
+          "part": "MWV03",
+          "at": "2026-10-27T11:58:26.464Z",
+          "url": "https://www.apple.com/no/shop/buy-mac/imac"
+        },
+        {
+          "code": "nz",
+          "local": 3699,
+          "display": "NZ$3,699",
+          "part": "MWV03",
+          "at": "2026-10-27T11:58:34.574Z",
+          "url": "https://www.apple.com/nz/shop/buy-mac/imac"
+        },
+        {
+          "code": "ph",
+          "local": 130990,
+          "display": "₱130,990",
+          "part": "MWV03",
+          "at": "2026-10-27T11:58:42.501Z",
+          "url": "https://www.apple.com/ph/shop/buy-mac/imac"
+        },
+        {
+          "code": "pl",
+          "local": 9499,
+          "display": "9499 zł",
+          "part": "MWV03",
+          "at": "2026-10-27T11:58:50.482Z",
+          "url": "https://www.apple.com/pl/shop/buy-mac/imac"
+        },
+        {
+          "code": "pt",
+          "local": 2249,
+          "display": "2249 €",
+          "part": "MWV03",
+          "at": "2026-10-27T11:58:58.377Z",
+          "url": "https://www.apple.com/pt/shop/buy-mac/imac"
+        },
+        {
+          "code": "sa",
+          "local": 8999,
+          "display": "SAR 8,999",
+          "part": "MWV03",
+          "at": "2026-10-27T11:59:06.531Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-mac/imac"
+        },
+        {
+          "code": "se",
+          "local": 25595,
+          "display": "25 595 kr",
+          "part": "MWV03",
+          "at": "2026-10-27T11:59:14.496Z",
+          "url": "https://www.apple.com/se/shop/buy-mac/imac"
+        },
+        {
+          "code": "sg",
+          "local": 2699,
+          "display": "S$2,699",
+          "part": "MWV03",
+          "at": "2026-10-27T11:59:22.424Z",
+          "url": "https://www.apple.com/sg/shop/buy-mac/imac"
+        },
+        {
+          "code": "th",
+          "local": 66900,
+          "display": "฿66,900",
+          "part": "MWV03",
+          "at": "2026-10-27T11:59:30.639Z",
+          "url": "https://www.apple.com/th/shop/buy-mac/imac"
+        },
+        {
+          "code": "tr",
+          "local": 127499,
+          "display": "127.499 TL",
+          "part": "MWV03",
+          "at": "2026-10-27T11:59:38.731Z",
+          "url": "https://www.apple.com/tr/shop/buy-mac/imac"
+        },
+        {
+          "code": "tw",
+          "local": 64900,
+          "display": "NT$64,900",
+          "part": "MWV03",
+          "at": "2026-10-27T11:59:46.578Z",
+          "url": "https://www.apple.com/tw/shop/buy-mac/imac"
+        },
+        {
+          "code": "vn",
+          "local": 52499000,
+          "display": "52.499.000đ",
+          "part": "MWV03",
+          "at": "2026-10-27T11:59:54.671Z",
+          "url": "https://www.apple.com/vn/shop/buy-mac/imac"
+        }
+      ]
+    },
+    {
+      "id": "24-inch-green-m4-chip-10-core-cpu-10-core-gpu-16gb-memory-256gb-storage-standard-glass-stand",
+      "part": "MWUY3",
+      "specs": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "10-core",
+        "gpu": "10-core",
+        "color": "Green",
+        "display": "Standard glass",
+        "stand": "Stand",
+        "memory": "16GB",
+        "storage": "256GB"
+      },
+      "labels": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "10-core",
+        "gpu": "10-core",
+        "color": "Green",
+        "display": "Standard glass",
+        "stand": "Stand",
+        "memory": "16GB",
+        "storage": "256GB"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/imac-specs-select-202601-green-10-10?wid=1200&hei=770&fmt=jpeg&qlt=90&.v=1767921464220",
+      "name": "iMac, 24-inch, M4 Chip, 10-core CPU, 10-core GPU, Green, Standard glass, Stand, 16GB memory, 256GB storage",
+      "label": "24-inch · M4 · 10-core · 10-core · Green · Standard glass · Stand · 16GB · 256GB",
+      "prices": [
+        {
+          "code": "us",
+          "local": 1699,
+          "display": "$1699",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:54:50.157Z",
+          "url": "https://www.apple.com/shop/buy-mac/imac/24-inch-green-m4-chip-10-core-cpu-10-core-gpu-16gb-memory-256gb-storage-standard-glass-stand"
+        },
+        {
+          "code": "ae",
+          "local": 7499,
+          "display": "AED 7,499",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:54:58.677Z",
+          "url": "https://www.apple.com/ae/shop/buy-mac/imac"
+        },
+        {
+          "code": "at",
+          "local": 1999,
+          "display": "1.999 €",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:55:06.221Z",
+          "url": "https://www.apple.com/at/shop/buy-mac/imac"
+        },
+        {
+          "code": "au",
+          "local": 2699,
+          "display": "A$2,699 ",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:55:14.225Z",
+          "url": "https://www.apple.com/au/shop/buy-mac/imac"
+        },
+        {
+          "code": "be",
+          "local": 2019,
+          "display": "€ 2.019",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:55:22.754Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-mac/imac"
+        },
+        {
+          "code": "br",
+          "local": 19999,
+          "display": "R$ 19.999",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:55:30.438Z",
+          "url": "https://www.apple.com/br/shop/buy-mac/imac"
+        },
+        {
+          "code": "ca",
+          "local": 2299,
+          "display": "$2299",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:55:38.597Z",
+          "url": "https://www.apple.com/ca/shop/buy-mac/imac"
+        },
+        {
+          "code": "ch",
+          "local": 1699,
+          "display": "CHF 1699.–",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:55:46.484Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-mac/imac"
+        },
+        {
+          "code": "cl",
+          "local": 1999990,
+          "display": "$1.999.990",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:55:54.489Z",
+          "url": "https://www.apple.com/cl/shop/buy-mac/imac"
+        },
+        {
+          "code": "cz",
+          "local": 48990,
+          "display": "48 990 Kč",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:56:02.780Z",
+          "url": "https://www.apple.com/cz/shop/buy-mac/imac"
+        },
+        {
+          "code": "de",
+          "local": 1999,
+          "display": "1.999 €",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:56:10.575Z",
+          "url": "https://www.apple.com/de/shop/buy-mac/imac"
+        },
+        {
+          "code": "dk",
+          "local": 15499,
+          "display": "15.499 kr.",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:56:18.456Z",
+          "url": "https://www.apple.com/dk/shop/buy-mac/imac"
+        },
+        {
+          "code": "es",
+          "local": 2019,
+          "display": "2.019 € ",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:56:26.416Z",
+          "url": "https://www.apple.com/es/shop/buy-mac/imac"
+        },
+        {
+          "code": "fi",
+          "local": 2099,
+          "display": "2 099 €",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:56:34.574Z",
+          "url": "https://www.apple.com/fi/shop/buy-mac/imac"
+        },
+        {
+          "code": "fr",
+          "local": 1999,
+          "display": "1 999 €",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:56:42.446Z",
+          "url": "https://www.apple.com/fr/shop/buy-mac/imac"
+        },
+        {
+          "code": "gb",
+          "local": 1699,
+          "display": "£1,699",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:56:50.568Z",
+          "url": "https://www.apple.com/uk/shop/buy-mac/imac"
+        },
+        {
+          "code": "hk",
+          "local": 12999,
+          "display": "HK$12,999",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:56:58.552Z",
+          "url": "https://www.apple.com/hk/shop/buy-mac/imac"
+        },
+        {
+          "code": "hu",
+          "local": 779990,
+          "display": "779 990 Ft",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:57:06.509Z",
+          "url": "https://www.apple.com/hu/shop/buy-mac/imac"
+        },
+        {
+          "code": "ie",
+          "local": 2029,
+          "display": "€2,029",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:57:14.467Z",
+          "url": "https://www.apple.com/ie/shop/buy-mac/imac"
+        },
+        {
+          "code": "in",
+          "local": 199900,
+          "display": "₹199900.00",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:57:22.444Z",
+          "url": "https://www.apple.com/in/shop/buy-mac/imac"
+        },
+        {
+          "code": "it",
+          "local": 2029,
+          "display": "€ 2.029 ",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:57:30.807Z",
+          "url": "https://www.apple.com/it/shop/buy-mac/imac"
+        },
+        {
+          "code": "jp",
+          "local": 289800,
+          "display": "289,800円",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:57:38.635Z",
+          "url": "https://www.apple.com/jp/shop/buy-mac/imac"
+        },
+        {
+          "code": "kr",
+          "local": 2890000,
+          "display": "₩2,890,000",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:57:46.773Z",
+          "url": "https://www.apple.com/kr/shop/buy-mac/imac"
+        },
+        {
+          "code": "lu",
+          "local": 1952.26,
+          "display": "1 952,26 €",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:57:54.558Z",
+          "url": "https://www.apple.com/lu/shop/buy-mac/imac"
+        },
+        {
+          "code": "mx",
+          "local": 39999,
+          "display": "$39,999",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:58:02.455Z",
+          "url": "https://www.apple.com/mx/shop/buy-mac/imac"
+        },
+        {
+          "code": "my",
+          "local": 7499,
+          "display": "RM 7,499",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:58:10.712Z",
+          "url": "https://www.apple.com/my/shop/buy-mac/imac"
+        },
+        {
+          "code": "nl",
+          "local": 2019,
+          "display": "€ 2.019",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:58:18.643Z",
+          "url": "https://www.apple.com/nl/shop/buy-mac/imac"
+        },
+        {
+          "code": "no",
+          "local": 22990,
+          "display": "kr 22 990",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:58:26.464Z",
+          "url": "https://www.apple.com/no/shop/buy-mac/imac"
+        },
+        {
+          "code": "nz",
+          "local": 3299,
+          "display": "NZ$3,299",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:58:34.574Z",
+          "url": "https://www.apple.com/nz/shop/buy-mac/imac"
+        },
+        {
+          "code": "ph",
+          "local": 117990,
+          "display": "₱117,990",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:58:42.501Z",
+          "url": "https://www.apple.com/ph/shop/buy-mac/imac"
+        },
+        {
+          "code": "pl",
+          "local": 8499,
+          "display": "8499 zł",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:58:50.482Z",
+          "url": "https://www.apple.com/pl/shop/buy-mac/imac"
+        },
+        {
+          "code": "pt",
+          "local": 2029,
+          "display": "2029 €",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:58:58.377Z",
+          "url": "https://www.apple.com/pt/shop/buy-mac/imac"
+        },
+        {
+          "code": "sa",
+          "local": 7999,
+          "display": "SAR 7,999",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:59:06.531Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-mac/imac"
+        },
+        {
+          "code": "se",
+          "local": 22995,
+          "display": "22 995 kr",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:59:14.496Z",
+          "url": "https://www.apple.com/se/shop/buy-mac/imac"
+        },
+        {
+          "code": "sg",
+          "local": 2399,
+          "display": "S$2,399",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:59:22.424Z",
+          "url": "https://www.apple.com/sg/shop/buy-mac/imac"
+        },
+        {
+          "code": "th",
+          "local": 59900,
+          "display": "฿59,900",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:59:30.639Z",
+          "url": "https://www.apple.com/th/shop/buy-mac/imac"
+        },
+        {
+          "code": "tr",
+          "local": 114999,
+          "display": "114.999 TL",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:59:38.731Z",
+          "url": "https://www.apple.com/tr/shop/buy-mac/imac"
+        },
+        {
+          "code": "tw",
+          "local": 57900,
+          "display": "NT$57,900",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:59:46.578Z",
+          "url": "https://www.apple.com/tw/shop/buy-mac/imac"
+        },
+        {
+          "code": "vn",
+          "local": 46999000,
+          "display": "46.999.000đ",
+          "part": "MWUY3",
+          "at": "2026-10-27T11:59:54.671Z",
+          "url": "https://www.apple.com/vn/shop/buy-mac/imac"
+        }
+      ]
+    },
+    {
+      "id": "24-inch-blue-m4-chip-8-core-cpu-8-core-gpu-16gb-memory-256gb-storage-stand",
+      "part": "MWUF3",
+      "specs": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "8-core",
+        "gpu": "8-core",
+        "color": "Blue",
+        "stand": "Stand",
+        "memory": "16GB",
+        "storage": "256GB"
+      },
+      "labels": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "8-core",
+        "gpu": "8-core",
+        "color": "Blue",
+        "stand": "Stand",
+        "memory": "16GB",
+        "storage": "256GB"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/imac-specs-select-202601-blue-8-8?wid=1200&hei=770&fmt=jpeg&qlt=90&.v=1767921464253",
+      "name": "iMac, 24-inch, M4 Chip, 8-core CPU, 8-core GPU, Blue, Stand, 16GB memory, 256GB storage",
+      "label": "24-inch · M4 · 8-core · 8-core · Blue · Stand · 16GB · 256GB",
+      "prices": [
+        {
+          "code": "us",
+          "local": 1499,
+          "display": "$1499",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:54:50.157Z",
+          "url": "https://www.apple.com/shop/buy-mac/imac/24-inch-blue-m4-chip-8-core-cpu-8-core-gpu-16gb-memory-256gb-storage-stand"
+        },
+        {
+          "code": "ae",
+          "local": 6499,
+          "display": "AED 6,499",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:54:58.677Z",
+          "url": "https://www.apple.com/ae/shop/buy-mac/imac"
+        },
+        {
+          "code": "at",
+          "local": 1799,
+          "display": "1.799 €",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:55:06.221Z",
+          "url": "https://www.apple.com/at/shop/buy-mac/imac"
+        },
+        {
+          "code": "au",
+          "local": 2399,
+          "display": "A$2,399 ",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:55:14.225Z",
+          "url": "https://www.apple.com/au/shop/buy-mac/imac"
+        },
+        {
+          "code": "be",
+          "local": 1819,
+          "display": "€ 1.819",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:55:22.754Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-mac/imac"
+        },
+        {
+          "code": "br",
+          "local": 17999,
+          "display": "R$ 17.999",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:55:30.438Z",
+          "url": "https://www.apple.com/br/shop/buy-mac/imac"
+        },
+        {
+          "code": "ca",
+          "local": 2099,
+          "display": "$2099",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:55:38.597Z",
+          "url": "https://www.apple.com/ca/shop/buy-mac/imac"
+        },
+        {
+          "code": "ch",
+          "local": 1499,
+          "display": "CHF 1499.–",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:55:46.484Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-mac/imac"
+        },
+        {
+          "code": "cl",
+          "local": 1799990,
+          "display": "$1.799.990",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:55:54.489Z",
+          "url": "https://www.apple.com/cl/shop/buy-mac/imac"
+        },
+        {
+          "code": "cz",
+          "local": 42990,
+          "display": "42 990 Kč",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:56:02.780Z",
+          "url": "https://www.apple.com/cz/shop/buy-mac/imac"
+        },
+        {
+          "code": "de",
+          "local": 1799,
+          "display": "1.799 €",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:56:10.575Z",
+          "url": "https://www.apple.com/de/shop/buy-mac/imac"
+        },
+        {
+          "code": "dk",
+          "local": 13499,
+          "display": "13.499 kr.",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:56:18.456Z",
+          "url": "https://www.apple.com/dk/shop/buy-mac/imac"
+        },
+        {
+          "code": "es",
+          "local": 1819,
+          "display": "1.819 € ",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:56:26.416Z",
+          "url": "https://www.apple.com/es/shop/buy-mac/imac"
+        },
+        {
+          "code": "fi",
+          "local": 1899,
+          "display": "1 899 €",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:56:34.574Z",
+          "url": "https://www.apple.com/fi/shop/buy-mac/imac"
+        },
+        {
+          "code": "fr",
+          "local": 1799,
+          "display": "1 799 €",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:56:42.446Z",
+          "url": "https://www.apple.com/fr/shop/buy-mac/imac"
+        },
+        {
+          "code": "gb",
+          "local": 1499,
+          "display": "£1,499",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:56:50.568Z",
+          "url": "https://www.apple.com/uk/shop/buy-mac/imac"
+        },
+        {
+          "code": "hk",
+          "local": 11499,
+          "display": "HK$11,499",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:56:58.552Z",
+          "url": "https://www.apple.com/hk/shop/buy-mac/imac"
+        },
+        {
+          "code": "hu",
+          "local": 679990,
+          "display": "679 990 Ft",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:57:06.509Z",
+          "url": "https://www.apple.com/hu/shop/buy-mac/imac"
+        },
+        {
+          "code": "ie",
+          "local": 1829,
+          "display": "€1,829",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:57:14.467Z",
+          "url": "https://www.apple.com/ie/shop/buy-mac/imac"
+        },
+        {
+          "code": "in",
+          "local": 174900,
+          "display": "₹174900.00",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:57:22.444Z",
+          "url": "https://www.apple.com/in/shop/buy-mac/imac"
+        },
+        {
+          "code": "it",
+          "local": 1829,
+          "display": "€ 1.829 ",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:57:30.807Z",
+          "url": "https://www.apple.com/it/shop/buy-mac/imac"
+        },
+        {
+          "code": "jp",
+          "local": 249800,
+          "display": "249,800円",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:57:38.635Z",
+          "url": "https://www.apple.com/jp/shop/buy-mac/imac"
+        },
+        {
+          "code": "kr",
+          "local": 2490000,
+          "display": "₩2,490,000",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:57:46.773Z",
+          "url": "https://www.apple.com/kr/shop/buy-mac/imac"
+        },
+        {
+          "code": "lu",
+          "local": 1758.87,
+          "display": "1 758,87 €",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:57:54.558Z",
+          "url": "https://www.apple.com/lu/shop/buy-mac/imac"
+        },
+        {
+          "code": "mx",
+          "local": 35999,
+          "display": "$35,999",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:58:02.455Z",
+          "url": "https://www.apple.com/mx/shop/buy-mac/imac"
+        },
+        {
+          "code": "my",
+          "local": 6499,
+          "display": "RM 6,499",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:58:10.712Z",
+          "url": "https://www.apple.com/my/shop/buy-mac/imac"
+        },
+        {
+          "code": "nl",
+          "local": 1819,
+          "display": "€ 1.819",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:58:18.643Z",
+          "url": "https://www.apple.com/nl/shop/buy-mac/imac"
+        },
+        {
+          "code": "no",
+          "local": 19990,
+          "display": "kr 19 990",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:58:26.464Z",
+          "url": "https://www.apple.com/no/shop/buy-mac/imac"
+        },
+        {
+          "code": "nz",
+          "local": 2899,
+          "display": "NZ$2,899",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:58:34.574Z",
+          "url": "https://www.apple.com/nz/shop/buy-mac/imac"
+        },
+        {
+          "code": "ph",
+          "local": 104990,
+          "display": "₱104,990",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:58:42.501Z",
+          "url": "https://www.apple.com/ph/shop/buy-mac/imac"
+        },
+        {
+          "code": "pl",
+          "local": 7499,
+          "display": "7499 zł",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:58:50.482Z",
+          "url": "https://www.apple.com/pl/shop/buy-mac/imac"
+        },
+        {
+          "code": "pt",
+          "local": 1829,
+          "display": "1829 €",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:58:58.377Z",
+          "url": "https://www.apple.com/pt/shop/buy-mac/imac"
+        },
+        {
+          "code": "sa",
+          "local": 6999,
+          "display": "SAR 6,999",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:59:06.531Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-mac/imac"
+        },
+        {
+          "code": "se",
+          "local": 19995,
+          "display": "19 995 kr",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:59:14.496Z",
+          "url": "https://www.apple.com/se/shop/buy-mac/imac"
+        },
+        {
+          "code": "sg",
+          "local": 2099,
+          "display": "S$2,099",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:59:22.424Z",
+          "url": "https://www.apple.com/sg/shop/buy-mac/imac"
+        },
+        {
+          "code": "th",
+          "local": 52900,
+          "display": "฿52,900",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:59:30.639Z",
+          "url": "https://www.apple.com/th/shop/buy-mac/imac"
+        },
+        {
+          "code": "tr",
+          "local": 99999,
+          "display": "99.999 TL",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:59:38.731Z",
+          "url": "https://www.apple.com/tr/shop/buy-mac/imac"
+        },
+        {
+          "code": "tw",
+          "local": 49900,
+          "display": "NT$49,900",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:59:46.578Z",
+          "url": "https://www.apple.com/tw/shop/buy-mac/imac"
+        },
+        {
+          "code": "vn",
+          "local": 41499000,
+          "display": "41.499.000đ",
+          "part": "MWUF3",
+          "at": "2026-10-27T11:59:54.671Z",
+          "url": "https://www.apple.com/vn/shop/buy-mac/imac"
+        }
+      ]
+    },
+    {
+      "id": "24-inch-silver-m4-chip-8-core-cpu-8-core-gpu-16gb-memory-256gb-storage-stand",
+      "part": "MWUC3",
+      "specs": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "8-core",
+        "gpu": "8-core",
+        "color": "Silver",
+        "stand": "Stand",
+        "memory": "16GB",
+        "storage": "256GB"
+      },
+      "labels": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "8-core",
+        "gpu": "8-core",
+        "color": "Silver",
+        "stand": "Stand",
+        "memory": "16GB",
+        "storage": "256GB"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/imac-specs-select-202601-silver-8-8?wid=1200&hei=770&fmt=jpeg&qlt=90&.v=1767921463408",
+      "name": "iMac, 24-inch, M4 Chip, 8-core CPU, 8-core GPU, Silver, Stand, 16GB memory, 256GB storage",
+      "label": "24-inch · M4 · 8-core · 8-core · Silver · Stand · 16GB · 256GB",
+      "prices": [
+        {
+          "code": "us",
+          "local": 1499,
+          "display": "$1499",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:54:50.157Z",
+          "url": "https://www.apple.com/shop/buy-mac/imac/24-inch-silver-m4-chip-8-core-cpu-8-core-gpu-16gb-memory-256gb-storage-stand"
+        },
+        {
+          "code": "ae",
+          "local": 6499,
+          "display": "AED 6,499",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:54:58.677Z",
+          "url": "https://www.apple.com/ae/shop/buy-mac/imac"
+        },
+        {
+          "code": "at",
+          "local": 1799,
+          "display": "1.799 €",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:55:06.221Z",
+          "url": "https://www.apple.com/at/shop/buy-mac/imac"
+        },
+        {
+          "code": "au",
+          "local": 2399,
+          "display": "A$2,399 ",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:55:14.225Z",
+          "url": "https://www.apple.com/au/shop/buy-mac/imac"
+        },
+        {
+          "code": "be",
+          "local": 1819,
+          "display": "€ 1.819",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:55:22.754Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-mac/imac"
+        },
+        {
+          "code": "br",
+          "local": 17999,
+          "display": "R$ 17.999",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:55:30.438Z",
+          "url": "https://www.apple.com/br/shop/buy-mac/imac"
+        },
+        {
+          "code": "ca",
+          "local": 2099,
+          "display": "$2099",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:55:38.597Z",
+          "url": "https://www.apple.com/ca/shop/buy-mac/imac"
+        },
+        {
+          "code": "ch",
+          "local": 1499,
+          "display": "CHF 1499.–",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:55:46.484Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-mac/imac"
+        },
+        {
+          "code": "cl",
+          "local": 1799990,
+          "display": "$1.799.990",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:55:54.489Z",
+          "url": "https://www.apple.com/cl/shop/buy-mac/imac"
+        },
+        {
+          "code": "cz",
+          "local": 42990,
+          "display": "42 990 Kč",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:56:02.780Z",
+          "url": "https://www.apple.com/cz/shop/buy-mac/imac"
+        },
+        {
+          "code": "de",
+          "local": 1799,
+          "display": "1.799 €",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:56:10.575Z",
+          "url": "https://www.apple.com/de/shop/buy-mac/imac"
+        },
+        {
+          "code": "dk",
+          "local": 13499,
+          "display": "13.499 kr.",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:56:18.456Z",
+          "url": "https://www.apple.com/dk/shop/buy-mac/imac"
+        },
+        {
+          "code": "es",
+          "local": 1819,
+          "display": "1.819 € ",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:56:26.416Z",
+          "url": "https://www.apple.com/es/shop/buy-mac/imac"
+        },
+        {
+          "code": "fi",
+          "local": 1899,
+          "display": "1 899 €",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:56:34.574Z",
+          "url": "https://www.apple.com/fi/shop/buy-mac/imac"
+        },
+        {
+          "code": "fr",
+          "local": 1799,
+          "display": "1 799 €",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:56:42.446Z",
+          "url": "https://www.apple.com/fr/shop/buy-mac/imac"
+        },
+        {
+          "code": "gb",
+          "local": 1499,
+          "display": "£1,499",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:56:50.568Z",
+          "url": "https://www.apple.com/uk/shop/buy-mac/imac"
+        },
+        {
+          "code": "hk",
+          "local": 11499,
+          "display": "HK$11,499",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:56:58.552Z",
+          "url": "https://www.apple.com/hk/shop/buy-mac/imac"
+        },
+        {
+          "code": "hu",
+          "local": 679990,
+          "display": "679 990 Ft",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:57:06.509Z",
+          "url": "https://www.apple.com/hu/shop/buy-mac/imac"
+        },
+        {
+          "code": "ie",
+          "local": 1829,
+          "display": "€1,829",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:57:14.467Z",
+          "url": "https://www.apple.com/ie/shop/buy-mac/imac"
+        },
+        {
+          "code": "in",
+          "local": 174900,
+          "display": "₹174900.00",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:57:22.444Z",
+          "url": "https://www.apple.com/in/shop/buy-mac/imac"
+        },
+        {
+          "code": "it",
+          "local": 1829,
+          "display": "€ 1.829 ",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:57:30.807Z",
+          "url": "https://www.apple.com/it/shop/buy-mac/imac"
+        },
+        {
+          "code": "jp",
+          "local": 249800,
+          "display": "249,800円",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:57:38.635Z",
+          "url": "https://www.apple.com/jp/shop/buy-mac/imac"
+        },
+        {
+          "code": "kr",
+          "local": 2490000,
+          "display": "₩2,490,000",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:57:46.773Z",
+          "url": "https://www.apple.com/kr/shop/buy-mac/imac"
+        },
+        {
+          "code": "lu",
+          "local": 1758.87,
+          "display": "1 758,87 €",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:57:54.558Z",
+          "url": "https://www.apple.com/lu/shop/buy-mac/imac"
+        },
+        {
+          "code": "mx",
+          "local": 35999,
+          "display": "$35,999",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:58:02.455Z",
+          "url": "https://www.apple.com/mx/shop/buy-mac/imac"
+        },
+        {
+          "code": "my",
+          "local": 6499,
+          "display": "RM 6,499",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:58:10.712Z",
+          "url": "https://www.apple.com/my/shop/buy-mac/imac"
+        },
+        {
+          "code": "nl",
+          "local": 1819,
+          "display": "€ 1.819",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:58:18.643Z",
+          "url": "https://www.apple.com/nl/shop/buy-mac/imac"
+        },
+        {
+          "code": "no",
+          "local": 19990,
+          "display": "kr 19 990",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:58:26.464Z",
+          "url": "https://www.apple.com/no/shop/buy-mac/imac"
+        },
+        {
+          "code": "nz",
+          "local": 2899,
+          "display": "NZ$2,899",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:58:34.574Z",
+          "url": "https://www.apple.com/nz/shop/buy-mac/imac"
+        },
+        {
+          "code": "ph",
+          "local": 104990,
+          "display": "₱104,990",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:58:42.501Z",
+          "url": "https://www.apple.com/ph/shop/buy-mac/imac"
+        },
+        {
+          "code": "pl",
+          "local": 7499,
+          "display": "7499 zł",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:58:50.482Z",
+          "url": "https://www.apple.com/pl/shop/buy-mac/imac"
+        },
+        {
+          "code": "pt",
+          "local": 1829,
+          "display": "1829 €",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:58:58.377Z",
+          "url": "https://www.apple.com/pt/shop/buy-mac/imac"
+        },
+        {
+          "code": "sa",
+          "local": 6999,
+          "display": "SAR 6,999",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:59:06.531Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-mac/imac"
+        },
+        {
+          "code": "se",
+          "local": 19995,
+          "display": "19 995 kr",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:59:14.496Z",
+          "url": "https://www.apple.com/se/shop/buy-mac/imac"
+        },
+        {
+          "code": "sg",
+          "local": 2099,
+          "display": "S$2,099",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:59:22.424Z",
+          "url": "https://www.apple.com/sg/shop/buy-mac/imac"
+        },
+        {
+          "code": "th",
+          "local": 52900,
+          "display": "฿52,900",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:59:30.639Z",
+          "url": "https://www.apple.com/th/shop/buy-mac/imac"
+        },
+        {
+          "code": "tr",
+          "local": 99999,
+          "display": "99.999 TL",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:59:38.731Z",
+          "url": "https://www.apple.com/tr/shop/buy-mac/imac"
+        },
+        {
+          "code": "tw",
+          "local": 49900,
+          "display": "NT$49,900",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:59:46.578Z",
+          "url": "https://www.apple.com/tw/shop/buy-mac/imac"
+        },
+        {
+          "code": "vn",
+          "local": 41499000,
+          "display": "41.499.000đ",
+          "part": "MWUC3",
+          "at": "2026-10-27T11:59:54.671Z",
+          "url": "https://www.apple.com/vn/shop/buy-mac/imac"
+        }
+      ]
+    },
+    {
+      "id": "24-inch-pink-m4-chip-10-core-cpu-10-core-gpu-16gb-memory-512gb-storage-standard-glass-stand",
+      "part": "MWV53",
+      "specs": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "10-core",
+        "gpu": "10-core",
+        "color": "Pink",
+        "display": "Standard glass",
+        "stand": "Stand",
+        "memory": "16GB",
+        "storage": "512GB"
+      },
+      "labels": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "10-core",
+        "gpu": "10-core",
+        "color": "Pink",
+        "display": "Standard glass",
+        "stand": "Stand",
+        "memory": "16GB",
+        "storage": "512GB"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/imac-specs-select-202601-pink-10-10?wid=1200&hei=770&fmt=jpeg&qlt=90&.v=1767921464181",
+      "name": "iMac, 24-inch, M4 Chip, 10-core CPU, 10-core GPU, Pink, Standard glass, Stand, 16GB memory, 512GB storage",
+      "label": "24-inch · M4 · 10-core · 10-core · Pink · Standard glass · Stand · 16GB · 512GB",
+      "prices": [
+        {
+          "code": "us",
+          "local": 1899,
+          "display": "$1899",
+          "part": "MWV53",
+          "at": "2026-10-27T11:54:50.157Z",
+          "url": "https://www.apple.com/shop/buy-mac/imac/24-inch-pink-m4-chip-10-core-cpu-10-core-gpu-16gb-memory-512gb-storage-standard-glass-stand"
+        },
+        {
+          "code": "ae",
+          "local": 8399,
+          "display": "AED 8,399",
+          "part": "MWV53",
+          "at": "2026-10-27T11:54:58.677Z",
+          "url": "https://www.apple.com/ae/shop/buy-mac/imac"
+        },
+        {
+          "code": "at",
+          "local": 2219,
+          "display": "2.219 €",
+          "part": "MWV53",
+          "at": "2026-10-27T11:55:06.221Z",
+          "url": "https://www.apple.com/at/shop/buy-mac/imac"
+        },
+        {
+          "code": "au",
+          "local": 2999,
+          "display": "A$2,999 ",
+          "part": "MWV53",
+          "at": "2026-10-27T11:55:14.225Z",
+          "url": "https://www.apple.com/au/shop/buy-mac/imac"
+        },
+        {
+          "code": "be",
+          "local": 2239,
+          "display": "€ 2.239",
+          "part": "MWV53",
+          "at": "2026-10-27T11:55:22.754Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-mac/imac"
+        },
+        {
+          "code": "br",
+          "local": 22399,
+          "display": "R$ 22.399",
+          "part": "MWV53",
+          "at": "2026-10-27T11:55:30.438Z",
+          "url": "https://www.apple.com/br/shop/buy-mac/imac"
+        },
+        {
+          "code": "ca",
+          "local": 2599,
+          "display": "$2599",
+          "part": "MWV53",
+          "at": "2026-10-27T11:55:38.597Z",
+          "url": "https://www.apple.com/ca/shop/buy-mac/imac"
+        },
+        {
+          "code": "ch",
+          "local": 1899,
+          "display": "CHF 1899.–",
+          "part": "MWV53",
+          "at": "2026-10-27T11:55:46.484Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-mac/imac"
+        },
+        {
+          "code": "cl",
+          "local": 2239990,
+          "display": "$2.239.990",
+          "part": "MWV53",
+          "at": "2026-10-27T11:55:54.489Z",
+          "url": "https://www.apple.com/cl/shop/buy-mac/imac"
+        },
+        {
+          "code": "cz",
+          "local": 54990,
+          "display": "54 990 Kč",
+          "part": "MWV53",
+          "at": "2026-10-27T11:56:02.780Z",
+          "url": "https://www.apple.com/cz/shop/buy-mac/imac"
+        },
+        {
+          "code": "de",
+          "local": 2219,
+          "display": "2.219 €",
+          "part": "MWV53",
+          "at": "2026-10-27T11:56:10.575Z",
+          "url": "https://www.apple.com/de/shop/buy-mac/imac"
+        },
+        {
+          "code": "dk",
+          "local": 17499,
+          "display": "17.499 kr.",
+          "part": "MWV53",
+          "at": "2026-10-27T11:56:18.456Z",
+          "url": "https://www.apple.com/dk/shop/buy-mac/imac"
+        },
+        {
+          "code": "es",
+          "local": 2239,
+          "display": "2.239 € ",
+          "part": "MWV53",
+          "at": "2026-10-27T11:56:26.416Z",
+          "url": "https://www.apple.com/es/shop/buy-mac/imac"
+        },
+        {
+          "code": "fi",
+          "local": 2319,
+          "display": "2 319 €",
+          "part": "MWV53",
+          "at": "2026-10-27T11:56:34.574Z",
+          "url": "https://www.apple.com/fi/shop/buy-mac/imac"
+        },
+        {
+          "code": "fr",
+          "local": 2219,
+          "display": "2 219 €",
+          "part": "MWV53",
+          "at": "2026-10-27T11:56:42.446Z",
+          "url": "https://www.apple.com/fr/shop/buy-mac/imac"
+        },
+        {
+          "code": "gb",
+          "local": 1899,
+          "display": "£1,899",
+          "part": "MWV53",
+          "at": "2026-10-27T11:56:50.568Z",
+          "url": "https://www.apple.com/uk/shop/buy-mac/imac"
+        },
+        {
+          "code": "hk",
+          "local": 14499,
+          "display": "HK$14,499",
+          "part": "MWV53",
+          "at": "2026-10-27T11:56:58.552Z",
+          "url": "https://www.apple.com/hk/shop/buy-mac/imac"
+        },
+        {
+          "code": "hu",
+          "local": 879990,
+          "display": "879 990 Ft",
+          "part": "MWV53",
+          "at": "2026-10-27T11:57:06.509Z",
+          "url": "https://www.apple.com/hu/shop/buy-mac/imac"
+        },
+        {
+          "code": "ie",
+          "local": 2249,
+          "display": "€2,249",
+          "part": "MWV53",
+          "at": "2026-10-27T11:57:14.467Z",
+          "url": "https://www.apple.com/ie/shop/buy-mac/imac"
+        },
+        {
+          "code": "in",
+          "local": 223900,
+          "display": "₹223900.00",
+          "part": "MWV53",
+          "at": "2026-10-27T11:57:22.444Z",
+          "url": "https://www.apple.com/in/shop/buy-mac/imac"
+        },
+        {
+          "code": "it",
+          "local": 2249,
+          "display": "€ 2.249 ",
+          "part": "MWV53",
+          "at": "2026-10-27T11:57:30.807Z",
+          "url": "https://www.apple.com/it/shop/buy-mac/imac"
+        },
+        {
+          "code": "jp",
+          "local": 325800,
+          "display": "325,800円",
+          "part": "MWV53",
+          "at": "2026-10-27T11:57:38.635Z",
+          "url": "https://www.apple.com/jp/shop/buy-mac/imac"
+        },
+        {
+          "code": "kr",
+          "local": 3230000,
+          "display": "₩3,230,000",
+          "part": "MWV53",
+          "at": "2026-10-27T11:57:46.773Z",
+          "url": "https://www.apple.com/kr/shop/buy-mac/imac"
+        },
+        {
+          "code": "lu",
+          "local": 2164.98,
+          "display": "2 164,98 €",
+          "part": "MWV53",
+          "at": "2026-10-27T11:57:54.558Z",
+          "url": "https://www.apple.com/lu/shop/buy-mac/imac"
+        },
+        {
+          "code": "mx",
+          "local": 44999,
+          "display": "$44,999",
+          "part": "MWV53",
+          "at": "2026-10-27T11:58:02.455Z",
+          "url": "https://www.apple.com/mx/shop/buy-mac/imac"
+        },
+        {
+          "code": "my",
+          "local": 8399,
+          "display": "RM 8,399",
+          "part": "MWV53",
+          "at": "2026-10-27T11:58:10.712Z",
+          "url": "https://www.apple.com/my/shop/buy-mac/imac"
+        },
+        {
+          "code": "nl",
+          "local": 2239,
+          "display": "€ 2.239",
+          "part": "MWV53",
+          "at": "2026-10-27T11:58:18.643Z",
+          "url": "https://www.apple.com/nl/shop/buy-mac/imac"
+        },
+        {
+          "code": "no",
+          "local": 25990,
+          "display": "kr 25 990",
+          "part": "MWV53",
+          "at": "2026-10-27T11:58:26.464Z",
+          "url": "https://www.apple.com/no/shop/buy-mac/imac"
+        },
+        {
+          "code": "nz",
+          "local": 3699,
+          "display": "NZ$3,699",
+          "part": "MWV53",
+          "at": "2026-10-27T11:58:34.574Z",
+          "url": "https://www.apple.com/nz/shop/buy-mac/imac"
+        },
+        {
+          "code": "ph",
+          "local": 130990,
+          "display": "₱130,990",
+          "part": "MWV53",
+          "at": "2026-10-27T11:58:42.501Z",
+          "url": "https://www.apple.com/ph/shop/buy-mac/imac"
+        },
+        {
+          "code": "pl",
+          "local": 9499,
+          "display": "9499 zł",
+          "part": "MWV53",
+          "at": "2026-10-27T11:58:50.482Z",
+          "url": "https://www.apple.com/pl/shop/buy-mac/imac"
+        },
+        {
+          "code": "pt",
+          "local": 2249,
+          "display": "2249 €",
+          "part": "MWV53",
+          "at": "2026-10-27T11:58:58.377Z",
+          "url": "https://www.apple.com/pt/shop/buy-mac/imac"
+        },
+        {
+          "code": "sa",
+          "local": 8999,
+          "display": "SAR 8,999",
+          "part": "MWV53",
+          "at": "2026-10-27T11:59:06.531Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-mac/imac"
+        },
+        {
+          "code": "se",
+          "local": 25595,
+          "display": "25 595 kr",
+          "part": "MWV53",
+          "at": "2026-10-27T11:59:14.496Z",
+          "url": "https://www.apple.com/se/shop/buy-mac/imac"
+        },
+        {
+          "code": "sg",
+          "local": 2699,
+          "display": "S$2,699",
+          "part": "MWV53",
+          "at": "2026-10-27T11:59:22.424Z",
+          "url": "https://www.apple.com/sg/shop/buy-mac/imac"
+        },
+        {
+          "code": "th",
+          "local": 66900,
+          "display": "฿66,900",
+          "part": "MWV53",
+          "at": "2026-10-27T11:59:30.639Z",
+          "url": "https://www.apple.com/th/shop/buy-mac/imac"
+        },
+        {
+          "code": "tr",
+          "local": 127499,
+          "display": "127.499 TL",
+          "part": "MWV53",
+          "at": "2026-10-27T11:59:38.731Z",
+          "url": "https://www.apple.com/tr/shop/buy-mac/imac"
+        },
+        {
+          "code": "tw",
+          "local": 64900,
+          "display": "NT$64,900",
+          "part": "MWV53",
+          "at": "2026-10-27T11:59:46.578Z",
+          "url": "https://www.apple.com/tw/shop/buy-mac/imac"
+        },
+        {
+          "code": "vn",
+          "local": 52499000,
+          "display": "52.499.000đ",
+          "part": "MWV53",
+          "at": "2026-10-27T11:59:54.671Z",
+          "url": "https://www.apple.com/vn/shop/buy-mac/imac"
+        }
+      ]
+    },
+    {
+      "id": "24-inch-green-m4-chip-8-core-cpu-8-core-gpu-16gb-memory-256gb-storage-stand",
+      "part": "MWUE3",
+      "specs": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "8-core",
+        "gpu": "8-core",
+        "color": "Green",
+        "stand": "Stand",
+        "memory": "16GB",
+        "storage": "256GB"
+      },
+      "labels": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "8-core",
+        "gpu": "8-core",
+        "color": "Green",
+        "stand": "Stand",
+        "memory": "16GB",
+        "storage": "256GB"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/imac-specs-select-202601-green-8-8?wid=1200&hei=770&fmt=jpeg&qlt=90&.v=1767921464192",
+      "name": "iMac, 24-inch, M4 Chip, 8-core CPU, 8-core GPU, Green, Stand, 16GB memory, 256GB storage",
+      "label": "24-inch · M4 · 8-core · 8-core · Green · Stand · 16GB · 256GB",
+      "prices": [
+        {
+          "code": "us",
+          "local": 1499,
+          "display": "$1499",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:54:50.157Z",
+          "url": "https://www.apple.com/shop/buy-mac/imac/24-inch-green-m4-chip-8-core-cpu-8-core-gpu-16gb-memory-256gb-storage-stand"
+        },
+        {
+          "code": "ae",
+          "local": 6499,
+          "display": "AED 6,499",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:54:58.677Z",
+          "url": "https://www.apple.com/ae/shop/buy-mac/imac"
+        },
+        {
+          "code": "at",
+          "local": 1799,
+          "display": "1.799 €",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:55:06.221Z",
+          "url": "https://www.apple.com/at/shop/buy-mac/imac"
+        },
+        {
+          "code": "au",
+          "local": 2399,
+          "display": "A$2,399 ",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:55:14.225Z",
+          "url": "https://www.apple.com/au/shop/buy-mac/imac"
+        },
+        {
+          "code": "be",
+          "local": 1819,
+          "display": "€ 1.819",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:55:22.754Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-mac/imac"
+        },
+        {
+          "code": "br",
+          "local": 17999,
+          "display": "R$ 17.999",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:55:30.438Z",
+          "url": "https://www.apple.com/br/shop/buy-mac/imac"
+        },
+        {
+          "code": "ca",
+          "local": 2099,
+          "display": "$2099",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:55:38.597Z",
+          "url": "https://www.apple.com/ca/shop/buy-mac/imac"
+        },
+        {
+          "code": "ch",
+          "local": 1499,
+          "display": "CHF 1499.–",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:55:46.484Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-mac/imac"
+        },
+        {
+          "code": "cl",
+          "local": 1799990,
+          "display": "$1.799.990",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:55:54.489Z",
+          "url": "https://www.apple.com/cl/shop/buy-mac/imac"
+        },
+        {
+          "code": "cz",
+          "local": 42990,
+          "display": "42 990 Kč",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:56:02.780Z",
+          "url": "https://www.apple.com/cz/shop/buy-mac/imac"
+        },
+        {
+          "code": "de",
+          "local": 1799,
+          "display": "1.799 €",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:56:10.575Z",
+          "url": "https://www.apple.com/de/shop/buy-mac/imac"
+        },
+        {
+          "code": "dk",
+          "local": 13499,
+          "display": "13.499 kr.",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:56:18.456Z",
+          "url": "https://www.apple.com/dk/shop/buy-mac/imac"
+        },
+        {
+          "code": "es",
+          "local": 1819,
+          "display": "1.819 € ",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:56:26.416Z",
+          "url": "https://www.apple.com/es/shop/buy-mac/imac"
+        },
+        {
+          "code": "fi",
+          "local": 1899,
+          "display": "1 899 €",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:56:34.574Z",
+          "url": "https://www.apple.com/fi/shop/buy-mac/imac"
+        },
+        {
+          "code": "fr",
+          "local": 1799,
+          "display": "1 799 €",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:56:42.446Z",
+          "url": "https://www.apple.com/fr/shop/buy-mac/imac"
+        },
+        {
+          "code": "gb",
+          "local": 1499,
+          "display": "£1,499",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:56:50.568Z",
+          "url": "https://www.apple.com/uk/shop/buy-mac/imac"
+        },
+        {
+          "code": "hk",
+          "local": 11499,
+          "display": "HK$11,499",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:56:58.552Z",
+          "url": "https://www.apple.com/hk/shop/buy-mac/imac"
+        },
+        {
+          "code": "hu",
+          "local": 679990,
+          "display": "679 990 Ft",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:57:06.509Z",
+          "url": "https://www.apple.com/hu/shop/buy-mac/imac"
+        },
+        {
+          "code": "ie",
+          "local": 1829,
+          "display": "€1,829",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:57:14.467Z",
+          "url": "https://www.apple.com/ie/shop/buy-mac/imac"
+        },
+        {
+          "code": "in",
+          "local": 174900,
+          "display": "₹174900.00",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:57:22.444Z",
+          "url": "https://www.apple.com/in/shop/buy-mac/imac"
+        },
+        {
+          "code": "it",
+          "local": 1829,
+          "display": "€ 1.829 ",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:57:30.807Z",
+          "url": "https://www.apple.com/it/shop/buy-mac/imac"
+        },
+        {
+          "code": "jp",
+          "local": 249800,
+          "display": "249,800円",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:57:38.635Z",
+          "url": "https://www.apple.com/jp/shop/buy-mac/imac"
+        },
+        {
+          "code": "kr",
+          "local": 2490000,
+          "display": "₩2,490,000",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:57:46.773Z",
+          "url": "https://www.apple.com/kr/shop/buy-mac/imac"
+        },
+        {
+          "code": "lu",
+          "local": 1758.87,
+          "display": "1 758,87 €",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:57:54.558Z",
+          "url": "https://www.apple.com/lu/shop/buy-mac/imac"
+        },
+        {
+          "code": "mx",
+          "local": 35999,
+          "display": "$35,999",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:58:02.455Z",
+          "url": "https://www.apple.com/mx/shop/buy-mac/imac"
+        },
+        {
+          "code": "my",
+          "local": 6499,
+          "display": "RM 6,499",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:58:10.712Z",
+          "url": "https://www.apple.com/my/shop/buy-mac/imac"
+        },
+        {
+          "code": "nl",
+          "local": 1819,
+          "display": "€ 1.819",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:58:18.643Z",
+          "url": "https://www.apple.com/nl/shop/buy-mac/imac"
+        },
+        {
+          "code": "no",
+          "local": 19990,
+          "display": "kr 19 990",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:58:26.464Z",
+          "url": "https://www.apple.com/no/shop/buy-mac/imac"
+        },
+        {
+          "code": "nz",
+          "local": 2899,
+          "display": "NZ$2,899",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:58:34.574Z",
+          "url": "https://www.apple.com/nz/shop/buy-mac/imac"
+        },
+        {
+          "code": "ph",
+          "local": 104990,
+          "display": "₱104,990",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:58:42.501Z",
+          "url": "https://www.apple.com/ph/shop/buy-mac/imac"
+        },
+        {
+          "code": "pl",
+          "local": 7499,
+          "display": "7499 zł",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:58:50.482Z",
+          "url": "https://www.apple.com/pl/shop/buy-mac/imac"
+        },
+        {
+          "code": "pt",
+          "local": 1829,
+          "display": "1829 €",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:58:58.377Z",
+          "url": "https://www.apple.com/pt/shop/buy-mac/imac"
+        },
+        {
+          "code": "sa",
+          "local": 6999,
+          "display": "SAR 6,999",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:59:06.531Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-mac/imac"
+        },
+        {
+          "code": "se",
+          "local": 19995,
+          "display": "19 995 kr",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:59:14.496Z",
+          "url": "https://www.apple.com/se/shop/buy-mac/imac"
+        },
+        {
+          "code": "sg",
+          "local": 2099,
+          "display": "S$2,099",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:59:22.424Z",
+          "url": "https://www.apple.com/sg/shop/buy-mac/imac"
+        },
+        {
+          "code": "th",
+          "local": 52900,
+          "display": "฿52,900",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:59:30.639Z",
+          "url": "https://www.apple.com/th/shop/buy-mac/imac"
+        },
+        {
+          "code": "tr",
+          "local": 99999,
+          "display": "99.999 TL",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:59:38.731Z",
+          "url": "https://www.apple.com/tr/shop/buy-mac/imac"
+        },
+        {
+          "code": "tw",
+          "local": 49900,
+          "display": "NT$49,900",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:59:46.578Z",
+          "url": "https://www.apple.com/tw/shop/buy-mac/imac"
+        },
+        {
+          "code": "vn",
+          "local": 41499000,
+          "display": "41.499.000đ",
+          "part": "MWUE3",
+          "at": "2026-10-27T11:59:54.671Z",
+          "url": "https://www.apple.com/vn/shop/buy-mac/imac"
+        }
+      ]
+    },
+    {
+      "id": "24-inch-silver-m4-chip-10-core-cpu-10-core-gpu-16gb-memory-256gb-storage-standard-glass-stand",
+      "part": "MWUU3",
+      "specs": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "10-core",
+        "gpu": "10-core",
+        "color": "Silver",
+        "display": "Standard glass",
+        "stand": "Stand",
+        "memory": "16GB",
+        "storage": "256GB"
+      },
+      "labels": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "10-core",
+        "gpu": "10-core",
+        "color": "Silver",
+        "display": "Standard glass",
+        "stand": "Stand",
+        "memory": "16GB",
+        "storage": "256GB"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/imac-specs-select-202601-silver-10-10?wid=1200&hei=770&fmt=jpeg&qlt=90&.v=1767921463478",
+      "name": "iMac, 24-inch, M4 Chip, 10-core CPU, 10-core GPU, Silver, Standard glass, Stand, 16GB memory, 256GB storage",
+      "label": "24-inch · M4 · 10-core · 10-core · Silver · Standard glass · Stand · 16GB · 256GB",
+      "prices": [
+        {
+          "code": "us",
+          "local": 1699,
+          "display": "$1699",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:54:50.157Z",
+          "url": "https://www.apple.com/shop/buy-mac/imac/24-inch-silver-m4-chip-10-core-cpu-10-core-gpu-16gb-memory-256gb-storage-standard-glass-stand"
+        },
+        {
+          "code": "ae",
+          "local": 7499,
+          "display": "AED 7,499",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:54:58.677Z",
+          "url": "https://www.apple.com/ae/shop/buy-mac/imac"
+        },
+        {
+          "code": "at",
+          "local": 1999,
+          "display": "1.999 €",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:55:06.221Z",
+          "url": "https://www.apple.com/at/shop/buy-mac/imac"
+        },
+        {
+          "code": "au",
+          "local": 2699,
+          "display": "A$2,699 ",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:55:14.225Z",
+          "url": "https://www.apple.com/au/shop/buy-mac/imac"
+        },
+        {
+          "code": "be",
+          "local": 2019,
+          "display": "€ 2.019",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:55:22.754Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-mac/imac"
+        },
+        {
+          "code": "br",
+          "local": 19999,
+          "display": "R$ 19.999",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:55:30.438Z",
+          "url": "https://www.apple.com/br/shop/buy-mac/imac"
+        },
+        {
+          "code": "ca",
+          "local": 2299,
+          "display": "$2299",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:55:38.597Z",
+          "url": "https://www.apple.com/ca/shop/buy-mac/imac"
+        },
+        {
+          "code": "ch",
+          "local": 1699,
+          "display": "CHF 1699.–",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:55:46.484Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-mac/imac"
+        },
+        {
+          "code": "cl",
+          "local": 1999990,
+          "display": "$1.999.990",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:55:54.489Z",
+          "url": "https://www.apple.com/cl/shop/buy-mac/imac"
+        },
+        {
+          "code": "cz",
+          "local": 48990,
+          "display": "48 990 Kč",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:56:02.780Z",
+          "url": "https://www.apple.com/cz/shop/buy-mac/imac"
+        },
+        {
+          "code": "de",
+          "local": 1999,
+          "display": "1.999 €",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:56:10.575Z",
+          "url": "https://www.apple.com/de/shop/buy-mac/imac"
+        },
+        {
+          "code": "dk",
+          "local": 15499,
+          "display": "15.499 kr.",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:56:18.456Z",
+          "url": "https://www.apple.com/dk/shop/buy-mac/imac"
+        },
+        {
+          "code": "es",
+          "local": 2019,
+          "display": "2.019 € ",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:56:26.416Z",
+          "url": "https://www.apple.com/es/shop/buy-mac/imac"
+        },
+        {
+          "code": "fi",
+          "local": 2099,
+          "display": "2 099 €",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:56:34.574Z",
+          "url": "https://www.apple.com/fi/shop/buy-mac/imac"
+        },
+        {
+          "code": "fr",
+          "local": 1999,
+          "display": "1 999 €",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:56:42.446Z",
+          "url": "https://www.apple.com/fr/shop/buy-mac/imac"
+        },
+        {
+          "code": "gb",
+          "local": 1699,
+          "display": "£1,699",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:56:50.568Z",
+          "url": "https://www.apple.com/uk/shop/buy-mac/imac"
+        },
+        {
+          "code": "hk",
+          "local": 12999,
+          "display": "HK$12,999",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:56:58.552Z",
+          "url": "https://www.apple.com/hk/shop/buy-mac/imac"
+        },
+        {
+          "code": "hu",
+          "local": 779990,
+          "display": "779 990 Ft",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:57:06.509Z",
+          "url": "https://www.apple.com/hu/shop/buy-mac/imac"
+        },
+        {
+          "code": "ie",
+          "local": 2029,
+          "display": "€2,029",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:57:14.467Z",
+          "url": "https://www.apple.com/ie/shop/buy-mac/imac"
+        },
+        {
+          "code": "in",
+          "local": 199900,
+          "display": "₹199900.00",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:57:22.444Z",
+          "url": "https://www.apple.com/in/shop/buy-mac/imac"
+        },
+        {
+          "code": "it",
+          "local": 2029,
+          "display": "€ 2.029 ",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:57:30.807Z",
+          "url": "https://www.apple.com/it/shop/buy-mac/imac"
+        },
+        {
+          "code": "jp",
+          "local": 289800,
+          "display": "289,800円",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:57:38.635Z",
+          "url": "https://www.apple.com/jp/shop/buy-mac/imac"
+        },
+        {
+          "code": "kr",
+          "local": 2890000,
+          "display": "₩2,890,000",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:57:46.773Z",
+          "url": "https://www.apple.com/kr/shop/buy-mac/imac"
+        },
+        {
+          "code": "lu",
+          "local": 1952.26,
+          "display": "1 952,26 €",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:57:54.558Z",
+          "url": "https://www.apple.com/lu/shop/buy-mac/imac"
+        },
+        {
+          "code": "mx",
+          "local": 39999,
+          "display": "$39,999",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:58:02.455Z",
+          "url": "https://www.apple.com/mx/shop/buy-mac/imac"
+        },
+        {
+          "code": "my",
+          "local": 7499,
+          "display": "RM 7,499",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:58:10.712Z",
+          "url": "https://www.apple.com/my/shop/buy-mac/imac"
+        },
+        {
+          "code": "nl",
+          "local": 2019,
+          "display": "€ 2.019",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:58:18.643Z",
+          "url": "https://www.apple.com/nl/shop/buy-mac/imac"
+        },
+        {
+          "code": "no",
+          "local": 22990,
+          "display": "kr 22 990",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:58:26.464Z",
+          "url": "https://www.apple.com/no/shop/buy-mac/imac"
+        },
+        {
+          "code": "nz",
+          "local": 3299,
+          "display": "NZ$3,299",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:58:34.574Z",
+          "url": "https://www.apple.com/nz/shop/buy-mac/imac"
+        },
+        {
+          "code": "ph",
+          "local": 117990,
+          "display": "₱117,990",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:58:42.501Z",
+          "url": "https://www.apple.com/ph/shop/buy-mac/imac"
+        },
+        {
+          "code": "pl",
+          "local": 8499,
+          "display": "8499 zł",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:58:50.482Z",
+          "url": "https://www.apple.com/pl/shop/buy-mac/imac"
+        },
+        {
+          "code": "pt",
+          "local": 2029,
+          "display": "2029 €",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:58:58.377Z",
+          "url": "https://www.apple.com/pt/shop/buy-mac/imac"
+        },
+        {
+          "code": "sa",
+          "local": 7999,
+          "display": "SAR 7,999",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:59:06.531Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-mac/imac"
+        },
+        {
+          "code": "se",
+          "local": 22995,
+          "display": "22 995 kr",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:59:14.496Z",
+          "url": "https://www.apple.com/se/shop/buy-mac/imac"
+        },
+        {
+          "code": "sg",
+          "local": 2399,
+          "display": "S$2,399",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:59:22.424Z",
+          "url": "https://www.apple.com/sg/shop/buy-mac/imac"
+        },
+        {
+          "code": "th",
+          "local": 59900,
+          "display": "฿59,900",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:59:30.639Z",
+          "url": "https://www.apple.com/th/shop/buy-mac/imac"
+        },
+        {
+          "code": "tr",
+          "local": 114999,
+          "display": "114.999 TL",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:59:38.731Z",
+          "url": "https://www.apple.com/tr/shop/buy-mac/imac"
+        },
+        {
+          "code": "tw",
+          "local": 57900,
+          "display": "NT$57,900",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:59:46.578Z",
+          "url": "https://www.apple.com/tw/shop/buy-mac/imac"
+        },
+        {
+          "code": "vn",
+          "local": 46999000,
+          "display": "46.999.000đ",
+          "part": "MWUU3",
+          "at": "2026-10-27T11:59:54.671Z",
+          "url": "https://www.apple.com/vn/shop/buy-mac/imac"
+        }
+      ]
+    },
+    {
+      "id": "24-inch-blue-m4-chip-10-core-cpu-10-core-gpu-16gb-memory-256gb-storage-standard-glass-stand",
+      "part": "MWV13",
+      "specs": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "10-core",
+        "gpu": "10-core",
+        "color": "Blue",
+        "display": "Standard glass",
+        "stand": "Stand",
+        "memory": "16GB",
+        "storage": "256GB"
+      },
+      "labels": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "10-core",
+        "gpu": "10-core",
+        "color": "Blue",
+        "display": "Standard glass",
+        "stand": "Stand",
+        "memory": "16GB",
+        "storage": "256GB"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/imac-specs-select-202601-blue-10-10?wid=1200&hei=770&fmt=jpeg&qlt=90&.v=1767921464342",
+      "name": "iMac, 24-inch, M4 Chip, 10-core CPU, 10-core GPU, Blue, Standard glass, Stand, 16GB memory, 256GB storage",
+      "label": "24-inch · M4 · 10-core · 10-core · Blue · Standard glass · Stand · 16GB · 256GB",
+      "prices": [
+        {
+          "code": "us",
+          "local": 1699,
+          "display": "$1699",
+          "part": "MWV13",
+          "at": "2026-10-27T11:54:50.157Z",
+          "url": "https://www.apple.com/shop/buy-mac/imac/24-inch-blue-m4-chip-10-core-cpu-10-core-gpu-16gb-memory-256gb-storage-standard-glass-stand"
+        },
+        {
+          "code": "ae",
+          "local": 7499,
+          "display": "AED 7,499",
+          "part": "MWV13",
+          "at": "2026-10-27T11:54:58.677Z",
+          "url": "https://www.apple.com/ae/shop/buy-mac/imac"
+        },
+        {
+          "code": "at",
+          "local": 1999,
+          "display": "1.999 €",
+          "part": "MWV13",
+          "at": "2026-10-27T11:55:06.221Z",
+          "url": "https://www.apple.com/at/shop/buy-mac/imac"
+        },
+        {
+          "code": "au",
+          "local": 2699,
+          "display": "A$2,699 ",
+          "part": "MWV13",
+          "at": "2026-10-27T11:55:14.225Z",
+          "url": "https://www.apple.com/au/shop/buy-mac/imac"
+        },
+        {
+          "code": "be",
+          "local": 2019,
+          "display": "€ 2.019",
+          "part": "MWV13",
+          "at": "2026-10-27T11:55:22.754Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-mac/imac"
+        },
+        {
+          "code": "br",
+          "local": 19999,
+          "display": "R$ 19.999",
+          "part": "MWV13",
+          "at": "2026-10-27T11:55:30.438Z",
+          "url": "https://www.apple.com/br/shop/buy-mac/imac"
+        },
+        {
+          "code": "ca",
+          "local": 2299,
+          "display": "$2299",
+          "part": "MWV13",
+          "at": "2026-10-27T11:55:38.597Z",
+          "url": "https://www.apple.com/ca/shop/buy-mac/imac"
+        },
+        {
+          "code": "ch",
+          "local": 1699,
+          "display": "CHF 1699.–",
+          "part": "MWV13",
+          "at": "2026-10-27T11:55:46.484Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-mac/imac"
+        },
+        {
+          "code": "cl",
+          "local": 1999990,
+          "display": "$1.999.990",
+          "part": "MWV13",
+          "at": "2026-10-27T11:55:54.489Z",
+          "url": "https://www.apple.com/cl/shop/buy-mac/imac"
+        },
+        {
+          "code": "cz",
+          "local": 48990,
+          "display": "48 990 Kč",
+          "part": "MWV13",
+          "at": "2026-10-27T11:56:02.780Z",
+          "url": "https://www.apple.com/cz/shop/buy-mac/imac"
+        },
+        {
+          "code": "de",
+          "local": 1999,
+          "display": "1.999 €",
+          "part": "MWV13",
+          "at": "2026-10-27T11:56:10.575Z",
+          "url": "https://www.apple.com/de/shop/buy-mac/imac"
+        },
+        {
+          "code": "dk",
+          "local": 15499,
+          "display": "15.499 kr.",
+          "part": "MWV13",
+          "at": "2026-10-27T11:56:18.456Z",
+          "url": "https://www.apple.com/dk/shop/buy-mac/imac"
+        },
+        {
+          "code": "es",
+          "local": 2019,
+          "display": "2.019 € ",
+          "part": "MWV13",
+          "at": "2026-10-27T11:56:26.416Z",
+          "url": "https://www.apple.com/es/shop/buy-mac/imac"
+        },
+        {
+          "code": "fi",
+          "local": 2099,
+          "display": "2 099 €",
+          "part": "MWV13",
+          "at": "2026-10-27T11:56:34.574Z",
+          "url": "https://www.apple.com/fi/shop/buy-mac/imac"
+        },
+        {
+          "code": "fr",
+          "local": 1999,
+          "display": "1 999 €",
+          "part": "MWV13",
+          "at": "2026-10-27T11:56:42.446Z",
+          "url": "https://www.apple.com/fr/shop/buy-mac/imac"
+        },
+        {
+          "code": "gb",
+          "local": 1699,
+          "display": "£1,699",
+          "part": "MWV13",
+          "at": "2026-10-27T11:56:50.568Z",
+          "url": "https://www.apple.com/uk/shop/buy-mac/imac"
+        },
+        {
+          "code": "hk",
+          "local": 12999,
+          "display": "HK$12,999",
+          "part": "MWV13",
+          "at": "2026-10-27T11:56:58.552Z",
+          "url": "https://www.apple.com/hk/shop/buy-mac/imac"
+        },
+        {
+          "code": "hu",
+          "local": 779990,
+          "display": "779 990 Ft",
+          "part": "MWV13",
+          "at": "2026-10-27T11:57:06.509Z",
+          "url": "https://www.apple.com/hu/shop/buy-mac/imac"
+        },
+        {
+          "code": "ie",
+          "local": 2029,
+          "display": "€2,029",
+          "part": "MWV13",
+          "at": "2026-10-27T11:57:14.467Z",
+          "url": "https://www.apple.com/ie/shop/buy-mac/imac"
+        },
+        {
+          "code": "in",
+          "local": 199900,
+          "display": "₹199900.00",
+          "part": "MWV13",
+          "at": "2026-10-27T11:57:22.444Z",
+          "url": "https://www.apple.com/in/shop/buy-mac/imac"
+        },
+        {
+          "code": "it",
+          "local": 2029,
+          "display": "€ 2.029 ",
+          "part": "MWV13",
+          "at": "2026-10-27T11:57:30.807Z",
+          "url": "https://www.apple.com/it/shop/buy-mac/imac"
+        },
+        {
+          "code": "jp",
+          "local": 289800,
+          "display": "289,800円",
+          "part": "MWV13",
+          "at": "2026-10-27T11:57:38.635Z",
+          "url": "https://www.apple.com/jp/shop/buy-mac/imac"
+        },
+        {
+          "code": "kr",
+          "local": 2890000,
+          "display": "₩2,890,000",
+          "part": "MWV13",
+          "at": "2026-10-27T11:57:46.773Z",
+          "url": "https://www.apple.com/kr/shop/buy-mac/imac"
+        },
+        {
+          "code": "lu",
+          "local": 1952.26,
+          "display": "1 952,26 €",
+          "part": "MWV13",
+          "at": "2026-10-27T11:57:54.558Z",
+          "url": "https://www.apple.com/lu/shop/buy-mac/imac"
+        },
+        {
+          "code": "mx",
+          "local": 39999,
+          "display": "$39,999",
+          "part": "MWV13",
+          "at": "2026-10-27T11:58:02.455Z",
+          "url": "https://www.apple.com/mx/shop/buy-mac/imac"
+        },
+        {
+          "code": "my",
+          "local": 7499,
+          "display": "RM 7,499",
+          "part": "MWV13",
+          "at": "2026-10-27T11:58:10.712Z",
+          "url": "https://www.apple.com/my/shop/buy-mac/imac"
+        },
+        {
+          "code": "nl",
+          "local": 2019,
+          "display": "€ 2.019",
+          "part": "MWV13",
+          "at": "2026-10-27T11:58:18.643Z",
+          "url": "https://www.apple.com/nl/shop/buy-mac/imac"
+        },
+        {
+          "code": "no",
+          "local": 22990,
+          "display": "kr 22 990",
+          "part": "MWV13",
+          "at": "2026-10-27T11:58:26.464Z",
+          "url": "https://www.apple.com/no/shop/buy-mac/imac"
+        },
+        {
+          "code": "nz",
+          "local": 3299,
+          "display": "NZ$3,299",
+          "part": "MWV13",
+          "at": "2026-10-27T11:58:34.574Z",
+          "url": "https://www.apple.com/nz/shop/buy-mac/imac"
+        },
+        {
+          "code": "ph",
+          "local": 117990,
+          "display": "₱117,990",
+          "part": "MWV13",
+          "at": "2026-10-27T11:58:42.501Z",
+          "url": "https://www.apple.com/ph/shop/buy-mac/imac"
+        },
+        {
+          "code": "pl",
+          "local": 8499,
+          "display": "8499 zł",
+          "part": "MWV13",
+          "at": "2026-10-27T11:58:50.482Z",
+          "url": "https://www.apple.com/pl/shop/buy-mac/imac"
+        },
+        {
+          "code": "pt",
+          "local": 2029,
+          "display": "2029 €",
+          "part": "MWV13",
+          "at": "2026-10-27T11:58:58.377Z",
+          "url": "https://www.apple.com/pt/shop/buy-mac/imac"
+        },
+        {
+          "code": "sa",
+          "local": 7999,
+          "display": "SAR 7,999",
+          "part": "MWV13",
+          "at": "2026-10-27T11:59:06.531Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-mac/imac"
+        },
+        {
+          "code": "se",
+          "local": 22995,
+          "display": "22 995 kr",
+          "part": "MWV13",
+          "at": "2026-10-27T11:59:14.496Z",
+          "url": "https://www.apple.com/se/shop/buy-mac/imac"
+        },
+        {
+          "code": "sg",
+          "local": 2399,
+          "display": "S$2,399",
+          "part": "MWV13",
+          "at": "2026-10-27T11:59:22.424Z",
+          "url": "https://www.apple.com/sg/shop/buy-mac/imac"
+        },
+        {
+          "code": "th",
+          "local": 59900,
+          "display": "฿59,900",
+          "part": "MWV13",
+          "at": "2026-10-27T11:59:30.639Z",
+          "url": "https://www.apple.com/th/shop/buy-mac/imac"
+        },
+        {
+          "code": "tr",
+          "local": 114999,
+          "display": "114.999 TL",
+          "part": "MWV13",
+          "at": "2026-10-27T11:59:38.731Z",
+          "url": "https://www.apple.com/tr/shop/buy-mac/imac"
+        },
+        {
+          "code": "tw",
+          "local": 57900,
+          "display": "NT$57,900",
+          "part": "MWV13",
+          "at": "2026-10-27T11:59:46.578Z",
+          "url": "https://www.apple.com/tw/shop/buy-mac/imac"
+        },
+        {
+          "code": "vn",
+          "local": 46999000,
+          "display": "46.999.000đ",
+          "part": "MWV13",
+          "at": "2026-10-27T11:59:54.671Z",
+          "url": "https://www.apple.com/vn/shop/buy-mac/imac"
+        }
+      ]
+    },
+    {
+      "id": "24-inch-blue-m4-chip-10-core-cpu-10-core-gpu-16gb-memory-512gb-storage-standard-glass-stand",
+      "part": "MWV33",
+      "specs": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "10-core",
+        "gpu": "10-core",
+        "color": "Blue",
+        "display": "Standard glass",
+        "stand": "Stand",
+        "memory": "16GB",
+        "storage": "512GB"
+      },
+      "labels": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "10-core",
+        "gpu": "10-core",
+        "color": "Blue",
+        "display": "Standard glass",
+        "stand": "Stand",
+        "memory": "16GB",
+        "storage": "512GB"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/imac-specs-select-202601-blue-10-10?wid=1200&hei=770&fmt=jpeg&qlt=90&.v=1767921464342",
+      "name": "iMac, 24-inch, M4 Chip, 10-core CPU, 10-core GPU, Blue, Standard glass, Stand, 16GB memory, 512GB storage",
+      "label": "24-inch · M4 · 10-core · 10-core · Blue · Standard glass · Stand · 16GB · 512GB",
+      "prices": [
+        {
+          "code": "us",
+          "local": 1899,
+          "display": "$1899",
+          "part": "MWV33",
+          "at": "2026-10-27T11:54:50.157Z",
+          "url": "https://www.apple.com/shop/buy-mac/imac/24-inch-blue-m4-chip-10-core-cpu-10-core-gpu-16gb-memory-512gb-storage-standard-glass-stand"
+        },
+        {
+          "code": "ae",
+          "local": 8399,
+          "display": "AED 8,399",
+          "part": "MWV33",
+          "at": "2026-10-27T11:54:58.677Z",
+          "url": "https://www.apple.com/ae/shop/buy-mac/imac"
+        },
+        {
+          "code": "at",
+          "local": 2219,
+          "display": "2.219 €",
+          "part": "MWV33",
+          "at": "2026-10-27T11:55:06.221Z",
+          "url": "https://www.apple.com/at/shop/buy-mac/imac"
+        },
+        {
+          "code": "au",
+          "local": 2999,
+          "display": "A$2,999 ",
+          "part": "MWV33",
+          "at": "2026-10-27T11:55:14.225Z",
+          "url": "https://www.apple.com/au/shop/buy-mac/imac"
+        },
+        {
+          "code": "be",
+          "local": 2239,
+          "display": "€ 2.239",
+          "part": "MWV33",
+          "at": "2026-10-27T11:55:22.754Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-mac/imac"
+        },
+        {
+          "code": "br",
+          "local": 22399,
+          "display": "R$ 22.399",
+          "part": "MWV33",
+          "at": "2026-10-27T11:55:30.438Z",
+          "url": "https://www.apple.com/br/shop/buy-mac/imac"
+        },
+        {
+          "code": "ca",
+          "local": 2599,
+          "display": "$2599",
+          "part": "MWV33",
+          "at": "2026-10-27T11:55:38.597Z",
+          "url": "https://www.apple.com/ca/shop/buy-mac/imac"
+        },
+        {
+          "code": "ch",
+          "local": 1899,
+          "display": "CHF 1899.–",
+          "part": "MWV33",
+          "at": "2026-10-27T11:55:46.484Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-mac/imac"
+        },
+        {
+          "code": "cl",
+          "local": 2239990,
+          "display": "$2.239.990",
+          "part": "MWV33",
+          "at": "2026-10-27T11:55:54.489Z",
+          "url": "https://www.apple.com/cl/shop/buy-mac/imac"
+        },
+        {
+          "code": "cz",
+          "local": 54990,
+          "display": "54 990 Kč",
+          "part": "MWV33",
+          "at": "2026-10-27T11:56:02.780Z",
+          "url": "https://www.apple.com/cz/shop/buy-mac/imac"
+        },
+        {
+          "code": "de",
+          "local": 2219,
+          "display": "2.219 €",
+          "part": "MWV33",
+          "at": "2026-10-27T11:56:10.575Z",
+          "url": "https://www.apple.com/de/shop/buy-mac/imac"
+        },
+        {
+          "code": "dk",
+          "local": 17499,
+          "display": "17.499 kr.",
+          "part": "MWV33",
+          "at": "2026-10-27T11:56:18.456Z",
+          "url": "https://www.apple.com/dk/shop/buy-mac/imac"
+        },
+        {
+          "code": "es",
+          "local": 2239,
+          "display": "2.239 € ",
+          "part": "MWV33",
+          "at": "2026-10-27T11:56:26.416Z",
+          "url": "https://www.apple.com/es/shop/buy-mac/imac"
+        },
+        {
+          "code": "fi",
+          "local": 2319,
+          "display": "2 319 €",
+          "part": "MWV33",
+          "at": "2026-10-27T11:56:34.574Z",
+          "url": "https://www.apple.com/fi/shop/buy-mac/imac"
+        },
+        {
+          "code": "fr",
+          "local": 2219,
+          "display": "2 219 €",
+          "part": "MWV33",
+          "at": "2026-10-27T11:56:42.446Z",
+          "url": "https://www.apple.com/fr/shop/buy-mac/imac"
+        },
+        {
+          "code": "gb",
+          "local": 1899,
+          "display": "£1,899",
+          "part": "MWV33",
+          "at": "2026-10-27T11:56:50.568Z",
+          "url": "https://www.apple.com/uk/shop/buy-mac/imac"
+        },
+        {
+          "code": "hk",
+          "local": 14499,
+          "display": "HK$14,499",
+          "part": "MWV33",
+          "at": "2026-10-27T11:56:58.552Z",
+          "url": "https://www.apple.com/hk/shop/buy-mac/imac"
+        },
+        {
+          "code": "hu",
+          "local": 879990,
+          "display": "879 990 Ft",
+          "part": "MWV33",
+          "at": "2026-10-27T11:57:06.509Z",
+          "url": "https://www.apple.com/hu/shop/buy-mac/imac"
+        },
+        {
+          "code": "ie",
+          "local": 2249,
+          "display": "€2,249",
+          "part": "MWV33",
+          "at": "2026-10-27T11:57:14.467Z",
+          "url": "https://www.apple.com/ie/shop/buy-mac/imac"
+        },
+        {
+          "code": "in",
+          "local": 223900,
+          "display": "₹223900.00",
+          "part": "MWV33",
+          "at": "2026-10-27T11:57:22.444Z",
+          "url": "https://www.apple.com/in/shop/buy-mac/imac"
+        },
+        {
+          "code": "it",
+          "local": 2249,
+          "display": "€ 2.249 ",
+          "part": "MWV33",
+          "at": "2026-10-27T11:57:30.807Z",
+          "url": "https://www.apple.com/it/shop/buy-mac/imac"
+        },
+        {
+          "code": "jp",
+          "local": 325800,
+          "display": "325,800円",
+          "part": "MWV33",
+          "at": "2026-10-27T11:57:38.635Z",
+          "url": "https://www.apple.com/jp/shop/buy-mac/imac"
+        },
+        {
+          "code": "kr",
+          "local": 3230000,
+          "display": "₩3,230,000",
+          "part": "MWV33",
+          "at": "2026-10-27T11:57:46.773Z",
+          "url": "https://www.apple.com/kr/shop/buy-mac/imac"
+        },
+        {
+          "code": "lu",
+          "local": 2164.98,
+          "display": "2 164,98 €",
+          "part": "MWV33",
+          "at": "2026-10-27T11:57:54.558Z",
+          "url": "https://www.apple.com/lu/shop/buy-mac/imac"
+        },
+        {
+          "code": "mx",
+          "local": 44999,
+          "display": "$44,999",
+          "part": "MWV33",
+          "at": "2026-10-27T11:58:02.455Z",
+          "url": "https://www.apple.com/mx/shop/buy-mac/imac"
+        },
+        {
+          "code": "my",
+          "local": 8399,
+          "display": "RM 8,399",
+          "part": "MWV33",
+          "at": "2026-10-27T11:58:10.712Z",
+          "url": "https://www.apple.com/my/shop/buy-mac/imac"
+        },
+        {
+          "code": "nl",
+          "local": 2239,
+          "display": "€ 2.239",
+          "part": "MWV33",
+          "at": "2026-10-27T11:58:18.643Z",
+          "url": "https://www.apple.com/nl/shop/buy-mac/imac"
+        },
+        {
+          "code": "no",
+          "local": 25990,
+          "display": "kr 25 990",
+          "part": "MWV33",
+          "at": "2026-10-27T11:58:26.464Z",
+          "url": "https://www.apple.com/no/shop/buy-mac/imac"
+        },
+        {
+          "code": "nz",
+          "local": 3699,
+          "display": "NZ$3,699",
+          "part": "MWV33",
+          "at": "2026-10-27T11:58:34.574Z",
+          "url": "https://www.apple.com/nz/shop/buy-mac/imac"
+        },
+        {
+          "code": "ph",
+          "local": 130990,
+          "display": "₱130,990",
+          "part": "MWV33",
+          "at": "2026-10-27T11:58:42.501Z",
+          "url": "https://www.apple.com/ph/shop/buy-mac/imac"
+        },
+        {
+          "code": "pl",
+          "local": 9499,
+          "display": "9499 zł",
+          "part": "MWV33",
+          "at": "2026-10-27T11:58:50.482Z",
+          "url": "https://www.apple.com/pl/shop/buy-mac/imac"
+        },
+        {
+          "code": "pt",
+          "local": 2249,
+          "display": "2249 €",
+          "part": "MWV33",
+          "at": "2026-10-27T11:58:58.377Z",
+          "url": "https://www.apple.com/pt/shop/buy-mac/imac"
+        },
+        {
+          "code": "sa",
+          "local": 8999,
+          "display": "SAR 8,999",
+          "part": "MWV33",
+          "at": "2026-10-27T11:59:06.531Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-mac/imac"
+        },
+        {
+          "code": "se",
+          "local": 25595,
+          "display": "25 595 kr",
+          "part": "MWV33",
+          "at": "2026-10-27T11:59:14.496Z",
+          "url": "https://www.apple.com/se/shop/buy-mac/imac"
+        },
+        {
+          "code": "sg",
+          "local": 2699,
+          "display": "S$2,699",
+          "part": "MWV33",
+          "at": "2026-10-27T11:59:22.424Z",
+          "url": "https://www.apple.com/sg/shop/buy-mac/imac"
+        },
+        {
+          "code": "th",
+          "local": 66900,
+          "display": "฿66,900",
+          "part": "MWV33",
+          "at": "2026-10-27T11:59:30.639Z",
+          "url": "https://www.apple.com/th/shop/buy-mac/imac"
+        },
+        {
+          "code": "tr",
+          "local": 127499,
+          "display": "127.499 TL",
+          "part": "MWV33",
+          "at": "2026-10-27T11:59:38.731Z",
+          "url": "https://www.apple.com/tr/shop/buy-mac/imac"
+        },
+        {
+          "code": "tw",
+          "local": 64900,
+          "display": "NT$64,900",
+          "part": "MWV33",
+          "at": "2026-10-27T11:59:46.578Z",
+          "url": "https://www.apple.com/tw/shop/buy-mac/imac"
+        },
+        {
+          "code": "vn",
+          "local": 52499000,
+          "display": "52.499.000đ",
+          "part": "MWV33",
+          "at": "2026-10-27T11:59:54.671Z",
+          "url": "https://www.apple.com/vn/shop/buy-mac/imac"
+        }
+      ]
+    },
+    {
+      "id": "24-inch-purple-m4-chip-10-core-cpu-10-core-gpu-16gb-memory-256gb-storage-standard-glass-stand",
+      "part": "MWV63",
+      "specs": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "10-core",
+        "gpu": "10-core",
+        "color": "Purple",
+        "display": "Standard glass",
+        "stand": "Stand",
+        "memory": "16GB",
+        "storage": "256GB"
+      },
+      "labels": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "10-core",
+        "gpu": "10-core",
+        "color": "Purple",
+        "display": "Standard glass",
+        "stand": "Stand",
+        "memory": "16GB",
+        "storage": "256GB"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/imac-specs-select-202601-purple-10-10?wid=1200&hei=770&fmt=jpeg&qlt=90&.v=1767921464005",
+      "name": "iMac, 24-inch, M4 Chip, 10-core CPU, 10-core GPU, Purple, Standard glass, Stand, 16GB memory, 256GB storage",
+      "label": "24-inch · M4 · 10-core · 10-core · Purple · Standard glass · Stand · 16GB · 256GB",
+      "prices": [
+        {
+          "code": "us",
+          "local": 1699,
+          "display": "$1699",
+          "part": "MWV63",
+          "at": "2026-10-27T11:54:50.157Z",
+          "url": "https://www.apple.com/shop/buy-mac/imac/24-inch-purple-m4-chip-10-core-cpu-10-core-gpu-16gb-memory-256gb-storage-standard-glass-stand"
+        }
+      ]
+    },
+    {
+      "id": "24-inch-pink-m4-chip-10-core-cpu-10-core-gpu-16gb-memory-256gb-storage-standard-glass-stand",
+      "part": "MWV43",
+      "specs": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "10-core",
+        "gpu": "10-core",
+        "color": "Pink",
+        "display": "Standard glass",
+        "stand": "Stand",
+        "memory": "16GB",
+        "storage": "256GB"
+      },
+      "labels": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "10-core",
+        "gpu": "10-core",
+        "color": "Pink",
+        "display": "Standard glass",
+        "stand": "Stand",
+        "memory": "16GB",
+        "storage": "256GB"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/imac-specs-select-202601-pink-10-10?wid=1200&hei=770&fmt=jpeg&qlt=90&.v=1767921464181",
+      "name": "iMac, 24-inch, M4 Chip, 10-core CPU, 10-core GPU, Pink, Standard glass, Stand, 16GB memory, 256GB storage",
+      "label": "24-inch · M4 · 10-core · 10-core · Pink · Standard glass · Stand · 16GB · 256GB",
+      "prices": [
+        {
+          "code": "us",
+          "local": 1699,
+          "display": "$1699",
+          "part": "MWV43",
+          "at": "2026-10-27T11:54:50.157Z",
+          "url": "https://www.apple.com/shop/buy-mac/imac/24-inch-pink-m4-chip-10-core-cpu-10-core-gpu-16gb-memory-256gb-storage-standard-glass-stand"
+        },
+        {
+          "code": "ae",
+          "local": 7499,
+          "display": "AED 7,499",
+          "part": "MWV43",
+          "at": "2026-10-27T11:54:58.677Z",
+          "url": "https://www.apple.com/ae/shop/buy-mac/imac"
+        },
+        {
+          "code": "at",
+          "local": 1999,
+          "display": "1.999 €",
+          "part": "MWV43",
+          "at": "2026-10-27T11:55:06.221Z",
+          "url": "https://www.apple.com/at/shop/buy-mac/imac"
+        },
+        {
+          "code": "au",
+          "local": 2699,
+          "display": "A$2,699 ",
+          "part": "MWV43",
+          "at": "2026-10-27T11:55:14.225Z",
+          "url": "https://www.apple.com/au/shop/buy-mac/imac"
+        },
+        {
+          "code": "be",
+          "local": 2019,
+          "display": "€ 2.019",
+          "part": "MWV43",
+          "at": "2026-10-27T11:55:22.754Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-mac/imac"
+        },
+        {
+          "code": "br",
+          "local": 19999,
+          "display": "R$ 19.999",
+          "part": "MWV43",
+          "at": "2026-10-27T11:55:30.438Z",
+          "url": "https://www.apple.com/br/shop/buy-mac/imac"
+        },
+        {
+          "code": "ca",
+          "local": 2299,
+          "display": "$2299",
+          "part": "MWV43",
+          "at": "2026-10-27T11:55:38.597Z",
+          "url": "https://www.apple.com/ca/shop/buy-mac/imac"
+        },
+        {
+          "code": "ch",
+          "local": 1699,
+          "display": "CHF 1699.–",
+          "part": "MWV43",
+          "at": "2026-10-27T11:55:46.484Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-mac/imac"
+        },
+        {
+          "code": "cl",
+          "local": 1999990,
+          "display": "$1.999.990",
+          "part": "MWV43",
+          "at": "2026-10-27T11:55:54.489Z",
+          "url": "https://www.apple.com/cl/shop/buy-mac/imac"
+        },
+        {
+          "code": "cz",
+          "local": 48990,
+          "display": "48 990 Kč",
+          "part": "MWV43",
+          "at": "2026-10-27T11:56:02.780Z",
+          "url": "https://www.apple.com/cz/shop/buy-mac/imac"
+        },
+        {
+          "code": "de",
+          "local": 1999,
+          "display": "1.999 €",
+          "part": "MWV43",
+          "at": "2026-10-27T11:56:10.575Z",
+          "url": "https://www.apple.com/de/shop/buy-mac/imac"
+        },
+        {
+          "code": "dk",
+          "local": 15499,
+          "display": "15.499 kr.",
+          "part": "MWV43",
+          "at": "2026-10-27T11:56:18.456Z",
+          "url": "https://www.apple.com/dk/shop/buy-mac/imac"
+        },
+        {
+          "code": "es",
+          "local": 2019,
+          "display": "2.019 € ",
+          "part": "MWV43",
+          "at": "2026-10-27T11:56:26.416Z",
+          "url": "https://www.apple.com/es/shop/buy-mac/imac"
+        },
+        {
+          "code": "fi",
+          "local": 2099,
+          "display": "2 099 €",
+          "part": "MWV43",
+          "at": "2026-10-27T11:56:34.574Z",
+          "url": "https://www.apple.com/fi/shop/buy-mac/imac"
+        },
+        {
+          "code": "fr",
+          "local": 1999,
+          "display": "1 999 €",
+          "part": "MWV43",
+          "at": "2026-10-27T11:56:42.446Z",
+          "url": "https://www.apple.com/fr/shop/buy-mac/imac"
+        },
+        {
+          "code": "gb",
+          "local": 1699,
+          "display": "£1,699",
+          "part": "MWV43",
+          "at": "2026-10-27T11:56:50.568Z",
+          "url": "https://www.apple.com/uk/shop/buy-mac/imac"
+        },
+        {
+          "code": "hk",
+          "local": 12999,
+          "display": "HK$12,999",
+          "part": "MWV43",
+          "at": "2026-10-27T11:56:58.552Z",
+          "url": "https://www.apple.com/hk/shop/buy-mac/imac"
+        },
+        {
+          "code": "hu",
+          "local": 779990,
+          "display": "779 990 Ft",
+          "part": "MWV43",
+          "at": "2026-10-27T11:57:06.509Z",
+          "url": "https://www.apple.com/hu/shop/buy-mac/imac"
+        },
+        {
+          "code": "ie",
+          "local": 2029,
+          "display": "€2,029",
+          "part": "MWV43",
+          "at": "2026-10-27T11:57:14.467Z",
+          "url": "https://www.apple.com/ie/shop/buy-mac/imac"
+        },
+        {
+          "code": "in",
+          "local": 199900,
+          "display": "₹199900.00",
+          "part": "MWV43",
+          "at": "2026-10-27T11:57:22.444Z",
+          "url": "https://www.apple.com/in/shop/buy-mac/imac"
+        },
+        {
+          "code": "it",
+          "local": 2029,
+          "display": "€ 2.029 ",
+          "part": "MWV43",
+          "at": "2026-10-27T11:57:30.807Z",
+          "url": "https://www.apple.com/it/shop/buy-mac/imac"
+        },
+        {
+          "code": "jp",
+          "local": 289800,
+          "display": "289,800円",
+          "part": "MWV43",
+          "at": "2026-10-27T11:57:38.635Z",
+          "url": "https://www.apple.com/jp/shop/buy-mac/imac"
+        },
+        {
+          "code": "kr",
+          "local": 2890000,
+          "display": "₩2,890,000",
+          "part": "MWV43",
+          "at": "2026-10-27T11:57:46.773Z",
+          "url": "https://www.apple.com/kr/shop/buy-mac/imac"
+        },
+        {
+          "code": "lu",
+          "local": 1952.26,
+          "display": "1 952,26 €",
+          "part": "MWV43",
+          "at": "2026-10-27T11:57:54.558Z",
+          "url": "https://www.apple.com/lu/shop/buy-mac/imac"
+        },
+        {
+          "code": "mx",
+          "local": 39999,
+          "display": "$39,999",
+          "part": "MWV43",
+          "at": "2026-10-27T11:58:02.455Z",
+          "url": "https://www.apple.com/mx/shop/buy-mac/imac"
+        },
+        {
+          "code": "my",
+          "local": 7499,
+          "display": "RM 7,499",
+          "part": "MWV43",
+          "at": "2026-10-27T11:58:10.712Z",
+          "url": "https://www.apple.com/my/shop/buy-mac/imac"
+        },
+        {
+          "code": "nl",
+          "local": 2019,
+          "display": "€ 2.019",
+          "part": "MWV43",
+          "at": "2026-10-27T11:58:18.643Z",
+          "url": "https://www.apple.com/nl/shop/buy-mac/imac"
+        },
+        {
+          "code": "no",
+          "local": 22990,
+          "display": "kr 22 990",
+          "part": "MWV43",
+          "at": "2026-10-27T11:58:26.464Z",
+          "url": "https://www.apple.com/no/shop/buy-mac/imac"
+        },
+        {
+          "code": "nz",
+          "local": 3299,
+          "display": "NZ$3,299",
+          "part": "MWV43",
+          "at": "2026-10-27T11:58:34.574Z",
+          "url": "https://www.apple.com/nz/shop/buy-mac/imac"
+        },
+        {
+          "code": "ph",
+          "local": 117990,
+          "display": "₱117,990",
+          "part": "MWV43",
+          "at": "2026-10-27T11:58:42.501Z",
+          "url": "https://www.apple.com/ph/shop/buy-mac/imac"
+        },
+        {
+          "code": "pl",
+          "local": 8499,
+          "display": "8499 zł",
+          "part": "MWV43",
+          "at": "2026-10-27T11:58:50.482Z",
+          "url": "https://www.apple.com/pl/shop/buy-mac/imac"
+        },
+        {
+          "code": "pt",
+          "local": 2029,
+          "display": "2029 €",
+          "part": "MWV43",
+          "at": "2026-10-27T11:58:58.377Z",
+          "url": "https://www.apple.com/pt/shop/buy-mac/imac"
+        },
+        {
+          "code": "sa",
+          "local": 7999,
+          "display": "SAR 7,999",
+          "part": "MWV43",
+          "at": "2026-10-27T11:59:06.531Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-mac/imac"
+        },
+        {
+          "code": "se",
+          "local": 22995,
+          "display": "22 995 kr",
+          "part": "MWV43",
+          "at": "2026-10-27T11:59:14.496Z",
+          "url": "https://www.apple.com/se/shop/buy-mac/imac"
+        },
+        {
+          "code": "sg",
+          "local": 2399,
+          "display": "S$2,399",
+          "part": "MWV43",
+          "at": "2026-10-27T11:59:22.424Z",
+          "url": "https://www.apple.com/sg/shop/buy-mac/imac"
+        },
+        {
+          "code": "th",
+          "local": 59900,
+          "display": "฿59,900",
+          "part": "MWV43",
+          "at": "2026-10-27T11:59:30.639Z",
+          "url": "https://www.apple.com/th/shop/buy-mac/imac"
+        },
+        {
+          "code": "tr",
+          "local": 114999,
+          "display": "114.999 TL",
+          "part": "MWV43",
+          "at": "2026-10-27T11:59:38.731Z",
+          "url": "https://www.apple.com/tr/shop/buy-mac/imac"
+        },
+        {
+          "code": "tw",
+          "local": 57900,
+          "display": "NT$57,900",
+          "part": "MWV43",
+          "at": "2026-10-27T11:59:46.578Z",
+          "url": "https://www.apple.com/tw/shop/buy-mac/imac"
+        },
+        {
+          "code": "vn",
+          "local": 46999000,
+          "display": "46.999.000đ",
+          "part": "MWV43",
+          "at": "2026-10-27T11:59:54.671Z",
+          "url": "https://www.apple.com/vn/shop/buy-mac/imac"
+        }
+      ]
+    },
+    {
+      "id": "24-inch-yellow-m4-chip-10-core-cpu-10-core-gpu-16gb-memory-256gb-storage-standard-glass-stand",
+      "part": "MWUW3",
+      "specs": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "10-core",
+        "gpu": "10-core",
+        "color": "Yellow",
+        "display": "Standard glass",
+        "stand": "Stand",
+        "memory": "16GB",
+        "storage": "256GB"
+      },
+      "labels": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "10-core",
+        "gpu": "10-core",
+        "color": "Yellow",
+        "display": "Standard glass",
+        "stand": "Stand",
+        "memory": "16GB",
+        "storage": "256GB"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/imac-specs-select-202601-yellow-10-10?wid=1200&hei=770&fmt=jpeg&qlt=90&.v=1767921463726",
+      "name": "iMac, 24-inch, M4 Chip, 10-core CPU, 10-core GPU, Yellow, Standard glass, Stand, 16GB memory, 256GB storage",
+      "label": "24-inch · M4 · 10-core · 10-core · Yellow · Standard glass · Stand · 16GB · 256GB",
+      "prices": [
+        {
+          "code": "us",
+          "local": 1699,
+          "display": "$1699",
+          "part": "MWUW3",
+          "at": "2026-10-27T11:54:50.157Z",
+          "url": "https://www.apple.com/shop/buy-mac/imac/24-inch-yellow-m4-chip-10-core-cpu-10-core-gpu-16gb-memory-256gb-storage-standard-glass-stand"
+        }
+      ]
+    },
+    {
+      "id": "24-inch-silver-m4-chip-10-core-cpu-10-core-gpu-24gb-memory-512gb-storage-standard-glass-stand",
+      "part": "MCR24",
+      "specs": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "10-core",
+        "gpu": "10-core",
+        "color": "Silver",
+        "display": "Standard glass",
+        "stand": "Stand",
+        "memory": "24GB",
+        "storage": "512GB"
+      },
+      "labels": {
+        "size": "24-inch",
+        "chip": "M4",
+        "cpu": "10-core",
+        "gpu": "10-core",
+        "color": "Silver",
+        "display": "Standard glass",
+        "stand": "Stand",
+        "memory": "24GB",
+        "storage": "512GB"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/imac-specs-select-202601-silver-10-10?wid=1200&hei=770&fmt=jpeg&qlt=90&.v=1767921463478",
+      "name": "iMac, 24-inch, M4 Chip, 10-core CPU, 10-core GPU, Silver, Standard glass, Stand, 24GB memory, 512GB storage",
+      "label": "24-inch · M4 · 10-core · 10-core · Silver · Standard glass · Stand · 24GB · 512GB",
+      "prices": [
+        {
+          "code": "us",
+          "local": 2099,
+          "display": "$2099",
+          "part": "MCR24",
+          "at": "2026-10-27T11:54:50.157Z",
+          "url": "https://www.apple.com/shop/buy-mac/imac/24-inch-silver-m4-chip-10-core-cpu-10-core-gpu-24gb-memory-512gb-storage-standard-glass-stand"
+        },
+        {
+          "code": "ae",
+          "local": 9299,
+          "display": "AED 9,299",
+          "part": "MCR24",
+          "at": "2026-10-27T11:54:58.677Z",
+          "url": "https://www.apple.com/ae/shop/buy-mac/imac"
+        },
+        {
+          "code": "at",
+          "local": 2439,
+          "display": "2.439 €",
+          "part": "MCR24",
+          "at": "2026-10-27T11:55:06.221Z",
+          "url": "https://www.apple.com/at/shop/buy-mac/imac"
+        },
+        {
+          "code": "au",
+          "local": 3299,
+          "display": "A$3,299 ",
+          "part": "MCR24",
+          "at": "2026-10-27T11:55:14.225Z",
+          "url": "https://www.apple.com/au/shop/buy-mac/imac"
+        },
+        {
+          "code": "be",
+          "local": 2459,
+          "display": "€ 2.459",
+          "part": "MCR24",
+          "at": "2026-10-27T11:55:22.754Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-mac/imac"
+        },
+        {
+          "code": "br",
+          "local": 24799,
+          "display": "R$ 24.799",
+          "part": "MCR24",
+          "at": "2026-10-27T11:55:30.438Z",
+          "url": "https://www.apple.com/br/shop/buy-mac/imac"
+        },
+        {
+          "code": "ca",
+          "local": 2899,
+          "display": "$2899",
+          "part": "MCR24",
+          "at": "2026-10-27T11:55:38.597Z",
+          "url": "https://www.apple.com/ca/shop/buy-mac/imac"
+        },
+        {
+          "code": "ch",
+          "local": 2099,
+          "display": "CHF 2099.–",
+          "part": "MCR24",
+          "at": "2026-10-27T11:55:46.484Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-mac/imac"
+        },
+        {
+          "code": "cl",
+          "local": 2479990,
+          "display": "$2.479.990",
+          "part": "MCR24",
+          "at": "2026-10-27T11:55:54.489Z",
+          "url": "https://www.apple.com/cl/shop/buy-mac/imac"
+        },
+        {
+          "code": "cz",
+          "local": 60990,
+          "display": "60 990 Kč",
+          "part": "MCR24",
+          "at": "2026-10-27T11:56:02.780Z",
+          "url": "https://www.apple.com/cz/shop/buy-mac/imac"
+        },
+        {
+          "code": "de",
+          "local": 2439,
+          "display": "2.439 €",
+          "part": "MCR24",
+          "at": "2026-10-27T11:56:10.575Z",
+          "url": "https://www.apple.com/de/shop/buy-mac/imac"
+        },
+        {
+          "code": "dk",
+          "local": 19499,
+          "display": "19.499 kr.",
+          "part": "MCR24",
+          "at": "2026-10-27T11:56:18.456Z",
+          "url": "https://www.apple.com/dk/shop/buy-mac/imac"
+        },
+        {
+          "code": "es",
+          "local": 2459,
+          "display": "2.459 € ",
+          "part": "MCR24",
+          "at": "2026-10-27T11:56:26.416Z",
+          "url": "https://www.apple.com/es/shop/buy-mac/imac"
+        },
+        {
+          "code": "fi",
+          "local": 2539,
+          "display": "2 539 €",
+          "part": "MCR24",
+          "at": "2026-10-27T11:56:34.574Z",
+          "url": "https://www.apple.com/fi/shop/buy-mac/imac"
+        },
+        {
+          "code": "fr",
+          "local": 2439,
+          "display": "2 439 €",
+          "part": "MCR24",
+          "at": "2026-10-27T11:56:42.446Z",
+          "url": "https://www.apple.com/fr/shop/buy-mac/imac"
+        },
+        {
+          "code": "gb",
+          "local": 2099,
+          "display": "£2,099",
+          "part": "MCR24",
+          "at": "2026-10-27T11:56:50.568Z",
+          "url": "https://www.apple.com/uk/shop/buy-mac/imac"
+        },
+        {
+          "code": "hk",
+          "local": 15999,
+          "display": "HK$15,999",
+          "part": "MCR24",
+          "at": "2026-10-27T11:56:58.552Z",
+          "url": "https://www.apple.com/hk/shop/buy-mac/imac"
+        },
+        {
+          "code": "hu",
+          "local": 979990,
+          "display": "979 990 Ft",
+          "part": "MCR24",
+          "at": "2026-10-27T11:57:06.509Z",
+          "url": "https://www.apple.com/hu/shop/buy-mac/imac"
+        },
+        {
+          "code": "ie",
+          "local": 2469,
+          "display": "€2,469",
+          "part": "MCR24",
+          "at": "2026-10-27T11:57:14.467Z",
+          "url": "https://www.apple.com/ie/shop/buy-mac/imac"
+        },
+        {
+          "code": "in",
+          "local": 247900,
+          "display": "₹247900.00",
+          "part": "MCR24",
+          "at": "2026-10-27T11:57:22.444Z",
+          "url": "https://www.apple.com/in/shop/buy-mac/imac"
+        },
+        {
+          "code": "it",
+          "local": 2469,
+          "display": "€ 2.469 ",
+          "part": "MCR24",
+          "at": "2026-10-27T11:57:30.807Z",
+          "url": "https://www.apple.com/it/shop/buy-mac/imac"
+        },
+        {
+          "code": "jp",
+          "local": 361800,
+          "display": "361,800円",
+          "part": "MCR24",
+          "at": "2026-10-27T11:57:38.635Z",
+          "url": "https://www.apple.com/jp/shop/buy-mac/imac"
+        },
+        {
+          "code": "kr",
+          "local": 3570000,
+          "display": "₩3,570,000",
+          "part": "MCR24",
+          "at": "2026-10-27T11:57:46.773Z",
+          "url": "https://www.apple.com/kr/shop/buy-mac/imac"
+        },
+        {
+          "code": "lu",
+          "local": 2377.71,
+          "display": "2 377,71 €",
+          "part": "MCR24",
+          "at": "2026-10-27T11:57:54.558Z",
+          "url": "https://www.apple.com/lu/shop/buy-mac/imac"
+        },
+        {
+          "code": "mx",
+          "local": 49999,
+          "display": "$49,999",
+          "part": "MCR24",
+          "at": "2026-10-27T11:58:02.455Z",
+          "url": "https://www.apple.com/mx/shop/buy-mac/imac"
+        },
+        {
+          "code": "my",
+          "local": 9299,
+          "display": "RM 9,299",
+          "part": "MCR24",
+          "at": "2026-10-27T11:58:10.712Z",
+          "url": "https://www.apple.com/my/shop/buy-mac/imac"
+        },
+        {
+          "code": "nl",
+          "local": 2459,
+          "display": "€ 2.459",
+          "part": "MCR24",
+          "at": "2026-10-27T11:58:18.643Z",
+          "url": "https://www.apple.com/nl/shop/buy-mac/imac"
+        },
+        {
+          "code": "no",
+          "local": 28990,
+          "display": "kr 28 990",
+          "part": "MCR24",
+          "at": "2026-10-27T11:58:26.464Z",
+          "url": "https://www.apple.com/no/shop/buy-mac/imac"
+        },
+        {
+          "code": "nz",
+          "local": 4099,
+          "display": "NZ$4,099",
+          "part": "MCR24",
+          "at": "2026-10-27T11:58:34.574Z",
+          "url": "https://www.apple.com/nz/shop/buy-mac/imac"
+        },
+        {
+          "code": "ph",
+          "local": 143990,
+          "display": "₱143,990",
+          "part": "MCR24",
+          "at": "2026-10-27T11:58:42.501Z",
+          "url": "https://www.apple.com/ph/shop/buy-mac/imac"
+        },
+        {
+          "code": "pl",
+          "local": 10499,
+          "display": "10 499 zł",
+          "part": "MCR24",
+          "at": "2026-10-27T11:58:50.482Z",
+          "url": "https://www.apple.com/pl/shop/buy-mac/imac"
+        },
+        {
+          "code": "pt",
+          "local": 2469,
+          "display": "2469 €",
+          "part": "MCR24",
+          "at": "2026-10-27T11:58:58.377Z",
+          "url": "https://www.apple.com/pt/shop/buy-mac/imac"
+        },
+        {
+          "code": "sa",
+          "local": 9999,
+          "display": "SAR 9,999",
+          "part": "MCR24",
+          "at": "2026-10-27T11:59:06.531Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-mac/imac"
+        },
+        {
+          "code": "se",
+          "local": 28195,
+          "display": "28 195 kr",
+          "part": "MCR24",
+          "at": "2026-10-27T11:59:14.496Z",
+          "url": "https://www.apple.com/se/shop/buy-mac/imac"
+        },
+        {
+          "code": "sg",
+          "local": 2999,
+          "display": "S$2,999",
+          "part": "MCR24",
+          "at": "2026-10-27T11:59:22.424Z",
+          "url": "https://www.apple.com/sg/shop/buy-mac/imac"
+        },
+        {
+          "code": "th",
+          "local": 73900,
+          "display": "฿73,900",
+          "part": "MCR24",
+          "at": "2026-10-27T11:59:30.639Z",
+          "url": "https://www.apple.com/th/shop/buy-mac/imac"
+        },
+        {
+          "code": "tr",
+          "local": 139999,
+          "display": "139.999 TL",
+          "part": "MCR24",
+          "at": "2026-10-27T11:59:38.731Z",
+          "url": "https://www.apple.com/tr/shop/buy-mac/imac"
+        },
+        {
+          "code": "tw",
+          "local": 71900,
+          "display": "NT$71,900",
+          "part": "MCR24",
+          "at": "2026-10-27T11:59:46.578Z",
+          "url": "https://www.apple.com/tw/shop/buy-mac/imac"
+        },
+        {
+          "code": "vn",
+          "local": 57999000,
+          "display": "57.999.000đ",
+          "part": "MCR24",
+          "at": "2026-10-27T11:59:54.671Z",
+          "url": "https://www.apple.com/vn/shop/buy-mac/imac"
+        }
+      ]
+    }
+  ],
+  "discoveredAt": "2026-10-27T11:54:50.156Z",
+  "defaultVariant": "24-inch-pink-m4-chip-8-core-cpu-8-core-gpu-16gb-memory-256gb-storage-stand",
+  "pricedAt": "2026-10-27T12:00:03.243Z",
+  "failedStores": []
+}

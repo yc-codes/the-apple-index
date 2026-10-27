@@ -1,0 +1,2685 @@
+{
+  "id": "macbook-neo",
+  "name": "MacBook Neo",
+  "category": "Mac",
+  "path": "buy-mac/macbook-neo",
+  "url": "https://www.apple.com/shop/buy-mac/macbook-neo",
+  "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/macbook-neo-color-unselect-202603-gallery-1?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1771560008657",
+  "dimensions": [
+    {
+      "key": "storage",
+      "name": "Storage",
+      "values": [
+        {
+          "key": "256GB",
+          "label": "256GB"
+        },
+        {
+          "key": "512GB",
+          "label": "512GB"
+        }
+      ]
+    },
+    {
+      "key": "color",
+      "name": "Color",
+      "values": [
+        {
+          "key": "Blush",
+          "label": "Blush"
+        },
+        {
+          "key": "Citrus",
+          "label": "Citrus"
+        },
+        {
+          "key": "Indigo",
+          "label": "Indigo"
+        },
+        {
+          "key": "Silver",
+          "label": "Silver"
+        }
+      ]
+    }
+  ],
+  "fixed": {},
+  "variants": [
+    {
+      "id": "blush-256gb",
+      "part": "MHFH4",
+      "specs": {
+        "color": "Blush",
+        "storage": "256GB"
+      },
+      "labels": {
+        "color": "Blush",
+        "storage": "256GB"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/macbook-neo-color-select-202603-blush-256gb?wid=1200&hei=770&fmt=jpeg&qlt=90&.v=1770944488689",
+      "name": "MacBook Neo, Blush, 256GB",
+      "label": "Blush · 256GB",
+      "prices": [
+        {
+          "code": "us",
+          "local": 699,
+          "display": "$699",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:33:13.984Z",
+          "url": "https://www.apple.com/shop/buy-mac/macbook-neo/blush-256gb"
+        },
+        {
+          "code": "ae",
+          "local": 2999,
+          "display": "AED 2,999",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:33:21.515Z",
+          "url": "https://www.apple.com/ae/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "at",
+          "local": 799,
+          "display": "799 €",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:33:29.426Z",
+          "url": "https://www.apple.com/at/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "au",
+          "local": 1049,
+          "display": "A$1,049 ",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:33:37.431Z",
+          "url": "https://www.apple.com/au/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "be",
+          "local": 799,
+          "display": "€ 799",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:33:45.480Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "br",
+          "local": 8499,
+          "display": "R$ 8.499",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:33:53.436Z",
+          "url": "https://www.apple.com/br/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "ca",
+          "local": 949,
+          "display": "$949",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:34:01.493Z",
+          "url": "https://www.apple.com/ca/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "ch",
+          "local": 679,
+          "display": "CHF 679.–",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:34:09.585Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "cl",
+          "local": 799990,
+          "display": "$799.990",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:34:17.443Z",
+          "url": "https://www.apple.com/cl/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "cz",
+          "local": 19990,
+          "display": "19 990 Kč",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:34:25.661Z",
+          "url": "https://www.apple.com/cz/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "de",
+          "local": 799,
+          "display": "799 €",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:34:33.465Z",
+          "url": "https://www.apple.com/de/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "dk",
+          "local": 6499,
+          "display": "6.499 kr.",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:34:41.513Z",
+          "url": "https://www.apple.com/dk/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "es",
+          "local": 799,
+          "display": "799 € ",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:34:49.533Z",
+          "url": "https://www.apple.com/es/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "fi",
+          "local": 819,
+          "display": "819 €",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:34:57.576Z",
+          "url": "https://www.apple.com/fi/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "fr",
+          "local": 799,
+          "display": "799 €",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:35:05.503Z",
+          "url": "https://www.apple.com/fr/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "gb",
+          "local": 699,
+          "display": "£699",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:35:13.528Z",
+          "url": "https://www.apple.com/uk/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "hk",
+          "local": 5499,
+          "display": "HK$5,499",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:35:21.564Z",
+          "url": "https://www.apple.com/hk/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "hu",
+          "local": 299990,
+          "display": "299 990 Ft",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:35:29.578Z",
+          "url": "https://www.apple.com/hu/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "ie",
+          "local": 799,
+          "display": "€799",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:35:37.511Z",
+          "url": "https://www.apple.com/ie/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "in",
+          "local": 79900,
+          "display": "₹79900.00",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:35:45.496Z",
+          "url": "https://www.apple.com/in/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "it",
+          "local": 799,
+          "display": "€ 799 ",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:35:53.734Z",
+          "url": "https://www.apple.com/it/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "jp",
+          "local": 119800,
+          "display": "119,800円",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:36:01.670Z",
+          "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "kr",
+          "local": 1190000,
+          "display": "₩1,190,000",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:36:09.591Z",
+          "url": "https://www.apple.com/kr/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "lu",
+          "local": 772.59,
+          "display": "772,59 €",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:36:17.604Z",
+          "url": "https://www.apple.com/lu/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "mx",
+          "local": 14999,
+          "display": "$14,999",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:36:25.619Z",
+          "url": "https://www.apple.com/mx/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "my",
+          "local": 2999,
+          "display": "RM 2,999",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:36:33.659Z",
+          "url": "https://www.apple.com/my/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "nl",
+          "local": 799,
+          "display": "€ 799",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:36:41.659Z",
+          "url": "https://www.apple.com/nl/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "no",
+          "local": 8990,
+          "display": "kr 8 990",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:36:49.559Z",
+          "url": "https://www.apple.com/no/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "nz",
+          "local": 1399,
+          "display": "NZ$1,399",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:36:57.613Z",
+          "url": "https://www.apple.com/nz/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "ph",
+          "local": 49990,
+          "display": "₱49,990",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:37:05.665Z",
+          "url": "https://www.apple.com/ph/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "pl",
+          "local": 3499,
+          "display": "3499 zł",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:37:13.633Z",
+          "url": "https://www.apple.com/pl/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "pt",
+          "local": 799,
+          "display": "799 €",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:37:21.582Z",
+          "url": "https://www.apple.com/pt/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "sa",
+          "local": 3299,
+          "display": "SAR 3,299",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:37:29.677Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "se",
+          "local": 8995,
+          "display": "8 995 kr",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:37:38.142Z",
+          "url": "https://www.apple.com/se/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "sg",
+          "local": 999,
+          "display": "S$999",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:37:45.641Z",
+          "url": "https://www.apple.com/sg/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "th",
+          "local": 24900,
+          "display": "฿24,900",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:37:53.622Z",
+          "url": "https://www.apple.com/th/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "tr",
+          "local": 45999,
+          "display": "45.999 TL",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:38:01.846Z",
+          "url": "https://www.apple.com/tr/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "tw",
+          "local": 22900,
+          "display": "NT$22,900",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:38:09.676Z",
+          "url": "https://www.apple.com/tw/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "vn",
+          "local": 19499000,
+          "display": "19.499.000đ",
+          "part": "MHFH4",
+          "at": "2026-10-27T11:38:17.785Z",
+          "url": "https://www.apple.com/vn/shop/buy-mac/macbook-neo"
+        }
+      ]
+    },
+    {
+      "id": "citrus-256gb",
+      "part": "MHFD4",
+      "specs": {
+        "color": "Citrus",
+        "storage": "256GB"
+      },
+      "labels": {
+        "color": "Citrus",
+        "storage": "256GB"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/macbook-neo-color-select-202603-citrus-256gb?wid=1200&hei=770&fmt=jpeg&qlt=90&.v=1770944488714",
+      "name": "MacBook Neo, Citrus, 256GB",
+      "label": "Citrus · 256GB",
+      "prices": [
+        {
+          "code": "us",
+          "local": 699,
+          "display": "$699",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:33:13.984Z",
+          "url": "https://www.apple.com/shop/buy-mac/macbook-neo/citrus-256gb"
+        },
+        {
+          "code": "ae",
+          "local": 2999,
+          "display": "AED 2,999",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:33:21.515Z",
+          "url": "https://www.apple.com/ae/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "at",
+          "local": 799,
+          "display": "799 €",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:33:29.426Z",
+          "url": "https://www.apple.com/at/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "au",
+          "local": 1049,
+          "display": "A$1,049 ",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:33:37.431Z",
+          "url": "https://www.apple.com/au/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "be",
+          "local": 799,
+          "display": "€ 799",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:33:45.480Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "br",
+          "local": 8499,
+          "display": "R$ 8.499",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:33:53.436Z",
+          "url": "https://www.apple.com/br/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "ca",
+          "local": 949,
+          "display": "$949",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:34:01.493Z",
+          "url": "https://www.apple.com/ca/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "ch",
+          "local": 679,
+          "display": "CHF 679.–",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:34:09.585Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "cl",
+          "local": 799990,
+          "display": "$799.990",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:34:17.443Z",
+          "url": "https://www.apple.com/cl/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "cz",
+          "local": 19990,
+          "display": "19 990 Kč",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:34:25.661Z",
+          "url": "https://www.apple.com/cz/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "de",
+          "local": 799,
+          "display": "799 €",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:34:33.465Z",
+          "url": "https://www.apple.com/de/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "dk",
+          "local": 6499,
+          "display": "6.499 kr.",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:34:41.513Z",
+          "url": "https://www.apple.com/dk/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "es",
+          "local": 799,
+          "display": "799 € ",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:34:49.533Z",
+          "url": "https://www.apple.com/es/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "fi",
+          "local": 819,
+          "display": "819 €",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:34:57.576Z",
+          "url": "https://www.apple.com/fi/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "fr",
+          "local": 799,
+          "display": "799 €",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:35:05.503Z",
+          "url": "https://www.apple.com/fr/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "gb",
+          "local": 699,
+          "display": "£699",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:35:13.528Z",
+          "url": "https://www.apple.com/uk/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "hk",
+          "local": 5499,
+          "display": "HK$5,499",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:35:21.564Z",
+          "url": "https://www.apple.com/hk/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "hu",
+          "local": 299990,
+          "display": "299 990 Ft",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:35:29.578Z",
+          "url": "https://www.apple.com/hu/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "ie",
+          "local": 799,
+          "display": "€799",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:35:37.511Z",
+          "url": "https://www.apple.com/ie/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "in",
+          "local": 79900,
+          "display": "₹79900.00",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:35:45.496Z",
+          "url": "https://www.apple.com/in/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "it",
+          "local": 799,
+          "display": "€ 799 ",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:35:53.734Z",
+          "url": "https://www.apple.com/it/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "jp",
+          "local": 119800,
+          "display": "119,800円",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:36:01.670Z",
+          "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "kr",
+          "local": 1190000,
+          "display": "₩1,190,000",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:36:09.591Z",
+          "url": "https://www.apple.com/kr/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "lu",
+          "local": 772.59,
+          "display": "772,59 €",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:36:17.604Z",
+          "url": "https://www.apple.com/lu/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "mx",
+          "local": 14999,
+          "display": "$14,999",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:36:25.619Z",
+          "url": "https://www.apple.com/mx/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "my",
+          "local": 2999,
+          "display": "RM 2,999",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:36:33.659Z",
+          "url": "https://www.apple.com/my/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "nl",
+          "local": 799,
+          "display": "€ 799",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:36:41.659Z",
+          "url": "https://www.apple.com/nl/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "no",
+          "local": 8990,
+          "display": "kr 8 990",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:36:49.559Z",
+          "url": "https://www.apple.com/no/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "nz",
+          "local": 1399,
+          "display": "NZ$1,399",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:36:57.613Z",
+          "url": "https://www.apple.com/nz/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "ph",
+          "local": 49990,
+          "display": "₱49,990",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:37:05.665Z",
+          "url": "https://www.apple.com/ph/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "pl",
+          "local": 3499,
+          "display": "3499 zł",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:37:13.633Z",
+          "url": "https://www.apple.com/pl/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "pt",
+          "local": 799,
+          "display": "799 €",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:37:21.582Z",
+          "url": "https://www.apple.com/pt/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "sa",
+          "local": 3299,
+          "display": "SAR 3,299",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:37:29.677Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "se",
+          "local": 8995,
+          "display": "8 995 kr",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:37:38.142Z",
+          "url": "https://www.apple.com/se/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "sg",
+          "local": 999,
+          "display": "S$999",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:37:45.641Z",
+          "url": "https://www.apple.com/sg/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "th",
+          "local": 24900,
+          "display": "฿24,900",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:37:53.622Z",
+          "url": "https://www.apple.com/th/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "tr",
+          "local": 45999,
+          "display": "45.999 TL",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:38:01.846Z",
+          "url": "https://www.apple.com/tr/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "tw",
+          "local": 22900,
+          "display": "NT$22,900",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:38:09.676Z",
+          "url": "https://www.apple.com/tw/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "vn",
+          "local": 19499000,
+          "display": "19.499.000đ",
+          "part": "MHFD4",
+          "at": "2026-10-27T11:38:17.785Z",
+          "url": "https://www.apple.com/vn/shop/buy-mac/macbook-neo"
+        }
+      ]
+    },
+    {
+      "id": "indigo-512gb",
+      "part": "MHFG4",
+      "specs": {
+        "color": "Indigo",
+        "storage": "512GB"
+      },
+      "labels": {
+        "color": "Indigo",
+        "storage": "512GB"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/macbook-neo-color-select-202603-indigo-512gb?wid=1200&hei=770&fmt=jpeg&qlt=90&.v=1770944488774",
+      "name": "MacBook Neo, Indigo, 512GB",
+      "label": "Indigo · 512GB",
+      "prices": [
+        {
+          "code": "us",
+          "local": 799,
+          "display": "$799",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:33:13.984Z",
+          "url": "https://www.apple.com/shop/buy-mac/macbook-neo/indigo-512gb"
+        },
+        {
+          "code": "ae",
+          "local": 3499,
+          "display": "AED 3,499",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:33:21.515Z",
+          "url": "https://www.apple.com/ae/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "at",
+          "local": 899,
+          "display": "899 €",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:33:29.426Z",
+          "url": "https://www.apple.com/at/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "au",
+          "local": 1249,
+          "display": "A$1,249 ",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:33:37.431Z",
+          "url": "https://www.apple.com/au/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "be",
+          "local": 899,
+          "display": "€ 899",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:33:45.480Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "br",
+          "local": 9699,
+          "display": "R$ 9.699",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:33:53.436Z",
+          "url": "https://www.apple.com/br/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "ca",
+          "local": 1149,
+          "display": "$1149",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:34:01.493Z",
+          "url": "https://www.apple.com/ca/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "ch",
+          "local": 779,
+          "display": "CHF 779.–",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:34:09.585Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "cl",
+          "local": 899990,
+          "display": "$899.990",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:34:17.443Z",
+          "url": "https://www.apple.com/cl/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "cz",
+          "local": 22990,
+          "display": "22 990 Kč",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:34:25.661Z",
+          "url": "https://www.apple.com/cz/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "de",
+          "local": 899,
+          "display": "899 €",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:34:33.465Z",
+          "url": "https://www.apple.com/de/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "dk",
+          "local": 7499,
+          "display": "7.499 kr.",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:34:41.513Z",
+          "url": "https://www.apple.com/dk/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "es",
+          "local": 899,
+          "display": "899 € ",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:34:49.533Z",
+          "url": "https://www.apple.com/es/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "fi",
+          "local": 919,
+          "display": "919 €",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:34:57.576Z",
+          "url": "https://www.apple.com/fi/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "fr",
+          "local": 899,
+          "display": "899 €",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:35:05.503Z",
+          "url": "https://www.apple.com/fr/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "gb",
+          "local": 799,
+          "display": "£799",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:35:13.528Z",
+          "url": "https://www.apple.com/uk/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "hk",
+          "local": 6499,
+          "display": "HK$6,499",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:35:21.564Z",
+          "url": "https://www.apple.com/hk/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "hu",
+          "local": 349990,
+          "display": "349 990 Ft",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:35:29.578Z",
+          "url": "https://www.apple.com/hu/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "ie",
+          "local": 899,
+          "display": "€899",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:35:37.511Z",
+          "url": "https://www.apple.com/ie/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "in",
+          "local": 89900,
+          "display": "₹89900.00",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:35:45.496Z",
+          "url": "https://www.apple.com/in/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "it",
+          "local": 899,
+          "display": "€ 899 ",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:35:53.734Z",
+          "url": "https://www.apple.com/it/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "jp",
+          "local": 137800,
+          "display": "137,800円",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:36:01.670Z",
+          "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "kr",
+          "local": 1390000,
+          "display": "₩1,390,000",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:36:09.591Z",
+          "url": "https://www.apple.com/kr/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "lu",
+          "local": 869.29,
+          "display": "869,29 €",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:36:17.604Z",
+          "url": "https://www.apple.com/lu/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "mx",
+          "local": 17499,
+          "display": "$17,499",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:36:25.619Z",
+          "url": "https://www.apple.com/mx/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "my",
+          "local": 3399,
+          "display": "RM 3,399",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:36:33.659Z",
+          "url": "https://www.apple.com/my/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "nl",
+          "local": 899,
+          "display": "€ 899",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:36:41.659Z",
+          "url": "https://www.apple.com/nl/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "no",
+          "local": 10490,
+          "display": "kr 10 490",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:36:49.559Z",
+          "url": "https://www.apple.com/no/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "nz",
+          "local": 1599,
+          "display": "NZ$1,599",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:36:57.613Z",
+          "url": "https://www.apple.com/nz/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "ph",
+          "local": 56990,
+          "display": "₱56,990",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:37:05.665Z",
+          "url": "https://www.apple.com/ph/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "pl",
+          "local": 3999,
+          "display": "3999 zł",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:37:13.633Z",
+          "url": "https://www.apple.com/pl/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "pt",
+          "local": 899,
+          "display": "899 €",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:37:21.582Z",
+          "url": "https://www.apple.com/pt/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "sa",
+          "local": 3799,
+          "display": "SAR 3,799",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:37:29.677Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "se",
+          "local": 10495,
+          "display": "10 495 kr",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:37:38.142Z",
+          "url": "https://www.apple.com/se/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "sg",
+          "local": 1149,
+          "display": "S$1,149",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:37:45.641Z",
+          "url": "https://www.apple.com/sg/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "th",
+          "local": 27900,
+          "display": "฿27,900",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:37:53.622Z",
+          "url": "https://www.apple.com/th/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "tr",
+          "local": 52249,
+          "display": "52.249 TL",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:38:01.846Z",
+          "url": "https://www.apple.com/tr/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "tw",
+          "local": 25900,
+          "display": "NT$25,900",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:38:09.676Z",
+          "url": "https://www.apple.com/tw/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "vn",
+          "local": 21999000,
+          "display": "21.999.000đ",
+          "part": "MHFG4",
+          "at": "2026-10-27T11:38:17.785Z",
+          "url": "https://www.apple.com/vn/shop/buy-mac/macbook-neo"
+        }
+      ]
+    },
+    {
+      "id": "blush-512gb",
+      "part": "MHFJ4",
+      "specs": {
+        "color": "Blush",
+        "storage": "512GB"
+      },
+      "labels": {
+        "color": "Blush",
+        "storage": "512GB"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/macbook-neo-color-select-202603-blush-512gb?wid=1200&hei=770&fmt=jpeg&qlt=90&.v=1770944488738",
+      "name": "MacBook Neo, Blush, 512GB",
+      "label": "Blush · 512GB",
+      "prices": [
+        {
+          "code": "us",
+          "local": 799,
+          "display": "$799",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:33:13.984Z",
+          "url": "https://www.apple.com/shop/buy-mac/macbook-neo/blush-512gb"
+        },
+        {
+          "code": "ae",
+          "local": 3499,
+          "display": "AED 3,499",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:33:21.515Z",
+          "url": "https://www.apple.com/ae/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "at",
+          "local": 899,
+          "display": "899 €",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:33:29.426Z",
+          "url": "https://www.apple.com/at/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "au",
+          "local": 1249,
+          "display": "A$1,249 ",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:33:37.431Z",
+          "url": "https://www.apple.com/au/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "be",
+          "local": 899,
+          "display": "€ 899",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:33:45.480Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "br",
+          "local": 9699,
+          "display": "R$ 9.699",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:33:53.436Z",
+          "url": "https://www.apple.com/br/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "ca",
+          "local": 1149,
+          "display": "$1149",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:34:01.493Z",
+          "url": "https://www.apple.com/ca/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "ch",
+          "local": 779,
+          "display": "CHF 779.–",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:34:09.585Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "cl",
+          "local": 899990,
+          "display": "$899.990",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:34:17.443Z",
+          "url": "https://www.apple.com/cl/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "cz",
+          "local": 22990,
+          "display": "22 990 Kč",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:34:25.661Z",
+          "url": "https://www.apple.com/cz/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "de",
+          "local": 899,
+          "display": "899 €",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:34:33.465Z",
+          "url": "https://www.apple.com/de/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "dk",
+          "local": 7499,
+          "display": "7.499 kr.",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:34:41.513Z",
+          "url": "https://www.apple.com/dk/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "es",
+          "local": 899,
+          "display": "899 € ",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:34:49.533Z",
+          "url": "https://www.apple.com/es/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "fi",
+          "local": 919,
+          "display": "919 €",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:34:57.576Z",
+          "url": "https://www.apple.com/fi/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "fr",
+          "local": 899,
+          "display": "899 €",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:35:05.503Z",
+          "url": "https://www.apple.com/fr/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "gb",
+          "local": 799,
+          "display": "£799",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:35:13.528Z",
+          "url": "https://www.apple.com/uk/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "hk",
+          "local": 6499,
+          "display": "HK$6,499",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:35:21.564Z",
+          "url": "https://www.apple.com/hk/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "hu",
+          "local": 349990,
+          "display": "349 990 Ft",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:35:29.578Z",
+          "url": "https://www.apple.com/hu/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "ie",
+          "local": 899,
+          "display": "€899",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:35:37.511Z",
+          "url": "https://www.apple.com/ie/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "in",
+          "local": 89900,
+          "display": "₹89900.00",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:35:45.496Z",
+          "url": "https://www.apple.com/in/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "it",
+          "local": 899,
+          "display": "€ 899 ",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:35:53.734Z",
+          "url": "https://www.apple.com/it/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "jp",
+          "local": 137800,
+          "display": "137,800円",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:36:01.670Z",
+          "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "kr",
+          "local": 1390000,
+          "display": "₩1,390,000",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:36:09.591Z",
+          "url": "https://www.apple.com/kr/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "lu",
+          "local": 869.29,
+          "display": "869,29 €",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:36:17.604Z",
+          "url": "https://www.apple.com/lu/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "mx",
+          "local": 17499,
+          "display": "$17,499",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:36:25.619Z",
+          "url": "https://www.apple.com/mx/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "my",
+          "local": 3399,
+          "display": "RM 3,399",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:36:33.659Z",
+          "url": "https://www.apple.com/my/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "nl",
+          "local": 899,
+          "display": "€ 899",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:36:41.659Z",
+          "url": "https://www.apple.com/nl/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "no",
+          "local": 10490,
+          "display": "kr 10 490",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:36:49.559Z",
+          "url": "https://www.apple.com/no/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "nz",
+          "local": 1599,
+          "display": "NZ$1,599",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:36:57.613Z",
+          "url": "https://www.apple.com/nz/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "ph",
+          "local": 56990,
+          "display": "₱56,990",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:37:05.665Z",
+          "url": "https://www.apple.com/ph/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "pl",
+          "local": 3999,
+          "display": "3999 zł",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:37:13.633Z",
+          "url": "https://www.apple.com/pl/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "pt",
+          "local": 899,
+          "display": "899 €",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:37:21.582Z",
+          "url": "https://www.apple.com/pt/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "sa",
+          "local": 3799,
+          "display": "SAR 3,799",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:37:29.677Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "se",
+          "local": 10495,
+          "display": "10 495 kr",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:37:38.142Z",
+          "url": "https://www.apple.com/se/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "sg",
+          "local": 1149,
+          "display": "S$1,149",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:37:45.641Z",
+          "url": "https://www.apple.com/sg/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "th",
+          "local": 27900,
+          "display": "฿27,900",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:37:53.622Z",
+          "url": "https://www.apple.com/th/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "tr",
+          "local": 52249,
+          "display": "52.249 TL",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:38:01.846Z",
+          "url": "https://www.apple.com/tr/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "tw",
+          "local": 25900,
+          "display": "NT$25,900",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:38:09.676Z",
+          "url": "https://www.apple.com/tw/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "vn",
+          "local": 21999000,
+          "display": "21.999.000đ",
+          "part": "MHFJ4",
+          "at": "2026-10-27T11:38:17.785Z",
+          "url": "https://www.apple.com/vn/shop/buy-mac/macbook-neo"
+        }
+      ]
+    },
+    {
+      "id": "silver-256gb",
+      "part": "MHFA4",
+      "specs": {
+        "color": "Silver",
+        "storage": "256GB"
+      },
+      "labels": {
+        "color": "Silver",
+        "storage": "256GB"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/macbook-neo-color-select-202603-silver-256gb?wid=1200&hei=770&fmt=jpeg&qlt=90&.v=1770944488804",
+      "name": "MacBook Neo, Silver, 256GB",
+      "label": "Silver · 256GB",
+      "prices": [
+        {
+          "code": "us",
+          "local": 699,
+          "display": "$699",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:33:13.984Z",
+          "url": "https://www.apple.com/shop/buy-mac/macbook-neo/silver-256gb"
+        },
+        {
+          "code": "ae",
+          "local": 2999,
+          "display": "AED 2,999",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:33:21.515Z",
+          "url": "https://www.apple.com/ae/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "at",
+          "local": 799,
+          "display": "799 €",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:33:29.426Z",
+          "url": "https://www.apple.com/at/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "au",
+          "local": 1049,
+          "display": "A$1,049 ",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:33:37.431Z",
+          "url": "https://www.apple.com/au/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "be",
+          "local": 799,
+          "display": "€ 799",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:33:45.480Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "br",
+          "local": 8499,
+          "display": "R$ 8.499",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:33:53.436Z",
+          "url": "https://www.apple.com/br/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "ca",
+          "local": 949,
+          "display": "$949",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:34:01.493Z",
+          "url": "https://www.apple.com/ca/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "ch",
+          "local": 679,
+          "display": "CHF 679.–",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:34:09.585Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "cl",
+          "local": 799990,
+          "display": "$799.990",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:34:17.443Z",
+          "url": "https://www.apple.com/cl/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "cz",
+          "local": 19990,
+          "display": "19 990 Kč",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:34:25.661Z",
+          "url": "https://www.apple.com/cz/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "de",
+          "local": 799,
+          "display": "799 €",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:34:33.465Z",
+          "url": "https://www.apple.com/de/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "dk",
+          "local": 6499,
+          "display": "6.499 kr.",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:34:41.513Z",
+          "url": "https://www.apple.com/dk/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "es",
+          "local": 799,
+          "display": "799 € ",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:34:49.533Z",
+          "url": "https://www.apple.com/es/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "fi",
+          "local": 819,
+          "display": "819 €",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:34:57.576Z",
+          "url": "https://www.apple.com/fi/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "fr",
+          "local": 799,
+          "display": "799 €",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:35:05.503Z",
+          "url": "https://www.apple.com/fr/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "gb",
+          "local": 699,
+          "display": "£699",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:35:13.528Z",
+          "url": "https://www.apple.com/uk/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "hk",
+          "local": 5499,
+          "display": "HK$5,499",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:35:21.564Z",
+          "url": "https://www.apple.com/hk/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "hu",
+          "local": 299990,
+          "display": "299 990 Ft",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:35:29.578Z",
+          "url": "https://www.apple.com/hu/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "ie",
+          "local": 799,
+          "display": "€799",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:35:37.511Z",
+          "url": "https://www.apple.com/ie/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "in",
+          "local": 79900,
+          "display": "₹79900.00",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:35:45.496Z",
+          "url": "https://www.apple.com/in/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "it",
+          "local": 799,
+          "display": "€ 799 ",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:35:53.734Z",
+          "url": "https://www.apple.com/it/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "jp",
+          "local": 119800,
+          "display": "119,800円",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:36:01.670Z",
+          "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "kr",
+          "local": 1190000,
+          "display": "₩1,190,000",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:36:09.591Z",
+          "url": "https://www.apple.com/kr/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "lu",
+          "local": 772.59,
+          "display": "772,59 €",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:36:17.604Z",
+          "url": "https://www.apple.com/lu/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "mx",
+          "local": 14999,
+          "display": "$14,999",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:36:25.619Z",
+          "url": "https://www.apple.com/mx/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "my",
+          "local": 2999,
+          "display": "RM 2,999",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:36:33.659Z",
+          "url": "https://www.apple.com/my/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "nl",
+          "local": 799,
+          "display": "€ 799",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:36:41.659Z",
+          "url": "https://www.apple.com/nl/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "no",
+          "local": 8990,
+          "display": "kr 8 990",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:36:49.559Z",
+          "url": "https://www.apple.com/no/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "nz",
+          "local": 1399,
+          "display": "NZ$1,399",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:36:57.613Z",
+          "url": "https://www.apple.com/nz/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "ph",
+          "local": 49990,
+          "display": "₱49,990",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:37:05.665Z",
+          "url": "https://www.apple.com/ph/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "pl",
+          "local": 3499,
+          "display": "3499 zł",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:37:13.633Z",
+          "url": "https://www.apple.com/pl/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "pt",
+          "local": 799,
+          "display": "799 €",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:37:21.582Z",
+          "url": "https://www.apple.com/pt/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "sa",
+          "local": 3299,
+          "display": "SAR 3,299",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:37:29.677Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "se",
+          "local": 8995,
+          "display": "8 995 kr",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:37:38.142Z",
+          "url": "https://www.apple.com/se/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "sg",
+          "local": 999,
+          "display": "S$999",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:37:45.641Z",
+          "url": "https://www.apple.com/sg/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "th",
+          "local": 24900,
+          "display": "฿24,900",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:37:53.622Z",
+          "url": "https://www.apple.com/th/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "tr",
+          "local": 45999,
+          "display": "45.999 TL",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:38:01.846Z",
+          "url": "https://www.apple.com/tr/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "tw",
+          "local": 22900,
+          "display": "NT$22,900",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:38:09.676Z",
+          "url": "https://www.apple.com/tw/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "vn",
+          "local": 19499000,
+          "display": "19.499.000đ",
+          "part": "MHFA4",
+          "at": "2026-10-27T11:38:17.785Z",
+          "url": "https://www.apple.com/vn/shop/buy-mac/macbook-neo"
+        }
+      ]
+    },
+    {
+      "id": "indigo-256gb",
+      "part": "MHFF4",
+      "specs": {
+        "color": "Indigo",
+        "storage": "256GB"
+      },
+      "labels": {
+        "color": "Indigo",
+        "storage": "256GB"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/macbook-neo-color-select-202603-indigo-256gb?wid=1200&hei=770&fmt=jpeg&qlt=90&.v=1770944488722",
+      "name": "MacBook Neo, Indigo, 256GB",
+      "label": "Indigo · 256GB",
+      "prices": [
+        {
+          "code": "us",
+          "local": 699,
+          "display": "$699",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:33:13.984Z",
+          "url": "https://www.apple.com/shop/buy-mac/macbook-neo/indigo-256gb"
+        },
+        {
+          "code": "ae",
+          "local": 2999,
+          "display": "AED 2,999",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:33:21.515Z",
+          "url": "https://www.apple.com/ae/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "at",
+          "local": 799,
+          "display": "799 €",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:33:29.426Z",
+          "url": "https://www.apple.com/at/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "au",
+          "local": 1049,
+          "display": "A$1,049 ",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:33:37.431Z",
+          "url": "https://www.apple.com/au/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "be",
+          "local": 799,
+          "display": "€ 799",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:33:45.480Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "br",
+          "local": 8499,
+          "display": "R$ 8.499",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:33:53.436Z",
+          "url": "https://www.apple.com/br/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "ca",
+          "local": 949,
+          "display": "$949",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:34:01.493Z",
+          "url": "https://www.apple.com/ca/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "ch",
+          "local": 679,
+          "display": "CHF 679.–",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:34:09.585Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "cl",
+          "local": 799990,
+          "display": "$799.990",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:34:17.443Z",
+          "url": "https://www.apple.com/cl/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "cz",
+          "local": 19990,
+          "display": "19 990 Kč",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:34:25.661Z",
+          "url": "https://www.apple.com/cz/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "de",
+          "local": 799,
+          "display": "799 €",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:34:33.465Z",
+          "url": "https://www.apple.com/de/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "dk",
+          "local": 6499,
+          "display": "6.499 kr.",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:34:41.513Z",
+          "url": "https://www.apple.com/dk/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "es",
+          "local": 799,
+          "display": "799 € ",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:34:49.533Z",
+          "url": "https://www.apple.com/es/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "fi",
+          "local": 819,
+          "display": "819 €",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:34:57.576Z",
+          "url": "https://www.apple.com/fi/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "fr",
+          "local": 799,
+          "display": "799 €",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:35:05.503Z",
+          "url": "https://www.apple.com/fr/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "gb",
+          "local": 699,
+          "display": "£699",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:35:13.528Z",
+          "url": "https://www.apple.com/uk/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "hk",
+          "local": 5499,
+          "display": "HK$5,499",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:35:21.564Z",
+          "url": "https://www.apple.com/hk/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "hu",
+          "local": 299990,
+          "display": "299 990 Ft",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:35:29.578Z",
+          "url": "https://www.apple.com/hu/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "ie",
+          "local": 799,
+          "display": "€799",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:35:37.511Z",
+          "url": "https://www.apple.com/ie/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "in",
+          "local": 79900,
+          "display": "₹79900.00",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:35:45.496Z",
+          "url": "https://www.apple.com/in/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "it",
+          "local": 799,
+          "display": "€ 799 ",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:35:53.734Z",
+          "url": "https://www.apple.com/it/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "jp",
+          "local": 119800,
+          "display": "119,800円",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:36:01.670Z",
+          "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "kr",
+          "local": 1190000,
+          "display": "₩1,190,000",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:36:09.591Z",
+          "url": "https://www.apple.com/kr/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "lu",
+          "local": 772.59,
+          "display": "772,59 €",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:36:17.604Z",
+          "url": "https://www.apple.com/lu/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "mx",
+          "local": 14999,
+          "display": "$14,999",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:36:25.619Z",
+          "url": "https://www.apple.com/mx/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "my",
+          "local": 2999,
+          "display": "RM 2,999",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:36:33.659Z",
+          "url": "https://www.apple.com/my/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "nl",
+          "local": 799,
+          "display": "€ 799",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:36:41.659Z",
+          "url": "https://www.apple.com/nl/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "no",
+          "local": 8990,
+          "display": "kr 8 990",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:36:49.559Z",
+          "url": "https://www.apple.com/no/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "nz",
+          "local": 1399,
+          "display": "NZ$1,399",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:36:57.613Z",
+          "url": "https://www.apple.com/nz/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "ph",
+          "local": 49990,
+          "display": "₱49,990",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:37:05.665Z",
+          "url": "https://www.apple.com/ph/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "pl",
+          "local": 3499,
+          "display": "3499 zł",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:37:13.633Z",
+          "url": "https://www.apple.com/pl/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "pt",
+          "local": 799,
+          "display": "799 €",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:37:21.582Z",
+          "url": "https://www.apple.com/pt/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "sa",
+          "local": 3299,
+          "display": "SAR 3,299",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:37:29.677Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "se",
+          "local": 8995,
+          "display": "8 995 kr",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:37:38.142Z",
+          "url": "https://www.apple.com/se/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "sg",
+          "local": 999,
+          "display": "S$999",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:37:45.641Z",
+          "url": "https://www.apple.com/sg/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "th",
+          "local": 24900,
+          "display": "฿24,900",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:37:53.622Z",
+          "url": "https://www.apple.com/th/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "tr",
+          "local": 45999,
+          "display": "45.999 TL",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:38:01.846Z",
+          "url": "https://www.apple.com/tr/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "tw",
+          "local": 22900,
+          "display": "NT$22,900",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:38:09.676Z",
+          "url": "https://www.apple.com/tw/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "vn",
+          "local": 19499000,
+          "display": "19.499.000đ",
+          "part": "MHFF4",
+          "at": "2026-10-27T11:38:17.785Z",
+          "url": "https://www.apple.com/vn/shop/buy-mac/macbook-neo"
+        }
+      ]
+    },
+    {
+      "id": "citrus-512gb",
+      "part": "MHFE4",
+      "specs": {
+        "color": "Citrus",
+        "storage": "512GB"
+      },
+      "labels": {
+        "color": "Citrus",
+        "storage": "512GB"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/macbook-neo-color-select-202603-citrus-512gb?wid=1200&hei=770&fmt=jpeg&qlt=90&.v=1770944488769",
+      "name": "MacBook Neo, Citrus, 512GB",
+      "label": "Citrus · 512GB",
+      "prices": [
+        {
+          "code": "us",
+          "local": 799,
+          "display": "$799",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:33:13.984Z",
+          "url": "https://www.apple.com/shop/buy-mac/macbook-neo/citrus-512gb"
+        },
+        {
+          "code": "ae",
+          "local": 3499,
+          "display": "AED 3,499",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:33:21.515Z",
+          "url": "https://www.apple.com/ae/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "at",
+          "local": 899,
+          "display": "899 €",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:33:29.426Z",
+          "url": "https://www.apple.com/at/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "au",
+          "local": 1249,
+          "display": "A$1,249 ",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:33:37.431Z",
+          "url": "https://www.apple.com/au/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "be",
+          "local": 899,
+          "display": "€ 899",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:33:45.480Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "br",
+          "local": 9699,
+          "display": "R$ 9.699",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:33:53.436Z",
+          "url": "https://www.apple.com/br/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "ca",
+          "local": 1149,
+          "display": "$1149",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:34:01.493Z",
+          "url": "https://www.apple.com/ca/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "ch",
+          "local": 779,
+          "display": "CHF 779.–",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:34:09.585Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "cl",
+          "local": 899990,
+          "display": "$899.990",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:34:17.443Z",
+          "url": "https://www.apple.com/cl/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "cz",
+          "local": 22990,
+          "display": "22 990 Kč",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:34:25.661Z",
+          "url": "https://www.apple.com/cz/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "de",
+          "local": 899,
+          "display": "899 €",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:34:33.465Z",
+          "url": "https://www.apple.com/de/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "dk",
+          "local": 7499,
+          "display": "7.499 kr.",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:34:41.513Z",
+          "url": "https://www.apple.com/dk/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "es",
+          "local": 899,
+          "display": "899 € ",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:34:49.533Z",
+          "url": "https://www.apple.com/es/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "fi",
+          "local": 919,
+          "display": "919 €",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:34:57.576Z",
+          "url": "https://www.apple.com/fi/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "fr",
+          "local": 899,
+          "display": "899 €",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:35:05.503Z",
+          "url": "https://www.apple.com/fr/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "gb",
+          "local": 799,
+          "display": "£799",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:35:13.528Z",
+          "url": "https://www.apple.com/uk/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "hk",
+          "local": 6499,
+          "display": "HK$6,499",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:35:21.564Z",
+          "url": "https://www.apple.com/hk/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "hu",
+          "local": 349990,
+          "display": "349 990 Ft",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:35:29.578Z",
+          "url": "https://www.apple.com/hu/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "ie",
+          "local": 899,
+          "display": "€899",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:35:37.511Z",
+          "url": "https://www.apple.com/ie/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "in",
+          "local": 89900,
+          "display": "₹89900.00",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:35:45.496Z",
+          "url": "https://www.apple.com/in/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "it",
+          "local": 899,
+          "display": "€ 899 ",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:35:53.734Z",
+          "url": "https://www.apple.com/it/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "jp",
+          "local": 137800,
+          "display": "137,800円",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:36:01.670Z",
+          "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "kr",
+          "local": 1390000,
+          "display": "₩1,390,000",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:36:09.591Z",
+          "url": "https://www.apple.com/kr/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "lu",
+          "local": 869.29,
+          "display": "869,29 €",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:36:17.604Z",
+          "url": "https://www.apple.com/lu/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "mx",
+          "local": 17499,
+          "display": "$17,499",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:36:25.619Z",
+          "url": "https://www.apple.com/mx/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "my",
+          "local": 3399,
+          "display": "RM 3,399",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:36:33.659Z",
+          "url": "https://www.apple.com/my/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "nl",
+          "local": 899,
+          "display": "€ 899",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:36:41.659Z",
+          "url": "https://www.apple.com/nl/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "no",
+          "local": 10490,
+          "display": "kr 10 490",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:36:49.559Z",
+          "url": "https://www.apple.com/no/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "nz",
+          "local": 1599,
+          "display": "NZ$1,599",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:36:57.613Z",
+          "url": "https://www.apple.com/nz/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "ph",
+          "local": 56990,
+          "display": "₱56,990",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:37:05.665Z",
+          "url": "https://www.apple.com/ph/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "pl",
+          "local": 3999,
+          "display": "3999 zł",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:37:13.633Z",
+          "url": "https://www.apple.com/pl/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "pt",
+          "local": 899,
+          "display": "899 €",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:37:21.582Z",
+          "url": "https://www.apple.com/pt/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "sa",
+          "local": 3799,
+          "display": "SAR 3,799",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:37:29.677Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "se",
+          "local": 10495,
+          "display": "10 495 kr",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:37:38.142Z",
+          "url": "https://www.apple.com/se/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "sg",
+          "local": 1149,
+          "display": "S$1,149",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:37:45.641Z",
+          "url": "https://www.apple.com/sg/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "th",
+          "local": 27900,
+          "display": "฿27,900",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:37:53.622Z",
+          "url": "https://www.apple.com/th/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "tr",
+          "local": 52249,
+          "display": "52.249 TL",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:38:01.846Z",
+          "url": "https://www.apple.com/tr/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "tw",
+          "local": 25900,
+          "display": "NT$25,900",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:38:09.676Z",
+          "url": "https://www.apple.com/tw/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "vn",
+          "local": 21999000,
+          "display": "21.999.000đ",
+          "part": "MHFE4",
+          "at": "2026-10-27T11:38:17.785Z",
+          "url": "https://www.apple.com/vn/shop/buy-mac/macbook-neo"
+        }
+      ]
+    },
+    {
+      "id": "silver-512gb",
+      "part": "MHFC4",
+      "specs": {
+        "color": "Silver",
+        "storage": "512GB"
+      },
+      "labels": {
+        "color": "Silver",
+        "storage": "512GB"
+      },
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/macbook-neo-color-select-202603-silver-512gb?wid=1200&hei=770&fmt=jpeg&qlt=90&.v=1770944488811",
+      "name": "MacBook Neo, Silver, 512GB",
+      "label": "Silver · 512GB",
+      "prices": [
+        {
+          "code": "us",
+          "local": 799,
+          "display": "$799",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:33:13.984Z",
+          "url": "https://www.apple.com/shop/buy-mac/macbook-neo/silver-512gb"
+        },
+        {
+          "code": "ae",
+          "local": 3499,
+          "display": "AED 3,499",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:33:21.515Z",
+          "url": "https://www.apple.com/ae/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "at",
+          "local": 899,
+          "display": "899 €",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:33:29.426Z",
+          "url": "https://www.apple.com/at/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "au",
+          "local": 1249,
+          "display": "A$1,249 ",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:33:37.431Z",
+          "url": "https://www.apple.com/au/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "be",
+          "local": 899,
+          "display": "€ 899",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:33:45.480Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "br",
+          "local": 9699,
+          "display": "R$ 9.699",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:33:53.436Z",
+          "url": "https://www.apple.com/br/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "ca",
+          "local": 1149,
+          "display": "$1149",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:34:01.493Z",
+          "url": "https://www.apple.com/ca/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "ch",
+          "local": 779,
+          "display": "CHF 779.–",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:34:09.585Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "cl",
+          "local": 899990,
+          "display": "$899.990",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:34:17.443Z",
+          "url": "https://www.apple.com/cl/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "cz",
+          "local": 22990,
+          "display": "22 990 Kč",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:34:25.661Z",
+          "url": "https://www.apple.com/cz/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "de",
+          "local": 899,
+          "display": "899 €",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:34:33.465Z",
+          "url": "https://www.apple.com/de/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "dk",
+          "local": 7499,
+          "display": "7.499 kr.",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:34:41.513Z",
+          "url": "https://www.apple.com/dk/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "es",
+          "local": 899,
+          "display": "899 € ",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:34:49.533Z",
+          "url": "https://www.apple.com/es/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "fi",
+          "local": 919,
+          "display": "919 €",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:34:57.576Z",
+          "url": "https://www.apple.com/fi/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "fr",
+          "local": 899,
+          "display": "899 €",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:35:05.503Z",
+          "url": "https://www.apple.com/fr/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "gb",
+          "local": 799,
+          "display": "£799",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:35:13.528Z",
+          "url": "https://www.apple.com/uk/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "hk",
+          "local": 6499,
+          "display": "HK$6,499",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:35:21.564Z",
+          "url": "https://www.apple.com/hk/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "hu",
+          "local": 349990,
+          "display": "349 990 Ft",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:35:29.578Z",
+          "url": "https://www.apple.com/hu/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "ie",
+          "local": 899,
+          "display": "€899",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:35:37.511Z",
+          "url": "https://www.apple.com/ie/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "in",
+          "local": 89900,
+          "display": "₹89900.00",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:35:45.496Z",
+          "url": "https://www.apple.com/in/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "it",
+          "local": 899,
+          "display": "€ 899 ",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:35:53.734Z",
+          "url": "https://www.apple.com/it/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "jp",
+          "local": 137800,
+          "display": "137,800円",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:36:01.670Z",
+          "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "kr",
+          "local": 1390000,
+          "display": "₩1,390,000",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:36:09.591Z",
+          "url": "https://www.apple.com/kr/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "lu",
+          "local": 869.29,
+          "display": "869,29 €",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:36:17.604Z",
+          "url": "https://www.apple.com/lu/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "mx",
+          "local": 17499,
+          "display": "$17,499",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:36:25.619Z",
+          "url": "https://www.apple.com/mx/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "my",
+          "local": 3399,
+          "display": "RM 3,399",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:36:33.659Z",
+          "url": "https://www.apple.com/my/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "nl",
+          "local": 899,
+          "display": "€ 899",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:36:41.659Z",
+          "url": "https://www.apple.com/nl/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "no",
+          "local": 10490,
+          "display": "kr 10 490",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:36:49.559Z",
+          "url": "https://www.apple.com/no/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "nz",
+          "local": 1599,
+          "display": "NZ$1,599",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:36:57.613Z",
+          "url": "https://www.apple.com/nz/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "ph",
+          "local": 56990,
+          "display": "₱56,990",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:37:05.665Z",
+          "url": "https://www.apple.com/ph/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "pl",
+          "local": 3999,
+          "display": "3999 zł",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:37:13.633Z",
+          "url": "https://www.apple.com/pl/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "pt",
+          "local": 899,
+          "display": "899 €",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:37:21.582Z",
+          "url": "https://www.apple.com/pt/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "sa",
+          "local": 3799,
+          "display": "SAR 3,799",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:37:29.677Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "se",
+          "local": 10495,
+          "display": "10 495 kr",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:37:38.142Z",
+          "url": "https://www.apple.com/se/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "sg",
+          "local": 1149,
+          "display": "S$1,149",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:37:45.641Z",
+          "url": "https://www.apple.com/sg/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "th",
+          "local": 27900,
+          "display": "฿27,900",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:37:53.622Z",
+          "url": "https://www.apple.com/th/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "tr",
+          "local": 52249,
+          "display": "52.249 TL",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:38:01.846Z",
+          "url": "https://www.apple.com/tr/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "tw",
+          "local": 25900,
+          "display": "NT$25,900",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:38:09.676Z",
+          "url": "https://www.apple.com/tw/shop/buy-mac/macbook-neo"
+        },
+        {
+          "code": "vn",
+          "local": 21999000,
+          "display": "21.999.000đ",
+          "part": "MHFC4",
+          "at": "2026-10-27T11:38:17.785Z",
+          "url": "https://www.apple.com/vn/shop/buy-mac/macbook-neo"
+        }
+      ]
+    }
+  ],
+  "discoveredAt": "2026-10-27T11:33:13.984Z",
+  "defaultVariant": "blush-256gb",
+  "pricedAt": "2026-10-27T11:38:25.917Z",
+  "failedStores": []
+}

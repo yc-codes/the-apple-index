@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-27T12:00:03.246Z",
+  "attempts": {
+    "macbook-air": 1793099856748,
+    "macbook-neo": 1793100721573,
+    "macbook-pro": 1793101105920,
+    "imac": 1793101922268
+  },
+  "blockedUntil": null,
+  "failed": 0
+}
