@@ -56,7 +56,7 @@
           "local": 799,
           "display": "$799",
           "part": "MYAR3",
-          "at": "2026-10-27T13:28:34.952Z",
+          "at": "2026-10-28T11:04:45.900Z",
           "url": "https://www.apple.com/shop/buy-iphone/iphone-16"
         }
       ]
@@ -80,7 +80,7 @@
           "local": 799,
           "display": "$799",
           "part": "MYAQ3",
-          "at": "2026-10-27T13:28:34.952Z",
+          "at": "2026-10-28T11:04:45.900Z",
           "url": "https://www.apple.com/shop/buy-iphone/iphone-16"
         }
       ]
@@ -104,7 +104,7 @@
           "local": 799,
           "display": "$799",
           "part": "MYAP3",
-          "at": "2026-10-27T13:28:34.952Z",
+          "at": "2026-10-28T11:04:45.900Z",
           "url": "https://www.apple.com/shop/buy-iphone/iphone-16"
         }
       ]
@@ -128,7 +128,7 @@
           "local": 799,
           "display": "$799",
           "part": "MYAT3",
-          "at": "2026-10-27T13:28:34.952Z",
+          "at": "2026-10-28T11:04:45.900Z",
           "url": "https://www.apple.com/shop/buy-iphone/iphone-16"
         }
       ]
@@ -152,7 +152,7 @@
           "local": 799,
           "display": "$799",
           "part": "MYAW3",
-          "at": "2026-10-27T13:28:34.952Z",
+          "at": "2026-10-28T11:04:45.900Z",
           "url": "https://www.apple.com/shop/buy-iphone/iphone-16"
         }
       ]
@@ -160,6 +160,6 @@
   ],
   "discoveredAt": "2026-10-27T13:28:34.952Z",
   "defaultVariant": "6.1-inch-display-128gb-pink",
-  "pricedAt": "2026-10-27T13:39:01.952Z",
+  "pricedAt": "2026-10-28T11:09:56.339Z",
   "failedStores": []
 }
