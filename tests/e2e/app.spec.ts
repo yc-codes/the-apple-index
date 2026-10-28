@@ -67,7 +67,10 @@ test('React configuration, region, history and reload preserve the exact hardwar
   await page.locator('.back').click();
   await page.locator('#search').fill('not a product');
   await expect(page.locator('.empty')).toBeVisible();
-  await page.locator('#search').fill('');
+  await page.getByRole('button', { name: 'Clear filters' }).focus();
+  await page.keyboard.press('Enter');
+  await expect(page.locator('#search')).toBeFocused();
+  await expect(page.locator('#search')).toHaveValue('');
   await page.locator('[data-filter="Mac"]').click();
   await expect(page.locator('.product-card')).toHaveCount(1);
   for (const width of [375, 768, 1440]) {

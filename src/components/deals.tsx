@@ -12,16 +12,11 @@ function interleave(products: Summary[]) {
   const longest = Math.max(0, ...groups.map((g) => g.length));
   return Array.from({ length: longest }, (_, i) => groups.flatMap((g) => g[i] ?? [])).flat();
 }
-function Deal({ product: p, active }: { product: Summary; active: boolean }) {
+function Deal({ product: p }: { product: Summary }) {
   const { rows, base, money, stores, country } = usePricing(p.prices);
   const best = rows[0];
   return (
-    <Link
-      to={`/products/${p.id}${p.variant ? '/' + p.variant.id : ''}` as '/'}
-      className="deal"
-      aria-hidden={!active}
-      tabIndex={active ? 0 : -1}
-    >
+    <Link to={`/products/${p.id}${p.variant ? '/' + p.variant.id : ''}` as '/'} className="deal">
       <span className="deal-kicker">Cheapest {p.name} in</span>
       <span className="deal-country">{best ? `${flag(best.code)} ${best.store.name}` : '—'}</span>
       <strong className="deal-price">{best ? money(best.usd) : '—'}</strong>
@@ -44,7 +39,7 @@ export function Deals({ products, fallback }: { products: Summary[]; fallback: R
     <div className="hero-note deals" role="region" aria-label="Featured price comparisons">
       <div className="eyebrow">A WORLD OF BETTER PRICES</div>
       <div className="deal-window" aria-live="polite">
-        <Deal product={slides[current]} active />
+        <Deal product={slides[current]} />
       </div>
       <div className="note-bottom">
         <span className="deal-count">

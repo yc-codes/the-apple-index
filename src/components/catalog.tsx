@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import { useListing, useMeta } from '../api';
 import { IndexLink, flag, usePreferences } from './layout';
 import { Art, PriceRows, usePricing } from './prices';
@@ -43,6 +43,7 @@ function Card({ product: p }: { product: Summary }) {
   );
 }
 export function Catalog() {
+  const searchInput = useRef<HTMLInputElement>(null);
   const listing = useListing();
   const { data: meta } = useMeta();
   const { country } = usePreferences();
@@ -69,8 +70,7 @@ export function Catalog() {
             Different <em>price.</em>
           </h1>
           <p>
-            Apple Store prices from around the world, in your currency.
-            <br />
+            Apple Store prices from around the world, in your currency. <br />
             Compare the same configuration, wherever you buy.
           </p>
           <a className="primary" href="#catalog">
@@ -142,6 +142,7 @@ export function Catalog() {
               <path d="m16 16 5 5" />
             </svg>
             <input
+              ref={searchInput}
               id="search"
               type="search"
               placeholder="Find a product"
@@ -168,6 +169,7 @@ export function Catalog() {
                 onClick={() => {
                   setSearch('');
                   setFilter('All products');
+                  searchInput.current?.focus();
                 }}
               >
                 Clear filters
