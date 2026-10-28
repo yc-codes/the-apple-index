@@ -97,6 +97,7 @@ function ProductDetail({ product, variant }: { product: ProductData; variant: Va
                         key={option.key}
                         className={`spec-button${changes && !option.selected ? ' shifts' : ''}`}
                         path={`/products/${product.id}/${option.target}`}
+                        resetScroll={false}
                         data-spec={group.name}
                         data-value={option.label}
                         aria-current={option.selected ? 'true' : 'false'}

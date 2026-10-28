@@ -144,3 +144,20 @@ test('bundled prices render without API requests and retain pending and unknown 
   expect(requests).toEqual([]);
   expect(errors).toEqual([]);
 });
+
+for (const width of [375, 1440]) {
+  test(`variant changes preserve scroll position at ${width}px`, async ({ page }) => {
+    await page.setViewportSize({ width, height: 900 });
+    await page.emulateMedia({ reducedMotion: 'reduce' });
+    await page.goto(`/products/macbook-pro/${product.variants[0].id}`);
+    await expect(page.locator('#region')).toHaveValue('in');
+    await page.evaluate(() => window.scrollTo({ top: 200, behavior: 'instant' }));
+    await expect.poll(() => page.evaluate(() => window.scrollY)).toBe(200);
+    await page.locator('[data-spec="Color"][data-value="Black"]').click();
+    await expect(page).toHaveURL(new RegExp(product.variants[1].id + '$'));
+    await expect.poll(() => page.evaluate(() => window.scrollY)).toBe(200);
+    await page.locator('[data-spec="Memory"][data-value="48GB"]').click();
+    await expect(page).toHaveURL(new RegExp(product.variants[2].id + '$'));
+    await expect.poll(() => page.evaluate(() => window.scrollY)).toBe(200);
+  });
+}

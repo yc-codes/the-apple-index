@@ -116,6 +116,7 @@ export function IndexLink({
   path?: string;
   children: ReactNode;
   className?: string;
+  resetScroll?: boolean;
   onClick?: () => void;
   'aria-current'?: 'true' | 'false';
   title?: string;
