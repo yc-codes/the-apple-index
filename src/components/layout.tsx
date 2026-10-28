@@ -136,6 +136,9 @@ export function Layout({ children }: { children: ReactNode }) {
   const countries = meta?.stores || stores;
   return (
     <>
+      <a className="skip-link" href="#main-content">
+        Skip to content
+      </a>
       <header>
         <div className="header-inner">
           <IndexLink className="brand">
@@ -165,7 +168,7 @@ export function Layout({ children }: { children: ReactNode }) {
           </nav>
         </div>
       </header>
-      <main>
+      <main id="main-content" tabIndex={-1}>
         {children}
         <aside className="data-note">
           <span>ⓘ</span>

@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { Link } from '@tanstack/react-router';
 import { flag } from './layout';
 import { usePricing } from './prices';
@@ -37,56 +37,37 @@ function Deal({ product: p, active }: { product: Summary; active: boolean }) {
 }
 export function Deals({ products, fallback }: { products: Summary[]; fallback: React.ReactNode }) {
   const slides = interleave(products.filter((p) => p.ready && p.prices?.length));
-  const [index, setIndex] = useState(0),
-    [animate, setAnimate] = useState(true),
-    [paused, setPaused] = useState(false);
-  useEffect(() => {
-    if (slides.length < 2 || paused || matchMedia('(prefers-reduced-motion: reduce)').matches)
-      return;
-    const timer = setInterval(() => {
-      if (document.hidden) return;
-      setAnimate(true);
-      setIndex((i) => i + 1);
-    }, 4500);
-    return () => clearInterval(timer);
-  }, [slides.length, paused]);
+  const [index, setIndex] = useState(0);
   if (!slides.length) return fallback;
   const current = index % slides.length;
   return (
-    <div
-      className="hero-note deals"
-      aria-roledescription="carousel"
-      aria-label="Cheapest Apple Stores"
-      onMouseEnter={() => setPaused(true)}
-      onMouseLeave={() => setPaused(false)}
-      onFocus={() => setPaused(true)}
-      onBlur={() => setPaused(false)}
-    >
-      <span className="orbit">◎</span>
-      <div className="deal-window">
-        <div
-          className="deal-track"
-          style={{
-            transform: `translateX(-${index * 100}%)`,
-            transition: animate ? undefined : 'none',
-          }}
-          // The last slide is a copy of the first; jump back to it unanimated for an endless loop.
-          onTransitionEnd={() => {
-            if (index < slides.length) return;
-            setAnimate(false);
-            setIndex(0);
-          }}
-        >
-          {[...slides, ...(slides.length > 1 ? [slides[0]] : [])].map((p, i) => (
-            <Deal key={i} product={p} active={i === index} />
-          ))}
-        </div>
+    <div className="hero-note deals" role="region" aria-label="Featured price comparisons">
+      <div className="eyebrow">A WORLD OF BETTER PRICES</div>
+      <div className="deal-window" aria-live="polite">
+        <Deal product={slides[current]} active />
       </div>
       <div className="note-bottom">
-        LOCAL PRICES. GLOBAL PERSPECTIVE.
         <span className="deal-count">
-          {String(current + 1).padStart(2, '0')} / {String(slides.length).padStart(2, '0')}
+          {current + 1} of {slides.length} comparisons
         </span>
+        {slides.length > 1 && (
+          <div className="deal-controls">
+            <button
+              type="button"
+              aria-label="Previous comparison"
+              onClick={() => setIndex((current + slides.length - 1) % slides.length)}
+            >
+              ←
+            </button>
+            <button
+              type="button"
+              aria-label="Next comparison"
+              onClick={() => setIndex((current + 1) % slides.length)}
+            >
+              →
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );

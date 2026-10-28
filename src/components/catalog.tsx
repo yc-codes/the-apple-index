@@ -74,7 +74,7 @@ export function Catalog() {
             Compare the same configuration, wherever you buy.
           </p>
           <a className="primary" href="#catalog">
-            Find your next Apple <span>↘</span>
+            Explore products <span>↘</span>
           </a>
         </div>
         <Deals
@@ -103,7 +103,7 @@ export function Catalog() {
         <div className="section-heading">
           <div>
             <span className="eyebrow">THE INDEX</span>
-            <h2>Good things. Better prices.</h2>
+            <h2>Find your next Apple.</h2>
           </div>
           <p>
             Compared with{' '}
@@ -129,7 +129,18 @@ export function Catalog() {
             ))}
           </div>
           <label className="search">
-            <span>⌕</span>
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.8"
+              aria-hidden="true"
+            >
+              <circle cx="10.5" cy="10.5" r="6.5" />
+              <path d="m16 16 5 5" />
+            </svg>
             <input
               id="search"
               type="search"
@@ -140,11 +151,28 @@ export function Catalog() {
             />
           </label>
         </div>
+        <p className="results-count" role="status">
+          {visible.length} {visible.length === 1 ? 'product' : 'products'}
+          {filter !== 'All products' ? ` in ${filter}` : ''}
+        </p>
         <div className="product-grid">
           {visible.length ? (
             visible.map((p) => <Card key={p.id} product={p} />)
           ) : (
-            <p className="empty">No products found. Try another search or category.</p>
+            <div className="empty">
+              <h3>No matching products</h3>
+              <p>Try a different name or browse all products.</p>
+              <button
+                type="button"
+                className="reset-filters"
+                onClick={() => {
+                  setSearch('');
+                  setFilter('All products');
+                }}
+              >
+                Clear filters
+              </button>
+            </div>
           )}
         </div>
       </section>
