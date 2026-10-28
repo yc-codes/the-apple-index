@@ -582,10 +582,10 @@
       "name": "MacBook Pro",
       "category": "Mac",
       "ready": true,
-      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/mac-macbook-pro-specs-select-202601-14inch-spaceblack?wid=1200&hei=770&fmt=jpeg&qlt=90&.v=1767814358598",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/mac-macbook-pro-specs-select-202610-14inch-spaceblack?wid=1200&hei=770&fmt=jpeg&qlt=90&.v=1791280428475",
       "variant": {
-        "id": "14-inch-space-black-standard-display-apple-m5-chip-10-core-cpu-10-core-gpu-16gb-memory-1tb-storage",
-        "label": "14-inch · M5 · 10-core · 10-core · Space Black · Standard display · 16GB · 1TB"
+        "id": "14-inch-space-black-standard-display-apple-m6-chip-12-core-cpu-12-core-gpu-16gb-memory-1tb-storage",
+        "label": "14-inch · M6 · 12-core · 12-core · Space Black · Standard display · 16GB · 1TB"
       },
       "configurations": 24,
       "prices": [
@@ -593,277 +593,277 @@
           "code": "us",
           "local": 1999,
           "display": "$1999",
-          "part": "MDE14",
-          "at": "2026-10-27T11:41:38.698Z"
+          "part": "MHWT4",
+          "at": "2026-10-28T13:25:08.502Z"
         },
         {
           "code": "ae",
           "local": 8499,
           "display": "AED 8,499",
-          "part": "MDE14",
-          "at": "2026-10-27T11:41:53.703Z"
+          "part": "MHWT4",
+          "at": "2026-10-28T13:25:24.590Z"
         },
         {
           "code": "at",
-          "local": 2199,
-          "display": "2.199 €",
-          "part": "MDE14",
-          "at": "2026-10-27T11:42:09.650Z"
+          "local": 2299,
+          "display": "2.299 €",
+          "part": "MHWT4",
+          "at": "2026-10-28T13:25:40.526Z"
         },
         {
           "code": "au",
           "local": 3199,
           "display": "A$3,199 ",
-          "part": "MDE14",
-          "at": "2026-10-27T11:42:25.651Z"
+          "part": "MHWT4",
+          "at": "2026-10-28T13:25:56.549Z"
         },
         {
           "code": "be",
-          "local": 2229,
-          "display": "€ 2.229",
-          "part": "MDE14",
-          "at": "2026-10-27T11:42:41.848Z"
+          "local": 2329,
+          "display": "€ 2.329",
+          "part": "MHWT4",
+          "at": "2026-10-28T13:26:12.594Z"
         },
         {
           "code": "br",
           "local": 24999,
           "display": "R$ 24.999",
-          "part": "MDE14",
-          "at": "2026-10-27T11:42:57.666Z"
+          "part": "MHWT4",
+          "at": "2026-10-28T13:26:28.576Z"
         },
         {
           "code": "ca",
           "local": 2799,
           "display": "$2799",
-          "part": "MDE14",
-          "at": "2026-10-27T11:43:13.712Z"
+          "part": "MHWT4",
+          "at": "2026-10-28T13:26:44.666Z"
         },
         {
           "code": "ch",
           "local": 1899,
           "display": "CHF 1899.–",
-          "part": "MDE14",
-          "at": "2026-10-27T11:43:29.780Z"
+          "part": "MHWT4",
+          "at": "2026-10-28T13:27:00.752Z"
         },
         {
           "code": "cl",
-          "local": 2299990,
-          "display": "$2.299.990",
-          "part": "MDE14",
-          "at": "2026-10-27T11:43:45.694Z"
+          "local": 2499990,
+          "display": "$2.499.990",
+          "part": "MHWT4",
+          "at": "2026-10-28T13:27:16.721Z"
         },
         {
           "code": "cz",
-          "local": 54990,
-          "display": "54 990 Kč",
-          "part": "MDE14",
-          "at": "2026-10-27T11:44:01.814Z"
+          "local": 57990,
+          "display": "57 990 Kč",
+          "part": "MHWT4",
+          "at": "2026-10-28T13:27:32.872Z"
         },
         {
           "code": "de",
-          "local": 2199,
-          "display": "2.199 €",
-          "part": "MDE14",
-          "at": "2026-10-27T11:44:17.750Z"
+          "local": 2299,
+          "display": "2.299 €",
+          "part": "MHWT4",
+          "at": "2026-10-28T13:27:48.716Z"
         },
         {
           "code": "dk",
           "local": 17999,
           "display": "17.999 kr.",
-          "part": "MDE14",
-          "at": "2026-10-27T11:44:33.755Z"
+          "part": "MHWT4",
+          "at": "2026-10-28T13:28:04.643Z"
         },
         {
           "code": "es",
-          "local": 2229,
-          "display": "2.229 € ",
-          "part": "MDE14",
-          "at": "2026-10-27T11:44:49.766Z"
+          "local": 2329,
+          "display": "2.329 € ",
+          "part": "MHWT4",
+          "at": "2026-10-28T13:28:20.654Z"
         },
         {
           "code": "fi",
-          "local": 2299,
-          "display": "2 299 €",
-          "part": "MDE14",
-          "at": "2026-10-27T11:45:05.822Z"
+          "local": 2399,
+          "display": "2 399 €",
+          "part": "MHWT4",
+          "at": "2026-10-28T13:28:36.791Z"
         },
         {
           "code": "fr",
-          "local": 2199,
-          "display": "2 199 €",
-          "part": "MDE14",
-          "at": "2026-10-27T11:45:21.776Z"
+          "local": 2299,
+          "display": "2 299 €",
+          "part": "MHWT4",
+          "at": "2026-10-28T13:28:52.756Z"
         },
         {
           "code": "gb",
           "local": 1999,
           "display": "£1,999",
-          "part": "MDE14",
-          "at": "2026-10-27T11:45:37.836Z"
+          "part": "MHWT4",
+          "at": "2026-10-28T13:29:08.696Z"
         },
         {
           "code": "hk",
           "local": 15999,
           "display": "HK$15,999",
-          "part": "MDE14",
-          "at": "2026-10-27T11:45:53.814Z"
+          "part": "MHWT4",
+          "at": "2026-10-28T13:29:24.803Z"
         },
         {
           "code": "hu",
           "local": 899990,
           "display": "899 990 Ft",
-          "part": "MDE14",
-          "at": "2026-10-27T11:46:09.812Z"
+          "part": "MHWT4",
+          "at": "2026-10-28T13:29:40.692Z"
         },
         {
           "code": "ie",
-          "local": 2249,
-          "display": "€2,249",
-          "part": "MDE14",
-          "at": "2026-10-27T11:46:25.854Z"
+          "local": 2349,
+          "display": "€2,349",
+          "part": "MHWT4",
+          "at": "2026-10-28T13:29:56.692Z"
         },
         {
           "code": "in",
           "local": 239900,
           "display": "₹239900.00",
-          "part": "MDE14",
-          "at": "2026-10-27T11:46:41.859Z"
+          "part": "MHWT4",
+          "at": "2026-10-28T13:30:12.706Z"
         },
         {
           "code": "it",
-          "local": 2249,
-          "display": "€ 2.249 ",
-          "part": "MDE14",
-          "at": "2026-10-27T11:46:57.912Z"
+          "local": 2349,
+          "display": "€ 2.349 ",
+          "part": "MHWT4",
+          "at": "2026-10-28T13:30:28.854Z"
         },
         {
           "code": "jp",
           "local": 339800,
           "display": "339,800円",
-          "part": "MDE14",
-          "at": "2026-10-27T11:47:13.924Z"
+          "part": "MHWT4",
+          "at": "2026-10-28T13:30:44.808Z"
         },
         {
           "code": "kr",
           "local": 3290000,
           "display": "₩3,290,000",
-          "part": "MDE14",
-          "at": "2026-10-27T11:47:29.929Z"
+          "part": "MHWT4",
+          "at": "2026-10-28T13:31:00.743Z"
         },
         {
           "code": "lu",
-          "local": 2155.32,
-          "display": "2 155,32 €",
-          "part": "MDE14",
-          "at": "2026-10-27T11:47:45.894Z"
+          "local": 2252,
+          "display": "2 252 €",
+          "part": "MHWT4",
+          "at": "2026-10-28T13:31:16.837Z"
         },
         {
           "code": "mx",
           "local": 44999,
           "display": "$44,999",
-          "part": "MDE14",
-          "at": "2026-10-27T11:48:01.993Z"
+          "part": "MHWT4",
+          "at": "2026-10-28T13:31:32.760Z"
         },
         {
           "code": "my",
           "local": 8299,
           "display": "RM 8,299",
-          "part": "MDE14",
-          "at": "2026-10-27T11:48:17.975Z"
+          "part": "MHWT4",
+          "at": "2026-10-28T13:31:48.978Z"
         },
         {
           "code": "nl",
-          "local": 2229,
-          "display": "€ 2.229",
-          "part": "MDE14",
-          "at": "2026-10-27T11:48:33.972Z"
+          "local": 2329,
+          "display": "€ 2.329",
+          "part": "MHWT4",
+          "at": "2026-10-28T13:32:04.965Z"
         },
         {
           "code": "no",
           "local": 27490,
           "display": "kr 27 490",
-          "part": "MDE14",
-          "at": "2026-10-27T11:48:49.940Z"
+          "part": "MHWT4",
+          "at": "2026-10-28T13:32:20.790Z"
         },
         {
           "code": "nz",
-          "local": 3899,
-          "display": "NZ$3,899",
-          "part": "MDE14",
-          "at": "2026-10-27T11:49:05.929Z"
+          "local": 3999,
+          "display": "NZ$3,999",
+          "part": "MHWT4",
+          "at": "2026-10-28T13:32:36.834Z"
         },
         {
           "code": "ph",
-          "local": 139990,
-          "display": "₱139,990",
-          "part": "MDE14",
-          "at": "2026-10-27T11:49:22.011Z"
+          "local": 144990,
+          "display": "₱144,990",
+          "part": "MHWT4",
+          "at": "2026-10-28T13:32:52.830Z"
         },
         {
           "code": "pl",
-          "local": 9999,
-          "display": "9999 zł",
-          "part": "MDE14",
-          "at": "2026-10-27T11:49:37.974Z"
+          "local": 10499,
+          "display": "10 499 zł",
+          "part": "MHWT4",
+          "at": "2026-10-28T13:33:08.878Z"
         },
         {
           "code": "pt",
-          "local": 2249,
-          "display": "2249 €",
-          "part": "MDE14",
-          "at": "2026-10-27T11:49:54.114Z"
+          "local": 2349,
+          "display": "2349 €",
+          "part": "MHWT4",
+          "at": "2026-10-28T13:33:24.840Z"
         },
         {
           "code": "sa",
           "local": 9499,
           "display": "SAR 9,499",
-          "part": "MDE14",
-          "at": "2026-10-27T11:50:10.010Z"
+          "part": "MHWT4",
+          "at": "2026-10-28T13:33:40.836Z"
         },
         {
           "code": "se",
-          "local": 25995,
-          "display": "25 995 kr",
-          "part": "MDE14",
-          "at": "2026-10-27T11:50:26.024Z"
+          "local": 26995,
+          "display": "26 995 kr",
+          "part": "MHWT4",
+          "at": "2026-10-28T13:33:56.901Z"
         },
         {
           "code": "sg",
           "local": 2699,
           "display": "S$2,699",
-          "part": "MDE14",
-          "at": "2026-10-27T11:50:42.029Z"
+          "part": "MHWT4",
+          "at": "2026-10-28T13:34:12.857Z"
         },
         {
           "code": "th",
           "local": 69900,
           "display": "฿69,900",
-          "part": "MDE14",
-          "at": "2026-10-27T11:50:58.035Z"
+          "part": "MHWT4",
+          "at": "2026-10-28T13:34:28.880Z"
         },
         {
           "code": "tr",
-          "local": 129999,
-          "display": "129.999 TL",
-          "part": "MDE14",
-          "at": "2026-10-27T11:51:14.106Z"
+          "local": 137999,
+          "display": "137.999 TL",
+          "part": "MHWT4",
+          "at": "2026-10-28T13:34:44.949Z"
         },
         {
           "code": "tw",
           "local": 64900,
           "display": "NT$64,900",
-          "part": "MDE14",
-          "at": "2026-10-27T11:51:30.079Z"
+          "part": "MHWT4",
+          "at": "2026-10-28T13:35:00.973Z"
         },
         {
           "code": "vn",
           "local": 54999000,
           "display": "54.999.000đ",
-          "part": "MDE14",
-          "at": "2026-10-27T11:51:46.260Z"
+          "part": "MHWT4",
+          "at": "2026-10-28T13:35:16.957Z"
         }
       ],
-      "pricedAt": "2026-10-27T11:52:02.263Z"
+      "pricedAt": "2026-10-28T13:35:33.046Z"
     },
     {
       "id": "imac",
