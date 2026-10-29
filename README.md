@@ -28,7 +28,7 @@ The collector writes working checkpoints to `.cache/` and published snapshots to
 2. In **Project → Settings → Git → Deploy Hooks**, create a hook for `main`. Save its URL as the GitHub Actions secret `VERCEL_DEPLOY_HOOK_URL`.
 3. Remove the legacy Blob read/write token from Vercel and GitHub Actions, then disconnect/delete the old Blob store. No storage service is required.
 4. Allow Actions write permissions (the collector declares `contents: write`). Manually run **Refresh Apple prices** once. It creates the `data` branch on its first run.
-5. The collector runs daily at 03:17 UTC. Each collected family is pushed to `data` immediately; one Deploy Hook call at the end of the run refreshes prerendered pages. Missing hooks produce a warning. Pushes to `data` do not trigger CI or Vercel Git deployments.
+5. The collector runs daily at 03:17 UTC. Each collected family is pushed to `data` immediately; one Deploy Hook call at the end of the run refreshes prerendered pages. Missing hooks produce a warning. Vercel Git deployments are enabled only for `main`; preview deployments from other branches are disabled. Pushes to `data` also skip CI.
 
 Before the first collection, the site shows pending families. Browsers load the latest `data` branch from `raw.githubusercontent.com` after hydration (cached up to five minutes), so pushed families appear without a redeploy; prerendered HTML uses the snapshot bundled at build time. `DATA_SOURCE=local` builds skip the live fetch. Known product pages and every collected configuration are prerendered; unknown URLs use an SSR fallback that reads only bundled data.
 
