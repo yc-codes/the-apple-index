@@ -62,6 +62,13 @@ export const product: Product = {
   pricedAt: stamp,
   failedStores: [],
 };
+// A second priced family exercises deal navigation and category transitions.
+export const comparisonProduct: Product = {
+  ...product,
+  id: 'iphone-18-pro',
+  name: 'iPhone 18 Pro Max',
+  category: 'iPhone',
+};
 export const listing: Listing = {
   ready: false,
   products: [
@@ -77,6 +84,17 @@ export const listing: Listing = {
       pricedAt: stamp,
     },
     { id: 'ipad-pro', name: 'iPad Pro', category: 'iPad', ready: false },
+    {
+      id: comparisonProduct.id,
+      name: comparisonProduct.name,
+      category: comparisonProduct.category,
+      ready: true,
+      image: variants[0].image,
+      variant: { id: variants[0].id, label: variants[0].label },
+      prices: variants[0].prices,
+      configurations: 3,
+      pricedAt: stamp,
+    },
   ],
 };
 export const rates: CacheEntry<ExchangeRates> = {

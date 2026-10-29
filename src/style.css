@@ -142,6 +142,9 @@ h3 {
   padding: 72px 0;
   border-bottom: 1px solid var(--line);
 }
+.hero-feature {
+  min-width: 0;
+}
 .eyebrow {
   font-size: 11px;
   letter-spacing: 1.2px;
@@ -234,11 +237,18 @@ h1 em {
   color: #496358;
 }
 .deal-window {
+  display: grid;
   margin: 0 calc(-1 * var(--note-pad));
+}
+.deal-slide {
+  grid-area: 1 / 1;
+  min-width: 0;
 }
 .deal {
   display: flex;
   flex-direction: column;
+  min-height: 270px;
+  height: 100%;
   padding: 24px var(--note-pad);
 }
 .deal-kicker {
@@ -260,6 +270,8 @@ h1 em {
   overflow-wrap: anywhere;
 }
 .deal-note {
+  min-height: 2lh;
+  margin-top: auto;
   font-size: 13px;
   color: #496358;
   overflow-wrap: anywhere;
@@ -321,6 +333,8 @@ h1 em {
   background: #eceef0;
 }
 .tabs button {
+  position: relative;
+  isolation: isolate;
   border: 1px solid transparent;
   background: transparent;
   border-radius: 8px;
@@ -331,12 +345,21 @@ h1 em {
   color: #535b63;
 }
 .tabs button.active {
-  background: white;
   color: #202426;
-  box-shadow: 0 1px 4px #20242612;
-  border-color: #dce0e4;
 }
-.tabs button:hover {
+.tab-highlight {
+  position: absolute;
+  inset: -1px;
+  border: 1px solid #dce0e4;
+  border-radius: inherit;
+  background: white;
+  box-shadow: 0 1px 4px #20242612;
+  pointer-events: none;
+}
+.tab-label {
+  position: relative;
+}
+.tabs button:not(.active):hover {
   color: #202426;
   background: #ffffff80;
 }
@@ -375,6 +398,7 @@ h1 em {
   margin: 18px 0;
 }
 .product-grid {
+  position: relative;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 24px;

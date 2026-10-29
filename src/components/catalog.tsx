@@ -1,4 +1,5 @@
-import { useRef, useState } from 'react';
+import { forwardRef, useId, useRef, useState } from 'react';
+import { AnimatePresence, LayoutGroup, motion, useIsPresent, useReducedMotion } from 'motion/react';
 import { useListing, useMeta } from '../api';
 import { IndexLink, flag, usePreferences } from './layout';
 import { Art, PriceRows, usePricing } from './prices';
@@ -6,11 +7,23 @@ import { Deals } from './deals';
 import type { Summary } from '../types';
 import { artwork } from '../../server/families';
 const categories = ['All products', 'Mac', 'iPhone', 'iPad', 'Watch', 'TV & Home'];
-function Card({ product: p }: { product: Summary }) {
+const Card = forwardRef<HTMLElement, { product: Summary }>(function Card({ product: p }, ref) {
+  const isPresent = useIsPresent();
+  const reduceMotion = useReducedMotion();
   const { rows, money } = usePricing(p.prices);
   const path = `/products/${p.id}${p.variant ? '/' + p.variant.id : ''}`;
   return (
-    <article className={`product-card${p.ready ? '' : ' loading-card'}`}>
+    <motion.article
+      ref={ref}
+      layout={reduceMotion ? false : 'position'}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0, transition: { duration: 0.12 } }}
+      transition={{ opacity: { duration: 0.18 }, layout: { duration: 0.28, ease: 'easeOut' } }}
+      inert={!isPresent}
+      aria-hidden={!isPresent || undefined}
+      className={`product-card${p.ready ? '' : ' loading-card'}`}
+    >
       <IndexLink path={path} className="card-top" data-product={p.id}>
         <div>
           <span className="eyebrow">
@@ -39,10 +52,12 @@ function Card({ product: p }: { product: Summary }) {
           {p.ready ? `Compare ${rows.length} countries` : 'View product'} <span>→</span>
         </IndexLink>
       </div>
-    </article>
+    </motion.article>
   );
-}
+});
 export function Catalog() {
+  const layoutId = useId();
+  const reduceMotion = useReducedMotion();
   const searchInput = useRef<HTMLInputElement>(null);
   const listing = useListing();
   const { data: meta } = useMeta();
@@ -77,27 +92,29 @@ export function Catalog() {
             Explore products <span>↘</span>
           </a>
         </div>
-        <Deals
-          products={products}
-          fallback={
-            <div className="hero-note">
-              <span className="orbit">◎</span>
-              <div className="stat">
-                <strong>{countries.length || 39}</strong>
-                <span>
-                  countries.
-                  <br />
-                  {listing.data?.ready
-                    ? `${tracked} configurations tracked.`
-                    : `${products.filter((p) => p.ready).length} product families ready.`}
-                </span>
+        <div className="hero-feature">
+          <Deals
+            products={products}
+            fallback={
+              <div className="hero-note">
+                <span className="orbit">◎</span>
+                <div className="stat">
+                  <strong>{countries.length || 39}</strong>
+                  <span>
+                    countries.
+                    <br />
+                    {listing.data?.ready
+                      ? `${tracked} configurations tracked.`
+                      : `${products.filter((p) => p.ready).length} product families ready.`}
+                  </span>
+                </div>
+                <div className="note-bottom">
+                  LOCAL PRICES. GLOBAL PERSPECTIVE.<span>↗</span>
+                </div>
               </div>
-              <div className="note-bottom">
-                LOCAL PRICES. GLOBAL PERSPECTIVE.<span>↗</span>
-              </div>
-            </div>
-          }
-        />
+            }
+          />
+        </div>
       </section>
       <section id="catalog">
         <div className="section-heading">
@@ -114,20 +131,30 @@ export function Catalog() {
           </p>
         </div>
         <div className="catalog-tools">
-          <div className="tabs" role="group" aria-label="Product category">
-            {categories.map((c) => (
-              <button
-                type="button"
-                key={c}
-                data-filter={c}
-                aria-pressed={filter === c}
-                className={filter === c ? 'active' : ''}
-                onClick={() => setFilter(c)}
-              >
-                {c}
-              </button>
-            ))}
-          </div>
+          <LayoutGroup id={layoutId}>
+            <div className="tabs" role="group" aria-label="Product category">
+              {categories.map((c) => (
+                <button
+                  type="button"
+                  key={c}
+                  data-filter={c}
+                  aria-pressed={filter === c}
+                  className={filter === c ? 'active' : ''}
+                  onClick={() => setFilter(c)}
+                >
+                  {filter === c && (
+                    <motion.span
+                      className="tab-highlight"
+                      layoutId={reduceMotion ? undefined : 'category'}
+                      transition={{ duration: 0.24, ease: [0.22, 1, 0.36, 1] }}
+                      aria-hidden="true"
+                    />
+                  )}
+                  <span className="tab-label">{c}</span>
+                </button>
+              ))}
+            </div>
+          </LayoutGroup>
           <label className="search">
             <svg
               width="18"
@@ -157,25 +184,32 @@ export function Catalog() {
           {filter !== 'All products' ? ` in ${filter}` : ''}
         </p>
         <div className="product-grid">
-          {visible.length ? (
-            visible.map((p) => <Card key={p.id} product={p} />)
-          ) : (
-            <div className="empty">
-              <h3>No matching products</h3>
-              <p>Try a different name or browse all products.</p>
-              <button
-                type="button"
-                className="reset-filters"
-                onClick={() => {
-                  setSearch('');
-                  setFilter('All products');
-                  searchInput.current?.focus();
-                }}
+          <AnimatePresence initial={false} mode="popLayout">
+            {visible.length ? (
+              visible.map((p) => <Card key={p.id} product={p} />)
+            ) : (
+              <motion.div
+                key="empty"
+                className="empty"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
               >
-                Clear filters
-              </button>
-            </div>
-          )}
+                <h3>No matching products</h3>
+                <p>Try a different name or browse all products.</p>
+                <button
+                  type="button"
+                  className="reset-filters"
+                  onClick={() => {
+                    setSearch('');
+                    setFilter('All products');
+                    searchInput.current?.focus();
+                  }}
+                >
+                  Clear filters
+                </button>
+              </motion.div>
+            )}
+          </AnimatePresence>
         </div>
       </section>
     </>

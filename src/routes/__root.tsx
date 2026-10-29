@@ -1,5 +1,6 @@
 import { createRootRoute, HeadContent, Outlet, Scripts, useRouter } from '@tanstack/react-router';
 import { useEffect } from 'react';
+import { MotionConfig } from 'motion/react';
 import { getMeta } from '../data';
 import { PreferencesProvider, Layout } from '../components/layout';
 import { countryCurrencies } from '../region.ts';
@@ -60,9 +61,11 @@ function Root() {
       </head>
       <body>
         <PreferencesProvider>
-          <Layout>
-            <Outlet />
-          </Layout>
+          <MotionConfig reducedMotion="user">
+            <Layout>
+              <Outlet />
+            </Layout>
+          </MotionConfig>
         </PreferencesProvider>
         <Scripts />
       </body>
