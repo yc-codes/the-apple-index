@@ -28,6 +28,8 @@ jobs:
             if [ "$status" -ne 2 ]; then exit "$status"; fi
             git worktree add --orphan -b data ./data
           fi
+          # Vercel reads configuration from the pushed branch, not from main.
+          printf '%s\n' '{"git":{"deploymentEnabled":false}}' > data/vercel.json
       - uses: actions/cache/restore@v5
         with:
           path: .cache
