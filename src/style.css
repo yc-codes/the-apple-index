@@ -48,6 +48,18 @@ input:focus-visible {
   outline: 3px solid #337cbd;
   outline-offset: 4px;
 }
+/* Composite fields show focus around the entire control, including its label or icon. */
+.search:focus-within,
+.brand-filter:focus-within,
+.region-picker:focus-within {
+  outline: 2px solid #337cbd;
+  outline-offset: 2px;
+}
+.search input:focus,
+.brand-filter select:focus,
+.region-picker select:focus {
+  outline: none;
+}
 button {
   color: inherit;
 }
@@ -122,10 +134,7 @@ nav {
   position: relative;
   min-width: 0;
   color: var(--muted);
-}
-.region-picker:has(select:focus-visible) {
-  outline: 3px solid #337cbd;
-  outline-offset: 4px;
+  border-radius: 10px;
 }
 .region-display {
   display: flex;
@@ -549,7 +558,8 @@ h1 em {
 .search svg {
   flex-shrink: 0;
 }
-.search:focus-within {
+.search:focus-within,
+.brand-filter:focus-within {
   border-color: #337cbd;
 }
 .search input {
