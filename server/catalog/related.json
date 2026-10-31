@@ -1,0 +1,206 @@
+[
+  {
+    "id": "sony-wh-1000xm6",
+    "name": "WH-1000XM6",
+    "brand": "Sony",
+    "category": "Audio",
+    "market": "us",
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Sony US: black reference model",
+        "url": "https://electronics.sony.com/audio/headphones/headband/p/wh1000xm6-b",
+        "market": "us"
+      }
+    ],
+    "fixed": { "Type": "Over-ear noise-cancelling headphones" },
+    "dimensionNames": { "color": "Color" },
+    "configurations": [{ "id": "black", "label": "Black", "specs": { "color": "Black" } }],
+    "note": "Standalone WH-1000XM6 headphones in Black. Refurbished units and accessory bundles are excluded."
+  },
+  {
+    "id": "bose-quietcomfort-ultra-headphones-2",
+    "name": "QuietComfort Ultra Headphones (2nd Gen)",
+    "brand": "Bose",
+    "category": "Audio",
+    "market": "us",
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Bose US: second generation, Black",
+        "url": "https://www.bose.com/p/headphones/bose-quietcomfort-ultra-headphones-2nd-gen/QCUH2-HEADPHONEARN.html?dwvar_QCUH2-HEADPHONEARN_color=BLACK",
+        "market": "us"
+      }
+    ],
+    "image": "https://assets.bosecreative.com/transform/dbd0f72b-d68f-4bef-9d38-88132ffa0048/QCUHII26-BoseBlack_SF_PDP_E-Comm_Gallery_1_1500x1120?format=avif&quality=95&io=width:816,height:667,transform:fit",
+    "fixed": { "Type": "Over-ear noise-cancelling headphones", "Generation": "2nd Gen" },
+    "dimensionNames": { "color": "Color" },
+    "configurations": [{ "id": "black", "label": "Black", "specs": { "color": "Black" } }],
+    "note": "Second-generation QuietComfort Ultra headphones in Black. These differ from the first-generation headphones and QuietComfort Ultra earbuds."
+  },
+  {
+    "id": "airpods-pro-3",
+    "name": "AirPods Pro 3",
+    "brand": "Apple",
+    "category": "Audio",
+    "market": "us",
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Apple US: AirPods Pro 3 and included case",
+        "url": "https://www.apple.com/shop/buy-airpods/airpods-pro-3",
+        "market": "us"
+      }
+    ],
+    "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/airpods-pro-3-hero-select-202509?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1758077264484",
+    "fixed": { "Type": "Wireless noise-cancelling earbuds" },
+    "dimensionNames": { "case": "Charging case" },
+    "configurations": [
+      {
+        "id": "magsafe-usbc",
+        "label": "MagSafe Charging Case (USB-C)",
+        "specs": { "case": "MagSafe Charging Case (USB-C)" }
+      }
+    ],
+    "note": "Complete AirPods Pro 3 set with a MagSafe Charging Case (USB-C). Replacement earbuds and case-only purchases are excluded."
+  },
+  {
+    "id": "galaxy-buds4-pro",
+    "name": "Galaxy Buds4 Pro",
+    "brand": "Samsung",
+    "category": "Audio",
+    "market": "us",
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Samsung US: Black reference SKU",
+        "url": "https://www.samsung.com/us/audio-sound/galaxy-buds4-pro/buy/galaxy-buds4-pro-black-sku-sm-r640nzkaxar/",
+        "market": "us"
+      }
+    ],
+    "fixed": { "Type": "Wireless noise-cancelling earbuds" },
+    "dimensionNames": { "color": "Color" },
+    "configurations": [
+      { "id": "black", "label": "Black", "part": "SM-R640NZKAXAR", "specs": { "color": "Black" } }
+    ],
+    "note": "Complete Galaxy Buds4 Pro set in Black. These differ from Galaxy Buds4 and earlier Buds Pro generations."
+  },
+  {
+    "id": "galaxy-watch8",
+    "name": "Galaxy Watch8",
+    "brand": "Samsung",
+    "category": "Watches",
+    "market": "us",
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Samsung US: 44mm Silver Bluetooth SKU",
+        "url": "https://www.samsung.com/us/watches/galaxy-watch8/buy/galaxy-watch8-44mm-silver-wi-fi-bluetooth-sku-sm-l330nzsaxaa/",
+        "market": "us"
+      }
+    ],
+    "fixed": { "Type": "Smartwatch" },
+    "dimensionNames": {
+      "size": "Case size",
+      "connectivity": "Connectivity",
+      "color": "Case color",
+      "band": "Band"
+    },
+    "configurations": [
+      {
+        "id": "44mm-bluetooth-silver-white-ml",
+        "label": "44mm · Bluetooth · Silver · White Sport M/L",
+        "part": "SM-L330NZSAXAA",
+        "specs": {
+          "size": "44mm",
+          "connectivity": "Wi-Fi + Bluetooth",
+          "color": "Silver",
+          "band": "White Sport, M/L"
+        }
+      }
+    ],
+    "note": "44mm Silver Bluetooth model with a White Sport band in M/L. LTE, Classic, Ultra and other band options are separate configurations."
+  },
+  {
+    "id": "nintendo-switch-2",
+    "name": "Nintendo Switch 2",
+    "brand": "Nintendo",
+    "category": "Gaming",
+    "market": "us",
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Nintendo US: console specifications",
+        "url": "https://www.nintendo.com/us/gaming-systems/switch-2/tech-specs/",
+        "market": "us"
+      }
+    ],
+    "image": "https://assets.nintendo.com/image/upload/q_auto/f_auto/dpr_2.0//v1745278135/switch-2/tech-specs/switch-2-front.png",
+    "fixed": { "Type": "Hybrid game console", "Display": "7.9-inch" },
+    "dimensionNames": { "storage": "Storage", "edition": "Edition" },
+    "configurations": [
+      {
+        "id": "256gb-standard",
+        "label": "256GB · Standard console",
+        "specs": { "storage": "256GB", "edition": "Standard console" }
+      }
+    ],
+    "note": "US standard Nintendo Switch 2 console. Game bundles, limited editions and Japan-only editions are excluded."
+  },
+  {
+    "id": "playstation-5-pro",
+    "name": "PlayStation 5 Pro",
+    "brand": "Sony",
+    "category": "Gaming",
+    "market": "us",
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "PlayStation US: PS5 Pro specifications",
+        "url": "https://www.playstation.com/en-us/ps5/ps5-pro/",
+        "market": "us"
+      },
+      {
+        "label": "PlayStation Direct US: standalone 2TB console",
+        "url": "https://direct.playstation.com/en-us/buy-consoles/playstation5-pro-console-2-tb",
+        "market": "us"
+      }
+    ],
+    "fixed": { "Type": "Home game console" },
+    "dimensionNames": { "storage": "Storage", "edition": "Edition" },
+    "configurations": [
+      {
+        "id": "2tb-standard-no-disc-drive",
+        "label": "2TB · Standard console · No disc drive",
+        "specs": { "storage": "2TB", "edition": "Standard console, no disc drive" }
+      }
+    ],
+    "note": "Standard PS5 Pro with a 2TB SSD. Disc drive and vertical stand are sold separately. Anniversary editions and game bundles are excluded."
+  },
+  {
+    "id": "xbox-series-x",
+    "name": "Xbox Series X",
+    "brand": "Microsoft",
+    "category": "Gaming",
+    "market": "us",
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Xbox US: 1TB Carbon Black disc-drive edition",
+        "url": "https://www.xbox.com/en-US/consoles/xbox-series-x",
+        "market": "us"
+      }
+    ],
+    "image": "https://cms-assets.xboxservices.com/assets/bc/40/bc40fdf3-85a6-4c36-af92-dca2d36fc7e5.png?n=642227_Hero-Gallery-0_A1_857x676.png",
+    "fixed": { "Type": "Home game console" },
+    "dimensionNames": { "storage": "Storage", "edition": "Edition", "color": "Color" },
+    "configurations": [
+      {
+        "id": "1tb-disc-carbon-black",
+        "label": "1TB · Disc drive · Carbon Black",
+        "specs": { "storage": "1TB", "edition": "Disc drive", "color": "Carbon Black" }
+      }
+    ],
+    "note": "1TB Carbon Black console with a disc drive. All-Digital Robot White, 2TB Galaxy Black and X25 editions are separate configurations."
+  }
+]

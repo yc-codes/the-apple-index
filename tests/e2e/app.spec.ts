@@ -71,7 +71,8 @@ test('React configuration, region, history and reload preserve the exact hardwar
   await page.keyboard.press('Enter');
   await expect(page.locator('#search')).toBeFocused();
   await expect(page.locator('#search')).toHaveValue('');
-  await page.locator('[data-filter="Computers"]').click();
+  await page.getByRole('combobox', { name: 'Brand' }).selectOption('Apple');
+  await page.locator('[data-filter="Laptops"]').click();
   await expect(page.locator('.product-card')).toHaveCount(1);
   for (const width of [320, 375, 768, 1024, 1440]) {
     await page.setViewportSize({ width, height: 900 });
@@ -150,6 +151,43 @@ test('brand filters expose researched phones without pretending prices are avail
   await expect(page.locator('.price-row')).toHaveCount(0);
   await expect(page.locator('#refund')).toHaveCount(0);
   await expect(page.locator('.last-fetched')).toHaveCount(0);
+});
+
+test('laptops, tablets, audio and gaming show category-specific configurations', async ({
+  page,
+}) => {
+  await page.goto('/');
+  await page.locator('[data-filter="Laptops"]').click();
+  await page.getByRole('combobox', { name: 'Brand', exact: true }).selectOption('Dell');
+  await expect(page.locator('.product-card')).toHaveCount(1);
+  await page.locator('[data-product="dell-14-plus-db14255"]').click();
+  await expect(page.locator('.product-specs')).toContainText('AMD Ryzen AI 5 340');
+  await expect(page.locator('.product-specs')).toContainText('AMD Radeon 840M');
+  await expect(page.locator('.product-specs')).toContainText('16GB LPDDR5X');
+  await expect(page.getByRole('heading', { name: 'Price comparisons coming soon' })).toBeVisible();
+  await page.goto('/products/redmi-pad-2-pro/8gb-128gb-wifi-grey');
+  await expect(
+    page
+      .locator('.product-specs div')
+      .filter({ has: page.locator('dt', { hasText: /^Connectivity$/ }) }),
+  ).toHaveText('ConnectivityWi-Fi');
+  await page.goto('/products/redmi-pad-2-pro-5g/8gb-128gb-5g-grey');
+  await expect(
+    page
+      .locator('.product-specs div')
+      .filter({ has: page.locator('dt', { hasText: /^Connectivity$/ }) }),
+  ).toHaveText('ConnectivityWi-Fi + 5G');
+  await page.goto('/products/sony-wh-1000xm6/black');
+  await expect(page.getByRole('heading', { name: 'WH-1000XM6', exact: true })).toBeVisible();
+  await expect(
+    page.locator('.product-specs dt').filter({ hasText: /^(RAM|Memory|Storage)$/ }),
+  ).toHaveCount(0);
+  await page.goto('/products/playstation-5-pro/2tb-standard-no-disc-drive');
+  await expect(page.locator('.product-specs')).toContainText('Standard console, no disc drive');
+  await expect(page.locator('.product-specs')).toContainText('2TB');
+  await expect(page.locator('.product-specs dt').filter({ hasText: /^(RAM|Memory)$/ })).toHaveCount(
+    0,
+  );
 });
 
 test('explicit links win and unknown variants are not silently substituted', async ({ page }) => {

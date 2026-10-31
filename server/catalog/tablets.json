@@ -1,0 +1,253 @@
+[
+  {
+    "id": "galaxy-tab-s11",
+    "name": "Galaxy Tab S11",
+    "brand": "Samsung",
+    "category": "Tablets",
+    "market": "au",
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Samsung Australia: exact Wi-Fi SKU",
+        "url": "https://www.samsung.com/au/tablets/galaxy-tab-s/galaxy-tab-s11-gray-128gb-sm-x730nzaaxsa/",
+        "market": "au"
+      },
+      {
+        "label": "Samsung Australia: memory and storage options",
+        "url": "https://www.samsung.com/au/tablets/galaxy-tab-s11/buy/?modelCode=SM-X730NZAAXSA",
+        "market": "au"
+      }
+    ],
+    "fixed": { "Display": "11-inch" },
+    "dimensionNames": {
+      "memory": "RAM",
+      "storage": "Storage",
+      "connectivity": "Connectivity",
+      "color": "Color"
+    },
+    "configurations": [
+      {
+        "id": "12gb-128gb-wifi-grey",
+        "label": "12GB / 128GB · Wi-Fi · Grey",
+        "part": "SM-X730NZAAXSA",
+        "specs": { "memory": "12GB", "storage": "128GB", "connectivity": "Wi-Fi", "color": "Grey" }
+      }
+    ],
+    "note": "Australian Wi-Fi model with 12GB memory and 128GB storage. Cellular versions and other storage options are separate configurations."
+  },
+  {
+    "id": "oneplus-pad-3",
+    "name": "OnePlus Pad 3",
+    "brand": "OnePlus",
+    "category": "Tablets",
+    "market": "in",
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "OnePlus India: explicit SKU configuration",
+        "url": "https://www.oneplus.in/buy-oneplus-pad-3",
+        "market": "in"
+      },
+      {
+        "label": "OnePlus India: specifications",
+        "url": "https://www.oneplus.in/oneplus-pad-3/specs",
+        "market": "in"
+      }
+    ],
+    "fixed": { "Processor": "Snapdragon 8 Elite", "Display": "13.2-inch" },
+    "dimensionNames": {
+      "memory": "RAM",
+      "storage": "Storage",
+      "connectivity": "Connectivity",
+      "color": "Color"
+    },
+    "configurations": [
+      {
+        "id": "12gb-256gb-wifi-storm-blue",
+        "label": "12GB / 256GB · Wi-Fi · Storm Blue",
+        "part": "5511100389",
+        "specs": {
+          "memory": "12GB",
+          "storage": "256GB",
+          "connectivity": "Wi-Fi",
+          "color": "Storm Blue"
+        }
+      }
+    ],
+    "note": "India Wi-Fi model in Storm Blue with 12GB memory and 256GB storage. Bundles with accessories are separate configurations."
+  },
+  {
+    "id": "xiaomi-pad-8",
+    "name": "Xiaomi Pad 8",
+    "brand": "Xiaomi",
+    "category": "Tablets",
+    "market": "in",
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Xiaomi India: specifications",
+        "url": "https://www.mi.com/in/product/xiaomi-pad-8/specs/",
+        "market": "in"
+      },
+      {
+        "label": "Xiaomi India: exact standalone catalog card",
+        "url": "https://store.mi.com/in/products/473",
+        "market": "in"
+      },
+      {
+        "label": "Xiaomi India: reference item",
+        "url": "https://store.mi.com/in/item/3224101440",
+        "market": "in"
+      }
+    ],
+    "image": "https://i03.appmifile.com/142_item_in/05/03/2026/18dfcc022ecf260a72947c7d01eedbdf.png?width=200&height=200",
+    "fixed": { "Processor": "Snapdragon 8s Gen 4", "Display": "11.2-inch" },
+    "dimensionNames": {
+      "memory": "RAM",
+      "storage": "Storage",
+      "connectivity": "Connectivity",
+      "edition": "Display edition",
+      "color": "Color"
+    },
+    "configurations": [
+      {
+        "id": "8gb-128gb-wifi-standard-grey",
+        "label": "8GB / 128GB · Wi-Fi · Standard · Graphite Grey",
+        "part": "3224101440",
+        "specs": {
+          "memory": "8GB",
+          "storage": "128GB",
+          "connectivity": "Wi-Fi",
+          "edition": "Standard",
+          "color": "Graphite Grey"
+        }
+      }
+    ],
+    "note": "Standard display edition in Graphite Grey. Nano Texture editions and bundles with keyboards, pens or covers are separate configurations."
+  },
+  {
+    "id": "redmi-pad-2-pro",
+    "name": "Redmi Pad 2 Pro",
+    "brand": "Xiaomi",
+    "category": "Tablets",
+    "market": "in",
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Xiaomi India: Wi-Fi and 5G editions",
+        "url": "https://www.mi.com/in/product/redmi-pad-2-pro-5g/",
+        "market": "in"
+      },
+      {
+        "label": "Xiaomi India: exact Wi-Fi catalog card",
+        "url": "https://store.mi.com/in/products/473",
+        "market": "in"
+      },
+      {
+        "label": "Xiaomi India: reference item",
+        "url": "https://store.mi.com/in/item/3224101322",
+        "market": "in"
+      }
+    ],
+    "image": "https://i03.appmifile.com/419_item_in/31/12/2025/b21e7d8e3579b4785e4604f2d3e86d18.png?width=200&height=200",
+    "fixed": { "Processor": "Snapdragon 7s Gen 4", "Display": "12.1-inch" },
+    "dimensionNames": {
+      "memory": "RAM",
+      "storage": "Storage",
+      "connectivity": "Connectivity",
+      "color": "Color"
+    },
+    "configurations": [
+      {
+        "id": "8gb-128gb-wifi-grey",
+        "label": "8GB / 128GB · Wi-Fi · Graphite Grey",
+        "part": "3224101322",
+        "specs": {
+          "memory": "8GB",
+          "storage": "128GB",
+          "connectivity": "Wi-Fi",
+          "color": "Graphite Grey"
+        }
+      }
+    ],
+    "note": "Wi-Fi-only edition in Graphite Grey with 8GB memory and 128GB storage. The 5G version is listed separately. Accessory bundles are excluded."
+  },
+  {
+    "id": "redmi-pad-2-pro-5g",
+    "name": "Redmi Pad 2 Pro 5G",
+    "brand": "Xiaomi",
+    "category": "Tablets",
+    "market": "in",
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Xiaomi India: 5G specifications",
+        "url": "https://www.mi.com/in/product/redmi-pad-2-pro-5g/specs/",
+        "market": "in"
+      },
+      {
+        "label": "Xiaomi India: exact standalone catalog card",
+        "url": "https://store.mi.com/in/products/473",
+        "market": "in"
+      },
+      {
+        "label": "Xiaomi India: reference item",
+        "url": "https://store.mi.com/in/item/3224101312",
+        "market": "in"
+      }
+    ],
+    "image": "https://i03.appmifile.com/949_item_in/31/12/2025/13bcb7a8a504f97a1e12d5c677a1c494.png?width=200&height=200",
+    "fixed": { "Processor": "Snapdragon 7s Gen 4", "Display": "12.1-inch" },
+    "dimensionNames": {
+      "memory": "RAM",
+      "storage": "Storage",
+      "connectivity": "Connectivity",
+      "color": "Color"
+    },
+    "configurations": [
+      {
+        "id": "8gb-128gb-5g-grey",
+        "label": "8GB / 128GB · Wi-Fi + 5G · Graphite Grey",
+        "part": "3224101312",
+        "specs": {
+          "memory": "8GB",
+          "storage": "128GB",
+          "connectivity": "Wi-Fi + 5G",
+          "color": "Graphite Grey"
+        }
+      }
+    ],
+    "note": "Wi-Fi + 5G edition in Graphite Grey with 8GB memory and 128GB storage. The Wi-Fi-only version is listed separately. Accessory bundles are excluded."
+  },
+  {
+    "id": "lenovo-idea-tab-pro",
+    "name": "Idea Tab Pro",
+    "brand": "Lenovo",
+    "category": "Tablets",
+    "market": "us",
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Lenovo US: 8GB / 128GB reference model",
+        "url": "https://www.lenovo.com/us/en/p/tablets/android-tablets/idea-tab-series/lenovo-idea-tab-pro/zae40028us",
+        "market": "us"
+      },
+      {
+        "label": "Lenovo PSREF: specifications and no WWAN support",
+        "url": "https://psref.lenovo.com/syspool/Sys/PDF/Lenovo_Tablets/Idea_Tab_Pro/Idea_Tab_Pro_Spec.html",
+        "market": "us"
+      }
+    ],
+    "fixed": { "Processor": "MediaTek Dimensity 8300", "Display": "12.7-inch" },
+    "dimensionNames": { "memory": "RAM", "storage": "Storage", "connectivity": "Connectivity" },
+    "configurations": [
+      {
+        "id": "8gb-128gb-wifi",
+        "label": "8GB / 128GB · Wi-Fi",
+        "part": "ZAE40028US",
+        "specs": { "memory": "8GB", "storage": "128GB", "connectivity": "Wi-Fi" }
+      }
+    ],
+    "note": "First-generation Idea Tab Pro with 8GB memory, 128GB storage and Wi-Fi connectivity. This model has no cellular modem and differs from Idea Tab Pro Gen 2."
+  }
+]

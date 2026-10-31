@@ -6,7 +6,9 @@ import { families } from '../server/catalog.ts';
 import { catalog, prices, rates, hydrate, publish, peek } from '../server/service.ts';
 import { throttleState } from '../server/apple.ts';
 import { storage } from '../server/storage.ts';
-import { collectAndroid, publishAndroidCatalog } from '../server/android';
+import { collectAndroid } from '../server/android';
+import { collectTablets } from '../server/tablets';
+import { publishResearchedCatalog } from '../server/published-catalog';
 
 const publishOnly = process.argv.includes('--publish-only');
 // In Actions, each collected family is pushed to the data branch immediately; browsers read that branch live.
@@ -27,21 +29,25 @@ const requested = process.argv.find((arg) => arg.startsWith('--family='))?.split
 if (requested && !families.some((f) => f.id === requested))
   throw new Error('Unknown product family');
 let failed = 0;
-// Independent source: Android collection must not be gated by Apple's cooldown.
+// Independent sources are not gated by Apple's cooldown or by each other's failures.
 // A scoped Apple --family run remains scoped; publishing never requests source pages.
 if (!requested) {
-  try {
-    if (publishOnly) await publishAndroidCatalog(storage);
-    else {
-      const result = await collectAndroid(storage);
-      console.log(`Published ${result.offers} Xiaomi India offers.`);
+  await publishResearchedCatalog(storage);
+  if (!publishOnly) {
+    for (const [label, collect] of [
+      ['Xiaomi phones', collectAndroid],
+      ['Xiaomi tablets', collectTablets],
+    ] as const) {
+      try {
+        const result = await collect(storage);
+        console.log(`Published ${result.offers} ${label} offers.`);
+      } catch (error) {
+        failed++;
+        console.error(`${label} collection:`, errorMessage(error));
+      }
     }
-  } catch (error) {
-    failed++;
-    console.error('Android collection:', errorMessage(error));
-    await publishAndroidCatalog(storage);
   }
-  push('Android catalog');
+  push('device catalog');
 }
 const prior = (await storage.read('collector-status')) as CollectorStatus | null;
 const appleCooling =

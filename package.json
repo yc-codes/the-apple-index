@@ -10,6 +10,8 @@
     "start": "bun .output/server/index.mjs",
     "collect": "bun scripts/collect.ts",
     "collect:android": "bun scripts/collect-android.ts",
+    "collect:tablets": "bun scripts/collect-tablets.ts",
+    "catalog:publish": "bun scripts/publish-catalog.ts",
     "data:publish": "bun scripts/collect.ts --publish-only",
     "test": "bun test tests/*.test.ts",
     "test:browser": "playwright test",

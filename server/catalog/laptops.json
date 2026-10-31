@@ -1,0 +1,345 @@
+[
+  {
+    "id": "dell-14-plus-db14255",
+    "name": "Dell 14 Plus (DB14255)",
+    "brand": "Dell",
+    "category": "Laptops",
+    "market": "us",
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Dell US configuration and specifications",
+        "url": "https://www.dell.com/en-us/shop/cty/spd/dellplus14laptopdb14255",
+        "market": "us"
+      }
+    ],
+    "fixed": {
+      "Display": "1920 × 1200 IPS, non-touch",
+      "Operating system": "Windows 11 Home",
+      "Color": "Ice Blue"
+    },
+    "dimensionNames": {
+      "chip": "Processor",
+      "memory": "Memory",
+      "storage": "Storage",
+      "gpu": "Graphics",
+      "size": "Screen size"
+    },
+    "configurations": [
+      {
+        "id": "ryzen-ai-5-340-16gb-512gb",
+        "label": "Ryzen AI 5 340 · 16GB · 512GB SSD",
+        "specs": {
+          "chip": "AMD Ryzen AI 5 340",
+          "memory": "16GB LPDDR5X",
+          "storage": "512GB SSD",
+          "gpu": "AMD Radeon 840M",
+          "size": "14-inch"
+        },
+        "part": "db14255_fixed_03"
+      }
+    ],
+    "note": "US configuration with Ryzen AI 5, 16GB memory and a 512GB SSD. Other processor, memory and storage options may differ by market."
+  },
+  {
+    "id": "lenovo-thinkpad-x1-carbon-gen-13",
+    "name": "Lenovo ThinkPad X1 Carbon Gen 13 Aura Edition",
+    "brand": "Lenovo",
+    "category": "Laptops",
+    "market": "us",
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Lenovo PSREF: US model 21NX00F9US",
+        "url": "https://psref.lenovo.com/Detail/ThinkPad_X1_Carbon_Gen_13?M=21NX00F9US",
+        "market": "us"
+      }
+    ],
+    "fixed": {
+      "Display": "1920 × 1200 IPS, 60Hz, anti-glare",
+      "Operating system": "Windows 11 Pro",
+      "Color": "Black"
+    },
+    "dimensionNames": {
+      "chip": "Processor",
+      "memory": "Memory",
+      "storage": "Storage",
+      "gpu": "Graphics",
+      "size": "Screen size"
+    },
+    "configurations": [
+      {
+        "id": "21nx00f9us",
+        "label": "Core Ultra 7 255U · 32GB · 512GB SSD",
+        "specs": {
+          "chip": "Intel Core Ultra 7 255U",
+          "memory": "32GB LPDDR5X",
+          "storage": "512GB SSD",
+          "gpu": "Integrated Intel Graphics",
+          "size": "14-inch"
+        },
+        "part": "21NX00F9US"
+      }
+    ],
+    "note": "US model 21NX00F9US with Core Ultra 7 255U and a 1920 × 1200 IPS display. Other Gen 13 models can have different processors and displays."
+  },
+  {
+    "id": "hp-omnibook-ultra-14-kg0831nr",
+    "name": "HP OmniBook Ultra 14-kg0831nr",
+    "brand": "HP",
+    "category": "Laptops",
+    "market": "us",
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "HP US: OmniBook Ultra 14-kg0831nr",
+        "url": "https://www.hp.com/us-en/shop/pdp/hp-omnibook-ultra-laptop-next-gen-ai-14-kg0831nr",
+        "market": "us"
+      }
+    ],
+    "image": "https://hp.widen.net/content/ihsigjyy8p/webp/ihsigjyy8p.png?color=ffffff00&dpi=72&h=430&w=573",
+    "fixed": {
+      "Display": "2880 × 1800 OLED touch, up to 120Hz",
+      "Operating system": "Windows 11 Home",
+      "Color": "Stone Blue"
+    },
+    "dimensionNames": {
+      "chip": "Processor",
+      "memory": "Memory",
+      "storage": "Storage",
+      "gpu": "Graphics",
+      "size": "Screen size"
+    },
+    "configurations": [
+      {
+        "id": "d9kl5ua-aba",
+        "label": "Snapdragon X2 Elite · 32GB · 1TB SSD",
+        "specs": {
+          "chip": "Snapdragon X2 Elite X2E-84-100",
+          "memory": "32GB",
+          "storage": "1TB SSD",
+          "gpu": "Qualcomm Adreno GPU",
+          "size": "14-inch"
+        },
+        "part": "D9KL5UA#ABA"
+      }
+    ],
+    "note": "US model D9KL5UA#ABA with Snapdragon X2 Elite and an OLED touchscreen. Other OmniBook Ultra models can have different processors and storage."
+  },
+  {
+    "id": "asus-zenbook-a14",
+    "name": "ASUS Zenbook A14 (UX3407QA)",
+    "brand": "ASUS",
+    "category": "Laptops",
+    "market": "us",
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "ASUS US Zenbook A14 regional SKU list",
+        "url": "https://www.asus.com/us/laptops/for-home/zenbook/asus-zenbook-a14-ux3407/where-to-buy/",
+        "market": "us"
+      },
+      {
+        "label": "ASUS US announcement with exact SKU specification table",
+        "url": "https://www.asus.com/us/news/qyjjfnz7m8jbmbb3/",
+        "market": "us"
+      }
+    ],
+    "image": "https://dlcdnwebimgs.asus.com/gain/daf7ed78-fcec-4f54-82a6-db3204fdece3/",
+    "fixed": {
+      "Display": "1920 × 1200 OLED, 60Hz",
+      "Operating system": "Windows 11 Home",
+      "Color": "Iceland Gray"
+    },
+    "dimensionNames": {
+      "chip": "Processor",
+      "memory": "Memory",
+      "storage": "Storage",
+      "gpu": "Graphics",
+      "size": "Screen size"
+    },
+    "configurations": [
+      {
+        "id": "ux3407qa-ps76",
+        "label": "Snapdragon X · 32GB · 1TB SSD",
+        "specs": {
+          "chip": "Snapdragon X X1-26-100",
+          "memory": "32GB LPDDR5X",
+          "storage": "1TB SSD",
+          "gpu": "Qualcomm Adreno GPU",
+          "size": "14-inch"
+        },
+        "part": "UX3407QA-PS76"
+      }
+    ],
+    "note": "US model UX3407QA-PS76 with Snapdragon X, 32GB memory and a 1TB SSD. Other Zenbook A14 models have different processor and memory options."
+  },
+  {
+    "id": "asus-rog-zephyrus-g14-2025",
+    "name": "ASUS ROG Zephyrus G14 (2025)",
+    "brand": "ASUS",
+    "category": "Laptops",
+    "market": "us",
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "ASUS ROG US configuration comparison: GA403UP-CS96",
+        "url": "https://rog.asus.com/us/laptops/rog-zephyrus/rog-zephyrus-g14-2025/spec/",
+        "market": "us"
+      }
+    ],
+    "image": "https://dlcdnwebimgs.asus.com/gain/1596FF79-B299-49DE-8BCF-9ABD2C884429/w250/fwebp",
+    "fixed": {
+      "Display": "2880 × 1800 OLED, 120Hz",
+      "Operating system": "Windows 11 Home",
+      "Graphics memory": "8GB GDDR7"
+    },
+    "dimensionNames": {
+      "chip": "Processor",
+      "memory": "Memory",
+      "storage": "Storage",
+      "gpu": "Graphics",
+      "size": "Screen size"
+    },
+    "configurations": [
+      {
+        "id": "ga403up-cs96",
+        "label": "Ryzen 9 270 · RTX 5070 · 32GB · 1TB SSD",
+        "specs": {
+          "chip": "AMD Ryzen 9 270",
+          "memory": "32GB LPDDR5X",
+          "storage": "1TB SSD",
+          "gpu": "NVIDIA GeForce RTX 5070 Laptop GPU",
+          "size": "14-inch"
+        },
+        "part": "GA403UP-CS96"
+      }
+    ],
+    "note": "US model GA403UP-CS96 with Ryzen 9 270 and RTX 5070 graphics. Other 2025 G14 models have different processors and graphics cards."
+  },
+  {
+    "id": "microsoft-surface-laptop-13",
+    "name": "Microsoft Surface Laptop 13-inch (1st Edition)",
+    "brand": "Microsoft",
+    "category": "Laptops",
+    "market": "us",
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Microsoft US Surface Laptop 13-inch configurator",
+        "url": "https://www.microsoft.com/en-us/store/configure/surface-laptop-13-inch/8mzbmmcjzqv3",
+        "market": "us"
+      }
+    ],
+    "fixed": {
+      "Display": "PixelSense",
+      "Operating system": "Windows 11 Home",
+      "Color": "Platinum"
+    },
+    "dimensionNames": {
+      "chip": "Processor",
+      "memory": "Memory",
+      "storage": "Storage",
+      "gpu": "Graphics",
+      "size": "Screen size"
+    },
+    "configurations": [
+      {
+        "id": "snapdragon-x-plus-16gb-256gb-platinum",
+        "label": "Snapdragon X Plus · 16GB · 256GB · Platinum",
+        "specs": {
+          "chip": "Snapdragon X Plus (8-core)",
+          "memory": "16GB LPDDR5X",
+          "storage": "256GB UFS",
+          "gpu": "Qualcomm Adreno GPU",
+          "size": "13-inch"
+        }
+      }
+    ],
+    "note": "13-inch 1st Edition in Platinum with 16GB memory and 256GB UFS storage. This is a different model from the 13.8-inch Surface Laptop."
+  },
+  {
+    "id": "samsung-galaxy-book5-pro-16",
+    "name": "Samsung Galaxy Book5 Pro 16-inch",
+    "brand": "Samsung",
+    "category": "Laptops",
+    "market": "gb",
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Samsung UK: Galaxy Book5 Pro NP960XHA-KG1UK",
+        "url": "https://www.samsung.com/uk/business/computers/galaxy-book/galaxy-book5-pro-16-inch-ultra-7-16gb-512gb-np960xha-kg1uk/",
+        "market": "gb"
+      }
+    ],
+    "fixed": {
+      "Display": "2880 × 1800 Dynamic AMOLED 2X touch",
+      "Operating system": "Windows 11 Home",
+      "Color": "Gray"
+    },
+    "dimensionNames": {
+      "chip": "Processor",
+      "memory": "Memory",
+      "storage": "Storage",
+      "gpu": "Graphics",
+      "size": "Screen size"
+    },
+    "configurations": [
+      {
+        "id": "np960xha-kg1uk",
+        "label": "Core Ultra 7 256V · 16GB · 512GB SSD",
+        "specs": {
+          "chip": "Intel Core Ultra 7 256V",
+          "memory": "16GB LPDDR5X",
+          "storage": "512GB SSD",
+          "gpu": "Intel Arc 140V",
+          "size": "16-inch"
+        },
+        "part": "NP960XHA-KG1UK"
+      }
+    ],
+    "note": "UK model NP960XHA-KG1UK with a 16-inch display and Windows 11 Home. Keyboard layouts and configurations can differ by country."
+  },
+  {
+    "id": "acer-swift-go-14-sfg14-71",
+    "name": "Acer Swift Go 14 (SFG14-71-70BG)",
+    "brand": "Acer",
+    "category": "Laptops",
+    "market": "in",
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Acer India: Swift Go 14 NX.KF1SI.007",
+        "url": "https://www.acer.com/in-en/laptops/swift/swift-go/pdp/NX.KF1SI.007",
+        "market": "in"
+      }
+    ],
+    "fixed": {
+      "Display": "2880 × 1800 OLED, 90Hz, non-touch",
+      "Operating system": "Windows 11 Home Single Language",
+      "Color": "Silver"
+    },
+    "dimensionNames": {
+      "chip": "Processor",
+      "memory": "Memory",
+      "storage": "Storage",
+      "gpu": "Graphics",
+      "size": "Screen size"
+    },
+    "configurations": [
+      {
+        "id": "nx-kf1si-007",
+        "label": "Core i7-13700H · 16GB · 1TB SSD",
+        "specs": {
+          "chip": "Intel Core i7-13700H",
+          "memory": "16GB LPDDR5",
+          "storage": "1TB SSD",
+          "gpu": "Intel Iris Xe Graphics",
+          "size": "14-inch"
+        },
+        "part": "NX.KF1SI.007"
+      }
+    ],
+    "note": "India model NX.KF1SI.007 from the SFG14-71 generation, with Core i7-13700H and an OLED display. Newer Swift Go generations have different specifications."
+  }
+]

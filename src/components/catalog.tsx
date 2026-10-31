@@ -6,8 +6,7 @@ import { Art, PriceRows, RefundToggle, usePricing } from './prices';
 import { Deals } from './deals';
 import type { Summary } from '../types';
 import { artwork } from '../../server/families';
-import { productCategory } from '../brand';
-const categoryOrder = ['Computers', 'Phones', 'Tablets', 'Watches', 'Displays', 'TV & Home'];
+import { productCategories, productCategory } from '../brand';
 const Card = forwardRef<HTMLElement, { product: Summary }>(function Card({ product: p }, ref) {
   const isPresent = useIsPresent();
   const reduceMotion = useReducedMotion();
@@ -87,10 +86,7 @@ export function Catalog() {
   const products = listing.data?.products || [];
   const tracked = products.reduce((n, p) => n + (p.prices?.length ? p.configurations || 0 : 0), 0);
   const brands = [...new Set(products.map((p) => p.brand || 'Apple'))].sort();
-  const categories = [
-    'All products',
-    ...categoryOrder.filter((category) => products.some((p) => productCategory(p) === category)),
-  ];
+  const categories = productCategories(products);
   const visible = products.filter(
     (p) =>
       (filter === 'All products' || productCategory(p) === filter) &&

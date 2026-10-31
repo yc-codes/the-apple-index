@@ -1,8 +1,14 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { parseXiaomiCatalog, updateXiaomiProduct, xiaomiFreshnessMs } from '../server/xiaomi';
+import {
+  parseXiaomiCatalog,
+  parseXiaomiTabletCatalog,
+  updateXiaomiProduct,
+  xiaomiFreshnessMs,
+} from '../server/xiaomi';
 import { researchedProductById } from '../server/products';
 import { collectAndroid, publishAndroidCatalog } from '../server/android';
+import { collectTablets } from '../server/tablets';
 import { productSummary } from '../src/catalog-data';
 import { selectConfiguration, changedDimensions } from '../src/configuration';
 import { rankPrices } from '../src/pricing';
@@ -21,6 +27,80 @@ const card = (
 ) =>
   `<div class="goods-item"><h2 class="title"><a href="https://store.mi.com/in/item/123">${title}</a></h2><p class="price">${price}</p><div class="figure"><img src="https://i03.appmifile.com/test.png"></div><div class="actions">${available ? '<a class="J_buyGoods" data-disabled="false" data-gid="456">ADD TO CART</a>' : '<a>OUT OF STOCK</a>'}</div></div>`;
 const reference = researchedProductById['xiaomi-17t']!;
+const tabletCard = (
+  title = 'Xiaomi Pad 8 Graphite Grey 8 GB + 128 GB Standard',
+  sku = '3224101440',
+) =>
+  card(title).replace('/item/123', `/item/${sku}`).replace('data-gid="456"', `data-gid="${sku}99"`);
+
+test('tablet matching requires the researched SKU, connectivity, edition and color; phone scope stays separate', () => {
+  const html =
+    tabletCard() +
+    tabletCard('Redmi Pad 2 Pro Graphite Grey 8 GB + 128 GB', '3224101322') +
+    tabletCard('Redmi Pad 2 Pro 5G Graphite Grey 8 GB + 128 GB', '3224101312');
+  const rows = parseXiaomiTabletCatalog(html, at);
+  assert.equal(rows.length, 3);
+  assert.equal(rows[0].variant.id, '8gb-128gb-wifi-standard-grey');
+  assert.equal(rows[0].variant.specs.edition, 'Standard');
+  assert.equal(rows[0].variant.specs.color, 'Graphite Grey');
+  assert.equal(rows[1].variant.specs.connectivity, 'Wi-Fi');
+  assert.equal(rows[2].variant.specs.connectivity, 'Wi-Fi + 5G');
+  assert.throws(() => parseXiaomiCatalog(html, at), /No verified/);
+  assert.throws(() => parseXiaomiTabletCatalog(card(), at), /No verified/);
+  for (const invalid of [
+    tabletCard('Xiaomi Pad 8 Graphite Grey 8 GB + 128 GB Standard + Keyboard'),
+    tabletCard('Xiaomi Pad 8 Graphite Grey 8 GB + 128 GB Nano Texture'),
+    tabletCard('Xiaomi Pad 8 Graphite Grey 8 GB + 256 GB Standard'),
+    tabletCard('Xiaomi Pad 8 Graphite Grey 8 GB + 128 GB Standard', '999'),
+    tabletCard('Redmi Pad 2 Pro 5G Graphite Grey 8 GB + 128 GB', '3224101322'),
+    tabletCard('Redmi Pad 2 Pro Graphite Grey 8 GB + 128 GB', '3224101312'),
+  ])
+    assert.throws(() => parseXiaomiTabletCatalog(invalid, at), /No verified/);
+});
+
+test('tablet collection preserves phone observations and failure scope, then phone collection preserves tablets', async () => {
+  const phone = updateXiaomiProduct(reference, parseXiaomiCatalog(card(), at), at);
+  const data = new Map<string, unknown>([[`product-${phone.id}`, phone]]);
+  const storage: Storage = {
+    read: async (key) => data.get(key) || null,
+    write: async (key, value) => {
+      data.set(key, value);
+    },
+  };
+  const result = await collectTablets(
+    storage,
+    (async () => new Response(tabletCard())) as typeof fetch,
+  );
+  assert.equal(result.offers, 1);
+  assert.equal(data.get(`product-${phone.id}`), phone);
+  const tablet = data.get('product-xiaomi-pad-8') as Product;
+  assert.equal(tablet.variants.length, 1);
+  assert.equal(tablet.variants[0].specs.connectivity, 'Wi-Fi');
+  assert.equal(tablet.dimensions.length, 0);
+  await collectAndroid(storage, (async () => new Response(card())) as typeof fetch);
+  assert.equal(data.get('product-xiaomi-pad-8'), tablet);
+  await assert.rejects(
+    collectTablets(storage, (async () => new Response('blocked', { status: 403 })) as typeof fetch),
+    /403/,
+  );
+  await publishAndroidCatalog(storage);
+  assert.equal(data.get('product-xiaomi-pad-8'), tablet);
+  assert.deepEqual(tablet.failedStores, []);
+  const unavailable = parseXiaomiTabletCatalog(
+    tabletCard().replace(
+      '<a class="J_buyGoods" data-disabled="false" data-gid="322410144099">ADD TO CART</a>',
+      '<a>OUT OF STOCK</a>',
+    ),
+    at,
+  );
+  const refreshed = updateXiaomiProduct(
+    researchedProductById['xiaomi-pad-8']!,
+    unavailable,
+    at,
+    tablet,
+  );
+  assert.equal(refreshed.variants[0].prices.length, 0);
+});
 
 test('Xiaomi parser captures the exact main configuration and current price, never MRP or accessories', () => {
   const rows = parseXiaomiCatalog(
@@ -101,6 +181,18 @@ test('refresh preserves unobserved variants until expiry and keeps selectors mea
       .length,
     0,
   );
+});
+
+test('collecting after pending catalog publication keeps the exact priced phone color reachable', () => {
+  const collected = updateXiaomiProduct(reference, parseXiaomiCatalog(card(), at), at, reference);
+  assert.ok(collected.dimensions.some((dimension) => dimension.key === 'color'));
+  const larger = selectConfiguration(collected, collected.defaultVariant, 'storage', '512GB')!;
+  assert.equal(larger.specs.color, 'unspecified');
+  const smaller = selectConfiguration(collected, larger.id, 'storage', '256GB')!;
+  assert.equal(smaller.specs.color, 'unspecified');
+  const priced = selectConfiguration(collected, smaller.id, 'color', 'Violet')!;
+  assert.equal(priced.id, collected.defaultVariant);
+  assert.equal(collected.variants.find((variant) => variant.id === priced.id)?.prices[0].at, at);
 });
 test('partial malformed catalog preserves last observation for the affected model', () => {
   const collected = updateXiaomiProduct(reference, parseXiaomiCatalog(card(), at), at);

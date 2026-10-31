@@ -3,12 +3,14 @@ import assert from 'node:assert/strict';
 import { mergeListing, newerSnapshot, productSummary, resolveProduct } from '../src/catalog-data';
 import { families } from '../server/families';
 import { researchedProductById, researchedProducts } from '../server/products';
+import { researchedPhones } from '../server/phones';
 import { product } from './fixtures';
 
 const now = Date.parse('2026-10-31T12:00:00Z');
 test('researched models are navigable without fabricated prices and cannot enter Apple collection', () => {
   const appleIds = new Set(families.map((family) => family.id));
-  assert.equal(researchedProducts.length, 17);
+  assert.equal(researchedPhones.length, 17);
+  assert.equal(researchedProducts.filter((product) => product.category === 'Phones').length, 17);
   for (const reference of researchedProducts) {
     assert.ok(!appleIds.has(reference.id));
     const resolved = resolveProduct(reference.id, null, now)!;
@@ -34,7 +36,7 @@ test('old live Apple-only listing retains newer bundled Xiaomi prices and all re
   const bundled = { ready: true, products: [apple, productSummary(xiaomi, now)] };
   const live = { ready: true, products: [{ ...apple, pricedAt: '2026-10-30T00:00:00Z' }] };
   const merged = mergeListing(live, bundled, now);
-  assert.equal(merged.products.length, 18);
+  assert.equal(merged.products.length, researchedProducts.length + 1);
   assert.equal(merged.products.find((row) => row.id === xiaomi.id)?.prices?.[0].local, 69999);
   assert.equal(merged.products.find((row) => row.id === product.id)?.brand, 'Apple');
   assert.equal(new Set(merged.products.map((row) => row.id)).size, merged.products.length);

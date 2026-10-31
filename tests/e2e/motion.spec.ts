@@ -51,8 +51,9 @@ for (const reducedMotion of ['no-preference', 'reduce'] as const) {
     // Interrupt transitions before they finish; only the final selection must remain interactive.
     await page.locator('[data-filter="Phones"]').click();
     await page.locator('[data-filter="Tablets"]').click();
-    await page.locator('[data-filter="Computers"]').click();
-    await expect(page.locator('[data-filter="Computers"]')).toHaveAttribute('aria-pressed', 'true');
+    await page.getByRole('combobox', { name: 'Brand' }).selectOption('Apple');
+    await page.locator('[data-filter="Laptops"]').click();
+    await expect(page.locator('[data-filter="Laptops"]')).toHaveAttribute('aria-pressed', 'true');
     await expect(page.getByRole('article')).toHaveCount(1);
     await expect(page.getByRole('article')).toContainText('MacBook Pro');
     await expect(page.locator('.product-card')).toHaveCount(1);
