@@ -1,12 +1,15 @@
 import { readdirSync, readFileSync, existsSync } from 'node:fs';
 import type { Product } from './src/types.ts';
-import { families } from './server/families.ts';
+import { registeredProducts } from './server/products.ts';
 import { defineConfig } from 'vite';
 import { tanstackStart } from '@tanstack/react-start/plugin/vite';
 import react from '@vitejs/plugin-react';
 import { nitro } from 'nitro/vite';
 
-const pages = [{ path: '/' }, ...families.map((family) => ({ path: `/products/${family.id}` }))];
+const pages = [
+  { path: '/' },
+  ...registeredProducts.map((product) => ({ path: `/products/${product.id}` })),
+];
 if (existsSync('data')) {
   for (const file of readdirSync('data').sort()) {
     if (!/^product-[a-z0-9-]+\.json$/.test(file)) continue;

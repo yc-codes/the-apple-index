@@ -1,7 +1,11 @@
-import listing from '../data/index.json';
+import bundledListing from '../data/index.json';
 import { stores } from '../server/stores';
 import type { CacheEntry, ExchangeRates } from '../server/types';
 import type { Listing, Meta, Product } from './types';
+import { mergeListing, newerSnapshot, resolveProduct } from './catalog-data';
+
+// JSON imports widen string literals; published snapshots share the collector's Listing contract.
+const listing = bundledListing as Listing;
 
 const rates = import.meta.glob<CacheEntry<ExchangeRates>>('../data/rates.json', {
   eager: true,
@@ -21,7 +25,7 @@ async function live<T>(file: string): Promise<T | null> {
   }
 }
 export const getListing = async (): Promise<Listing> =>
-  (await live<Listing>('index.json')) ?? listing;
+  mergeListing((await live<Listing>('index.json')) ?? listing, listing);
 export const getMeta = async (): Promise<Meta> => ({
   stores: stores.map(({ code, name, currency, tax }) => ({ code, name, currency, tax })),
   rates:
@@ -29,7 +33,11 @@ export const getMeta = async (): Promise<Meta> => ({
     rates['../data/rates.json']?.value ??
     null,
 });
-export const getProduct = async (id: string): Promise<Product | null> =>
-  (await live<Product>(`product-${id}.json`)) ??
-  (await products[`../data/product-${id}.json`]?.()) ??
-  null;
+export const getProduct = async (id: string): Promise<Product | null> => {
+  if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(id)) return null;
+  const [latest, bundled] = await Promise.all([
+    live<Product>(`product-${id}.json`),
+    products[`../data/product-${id}.json`]?.(),
+  ]);
+  return resolveProduct(id, newerSnapshot(latest?.id === id ? latest : null, bundled));
+};

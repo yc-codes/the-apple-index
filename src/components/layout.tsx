@@ -4,6 +4,7 @@ import { useMeta } from '../api';
 import { countryCurrencies, detectCountry, fallbackCountry } from '../region.ts';
 import type { Preferences } from '../types';
 import { stores } from '../../server/stores';
+import { site } from '../brand';
 
 type PrefContext = {
   country: string;
@@ -26,7 +27,7 @@ export const flag = (code: string) =>
       .split('')
       .map((c) => 127397 + c.charCodeAt(0)),
   );
-const key = 'apple-index-preferences';
+const key = site.preferencesKey;
 export function PreferencesProvider({ children }: { children: ReactNode }) {
   const search = useSearch({ strict: false }) as Preferences;
   const location = useLocation();
@@ -45,7 +46,10 @@ export function PreferencesProvider({ children }: { children: ReactNode }) {
     try {
       saved =
         JSON.parse(
-          localStorage.getItem(key) || localStorage.getItem('mac-index-preferences') || '{}',
+          localStorage.getItem(key) ||
+            localStorage.getItem('apple-index-preferences') ||
+            localStorage.getItem('mac-index-preferences') ||
+            '{}',
         ) || {};
     } catch {
       /* Storage can be unavailable. */
@@ -153,9 +157,10 @@ export function Layout({ children }: { children: ReactNode }) {
           <div className="header-inner">
             <IndexLink className="brand">
               <span className="brand-icon" aria-hidden="true">
-                a<span>↗</span>
+                d<span>↗</span>
               </span>
-              The Apple Index<span className="brand-period">.</span>
+              {site.name}
+              <span className="brand-period">.</span>
             </IndexLink>
             <nav aria-label="Preferences">
               <div className="region-picker">
@@ -201,18 +206,18 @@ export function Layout({ children }: { children: ReactNode }) {
         <aside className="data-note">
           <span>ⓘ</span>
           <p>
-            Prices are collected from Apple’s regional stores. Tax and tourist refunds are
-            estimates; eligibility varies.{' '}
+            Price coverage varies by product and country. Products awaiting prices are marked
+            separately. Tax and tourist refunds are estimates; eligibility varies.{' '}
             {meta?.rates
               ? `Exchange rates updated ${new Date(meta.rates.updated).toLocaleDateString('en-GB', { timeZone: 'UTC' })}.`
               : 'Exchange rates have not been collected yet.'}{' '}
-            Check with Apple before purchasing.
+            Confirm the price, regional model and warranty with the seller before purchasing.
           </p>
         </aside>
       </main>
       <footer>
-        <IndexLink className="brand">The Apple Index.</IndexLink>
-        <p>A better view of what you pay.</p>
+        <IndexLink className="brand">{site.name}.</IndexLink>
+        <p>{site.tagline}</p>
       </footer>
     </>
   );

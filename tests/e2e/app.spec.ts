@@ -33,7 +33,7 @@ test('React configuration, region, history and reload preserve the exact hardwar
   const errors: string[] = [];
   page.on('pageerror', (e) => errors.push(e.message));
   await page.goto('/');
-  await expect(page.locator('header .brand')).toContainText('The Apple Index');
+  await expect(page.locator('header .brand')).toContainText('The Device Index');
   await expect(page.locator('#region')).toHaveValue('in');
   await expect(page).not.toHaveURL(/\?/);
   await expect(page.locator('footer a')).toHaveCount(1);
@@ -71,7 +71,7 @@ test('React configuration, region, history and reload preserve the exact hardwar
   await page.keyboard.press('Enter');
   await expect(page.locator('#search')).toBeFocused();
   await expect(page.locator('#search')).toHaveValue('');
-  await page.locator('[data-filter="Mac"]').click();
+  await page.locator('[data-filter="Computers"]').click();
   await expect(page.locator('.product-card')).toHaveCount(1);
   for (const width of [320, 375, 768, 1024, 1440]) {
     await page.setViewportSize({ width, height: 900 });
@@ -108,11 +108,77 @@ test('catalog refund estimates update prices and persist into product comparison
   await expect(page.locator('#catalog-refund')).not.toBeChecked();
   await expect(lowest).toHaveText(withoutRefund);
 });
+
+for (const legacyKey of ['apple-index-preferences', 'mac-index-preferences']) {
+  test(`the rebrand preserves preferences from ${legacyKey}`, async ({ page }) => {
+    await page.addInitScript((key) => {
+      localStorage.setItem(key, JSON.stringify({ country: 'jp', currency: 'JPY', refund: false }));
+    }, legacyKey);
+    await page.goto('/');
+    await expect(page.locator('#region')).toHaveValue('jp');
+    await expect(page.locator('#catalog-refund')).not.toBeChecked();
+    await expect
+      .poll(() =>
+        page.evaluate(() => JSON.parse(localStorage.getItem('device-index-preferences') || '{}')),
+      )
+      .toEqual({ country: 'jp', currency: 'JPY', refund: false });
+  });
+}
+
+test('brand filters expose researched phones without pretending prices are available', async ({
+  page,
+}) => {
+  await page.goto('/');
+  await expect(page).toHaveTitle('The Device Index — Global tech prices, compared.');
+  await page.getByRole('combobox', { name: 'Brand', exact: true }).selectOption('Samsung');
+  await page.locator('[data-filter="Phones"]').click();
+  const card = page
+    .locator('.product-card')
+    .filter({ has: page.locator('[data-product="samsung-galaxy-s26"]') });
+  await expect(card).toContainText('Prices coming soon');
+  await expect(card.locator('.card-meta')).toHaveCount(0);
+  await expect(page.locator('[data-product="macbook-pro"]')).toHaveCount(0);
+  await card.getByRole('link', { name: 'View specifications' }).click();
+  await expect(page).toHaveURL(/\/products\/samsung-galaxy-s26\/12gb-256gb$/);
+  await expect(page.getByRole('heading', { name: 'Galaxy S26', exact: true })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Price comparisons coming soon' })).toBeVisible();
+  await expect(page.locator('.official-sources')).toContainText('Specifications checked');
+  await expect(page.locator('.official-sources a').first()).toHaveAttribute(
+    'href',
+    /^https:\/\/www\.samsung\.com\//,
+  );
+  await expect(page.locator('.price-row')).toHaveCount(0);
+  await expect(page.locator('#refund')).toHaveCount(0);
+  await expect(page.locator('.last-fetched')).toHaveCount(0);
+});
+
 test('explicit links win and unknown variants are not silently substituted', async ({ page }) => {
   await page.goto('/products/macbook-pro/missing?country=us&currency=USD');
   await expect(page.getByRole('heading', { name: 'Configuration not found' })).toBeVisible();
   await expect(page).toHaveURL(/\/missing$/);
   await expect(page.locator('#region')).toHaveValue('us');
+});
+test('an exact Xiaomi offer identifies its source and expires while the page stays open', async ({
+  page,
+}) => {
+  const errors: string[] = [];
+  page.on('pageerror', (error) => errors.push(error.message));
+  await page.clock.install({ time: new Date('2030-12-31T23:50:00.000Z') });
+  await page.goto('/products/xiaomi-17-ultra/16gb-512gb-white');
+  await expect(page.locator('.price-row')).toHaveCount(1);
+  await expect(page.locator('.price-row')).toContainText('Xiaomi India');
+  await expect(page.locator('.price-row a')).toHaveAttribute(
+    'href',
+    'https://store.mi.com/in/item/9999999999',
+  );
+  await expect(page.locator('.configuration').first()).toContainText('White');
+  await expect(page.locator('#refund')).toHaveCount(0);
+  await page.clock.fastForward(11 * 60 * 1000);
+  await expect(page.locator('.price-row')).toHaveCount(0);
+  await expect(
+    page.getByRole('heading', { name: 'No current prices for this configuration' }),
+  ).toBeVisible();
+  expect(errors).toEqual([]);
 });
 test('late country lookup cannot overwrite a manual selection', async ({ page }) => {
   let release!: () => void;

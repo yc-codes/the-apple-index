@@ -6,6 +6,7 @@ import { PreferencesProvider, Layout } from '../components/layout';
 import { countryCurrencies } from '../region.ts';
 import styles from '../style.css?url';
 import type { Preferences } from '../types';
+import { site } from '../brand';
 
 export const Route = createRootRoute({
   loader: getMeta,
@@ -24,10 +25,10 @@ export const Route = createRootRoute({
     meta: [
       { charSet: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { title: 'The Apple Index — Apple prices, everywhere.' },
+      { title: site.title },
       {
         name: 'description',
-        content: 'Compare Apple configurations and regional store prices in your currency.',
+        content: site.description,
       },
     ],
     links: [{ rel: 'stylesheet', href: styles }],

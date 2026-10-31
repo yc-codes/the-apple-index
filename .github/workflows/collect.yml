@@ -1,4 +1,4 @@
-name: Refresh Apple prices
+name: Refresh device prices
 on:
   schedule:
     - cron: "17 3 * * *"

@@ -6,7 +6,8 @@ import type {
   FamilyPrices,
   PriceCollection,
 } from './types';
-import type { Price, Summary } from '../src/types';
+import type { Listing, Price, Summary } from '../src/types';
+import { mergeListing } from '../src/catalog-data';
 import { record } from './json';
 // Collector-only service. Persist Apple results before publishing them for the read-only web app.
 import { storage } from './storage.ts';
@@ -212,7 +213,12 @@ export async function publish(id: string) {
     pricedAt: priced.pricedAt,
     failedStores: priced.failed,
   });
-  const list = summaries();
-  await storage.write('index', { ready: list.every((p) => p.ready), products: list });
+  const previous = (await storage.read('index')) as Listing | null;
+  const apple = summaries();
+  const products = [
+    ...apple,
+    ...(previous?.products || []).filter((summary) => !familyById[summary.id]),
+  ];
+  await storage.write('index', mergeListing({ ready: false, products }));
   return true;
 }

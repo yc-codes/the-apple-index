@@ -1,5 +1,5 @@
 {
-  "name": "the-apple-index",
+  "name": "the-device-index",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -9,6 +9,7 @@
     "build:vercel": "VERCEL=1 bun run build",
     "start": "bun .output/server/index.mjs",
     "collect": "bun scripts/collect.ts",
+    "collect:android": "bun scripts/collect-android.ts",
     "data:publish": "bun scripts/collect.ts --publish-only",
     "test": "bun test tests/*.test.ts",
     "test:browser": "playwright test",

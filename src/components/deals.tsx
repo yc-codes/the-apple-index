@@ -1,12 +1,14 @@
 import { useState } from 'react';
 import { AnimatePresence, motion, useIsPresent, useReducedMotion } from 'motion/react';
 import { Link } from '@tanstack/react-router';
-import { flag } from './layout';
-import { Art, usePricing } from './prices';
+import { flag, usePreferences } from './layout';
+import { Art, usePriceClock, usePricing } from './prices';
+import { useMeta } from '../api';
+import { rankPrices } from '../pricing';
 import type { Summary } from '../types';
 import { artwork } from '../../server/families';
 
-// Alternate categories (Mac, iPhone, iPad, …) so consecutive slides feel different.
+// Alternate categories so consecutive slides feel different.
 function interleave(products: Summary[]) {
   const groups = [...new Set(products.map((p) => p.category))].map((c) =>
     products.filter((p) => p.category === c),
@@ -61,7 +63,17 @@ function Deal({ product: p, distance }: { product: Summary; distance: number }) 
   );
 }
 export function Deals({ products, fallback }: { products: Summary[]; fallback: React.ReactNode }) {
-  const slides = interleave(products.filter((p) => p.ready && p.prices?.length));
+  const { data: meta } = useMeta();
+  const { refund } = usePreferences();
+  const stores = Object.fromEntries((meta?.stores || []).map((store) => [store.code, store]));
+  const now = usePriceClock(products.flatMap((product) => product.prices || []));
+  // A featured comparison needs at least two currently comparable countries.
+  const slides = interleave(
+    products.filter(
+      (product) =>
+        rankPrices(product, stores, meta?.rates?.rates || {}, { refund, now }).length > 1,
+    ),
+  );
   const reduceMotion = useReducedMotion();
   const [{ index, direction }, setSlide] = useState({ index: 0, direction: 1 });
   if (!slides.length) return fallback;

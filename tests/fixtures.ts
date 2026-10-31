@@ -69,6 +69,41 @@ export const comparisonProduct: Product = {
   name: 'iPhone 18 Pro Max',
   category: 'iPhone',
 };
+// Independent synthetic exact-color offer for testing source labels and expiry.
+// Its far-future expiry lets the browser clock exercise expiration deterministically.
+export const xiaomiProduct: Product = {
+  id: 'xiaomi-17-ultra',
+  name: 'Xiaomi 17 Ultra',
+  category: 'Phones',
+  brand: 'Xiaomi',
+  variants: [
+    {
+      id: '16gb-512gb-white',
+      label: '16GB RAM · 512GB storage · White',
+      specs: { memory: '16GB', storage: '512GB', color: 'White' },
+      labels: { memory: '16GB RAM', storage: '512GB', color: 'White' },
+      prices: [
+        {
+          code: 'in',
+          local: 100000,
+          display: '₹100,000',
+          source: 'Xiaomi India',
+          at: stamp,
+          expiresAt: '2031-01-01T00:00:00.000Z',
+          availability: 'in-stock',
+          refundEligible: false,
+          part: 'TEST-XIAOMI-WHITE',
+          url: 'https://store.mi.com/in/item/9999999999',
+        },
+      ],
+    },
+  ],
+  dimensions: [],
+  fixed: { Market: 'India' },
+  defaultVariant: '16gb-512gb-white',
+  pricedAt: stamp,
+  failedStores: [],
+};
 export const listing: Listing = {
   ready: false,
   products: [
@@ -93,6 +128,18 @@ export const listing: Listing = {
       variant: { id: variants[0].id, label: variants[0].label },
       prices: variants[0].prices,
       configurations: 3,
+      pricedAt: stamp,
+    },
+    {
+      id: xiaomiProduct.id,
+      name: xiaomiProduct.name,
+      brand: xiaomiProduct.brand,
+      category: xiaomiProduct.category,
+      ready: true,
+      priceStatus: 'collected',
+      variant: { id: xiaomiProduct.defaultVariant, label: xiaomiProduct.variants[0].label },
+      prices: xiaomiProduct.variants[0].prices,
+      configurations: 1,
       pricedAt: stamp,
     },
   ],

@@ -1,8 +1,8 @@
 import type { Dimension, Variant } from './types';
 export type SelectionVariant = Pick<Variant, 'id' | 'specs' | 'labels'>;
 export type ConfigurableProduct = { dimensions: Dimension[]; variants: SelectionVariant[] };
-// Configuration selection over Apple's own dimensions (size, chip, memory, color…).
-// Every option resolves to a configuration Apple actually sells; nothing is guessed from URLs.
+// Configuration selection over verified catalog dimensions (size, chip, memory, color…).
+// Every option resolves to an existing configuration; nothing is guessed from URLs.
 export const variantById = (product: ConfigurableProduct, id: string) =>
   product.variants.find((v) => v.id === id);
 

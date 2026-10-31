@@ -49,10 +49,10 @@ for (const reducedMotion of ['no-preference', 'reduce'] as const) {
     }
 
     // Interrupt transitions before they finish; only the final selection must remain interactive.
-    await page.locator('[data-filter="iPhone"]').click();
-    await page.locator('[data-filter="iPad"]').click();
-    await page.locator('[data-filter="Mac"]').click();
-    await expect(page.locator('[data-filter="Mac"]')).toHaveAttribute('aria-pressed', 'true');
+    await page.locator('[data-filter="Phones"]').click();
+    await page.locator('[data-filter="Tablets"]').click();
+    await page.locator('[data-filter="Computers"]').click();
+    await expect(page.locator('[data-filter="Computers"]')).toHaveAttribute('aria-pressed', 'true');
     await expect(page.getByRole('article')).toHaveCount(1);
     await expect(page.getByRole('article')).toContainText('MacBook Pro');
     await expect(page.locator('.product-card')).toHaveCount(1);
@@ -61,7 +61,9 @@ for (const reducedMotion of ['no-preference', 'reduce'] as const) {
     await expect(page.locator('.product-card')).toHaveCount(0);
     await page.getByRole('button', { name: 'Clear filters' }).click();
     await expect(page.locator('#search')).toBeFocused();
-    await expect(page.getByRole('article')).toHaveCount(3);
+    await expect(page.locator('[data-product="macbook-pro"]')).toBeVisible();
+    await expect(page.locator('[data-product="ipad-pro"]')).toBeVisible();
+    await expect(page.locator('[data-product="iphone-18-pro"]')).toBeVisible();
     await expect(page.locator('.tab-highlight')).toHaveCount(1);
     expect(errors).toEqual([]);
   });
@@ -74,7 +76,7 @@ test('reduced motion skips hero, deal and layout movement', async ({ page }) => 
   const movingElements = await page.evaluate(async () => {
     const moved = new Set<string>();
     (document.querySelector('[aria-label="Next comparison"]') as HTMLButtonElement).click();
-    (document.querySelector('[data-filter="iPhone"]') as HTMLButtonElement).click();
+    (document.querySelector('[data-filter="Phones"]') as HTMLButtonElement).click();
     for (let frame = 0; frame < 24; frame++) {
       await new Promise(requestAnimationFrame);
       for (const element of document.querySelectorAll(

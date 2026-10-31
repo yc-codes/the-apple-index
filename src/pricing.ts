@@ -1,20 +1,21 @@
 import type { Price, Store } from './types';
-export type PricingOptions = { refund?: boolean };
+import { eligiblePrice } from './price-state';
+export type PricingOptions = { refund?: boolean; now?: number | null };
 export type RankedPrice = Price & { store: Store; usd: number };
 // Compare local shelf prices after estimated taxes and optional tourist refunds.
 export function effectiveLocal(
-  row: Pick<Price, 'local'>,
+  row: Pick<Price, 'local' | 'refundEligible'>,
   store: Store | undefined,
   { refund = true }: PricingOptions = {},
 ) {
   const tax = store?.tax;
   let amount = row.local;
   if (tax?.added) amount *= 1 + tax.rate;
-  if (refund && tax?.refund) amount *= 1 - tax.refund;
+  if (refund && row.refundEligible !== false && tax?.refund) amount *= 1 - tax.refund;
   return amount;
 }
 export function toUsd(
-  row: Pick<Price, 'local'>,
+  row: Pick<Price, 'local' | 'refundEligible'>,
   store: Store | undefined,
   rates: Record<string, number>,
   options: PricingOptions = {},
@@ -38,6 +39,7 @@ export function rankPrices(
   options: PricingOptions = {},
 ): RankedPrice[] {
   return (variant?.prices || [])
+    .filter((row) => eligiblePrice(row, options.now))
     .flatMap((row) => {
       const store = stores[row.code],
         usd = toUsd(row, store, rates, options);

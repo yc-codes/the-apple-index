@@ -4,16 +4,17 @@ import { tmpdir } from 'node:os';
 import { join, resolve } from 'node:path';
 import { spawnSync } from 'node:child_process';
 import { families } from '../server/families';
+import { mergeListing } from '../src/catalog-data';
 
 export async function emptyData(directory: string) {
   await mkdir(directory, { recursive: true });
   await writeFile(
     join(directory, 'index.json'),
     JSON.stringify(
-      {
+      mergeListing({
         ready: false,
         products: families.map(({ id, name, category }) => ({ id, name, category, ready: false })),
-      },
+      }),
       null,
       2,
     ) + '\n',

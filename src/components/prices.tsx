@@ -3,9 +3,30 @@ import { rankPrices, taxNote } from '../pricing.ts';
 import { useMeta } from '../api';
 import { flag, usePreferences } from './layout';
 import type { Price } from '../types';
+const noPrices: Price[] = [];
 export function useNow() {
   const [now, setNow] = useState<number | null>(null);
   useEffect(() => setNow(Date.now()), []);
+  return now;
+}
+
+// Route data was checked before rendering. Keep the first browser render identical,
+// then expire offers while the page remains open without waiting for navigation.
+export function usePriceClock(prices: Price[]) {
+  const [now, setNow] = useState<number | null>(null);
+  useEffect(() => setNow(Date.now()), []);
+  const nextExpiry = prices.reduce((next, price) => {
+    const expires = price.expiresAt ? Date.parse(price.expiresAt) : Infinity;
+    return expires > (now ?? 0) && expires < next ? expires : next;
+  }, Infinity);
+  useEffect(() => {
+    if (now === null || !Number.isFinite(nextExpiry)) return;
+    const timer = window.setTimeout(
+      () => setNow(Date.now()),
+      Math.min(2_147_483_647, Math.max(1, nextExpiry - Date.now() + 1)),
+    );
+    return () => window.clearTimeout(timer);
+  }, [nextExpiry, now]);
   return now;
 }
 export function ago(iso?: string, now: number | null = null) {
@@ -56,12 +77,13 @@ export function Art({
     </div>
   );
 }
-export function usePricing(prices: Price[] = []) {
+export function usePricing(prices: Price[] = noPrices) {
   const { data: meta } = useMeta();
   const { country, currency, refund } = usePreferences();
   const stores = Object.fromEntries((meta?.stores || []).map((s) => [s.code, s]));
   const rates = meta?.rates?.rates || {};
-  const rows = rankPrices({ prices }, stores, rates, { refund });
+  const now = usePriceClock(prices);
+  const rows = rankPrices({ prices }, stores, rates, { refund, now });
   const money = (usd: number) =>
     rates[currency]
       ? new Intl.NumberFormat('en-US', {
@@ -108,7 +130,9 @@ export function PriceRows({
             <span className="flag">{flag(row.code)}</span>
             <div className="country">
               {row.store.name} {row.code === country && <small className="base">BASE</small>}
-              <small>{taxNote(row.store, { refund })}</small>
+              <small>
+                {taxNote(row.store, { refund: refund && row.refundEligible !== false })}
+              </small>
             </div>
             <div className="price">
               <strong>{money(row.usd)}</strong>
@@ -121,7 +145,7 @@ export function PriceRows({
               </small>
               {!compact && (
                 <small className="shelf">
-                  Apple: {row.display || `${row.local} ${row.store.currency}`}
+                  {row.source || 'Apple'}: {row.display || `${row.local} ${row.store.currency}`}
                   {stale && ` · from ${ago(row.at, now)}`}
                 </small>
               )}
@@ -132,7 +156,7 @@ export function PriceRows({
                 href={row.url}
                 target="_blank"
                 rel="noreferrer"
-                aria-label={`Open the ${row.store.name} Apple Store`}
+                aria-label={`Open ${row.source || 'Apple'} in ${row.store.name}`}
               >
                 ↗
               </a>

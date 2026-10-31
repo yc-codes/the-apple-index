@@ -6,12 +6,13 @@ import { IndexLink, flag, usePreferences } from './layout';
 import { Art, PriceRows, RefundToggle, ago, fetchedAt, useNow, usePricing } from './prices';
 import type { Product as ProductData, Variant } from '../types';
 import { artwork } from '../../server/families';
+import { productCategory, site } from '../brand';
 export function ProductPage({ id, variantId }: { id: string; variantId?: string }) {
   const query = useProduct();
   useEffect(() => {
-    if (query.data) document.title = `${query.data.name} — The Apple Index`;
+    if (query.data) document.title = `${query.data.name} — ${site.name}`;
     return () => {
-      document.title = 'The Apple Index — Apple prices, everywhere.';
+      document.title = site.title;
     };
   }, [query.data?.name]);
   const navigate = useNavigate();
@@ -56,6 +57,10 @@ function ProductDetail({ product, variant }: { product: ProductData; variant: Va
   const [notice, setNotice] = useState({ variant: '', text: '' });
   const best = rows[0];
   const now = useNow();
+  // A model may have collected prices for a different configuration. Use neutral coverage
+  // copy after collection, including when the loader has removed expired offers.
+  const hasCollection = variant.prices.length > 0 || !!product.pricedAt;
+  const hasComparablePrices = rows.length > 0;
   const unavailable = (meta?.stores || []).filter(
     (s) => !variant.prices.some((p) => p.code === s.code),
   );
@@ -64,7 +69,9 @@ function ProductDetail({ product, variant }: { product: ProductData; variant: Va
       <IndexLink className="back">← All products</IndexLink>
       <section className="detail-top">
         <div>
-          <span className="eyebrow">{product.category} / GLOBAL PRICE COMPARISON</span>
+          <span className="eyebrow">
+            {product.brand || 'Apple'} / {productCategory(product)}
+          </span>
           <h1>{product.name}</h1>
           <p className="configuration">{variant.label}</p>
           <div className="configuration-selector" aria-label="Product configuration">
@@ -115,6 +122,16 @@ function ProductDetail({ product, variant }: { product: ProductData; variant: Va
           <p className="configuration-notice" role="status" id="configuration-notice">
             {notice.variant === variant.id ? notice.text : ''}
           </p>
+          {product.research && Object.keys(product.fixed).length > 0 && (
+            <dl className="product-specs">
+              {Object.entries(product.fixed).map(([label, value]) => (
+                <div key={label}>
+                  <dt>{label}</dt>
+                  <dd>{value}</dd>
+                </div>
+              ))}
+            </dl>
+          )}
         </div>
         <Art
           name={product.name + ' ' + (variant.labels.color || '')}
@@ -122,56 +139,115 @@ function ProductDetail({ product, variant }: { product: ProductData; variant: Va
           eager
         />
       </section>
-      <section className="comparison">
-        <aside className="comparison-summary">
-          <span className="eyebrow">THE LOWEST PRICE</span>
-          <h2>{best ? money(best.usd) : '—'}</h2>
-          {best && (
+      {!hasComparablePrices && product.research ? (
+        <section className="coverage-pending" aria-labelledby="coverage-heading">
+          <span className="eyebrow">PRICE COVERAGE</span>
+          <h2 id="coverage-heading">
+            {hasCollection
+              ? 'No current prices for this configuration'
+              : 'Price comparisons coming soon'}
+          </h2>
+          <p>
+            {hasCollection
+              ? 'No current, available prices can be compared for this configuration. Check the official store for its latest price and availability.'
+              : 'Specifications are available. Regional prices have not been collected for this configuration yet.'}
+          </p>
+          <OfficialSources product={product} />
+        </section>
+      ) : (
+        <section className="comparison">
+          <aside className="comparison-summary">
+            <span className="eyebrow">
+              {rows.length === 1 ? 'CURRENT STORE PRICE' : 'THE LOWEST PRICE'}
+            </span>
+            <h2>{best ? money(best.usd) : '—'}</h2>
+            {best && (
+              <p>
+                {flag(best.code)} {best.store.name}
+              </p>
+            )}
+            {base && best && base.usd > best.usd && (
+              <div className="savings-callout">
+                <strong>Save {money(base.usd - best.usd)}</strong>
+                <span>
+                  {((1 - best.usd / base.usd) * 100).toFixed(1)}% less than {stores[country]?.name}
+                </span>
+              </div>
+            )}
+            <hr />
+            <span className="eyebrow">YOUR CONFIGURATION</span>
+            <p className="configuration">{variant.label}</p>
+            <span className="eyebrow">YOUR BENCHMARK</span>
             <p>
-              {flag(best.code)} {best.store.name}
+              {flag(country)} {stores[country]?.name || country.toUpperCase()}
             </p>
-          )}
-          {base && best && base.usd > best.usd && (
-            <div className="savings-callout">
-              <strong>Save {money(base.usd - best.usd)}</strong>
+            {variant.prices.some((row) => row.refundEligible !== false) && (
+              <RefundToggle id="refund" />
+            )}
+            <p className="selection-note">
+              Collected {ago(product.pricedAt, now)}. Each store’s link shows its original currency.
+            </p>
+          </aside>
+          <div className="comparison-table">
+            <div className="table-heading">
+              <h2>{product.research ? 'Available prices' : 'Prices around the world'}</h2>
               <span>
-                {((1 - best.usd / base.usd) * 100).toFixed(1)}% less than {stores[country]?.name}
+                {rows.length} {rows.length === 1 ? 'country' : 'countries'}
+                {rows.length > 1 ? ' · lowest first' : ''}
               </span>
             </div>
-          )}
-          <hr />
-          <span className="eyebrow">YOUR CONFIGURATION</span>
-          <p className="configuration">{variant.label}</p>
-          <span className="eyebrow">YOUR BENCHMARK</span>
-          <p>
-            {flag(country)} {stores[country]?.name || country.toUpperCase()}
-          </p>
-          <RefundToggle id="refund" />
-          <p className="selection-note">
-            Collected {ago(product.pricedAt, now)}. Each store’s link shows its original currency.
-          </p>
-        </aside>
-        <div className="comparison-table">
-          <div className="table-heading">
-            <h2>Prices around the world</h2>
-            <span>{rows.length} countries · lowest first</span>
+            {rows.length ? (
+              <PriceRows prices={variant.prices} pricedAt={product.pricedAt} />
+            ) : (
+              <p className="empty">No comparable prices available yet.</p>
+            )}
+            {product.research ? (
+              <p className="selection-note">
+                Current price coverage: {rows.map((row) => row.store.name).join(', ')}. Other
+                markets are pending. Regional models and warranties may differ.
+              </p>
+            ) : (
+              unavailable.length > 0 && (
+                <p className="selection-note">
+                  Prices unavailable in {unavailable.map((s) => s.name).join(', ')}.{' '}
+                  {product.failedStores?.length > 0
+                    ? 'Some stores could not be checked in the latest collection.'
+                    : 'This does not necessarily mean the configuration is unavailable to buy.'}
+                </p>
+              )
+            )}
           </div>
-          {rows.length ? (
-            <PriceRows prices={variant.prices} pricedAt={product.pricedAt} />
-          ) : (
-            <p className="empty">No comparable prices available yet.</p>
-          )}
-          {unavailable.length > 0 && (
-            <p className="selection-note">
-              Prices unavailable in {unavailable.map((s) => s.name).join(', ')}.{' '}
-              {product.failedStores?.length > 0
-                ? 'Some stores could not be checked in the latest collection.'
-                : 'This does not necessarily mean the configuration is unavailable to buy.'}
-            </p>
-          )}
-        </div>
-      </section>
-      <p className="last-fetched">Last fetched {fetchedAt(product.pricedAt, now)}</p>
+        </section>
+      )}
+      {hasComparablePrices && product.research && <OfficialSources product={product} />}
+      {product.pricedAt && (
+        <p className="last-fetched">Last fetched {fetchedAt(product.pricedAt, now)}</p>
+      )}
     </>
+  );
+}
+
+function OfficialSources({ product }: { product: ProductData }) {
+  const research = product.research;
+  if (!research) return null;
+  return (
+    <div className="official-sources">
+      {research.note && <p>{research.note}</p>}
+      <h3>Official product information</h3>
+      <ul>
+        {research.sources.map((source) => (
+          <li key={source.url}>
+            <a href={source.url} target="_blank" rel="noreferrer">
+              {source.label} <span aria-hidden="true">↗</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+      <p className="selection-note">
+        Specifications checked{' '}
+        {new Date(research.checkedAt).toLocaleDateString('en-GB', { timeZone: 'UTC' })}.{' '}
+        Availability, regional hardware and warranty vary by market.
+      </p>
+    </div>
   );
 }

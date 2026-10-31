@@ -6,6 +6,7 @@ import { families } from '../server/catalog.ts';
 import { catalog, prices, rates, hydrate, publish, peek } from '../server/service.ts';
 import { throttleState } from '../server/apple.ts';
 import { storage } from '../server/storage.ts';
+import { collectAndroid, publishAndroidCatalog } from '../server/android';
 
 const publishOnly = process.argv.includes('--publish-only');
 // In Actions, each collected family is pushed to the data branch immediately; browsers read that branch live.
@@ -25,14 +26,31 @@ function push(label: string) {
 const requested = process.argv.find((arg) => arg.startsWith('--family='))?.split('=')[1];
 if (requested && !families.some((f) => f.id === requested))
   throw new Error('Unknown product family');
+let failed = 0;
+// Independent source: Android collection must not be gated by Apple's cooldown.
+// A scoped Apple --family run remains scoped; publishing never requests source pages.
+if (!requested) {
+  try {
+    if (publishOnly) await publishAndroidCatalog(storage);
+    else {
+      const result = await collectAndroid(storage);
+      console.log(`Published ${result.offers} Xiaomi India offers.`);
+    }
+  } catch (error) {
+    failed++;
+    console.error('Android collection:', errorMessage(error));
+    await publishAndroidCatalog(storage);
+  }
+  push('Android catalog');
+}
 const prior = (await storage.read('collector-status')) as CollectorStatus | null;
-if (!publishOnly && prior?.blockedUntil && Date.parse(prior.blockedUntil) > Date.now()) {
+const appleCooling =
+  !publishOnly && !!prior?.blockedUntil && Date.parse(prior.blockedUntil) > Date.now();
+if (appleCooling) {
   console.log('Apple cooldown is still active. Keeping the previous prices.');
-  process.exit(0);
 }
 await hydrate();
-let failed = 0;
-if (!publishOnly) {
+if (!publishOnly && !appleCooling) {
   try {
     await rates();
   } catch (error) {
@@ -42,7 +60,7 @@ if (!publishOnly) {
 }
 // Least recently attempted families first; a block must not starve later families on every run.
 const selected = families
-  .filter((f) => !requested || f.id === requested)
+  .filter((f) => !appleCooling && (!requested || f.id === requested))
   .sort((a, b) => (prior?.attempts?.[a.id] || 0) - (prior?.attempts?.[b.id] || 0));
 const attempts = { ...prior?.attempts };
 for (const family of selected) {

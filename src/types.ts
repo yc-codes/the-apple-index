@@ -5,6 +5,10 @@ export type Price = {
   part?: string;
   at?: string;
   url?: string;
+  source?: string;
+  expiresAt?: string;
+  availability?: 'in-stock' | 'out-of-stock' | 'unknown';
+  refundEligible?: boolean;
 };
 export type Store = {
   code: string;
@@ -26,6 +30,12 @@ export type Product = {
   id: string;
   name: string;
   category: string;
+  brand?: string;
+  research?: {
+    checkedAt: string;
+    sources: { label: string; url: string; market?: string }[];
+    note?: string;
+  };
   image?: string | null;
   variants: Variant[];
   dimensions: Dimension[];
@@ -38,6 +48,8 @@ export type Summary = {
   id: string;
   name: string;
   category: string;
+  brand?: string;
+  priceStatus?: 'pending' | 'collected';
   ready: boolean;
   image?: string | null;
   variant?: { id: string; label: string };
