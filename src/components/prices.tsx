@@ -72,6 +72,20 @@ export function usePricing(prices: Price[] = []) {
       : '—';
   return { rows, base: rows.find((r) => r.code === country), money, stores, refund, country };
 }
+export function RefundToggle({ id }: { id: string }) {
+  const { refund, setRefund } = usePreferences();
+  return (
+    <label className="refund-toggle">
+      <input
+        id={id}
+        type="checkbox"
+        checked={refund}
+        onChange={(e) => setRefund(e.target.checked)}
+      />
+      Include estimated tourist refunds
+    </label>
+  );
+}
 export function PriceRows({
   prices,
   compact = false,

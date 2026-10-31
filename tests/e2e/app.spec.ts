@@ -73,7 +73,7 @@ test('React configuration, region, history and reload preserve the exact hardwar
   await expect(page.locator('#search')).toHaveValue('');
   await page.locator('[data-filter="Mac"]').click();
   await expect(page.locator('.product-card')).toHaveCount(1);
-  for (const width of [375, 768, 1440]) {
+  for (const width of [320, 375, 768, 1024, 1440]) {
     await page.setViewportSize({ width, height: 900 });
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(
       true,
@@ -83,6 +83,30 @@ test('React configuration, region, history and reload preserve the exact hardwar
   await page.setViewportSize({ width: 375, height: 900 });
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   expect(errors).toEqual([]);
+});
+test('catalog refund estimates update prices and persist into product comparisons', async ({
+  page,
+}) => {
+  await page.goto('/');
+  await expect(page.locator('#region')).toHaveValue('in');
+  await expect(page.locator('.deal-configuration')).toHaveText(product.variants[0].label);
+  const lowest = page.locator('.card-meta strong').first();
+  const withRefund = await lowest.textContent();
+  const toggle = page.getByLabel('Include estimated tourist refunds');
+  await expect(toggle).toBeChecked();
+  await toggle.focus();
+  await page.keyboard.press('Space');
+  await expect(toggle).not.toBeChecked();
+  await expect(lowest).not.toHaveText(withRefund!);
+  const withoutRefund = (await lowest.textContent())!;
+  await expect(page.locator('.deal-price')).toHaveText(withoutRefund);
+  await page.locator('[data-product="macbook-pro"]').click();
+  await expect(page.locator('#refund')).not.toBeChecked();
+  await expect(page.locator('.comparison-summary h2')).toHaveText(withoutRefund);
+  await page.locator('.back').click();
+  await page.reload();
+  await expect(page.locator('#catalog-refund')).not.toBeChecked();
+  await expect(lowest).toHaveText(withoutRefund);
 });
 test('explicit links win and unknown variants are not silently substituted', async ({ page }) => {
   await page.goto('/products/macbook-pro/missing?country=us&currency=USD');
@@ -146,6 +170,36 @@ test('bundled prices render without API requests and retain pending and unknown 
 });
 
 for (const width of [375, 1440]) {
+  test(`header compacts without shifting content and keeps region selection usable at ${width}px`, async ({
+    page,
+  }) => {
+    await page.setViewportSize({ width, height: 900 });
+    await page.goto('/');
+    await expect(page.locator('#region')).toHaveValue('in');
+    const header = page.locator('header');
+    const expandedHeight = (await header.boundingBox())!.height;
+    const contentTop = await page
+      .locator('main')
+      .evaluate((el) => el.getBoundingClientRect().top + window.scrollY);
+    await page.evaluate(() => window.scrollTo({ top: 200, behavior: 'instant' }));
+    await expect
+      .poll(async () => (await header.boundingBox())!.height)
+      .toBeLessThan(expandedHeight);
+    expect(await page.evaluate(() => window.scrollY)).toBe(200);
+    expect(
+      await page.locator('main').evaluate((el) => el.getBoundingClientRect().top + window.scrollY),
+    ).toBe(contentTop);
+    await header.locator('.brand').focus();
+    await page.keyboard.press('Tab');
+    await expect(page.getByRole('combobox', { name: 'Country and currency' })).toBeFocused();
+    await page.selectOption('#region', 'jp');
+    await expect(page.locator('.region-currency')).toHaveText('JPY');
+    const picker = await page.locator('.region-picker').boundingBox();
+    expect(picker!.height).toBeGreaterThanOrEqual(44);
+    expect(picker!.x + picker!.width).toBeLessThanOrEqual(width);
+    await page.evaluate(() => window.scrollTo({ top: 0, behavior: 'instant' }));
+    await expect.poll(async () => (await header.boundingBox())!.height).toBe(expandedHeight);
+  });
   test(`variant changes preserve scroll position at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 });
     await page.emulateMedia({ reducedMotion: 'reduce' });

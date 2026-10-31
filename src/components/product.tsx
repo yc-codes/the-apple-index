@@ -3,7 +3,7 @@ import { useNavigate } from '@tanstack/react-router';
 import { useProduct, useMeta } from '../api';
 import { configurationOptions } from '../configuration.ts';
 import { IndexLink, flag, usePreferences } from './layout';
-import { Art, PriceRows, ago, fetchedAt, useNow, usePricing } from './prices';
+import { Art, PriceRows, RefundToggle, ago, fetchedAt, useNow, usePricing } from './prices';
 import type { Product as ProductData, Variant } from '../types';
 import { artwork } from '../../server/families';
 export function ProductPage({ id, variantId }: { id: string; variantId?: string }) {
@@ -51,7 +51,7 @@ export function ProductPage({ id, variantId }: { id: string; variantId?: string 
 }
 function ProductDetail({ product, variant }: { product: ProductData; variant: Variant }) {
   const { data: meta } = useMeta();
-  const { country, refund, setRefund } = usePreferences();
+  const { country } = usePreferences();
   const { rows, base, money, stores } = usePricing(variant.prices);
   const [notice, setNotice] = useState({ variant: '', text: '' });
   const best = rows[0];
@@ -146,15 +146,7 @@ function ProductDetail({ product, variant }: { product: ProductData; variant: Va
           <p>
             {flag(country)} {stores[country]?.name || country.toUpperCase()}
           </p>
-          <label className="refund-toggle">
-            <input
-              id="refund"
-              type="checkbox"
-              checked={refund}
-              onChange={(e) => setRefund(e.target.checked)}
-            />{' '}
-            Include estimated tourist refunds
-          </label>
+          <RefundToggle id="refund" />
           <p className="selection-note">
             Collected {ago(product.pricedAt, now)}. Each store’s link shows its original currency.
           </p>

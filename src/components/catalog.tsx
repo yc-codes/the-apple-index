@@ -2,7 +2,7 @@ import { forwardRef, useId, useRef, useState } from 'react';
 import { AnimatePresence, LayoutGroup, motion, useIsPresent, useReducedMotion } from 'motion/react';
 import { useListing, useMeta } from '../api';
 import { IndexLink, flag, usePreferences } from './layout';
-import { Art, PriceRows, usePricing } from './prices';
+import { Art, PriceRows, RefundToggle, usePricing } from './prices';
 import { Deals } from './deals';
 import type { Summary } from '../types';
 import { artwork } from '../../server/families';
@@ -31,18 +31,20 @@ const Card = forwardRef<HTMLElement, { product: Summary }>(function Card({ produ
             {p.configurations ? ` · ${p.configurations} configurations` : ''}
           </span>
           <h3>{p.name}</h3>
-          <p>
+          <p title={p.ready ? p.variant?.label : undefined}>
             {p.ready ? `From: ${p.variant?.label}` : 'Awaiting the first Apple price collection'}
           </p>
         </div>
-        <span className="circle-arrow">↗</span>
+        <span className="circle-arrow" aria-hidden="true">
+          ↗
+        </span>
       </IndexLink>
       <Art name={p.name} image={p.image || artwork[p.id]} />
       <div className="card-prices">
         {p.ready && (
           <>
             <div className="card-meta">
-              <span>LOWEST PRICE</span>
+              <span>LOWEST TRACKED PRICE</span>
               <strong>{rows[0] ? money(rows[0].usd) : '—'}</strong>
             </div>
             <PriceRows prices={p.prices || []} compact />
@@ -77,7 +79,7 @@ export function Catalog() {
       <section className="hero">
         <div>
           <div className="eyebrow">
-            <i className="live-dot" /> THE WORLDWIDE APPLE PRICE INDEX
+            <i className="live-dot" aria-hidden="true" /> THE WORLDWIDE APPLE PRICE INDEX
           </div>
           <h1>
             Same Apple.
@@ -89,7 +91,7 @@ export function Catalog() {
             Compare the same configuration, wherever you buy.
           </p>
           <a className="primary" href="#catalog">
-            Explore products <span>↘</span>
+            Explore products <span aria-hidden="true">↘</span>
           </a>
         </div>
         <div className="hero-feature">
@@ -97,7 +99,6 @@ export function Catalog() {
             products={products}
             fallback={
               <div className="hero-note">
-                <span className="orbit">◎</span>
                 <div className="stat">
                   <strong>{countries.length || 39}</strong>
                   <span>
@@ -179,10 +180,13 @@ export function Catalog() {
             />
           </label>
         </div>
-        <p className="results-count" role="status">
-          {visible.length} {visible.length === 1 ? 'product' : 'products'}
-          {filter !== 'All products' ? ` in ${filter}` : ''}
-        </p>
+        <div className="results-toolbar">
+          <p className="results-count" role="status">
+            {visible.length} {visible.length === 1 ? 'product' : 'products'}
+            {filter !== 'All products' ? ` in ${filter}` : ''}
+          </p>
+          <RefundToggle id="catalog-refund" />
+        </div>
         <div className="product-grid">
           <AnimatePresence initial={false} mode="popLayout">
             {visible.length ? (

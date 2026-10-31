@@ -133,42 +133,69 @@ export function IndexLink({
 export function Layout({ children }: { children: ReactNode }) {
   const { data: meta } = useMeta();
   const { country, currency, setCountry } = usePreferences();
+  const [compact, setCompact] = useState(false);
+  useEffect(() => {
+    const update = () => setCompact(window.scrollY > 48);
+    update();
+    window.addEventListener('scroll', update, { passive: true });
+    return () => window.removeEventListener('scroll', update);
+  }, []);
   // Static names keep server and browser markup identical across ICU versions.
   const countries = meta?.stores || stores;
+  const countryName = countries.find((c) => c.code === country)?.name || country.toUpperCase();
   return (
     <>
       <a className="skip-link" href="#main-content">
         Skip to content
       </a>
-      <header>
-        <div className="header-inner">
-          <IndexLink className="brand">
-            <span className="brand-icon">
-              a<span>↗</span>
-            </span>
-            The Apple Index<span className="brand-period">.</span>
-          </IndexLink>
-          <nav aria-label="Preferences">
-            <label>
-              COUNTRY &amp; CURRENCY
-              <select
-                id="region"
-                aria-label="Country and currency"
-                value={country}
-                onChange={(e) => setCountry(e.target.value)}
-              >
-                {[...countries]
-                  .sort((a, b) => (a.name < b.name ? -1 : a.name > b.name ? 1 : 0))
-                  .map((c) => (
-                    <option key={c.code} value={c.code}>
-                      {flag(c.code)} {c.name} · {c.code === country ? currency : c.currency}
-                    </option>
-                  ))}
-              </select>
-            </label>
-          </nav>
-        </div>
-      </header>
+      <div className="header-space">
+        <header data-compact={compact}>
+          <div className="header-inner">
+            <IndexLink className="brand">
+              <span className="brand-icon" aria-hidden="true">
+                a<span>↗</span>
+              </span>
+              The Apple Index<span className="brand-period">.</span>
+            </IndexLink>
+            <nav aria-label="Preferences">
+              <div className="region-picker">
+                <div className="region-display" aria-hidden="true">
+                  <span className="region-flag">{flag(country)}</span>
+                  <span className="region-name">{countryName}</span>
+                  <span className="region-currency">{currency}</span>
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="1.8"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="m6 9 6 6 6-6" />
+                  </svg>
+                </div>
+                <select
+                  id="region"
+                  aria-label="Country and currency"
+                  title={`Country and currency: ${countryName} · ${currency}`}
+                  value={country}
+                  onChange={(e) => setCountry(e.target.value)}
+                >
+                  {[...countries]
+                    .sort((a, b) => (a.name < b.name ? -1 : a.name > b.name ? 1 : 0))
+                    .map((c) => (
+                      <option key={c.code} value={c.code}>
+                        {flag(c.code)} {c.name} · {c.code === country ? currency : c.currency}
+                      </option>
+                    ))}
+                </select>
+              </div>
+            </nav>
+          </div>
+        </header>
+      </div>
       <main id="main-content" tabIndex={-1}>
         {children}
         <aside className="data-note">

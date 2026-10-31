@@ -2,8 +2,9 @@ import { useState } from 'react';
 import { AnimatePresence, motion, useIsPresent, useReducedMotion } from 'motion/react';
 import { Link } from '@tanstack/react-router';
 import { flag } from './layout';
-import { usePricing } from './prices';
+import { Art, usePricing } from './prices';
 import type { Summary } from '../types';
+import { artwork } from '../../server/families';
 
 // Alternate categories (Mac, iPhone, iPad, …) so consecutive slides feel different.
 function interleave(products: Summary[]) {
@@ -35,15 +36,25 @@ function Deal({ product: p, distance }: { product: Summary; distance: number }) 
       aria-hidden={!isPresent || undefined}
     >
       <Link to={`/products/${p.id}${p.variant ? '/' + p.variant.id : ''}` as '/'} className="deal">
-        <span className="deal-kicker">Cheapest {p.name} in</span>
+        <div className="deal-product">
+          <div>
+            <span className="deal-kicker">{p.name}</span>
+            <span className="deal-configuration">{p.variant?.label}</span>
+          </div>
+          <Art name={p.name} image={p.image || artwork[p.id]} />
+        </div>
+        <span className="eyebrow">LOWEST TRACKED PRICE</span>
         <span className="deal-country">{best ? `${flag(best.code)} ${best.store.name}` : '—'}</span>
         <strong className="deal-price">{best ? money(best.usd) : '—'}</strong>
         <span className="deal-note">
           {!best || !base
-            ? p.variant?.label
+            ? 'Compare available regional prices'
             : base.code === best.code
-              ? `Your country is the cheapest · ${p.variant?.label}`
+              ? 'Your country has the lowest tracked price'
               : `Save ${money(base.usd - best.usd)} vs ${stores[country]?.name || country.toUpperCase()}`}
+        </span>
+        <span className="deal-link">
+          Compare {rows.length} countries <span aria-hidden="true">↗</span>
         </span>
       </Link>
     </motion.div>
@@ -63,7 +74,7 @@ export function Deals({ products, fallback }: { products: Summary[]; fallback: R
     }));
   return (
     <div className="hero-note deals" role="region" aria-label="Featured price comparisons">
-      <div className="eyebrow">A WORLD OF BETTER PRICES</div>
+      <div className="eyebrow">FEATURED COMPARISON</div>
       <div className="deal-window" aria-live="polite" aria-atomic="true">
         <AnimatePresence initial={false} custom={distance}>
           <Deal key={slides[current].id} product={slides[current]} distance={distance} />

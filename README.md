@@ -46,6 +46,7 @@ The GitHub Actions collector restores `.cache/`, collects Apple prices and excha
 ## UI behavior
 
 - One country/currency dropdown persists preferences and preserves the configuration URL.
+- Estimated tourist refunds can be toggled in the catalog or product comparison; the setting persists across navigation and reloads.
 - First visits use timezone/browser-locale defaults followed by an approximate IP-country lookup. Explicit URLs and saved preferences take priority; a delayed lookup cannot overwrite a manual selection. The prior `mac-index-preferences` key is read once for migration compatibility.
 - Color options preserve **every** hardware specification; unavailable combinations are disabled. Hardware changes can choose another valid configuration and disclose any additional changes.
 - Unknown configuration URLs show a not-found message instead of substituting another machine.
