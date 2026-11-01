@@ -1,0 +1,55 @@
+{
+  "id": "asus-rog-zephyrus-g14-2025",
+  "name": "ASUS ROG Zephyrus G14 (2025)",
+  "brand": "ASUS",
+  "category": "Laptops",
+  "image": "https://dlcdnwebimgs.asus.com/gain/1596FF79-B299-49DE-8BCF-9ABD2C884429/w250/fwebp",
+  "variants": [
+    {
+      "id": "ga403up-cs96",
+      "label": "Ryzen 9 270 · RTX 5070 · 32GB · 1TB SSD",
+      "specs": {
+        "chip": "AMD Ryzen 9 270",
+        "memory": "32GB LPDDR5X",
+        "storage": "1TB SSD",
+        "gpu": "NVIDIA GeForce RTX 5070 Laptop GPU",
+        "size": "14-inch"
+      },
+      "part": "GA403UP-CS96",
+      "labels": {
+        "chip": "AMD Ryzen 9 270",
+        "memory": "32GB LPDDR5X",
+        "storage": "1TB SSD",
+        "gpu": "NVIDIA GeForce RTX 5070 Laptop GPU",
+        "size": "14-inch"
+      },
+      "prices": []
+    }
+  ],
+  "dimensions": [],
+  "fixed": {
+    "Processor": "AMD Ryzen 9 270",
+    "Memory": "32GB LPDDR5X",
+    "Storage": "1TB SSD",
+    "Graphics": "NVIDIA GeForce RTX 5070 Laptop GPU",
+    "Screen size": "14-inch",
+    "Display": "2880 × 1800 OLED, 120Hz",
+    "Operating system": "Windows 11 Home",
+    "Graphics memory": "8GB GDDR7",
+    "Market": "United States"
+  },
+  "defaultVariant": "ga403up-cs96",
+  "pricedAt": "",
+  "failedStores": [],
+  "research": {
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "ASUS ROG US configuration comparison: GA403UP-CS96",
+        "url": "https://rog.asus.com/us/laptops/rog-zephyrus/rog-zephyrus-g14-2025/spec/",
+        "market": "us"
+      }
+    ],
+    "note": "US model GA403UP-CS96 with Ryzen 9 270 and RTX 5070 graphics. Other 2025 G14 models have different processors and graphics cards."
+  }
+}

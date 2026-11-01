@@ -1,0 +1,53 @@
+{
+  "id": "lenovo-idea-tab-pro",
+  "name": "Idea Tab Pro",
+  "brand": "Lenovo",
+  "category": "Tablets",
+  "image": null,
+  "variants": [
+    {
+      "id": "8gb-128gb-wifi",
+      "label": "8GB / 128GB · Wi-Fi",
+      "part": "ZAE40028US",
+      "specs": {
+        "memory": "8GB",
+        "storage": "128GB",
+        "connectivity": "Wi-Fi"
+      },
+      "labels": {
+        "memory": "8GB",
+        "storage": "128GB",
+        "connectivity": "Wi-Fi"
+      },
+      "prices": []
+    }
+  ],
+  "dimensions": [],
+  "fixed": {
+    "RAM": "8GB",
+    "Storage": "128GB",
+    "Connectivity": "Wi-Fi",
+    "Processor": "MediaTek Dimensity 8300",
+    "Display": "12.7-inch",
+    "Market": "United States"
+  },
+  "defaultVariant": "8gb-128gb-wifi",
+  "pricedAt": "",
+  "failedStores": [],
+  "research": {
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Lenovo US: 8GB / 128GB reference model",
+        "url": "https://www.lenovo.com/us/en/p/tablets/android-tablets/idea-tab-series/lenovo-idea-tab-pro/zae40028us",
+        "market": "us"
+      },
+      {
+        "label": "Lenovo PSREF: specifications and no WWAN support",
+        "url": "https://psref.lenovo.com/syspool/Sys/PDF/Lenovo_Tablets/Idea_Tab_Pro/Idea_Tab_Pro_Spec.html",
+        "market": "us"
+      }
+    ],
+    "note": "First-generation Idea Tab Pro with 8GB memory, 128GB storage and Wi-Fi connectivity. This model has no cellular modem and differs from Idea Tab Pro Gen 2."
+  }
+}

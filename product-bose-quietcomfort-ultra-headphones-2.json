@@ -1,0 +1,41 @@
+{
+  "id": "bose-quietcomfort-ultra-headphones-2",
+  "name": "QuietComfort Ultra Headphones (2nd Gen)",
+  "brand": "Bose",
+  "category": "Audio",
+  "image": "https://assets.bosecreative.com/transform/dbd0f72b-d68f-4bef-9d38-88132ffa0048/QCUHII26-BoseBlack_SF_PDP_E-Comm_Gallery_1_1500x1120?format=avif&quality=95&io=width:816,height:667,transform:fit",
+  "variants": [
+    {
+      "id": "black",
+      "label": "Black",
+      "specs": {
+        "color": "Black"
+      },
+      "labels": {
+        "color": "Black"
+      },
+      "prices": []
+    }
+  ],
+  "dimensions": [],
+  "fixed": {
+    "Color": "Black",
+    "Type": "Over-ear noise-cancelling headphones",
+    "Generation": "2nd Gen",
+    "Market": "United States"
+  },
+  "defaultVariant": "black",
+  "pricedAt": "",
+  "failedStores": [],
+  "research": {
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Bose US: second generation, Black",
+        "url": "https://www.bose.com/p/headphones/bose-quietcomfort-ultra-headphones-2nd-gen/QCUH2-HEADPHONEARN.html?dwvar_QCUH2-HEADPHONEARN_color=BLACK",
+        "market": "us"
+      }
+    ],
+    "note": "Second-generation QuietComfort Ultra headphones in Black. These differ from the first-generation headphones and QuietComfort Ultra earbuds."
+  }
+}

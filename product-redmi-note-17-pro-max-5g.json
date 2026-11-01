@@ -1,0 +1,126 @@
+{
+  "id": "redmi-note-17-pro-max-5g",
+  "name": "REDMI Note 17 Pro Max 5G",
+  "category": "Phones",
+  "brand": "Xiaomi",
+  "image": "https://i03.appmifile.com/527_item_in/17/09/2026/a4f364543de0fb928ea7d4ad15a7f0f6.png?width=200&height=200",
+  "variants": [
+    {
+      "id": "8gb-256gb",
+      "label": "8GB RAM · 256GB storage",
+      "specs": {
+        "memory": "8GB",
+        "storage": "256GB",
+        "color": "unspecified"
+      },
+      "labels": {
+        "memory": "8GB RAM",
+        "storage": "256GB",
+        "color": "Not specified"
+      },
+      "prices": []
+    },
+    {
+      "id": "12gb-256gb",
+      "label": "12GB RAM · 256GB storage",
+      "specs": {
+        "memory": "12GB",
+        "storage": "256GB",
+        "color": "unspecified"
+      },
+      "labels": {
+        "memory": "12GB RAM",
+        "storage": "256GB",
+        "color": "Not specified"
+      },
+      "prices": []
+    },
+    {
+      "id": "8gb-256gb-secret-sunrise",
+      "label": "8GB RAM · 256GB storage · Secret Sunrise",
+      "specs": {
+        "memory": "8GB",
+        "storage": "256GB",
+        "color": "Secret Sunrise"
+      },
+      "labels": {
+        "memory": "8GB RAM",
+        "storage": "256GB",
+        "color": "Secret Sunrise"
+      },
+      "prices": [
+        {
+          "code": "in",
+          "local": 49999,
+          "display": "₹49,999",
+          "part": "4224101193",
+          "url": "https://store.mi.com/in/item/3224101696",
+          "at": "2026-11-01T10:28:32.201Z",
+          "source": "Xiaomi India",
+          "availability": "in-stock",
+          "refundEligible": false,
+          "expiresAt": "2026-11-02T22:28:32.201Z"
+        }
+      ],
+      "part": "4224101193",
+      "image": "https://i03.appmifile.com/527_item_in/17/09/2026/a4f364543de0fb928ea7d4ad15a7f0f6.png?width=200&height=200"
+    }
+  ],
+  "dimensions": [
+    {
+      "key": "memory",
+      "name": "RAM",
+      "values": [
+        {
+          "key": "8GB",
+          "label": "8GB RAM"
+        },
+        {
+          "key": "12GB",
+          "label": "12GB RAM"
+        }
+      ]
+    },
+    {
+      "key": "storage",
+      "name": "Storage",
+      "values": [
+        {
+          "key": "256GB",
+          "label": "256GB"
+        }
+      ]
+    },
+    {
+      "key": "color",
+      "name": "Color",
+      "values": [
+        {
+          "key": "unspecified",
+          "label": "Not specified"
+        },
+        {
+          "key": "Secret Sunrise",
+          "label": "Secret Sunrise"
+        }
+      ]
+    }
+  ],
+  "fixed": {
+    "Market": "India"
+  },
+  "defaultVariant": "8gb-256gb-secret-sunrise",
+  "pricedAt": "2026-11-01T10:28:32.201Z",
+  "failedStores": [],
+  "research": {
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Xiaomi official India specifications",
+        "url": "https://store.mi.com/in/products/448-0-0-0-0-1",
+        "market": "in"
+      }
+    ],
+    "note": "India-market RAM and storage combinations verified from the manufacturer. Regional availability and warranty may differ. Reference configurations do not specify a color; collected offers identify their exact color separately."
+  }
+}

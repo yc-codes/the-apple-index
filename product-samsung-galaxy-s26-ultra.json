@@ -1,0 +1,99 @@
+{
+  "id": "samsung-galaxy-s26-ultra",
+  "name": "Galaxy S26 Ultra",
+  "category": "Phones",
+  "brand": "Samsung",
+  "image": null,
+  "variants": [
+    {
+      "id": "12gb-256gb",
+      "label": "12GB RAM · 256GB storage",
+      "specs": {
+        "memory": "12GB",
+        "storage": "256GB"
+      },
+      "labels": {
+        "memory": "12GB RAM",
+        "storage": "256GB"
+      },
+      "prices": []
+    },
+    {
+      "id": "12gb-512gb",
+      "label": "12GB RAM · 512GB storage",
+      "specs": {
+        "memory": "12GB",
+        "storage": "512GB"
+      },
+      "labels": {
+        "memory": "12GB RAM",
+        "storage": "512GB"
+      },
+      "prices": []
+    },
+    {
+      "id": "16gb-1024gb",
+      "label": "16GB RAM · 1TB storage",
+      "specs": {
+        "memory": "16GB",
+        "storage": "1TB"
+      },
+      "labels": {
+        "memory": "16GB RAM",
+        "storage": "1TB"
+      },
+      "prices": []
+    }
+  ],
+  "dimensions": [
+    {
+      "key": "memory",
+      "name": "RAM",
+      "values": [
+        {
+          "key": "12GB",
+          "label": "12GB RAM"
+        },
+        {
+          "key": "16GB",
+          "label": "16GB RAM"
+        }
+      ]
+    },
+    {
+      "key": "storage",
+      "name": "Storage",
+      "values": [
+        {
+          "key": "256GB",
+          "label": "256GB"
+        },
+        {
+          "key": "512GB",
+          "label": "512GB"
+        },
+        {
+          "key": "1TB",
+          "label": "1TB"
+        }
+      ]
+    }
+  ],
+  "fixed": {
+    "Market": "India"
+  },
+  "defaultVariant": "12gb-256gb",
+  "pricedAt": "",
+  "failedStores": [],
+  "research": {
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Samsung official India specifications",
+        "url": "https://www.samsung.com/in/smartphones/galaxy-s26-ultra/buy/",
+        "market": "in"
+      }
+    ],
+    "note": "India-market RAM and storage combinations verified from the manufacturer. Regional availability and warranty may differ. Reference configurations do not specify a color; collected offers identify their exact color separately."
+  }
+}

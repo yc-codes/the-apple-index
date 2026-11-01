@@ -1,0 +1,150 @@
+{
+  "id": "redmi-note-15-pro-plus-5g",
+  "name": "Redmi Note 15 Pro+ 5G",
+  "category": "Phones",
+  "brand": "Xiaomi",
+  "image": "https://i03.appmifile.com/665_item_in/27/01/2026/2e82f70b1cd0d35cdfd2332ef540ecee.png?width=200&height=200",
+  "variants": [
+    {
+      "id": "8gb-256gb",
+      "label": "8GB RAM · 256GB storage",
+      "specs": {
+        "memory": "8GB",
+        "storage": "256GB",
+        "color": "unspecified"
+      },
+      "labels": {
+        "memory": "8GB RAM",
+        "storage": "256GB",
+        "color": "Not specified"
+      },
+      "prices": []
+    },
+    {
+      "id": "12gb-256gb",
+      "label": "12GB RAM · 256GB storage",
+      "specs": {
+        "memory": "12GB",
+        "storage": "256GB",
+        "color": "unspecified"
+      },
+      "labels": {
+        "memory": "12GB RAM",
+        "storage": "256GB",
+        "color": "Not specified"
+      },
+      "prices": []
+    },
+    {
+      "id": "12gb-512gb",
+      "label": "12GB RAM · 512GB storage",
+      "specs": {
+        "memory": "12GB",
+        "storage": "512GB",
+        "color": "unspecified"
+      },
+      "labels": {
+        "memory": "12GB RAM",
+        "storage": "512GB",
+        "color": "Not specified"
+      },
+      "prices": []
+    },
+    {
+      "id": "8gb-256gb-carbon-black",
+      "label": "8GB RAM · 256GB storage · Carbon Black",
+      "specs": {
+        "memory": "8GB",
+        "storage": "256GB",
+        "color": "Carbon Black"
+      },
+      "labels": {
+        "memory": "8GB RAM",
+        "storage": "256GB",
+        "color": "Carbon Black"
+      },
+      "prices": [
+        {
+          "code": "in",
+          "local": 39999,
+          "display": "₹39,999",
+          "part": "4224100960",
+          "url": "https://store.mi.com/in/item/3224101364",
+          "at": "2026-11-01T10:28:32.201Z",
+          "source": "Xiaomi India",
+          "availability": "in-stock",
+          "refundEligible": false,
+          "expiresAt": "2026-11-02T22:28:32.201Z"
+        }
+      ],
+      "part": "4224100960",
+      "image": "https://i03.appmifile.com/665_item_in/27/01/2026/2e82f70b1cd0d35cdfd2332ef540ecee.png?width=200&height=200"
+    }
+  ],
+  "dimensions": [
+    {
+      "key": "memory",
+      "name": "RAM",
+      "values": [
+        {
+          "key": "8GB",
+          "label": "8GB RAM"
+        },
+        {
+          "key": "12GB",
+          "label": "12GB RAM"
+        }
+      ]
+    },
+    {
+      "key": "storage",
+      "name": "Storage",
+      "values": [
+        {
+          "key": "256GB",
+          "label": "256GB"
+        },
+        {
+          "key": "512GB",
+          "label": "512GB"
+        }
+      ]
+    },
+    {
+      "key": "color",
+      "name": "Color",
+      "values": [
+        {
+          "key": "unspecified",
+          "label": "Not specified"
+        },
+        {
+          "key": "Carbon Black",
+          "label": "Carbon Black"
+        }
+      ]
+    }
+  ],
+  "fixed": {
+    "Market": "India"
+  },
+  "defaultVariant": "8gb-256gb-carbon-black",
+  "pricedAt": "2026-11-01T10:28:32.201Z",
+  "failedStores": [],
+  "research": {
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Xiaomi official India specifications",
+        "url": "https://www.mi.com/in/product/redmi-note-15-pro-plus-5g/specs/",
+        "market": "in"
+      },
+      {
+        "label": "Xiaomi India store",
+        "url": "https://store.mi.com/in/products/448-0-0-0-0-1",
+        "market": "in"
+      }
+    ],
+    "note": "India-market RAM and storage combinations verified from the manufacturer. Regional availability and warranty may differ. Reference configurations do not specify a color; collected offers identify their exact color separately."
+  }
+}

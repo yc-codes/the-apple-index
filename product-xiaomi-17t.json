@@ -1,0 +1,131 @@
+{
+  "id": "xiaomi-17t",
+  "name": "Xiaomi 17T",
+  "category": "Phones",
+  "brand": "Xiaomi",
+  "image": "https://i03.appmifile.com/487_item_in/11/08/2026/3f54595482fa53d636c8d0f9016effd7.png?width=200&height=200",
+  "variants": [
+    {
+      "id": "12gb-256gb",
+      "label": "12GB RAM · 256GB storage",
+      "specs": {
+        "memory": "12GB",
+        "storage": "256GB",
+        "color": "unspecified"
+      },
+      "labels": {
+        "memory": "12GB RAM",
+        "storage": "256GB",
+        "color": "Not specified"
+      },
+      "prices": []
+    },
+    {
+      "id": "12gb-512gb",
+      "label": "12GB RAM · 512GB storage",
+      "specs": {
+        "memory": "12GB",
+        "storage": "512GB",
+        "color": "unspecified"
+      },
+      "labels": {
+        "memory": "12GB RAM",
+        "storage": "512GB",
+        "color": "Not specified"
+      },
+      "prices": []
+    },
+    {
+      "id": "12gb-256gb-violet",
+      "label": "12GB RAM · 256GB storage · Violet",
+      "specs": {
+        "memory": "12GB",
+        "storage": "256GB",
+        "color": "Violet"
+      },
+      "labels": {
+        "memory": "12GB RAM",
+        "storage": "256GB",
+        "color": "Violet"
+      },
+      "prices": [
+        {
+          "code": "in",
+          "local": 69999,
+          "display": "₹69,999",
+          "part": "4224101106",
+          "url": "https://store.mi.com/in/item/3224101583",
+          "at": "2026-11-01T10:28:32.201Z",
+          "source": "Xiaomi India",
+          "availability": "in-stock",
+          "refundEligible": false,
+          "expiresAt": "2026-11-02T22:28:32.201Z"
+        }
+      ],
+      "part": "4224101106",
+      "image": "https://i03.appmifile.com/487_item_in/11/08/2026/3f54595482fa53d636c8d0f9016effd7.png?width=200&height=200"
+    }
+  ],
+  "dimensions": [
+    {
+      "key": "memory",
+      "name": "RAM",
+      "values": [
+        {
+          "key": "12GB",
+          "label": "12GB RAM"
+        }
+      ]
+    },
+    {
+      "key": "storage",
+      "name": "Storage",
+      "values": [
+        {
+          "key": "256GB",
+          "label": "256GB"
+        },
+        {
+          "key": "512GB",
+          "label": "512GB"
+        }
+      ]
+    },
+    {
+      "key": "color",
+      "name": "Color",
+      "values": [
+        {
+          "key": "unspecified",
+          "label": "Not specified"
+        },
+        {
+          "key": "Violet",
+          "label": "Violet"
+        }
+      ]
+    }
+  ],
+  "fixed": {
+    "Market": "India"
+  },
+  "defaultVariant": "12gb-256gb-violet",
+  "pricedAt": "2026-11-01T10:28:32.201Z",
+  "failedStores": [],
+  "research": {
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Xiaomi official India specifications",
+        "url": "https://www.mi.com/in/product/xiaomi-17t/specs/",
+        "market": "in"
+      },
+      {
+        "label": "Xiaomi India store",
+        "url": "https://store.mi.com/in/products/448-0-0-0-0-1",
+        "market": "in"
+      }
+    ],
+    "note": "India-market RAM and storage combinations verified from the manufacturer. Regional availability and warranty may differ. Reference configurations do not specify a color; collected offers identify their exact color separately."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "nintendo-switch-2",
+  "name": "Nintendo Switch 2",
+  "brand": "Nintendo",
+  "category": "Gaming",
+  "image": "https://assets.nintendo.com/image/upload/q_auto/f_auto/dpr_2.0//v1745278135/switch-2/tech-specs/switch-2-front.png",
+  "variants": [
+    {
+      "id": "256gb-standard",
+      "label": "256GB · Standard console",
+      "specs": {
+        "storage": "256GB",
+        "edition": "Standard console"
+      },
+      "labels": {
+        "storage": "256GB",
+        "edition": "Standard console"
+      },
+      "prices": []
+    }
+  ],
+  "dimensions": [],
+  "fixed": {
+    "Storage": "256GB",
+    "Edition": "Standard console",
+    "Type": "Hybrid game console",
+    "Display": "7.9-inch",
+    "Market": "United States"
+  },
+  "defaultVariant": "256gb-standard",
+  "pricedAt": "",
+  "failedStores": [],
+  "research": {
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Nintendo US: console specifications",
+        "url": "https://www.nintendo.com/us/gaming-systems/switch-2/tech-specs/",
+        "market": "us"
+      }
+    ],
+    "note": "US standard Nintendo Switch 2 console. Game bundles, limited editions and Japan-only editions are excluded."
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "asus-zenbook-a14",
+  "name": "ASUS Zenbook A14 (UX3407QA)",
+  "brand": "ASUS",
+  "category": "Laptops",
+  "image": "https://dlcdnwebimgs.asus.com/gain/daf7ed78-fcec-4f54-82a6-db3204fdece3/",
+  "variants": [
+    {
+      "id": "ux3407qa-ps76",
+      "label": "Snapdragon X · 32GB · 1TB SSD",
+      "specs": {
+        "chip": "Snapdragon X X1-26-100",
+        "memory": "32GB LPDDR5X",
+        "storage": "1TB SSD",
+        "gpu": "Qualcomm Adreno GPU",
+        "size": "14-inch"
+      },
+      "part": "UX3407QA-PS76",
+      "labels": {
+        "chip": "Snapdragon X X1-26-100",
+        "memory": "32GB LPDDR5X",
+        "storage": "1TB SSD",
+        "gpu": "Qualcomm Adreno GPU",
+        "size": "14-inch"
+      },
+      "prices": []
+    }
+  ],
+  "dimensions": [],
+  "fixed": {
+    "Processor": "Snapdragon X X1-26-100",
+    "Memory": "32GB LPDDR5X",
+    "Storage": "1TB SSD",
+    "Graphics": "Qualcomm Adreno GPU",
+    "Screen size": "14-inch",
+    "Display": "1920 × 1200 OLED, 60Hz",
+    "Operating system": "Windows 11 Home",
+    "Color": "Iceland Gray",
+    "Market": "United States"
+  },
+  "defaultVariant": "ux3407qa-ps76",
+  "pricedAt": "",
+  "failedStores": [],
+  "research": {
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "ASUS US Zenbook A14 regional SKU list",
+        "url": "https://www.asus.com/us/laptops/for-home/zenbook/asus-zenbook-a14-ux3407/where-to-buy/",
+        "market": "us"
+      },
+      {
+        "label": "ASUS US announcement with exact SKU specification table",
+        "url": "https://www.asus.com/us/news/qyjjfnz7m8jbmbb3/",
+        "market": "us"
+      }
+    ],
+    "note": "US model UX3407QA-PS76 with Snapdragon X, 32GB memory and a 1TB SSD. Other Zenbook A14 models have different processor and memory options."
+  }
+}

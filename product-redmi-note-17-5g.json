@@ -1,0 +1,126 @@
+{
+  "id": "redmi-note-17-5g",
+  "name": "REDMI Note 17 5G",
+  "category": "Phones",
+  "brand": "Xiaomi",
+  "image": "https://i03.appmifile.com/641_item_in/28/07/2026/d9b574c20f0028534aa3cce75fda52d5.png?width=200&height=200",
+  "variants": [
+    {
+      "id": "6gb-128gb",
+      "label": "6GB RAM · 128GB storage",
+      "specs": {
+        "memory": "6GB",
+        "storage": "128GB",
+        "color": "unspecified"
+      },
+      "labels": {
+        "memory": "6GB RAM",
+        "storage": "128GB",
+        "color": "Not specified"
+      },
+      "prices": []
+    },
+    {
+      "id": "8gb-128gb",
+      "label": "8GB RAM · 128GB storage",
+      "specs": {
+        "memory": "8GB",
+        "storage": "128GB",
+        "color": "unspecified"
+      },
+      "labels": {
+        "memory": "8GB RAM",
+        "storage": "128GB",
+        "color": "Not specified"
+      },
+      "prices": []
+    },
+    {
+      "id": "6gb-128gb-arctic-blue",
+      "label": "6GB RAM · 128GB storage · Arctic Blue",
+      "specs": {
+        "memory": "6GB",
+        "storage": "128GB",
+        "color": "Arctic Blue"
+      },
+      "labels": {
+        "memory": "6GB RAM",
+        "storage": "128GB",
+        "color": "Arctic Blue"
+      },
+      "prices": [
+        {
+          "code": "in",
+          "local": 27999,
+          "display": "₹27,999",
+          "part": "4224101142",
+          "url": "https://store.mi.com/in/item/3224101632",
+          "at": "2026-11-01T10:28:32.201Z",
+          "source": "Xiaomi India",
+          "availability": "in-stock",
+          "refundEligible": false,
+          "expiresAt": "2026-11-02T22:28:32.201Z"
+        }
+      ],
+      "part": "4224101142",
+      "image": "https://i03.appmifile.com/641_item_in/28/07/2026/d9b574c20f0028534aa3cce75fda52d5.png?width=200&height=200"
+    }
+  ],
+  "dimensions": [
+    {
+      "key": "memory",
+      "name": "RAM",
+      "values": [
+        {
+          "key": "6GB",
+          "label": "6GB RAM"
+        },
+        {
+          "key": "8GB",
+          "label": "8GB RAM"
+        }
+      ]
+    },
+    {
+      "key": "storage",
+      "name": "Storage",
+      "values": [
+        {
+          "key": "128GB",
+          "label": "128GB"
+        }
+      ]
+    },
+    {
+      "key": "color",
+      "name": "Color",
+      "values": [
+        {
+          "key": "unspecified",
+          "label": "Not specified"
+        },
+        {
+          "key": "Arctic Blue",
+          "label": "Arctic Blue"
+        }
+      ]
+    }
+  ],
+  "fixed": {
+    "Market": "India"
+  },
+  "defaultVariant": "6gb-128gb-arctic-blue",
+  "pricedAt": "2026-11-01T10:28:32.201Z",
+  "failedStores": [],
+  "research": {
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Xiaomi official India specifications",
+        "url": "https://store.mi.com/in/products/448-0-0-0-0-1",
+        "market": "in"
+      }
+    ],
+    "note": "India-market RAM and storage combinations verified from the manufacturer. Regional availability and warranty may differ. Reference configurations do not specify a color; collected offers identify their exact color separately."
+  }
+}

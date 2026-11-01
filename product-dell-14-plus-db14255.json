@@ -1,0 +1,55 @@
+{
+  "id": "dell-14-plus-db14255",
+  "name": "Dell 14 Plus (DB14255)",
+  "brand": "Dell",
+  "category": "Laptops",
+  "image": null,
+  "variants": [
+    {
+      "id": "ryzen-ai-5-340-16gb-512gb",
+      "label": "Ryzen AI 5 340 · 16GB · 512GB SSD",
+      "specs": {
+        "chip": "AMD Ryzen AI 5 340",
+        "memory": "16GB LPDDR5X",
+        "storage": "512GB SSD",
+        "gpu": "AMD Radeon 840M",
+        "size": "14-inch"
+      },
+      "part": "db14255_fixed_03",
+      "labels": {
+        "chip": "AMD Ryzen AI 5 340",
+        "memory": "16GB LPDDR5X",
+        "storage": "512GB SSD",
+        "gpu": "AMD Radeon 840M",
+        "size": "14-inch"
+      },
+      "prices": []
+    }
+  ],
+  "dimensions": [],
+  "fixed": {
+    "Processor": "AMD Ryzen AI 5 340",
+    "Memory": "16GB LPDDR5X",
+    "Storage": "512GB SSD",
+    "Graphics": "AMD Radeon 840M",
+    "Screen size": "14-inch",
+    "Display": "1920 × 1200 IPS, non-touch",
+    "Operating system": "Windows 11 Home",
+    "Color": "Ice Blue",
+    "Market": "United States"
+  },
+  "defaultVariant": "ryzen-ai-5-340-16gb-512gb",
+  "pricedAt": "",
+  "failedStores": [],
+  "research": {
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Dell US configuration and specifications",
+        "url": "https://www.dell.com/en-us/shop/cty/spd/dellplus14laptopdb14255",
+        "market": "us"
+      }
+    ],
+    "note": "US configuration with Ryzen AI 5, 16GB memory and a 512GB SSD. Other processor, memory and storage options may differ by market."
+  }
+}

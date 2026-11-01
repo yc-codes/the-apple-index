@@ -1,0 +1,55 @@
+{
+  "id": "acer-swift-go-14-sfg14-71",
+  "name": "Acer Swift Go 14 (SFG14-71-70BG)",
+  "brand": "Acer",
+  "category": "Laptops",
+  "image": null,
+  "variants": [
+    {
+      "id": "nx-kf1si-007",
+      "label": "Core i7-13700H · 16GB · 1TB SSD",
+      "specs": {
+        "chip": "Intel Core i7-13700H",
+        "memory": "16GB LPDDR5",
+        "storage": "1TB SSD",
+        "gpu": "Intel Iris Xe Graphics",
+        "size": "14-inch"
+      },
+      "part": "NX.KF1SI.007",
+      "labels": {
+        "chip": "Intel Core i7-13700H",
+        "memory": "16GB LPDDR5",
+        "storage": "1TB SSD",
+        "gpu": "Intel Iris Xe Graphics",
+        "size": "14-inch"
+      },
+      "prices": []
+    }
+  ],
+  "dimensions": [],
+  "fixed": {
+    "Processor": "Intel Core i7-13700H",
+    "Memory": "16GB LPDDR5",
+    "Storage": "1TB SSD",
+    "Graphics": "Intel Iris Xe Graphics",
+    "Screen size": "14-inch",
+    "Display": "2880 × 1800 OLED, 90Hz, non-touch",
+    "Operating system": "Windows 11 Home Single Language",
+    "Color": "Silver",
+    "Market": "India"
+  },
+  "defaultVariant": "nx-kf1si-007",
+  "pricedAt": "",
+  "failedStores": [],
+  "research": {
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Acer India: Swift Go 14 NX.KF1SI.007",
+        "url": "https://www.acer.com/in-en/laptops/swift/swift-go/pdp/NX.KF1SI.007",
+        "market": "in"
+      }
+    ],
+    "note": "India model NX.KF1SI.007 from the SFG14-71 generation, with Core i7-13700H and an OLED display. Newer Swift Go generations have different specifications."
+  }
+}

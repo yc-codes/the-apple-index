@@ -1,0 +1,55 @@
+{
+  "id": "lenovo-thinkpad-x1-carbon-gen-13",
+  "name": "Lenovo ThinkPad X1 Carbon Gen 13 Aura Edition",
+  "brand": "Lenovo",
+  "category": "Laptops",
+  "image": null,
+  "variants": [
+    {
+      "id": "21nx00f9us",
+      "label": "Core Ultra 7 255U · 32GB · 512GB SSD",
+      "specs": {
+        "chip": "Intel Core Ultra 7 255U",
+        "memory": "32GB LPDDR5X",
+        "storage": "512GB SSD",
+        "gpu": "Integrated Intel Graphics",
+        "size": "14-inch"
+      },
+      "part": "21NX00F9US",
+      "labels": {
+        "chip": "Intel Core Ultra 7 255U",
+        "memory": "32GB LPDDR5X",
+        "storage": "512GB SSD",
+        "gpu": "Integrated Intel Graphics",
+        "size": "14-inch"
+      },
+      "prices": []
+    }
+  ],
+  "dimensions": [],
+  "fixed": {
+    "Processor": "Intel Core Ultra 7 255U",
+    "Memory": "32GB LPDDR5X",
+    "Storage": "512GB SSD",
+    "Graphics": "Integrated Intel Graphics",
+    "Screen size": "14-inch",
+    "Display": "1920 × 1200 IPS, 60Hz, anti-glare",
+    "Operating system": "Windows 11 Pro",
+    "Color": "Black",
+    "Market": "United States"
+  },
+  "defaultVariant": "21nx00f9us",
+  "pricedAt": "",
+  "failedStores": [],
+  "research": {
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Lenovo PSREF: US model 21NX00F9US",
+        "url": "https://psref.lenovo.com/Detail/ThinkPad_X1_Carbon_Gen_13?M=21NX00F9US",
+        "market": "us"
+      }
+    ],
+    "note": "US model 21NX00F9US with Core Ultra 7 255U and a 1920 × 1200 IPS display. Other Gen 13 models can have different processors and displays."
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "id": "redmi-note-17-pro-5g",
+  "name": "REDMI Note 17 Pro 5G",
+  "category": "Phones",
+  "brand": "Xiaomi",
+  "image": "https://i03.appmifile.com/512_item_in/09/09/2026/9264e89398b285df73a0ef614863cd55.png?width=200&height=200",
+  "variants": [
+    {
+      "id": "8gb-128gb",
+      "label": "8GB RAM · 128GB storage",
+      "specs": {
+        "memory": "8GB",
+        "storage": "128GB",
+        "color": "unspecified"
+      },
+      "labels": {
+        "memory": "8GB RAM",
+        "storage": "128GB",
+        "color": "Not specified"
+      },
+      "prices": []
+    },
+    {
+      "id": "8gb-256gb",
+      "label": "8GB RAM · 256GB storage",
+      "specs": {
+        "memory": "8GB",
+        "storage": "256GB",
+        "color": "unspecified"
+      },
+      "labels": {
+        "memory": "8GB RAM",
+        "storage": "256GB",
+        "color": "Not specified"
+      },
+      "prices": []
+    },
+    {
+      "id": "8gb-128gb-cloud-blue",
+      "label": "8GB RAM · 128GB storage · Cloud Blue",
+      "specs": {
+        "memory": "8GB",
+        "storage": "128GB",
+        "color": "Cloud Blue"
+      },
+      "labels": {
+        "memory": "8GB RAM",
+        "storage": "128GB",
+        "color": "Cloud Blue"
+      },
+      "prices": [
+        {
+          "code": "in",
+          "local": 36999,
+          "display": "₹36,999",
+          "part": "4224101186",
+          "url": "https://store.mi.com/in/item/3224101689",
+          "at": "2026-11-01T10:28:32.201Z",
+          "source": "Xiaomi India",
+          "availability": "in-stock",
+          "refundEligible": false,
+          "expiresAt": "2026-11-02T22:28:32.201Z"
+        }
+      ],
+      "part": "4224101186",
+      "image": "https://i03.appmifile.com/512_item_in/09/09/2026/9264e89398b285df73a0ef614863cd55.png?width=200&height=200"
+    }
+  ],
+  "dimensions": [
+    {
+      "key": "memory",
+      "name": "RAM",
+      "values": [
+        {
+          "key": "8GB",
+          "label": "8GB RAM"
+        }
+      ]
+    },
+    {
+      "key": "storage",
+      "name": "Storage",
+      "values": [
+        {
+          "key": "128GB",
+          "label": "128GB"
+        },
+        {
+          "key": "256GB",
+          "label": "256GB"
+        }
+      ]
+    },
+    {
+      "key": "color",
+      "name": "Color",
+      "values": [
+        {
+          "key": "unspecified",
+          "label": "Not specified"
+        },
+        {
+          "key": "Cloud Blue",
+          "label": "Cloud Blue"
+        }
+      ]
+    }
+  ],
+  "fixed": {
+    "Market": "India"
+  },
+  "defaultVariant": "8gb-128gb-cloud-blue",
+  "pricedAt": "2026-11-01T10:28:32.201Z",
+  "failedStores": [],
+  "research": {
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Xiaomi official India specifications",
+        "url": "https://www.mi.com/in/product/redmi-note-17-pro-5g/specs/",
+        "market": "in"
+      },
+      {
+        "label": "Xiaomi India store",
+        "url": "https://store.mi.com/in/products/448-0-0-0-0-1",
+        "market": "in"
+      }
+    ],
+    "note": "India-market RAM and storage combinations verified from the manufacturer. Regional availability and warranty may differ. Reference configurations do not specify a color; collected offers identify their exact color separately."
+  }
+}

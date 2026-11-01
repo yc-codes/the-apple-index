@@ -1,0 +1,55 @@
+{
+  "id": "samsung-galaxy-book5-pro-16",
+  "name": "Samsung Galaxy Book5 Pro 16-inch",
+  "brand": "Samsung",
+  "category": "Laptops",
+  "image": null,
+  "variants": [
+    {
+      "id": "np960xha-kg1uk",
+      "label": "Core Ultra 7 256V · 16GB · 512GB SSD",
+      "specs": {
+        "chip": "Intel Core Ultra 7 256V",
+        "memory": "16GB LPDDR5X",
+        "storage": "512GB SSD",
+        "gpu": "Intel Arc 140V",
+        "size": "16-inch"
+      },
+      "part": "NP960XHA-KG1UK",
+      "labels": {
+        "chip": "Intel Core Ultra 7 256V",
+        "memory": "16GB LPDDR5X",
+        "storage": "512GB SSD",
+        "gpu": "Intel Arc 140V",
+        "size": "16-inch"
+      },
+      "prices": []
+    }
+  ],
+  "dimensions": [],
+  "fixed": {
+    "Processor": "Intel Core Ultra 7 256V",
+    "Memory": "16GB LPDDR5X",
+    "Storage": "512GB SSD",
+    "Graphics": "Intel Arc 140V",
+    "Screen size": "16-inch",
+    "Display": "2880 × 1800 Dynamic AMOLED 2X touch",
+    "Operating system": "Windows 11 Home",
+    "Color": "Gray",
+    "Market": "United Kingdom"
+  },
+  "defaultVariant": "np960xha-kg1uk",
+  "pricedAt": "",
+  "failedStores": [],
+  "research": {
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Samsung UK: Galaxy Book5 Pro NP960XHA-KG1UK",
+        "url": "https://www.samsung.com/uk/business/computers/galaxy-book/galaxy-book5-pro-16-inch-ultra-7-16gb-512gb-np960xha-kg1uk/",
+        "market": "gb"
+      }
+    ],
+    "note": "UK model NP960XHA-KG1UK with a 16-inch display and Windows 11 Home. Keyboard layouts and configurations can differ by country."
+  }
+}

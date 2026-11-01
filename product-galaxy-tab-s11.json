@@ -1,0 +1,55 @@
+{
+  "id": "galaxy-tab-s11",
+  "name": "Galaxy Tab S11",
+  "brand": "Samsung",
+  "category": "Tablets",
+  "image": null,
+  "variants": [
+    {
+      "id": "12gb-128gb-wifi-grey",
+      "label": "12GB / 128GB · Wi-Fi · Grey",
+      "part": "SM-X730NZAAXSA",
+      "specs": {
+        "memory": "12GB",
+        "storage": "128GB",
+        "connectivity": "Wi-Fi",
+        "color": "Grey"
+      },
+      "labels": {
+        "memory": "12GB",
+        "storage": "128GB",
+        "connectivity": "Wi-Fi",
+        "color": "Grey"
+      },
+      "prices": []
+    }
+  ],
+  "dimensions": [],
+  "fixed": {
+    "RAM": "12GB",
+    "Storage": "128GB",
+    "Connectivity": "Wi-Fi",
+    "Color": "Grey",
+    "Display": "11-inch",
+    "Market": "Australia"
+  },
+  "defaultVariant": "12gb-128gb-wifi-grey",
+  "pricedAt": "",
+  "failedStores": [],
+  "research": {
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Samsung Australia: exact Wi-Fi SKU",
+        "url": "https://www.samsung.com/au/tablets/galaxy-tab-s/galaxy-tab-s11-gray-128gb-sm-x730nzaaxsa/",
+        "market": "au"
+      },
+      {
+        "label": "Samsung Australia: memory and storage options",
+        "url": "https://www.samsung.com/au/tablets/galaxy-tab-s11/buy/?modelCode=SM-X730NZAAXSA",
+        "market": "au"
+      }
+    ],
+    "note": "Australian Wi-Fi model with 12GB memory and 128GB storage. Cellular versions and other storage options are separate configurations."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "galaxy-buds4-pro",
+  "name": "Galaxy Buds4 Pro",
+  "brand": "Samsung",
+  "category": "Audio",
+  "image": null,
+  "variants": [
+    {
+      "id": "black",
+      "label": "Black",
+      "part": "SM-R640NZKAXAR",
+      "specs": {
+        "color": "Black"
+      },
+      "labels": {
+        "color": "Black"
+      },
+      "prices": []
+    }
+  ],
+  "dimensions": [],
+  "fixed": {
+    "Color": "Black",
+    "Type": "Wireless noise-cancelling earbuds",
+    "Market": "United States"
+  },
+  "defaultVariant": "black",
+  "pricedAt": "",
+  "failedStores": [],
+  "research": {
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Samsung US: Black reference SKU",
+        "url": "https://www.samsung.com/us/audio-sound/galaxy-buds4-pro/buy/galaxy-buds4-pro-black-sku-sm-r640nzkaxar/",
+        "market": "us"
+      }
+    ],
+    "note": "Complete Galaxy Buds4 Pro set in Black. These differ from Galaxy Buds4 and earlier Buds Pro generations."
+  }
+}

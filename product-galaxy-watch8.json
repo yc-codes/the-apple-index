@@ -1,0 +1,50 @@
+{
+  "id": "galaxy-watch8",
+  "name": "Galaxy Watch8",
+  "brand": "Samsung",
+  "category": "Watches",
+  "image": null,
+  "variants": [
+    {
+      "id": "44mm-bluetooth-silver-white-ml",
+      "label": "44mm · Bluetooth · Silver · White Sport M/L",
+      "part": "SM-L330NZSAXAA",
+      "specs": {
+        "size": "44mm",
+        "connectivity": "Wi-Fi + Bluetooth",
+        "color": "Silver",
+        "band": "White Sport, M/L"
+      },
+      "labels": {
+        "size": "44mm",
+        "connectivity": "Wi-Fi + Bluetooth",
+        "color": "Silver",
+        "band": "White Sport, M/L"
+      },
+      "prices": []
+    }
+  ],
+  "dimensions": [],
+  "fixed": {
+    "Case size": "44mm",
+    "Connectivity": "Wi-Fi + Bluetooth",
+    "Case color": "Silver",
+    "Band": "White Sport, M/L",
+    "Type": "Smartwatch",
+    "Market": "United States"
+  },
+  "defaultVariant": "44mm-bluetooth-silver-white-ml",
+  "pricedAt": "",
+  "failedStores": [],
+  "research": {
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Samsung US: 44mm Silver Bluetooth SKU",
+        "url": "https://www.samsung.com/us/watches/galaxy-watch8/buy/galaxy-watch8-44mm-silver-wi-fi-bluetooth-sku-sm-l330nzsaxaa/",
+        "market": "us"
+      }
+    ],
+    "note": "44mm Silver Bluetooth model with a White Sport band in M/L. LTE, Classic, Ultra and other band options are separate configurations."
+  }
+}

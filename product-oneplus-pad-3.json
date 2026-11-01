@@ -1,0 +1,56 @@
+{
+  "id": "oneplus-pad-3",
+  "name": "OnePlus Pad 3",
+  "brand": "OnePlus",
+  "category": "Tablets",
+  "image": null,
+  "variants": [
+    {
+      "id": "12gb-256gb-wifi-storm-blue",
+      "label": "12GB / 256GB · Wi-Fi · Storm Blue",
+      "part": "5511100389",
+      "specs": {
+        "memory": "12GB",
+        "storage": "256GB",
+        "connectivity": "Wi-Fi",
+        "color": "Storm Blue"
+      },
+      "labels": {
+        "memory": "12GB",
+        "storage": "256GB",
+        "connectivity": "Wi-Fi",
+        "color": "Storm Blue"
+      },
+      "prices": []
+    }
+  ],
+  "dimensions": [],
+  "fixed": {
+    "RAM": "12GB",
+    "Storage": "256GB",
+    "Connectivity": "Wi-Fi",
+    "Color": "Storm Blue",
+    "Processor": "Snapdragon 8 Elite",
+    "Display": "13.2-inch",
+    "Market": "India"
+  },
+  "defaultVariant": "12gb-256gb-wifi-storm-blue",
+  "pricedAt": "",
+  "failedStores": [],
+  "research": {
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "OnePlus India: explicit SKU configuration",
+        "url": "https://www.oneplus.in/buy-oneplus-pad-3",
+        "market": "in"
+      },
+      {
+        "label": "OnePlus India: specifications",
+        "url": "https://www.oneplus.in/oneplus-pad-3/specs",
+        "market": "in"
+      }
+    ],
+    "note": "India Wi-Fi model in Storm Blue with 12GB memory and 256GB storage. Bundles with accessories are separate configurations."
+  }
+}

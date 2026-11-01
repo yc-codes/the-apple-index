@@ -1,0 +1,55 @@
+{
+  "id": "hp-omnibook-ultra-14-kg0831nr",
+  "name": "HP OmniBook Ultra 14-kg0831nr",
+  "brand": "HP",
+  "category": "Laptops",
+  "image": "https://hp.widen.net/content/ihsigjyy8p/webp/ihsigjyy8p.png?color=ffffff00&dpi=72&h=430&w=573",
+  "variants": [
+    {
+      "id": "d9kl5ua-aba",
+      "label": "Snapdragon X2 Elite · 32GB · 1TB SSD",
+      "specs": {
+        "chip": "Snapdragon X2 Elite X2E-84-100",
+        "memory": "32GB",
+        "storage": "1TB SSD",
+        "gpu": "Qualcomm Adreno GPU",
+        "size": "14-inch"
+      },
+      "part": "D9KL5UA#ABA",
+      "labels": {
+        "chip": "Snapdragon X2 Elite X2E-84-100",
+        "memory": "32GB",
+        "storage": "1TB SSD",
+        "gpu": "Qualcomm Adreno GPU",
+        "size": "14-inch"
+      },
+      "prices": []
+    }
+  ],
+  "dimensions": [],
+  "fixed": {
+    "Processor": "Snapdragon X2 Elite X2E-84-100",
+    "Memory": "32GB",
+    "Storage": "1TB SSD",
+    "Graphics": "Qualcomm Adreno GPU",
+    "Screen size": "14-inch",
+    "Display": "2880 × 1800 OLED touch, up to 120Hz",
+    "Operating system": "Windows 11 Home",
+    "Color": "Stone Blue",
+    "Market": "United States"
+  },
+  "defaultVariant": "d9kl5ua-aba",
+  "pricedAt": "",
+  "failedStores": [],
+  "research": {
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "HP US: OmniBook Ultra 14-kg0831nr",
+        "url": "https://www.hp.com/us-en/shop/pdp/hp-omnibook-ultra-laptop-next-gen-ai-14-kg0831nr",
+        "market": "us"
+      }
+    ],
+    "note": "US model D9KL5UA#ABA with Snapdragon X2 Elite and an OLED touchscreen. Other OmniBook Ultra models can have different processors and storage."
+  }
+}

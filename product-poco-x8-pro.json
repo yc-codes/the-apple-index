@@ -1,0 +1,95 @@
+{
+  "id": "poco-x8-pro",
+  "name": "POCO X8 Pro",
+  "category": "Phones",
+  "brand": "POCO",
+  "image": "https://i02.appmifile.com/332_operator_sg/06/03/2026/0ad119ed645050b492d6f231af016dd8.png",
+  "variants": [
+    {
+      "id": "8gb-256gb",
+      "label": "8GB RAM · 256GB storage",
+      "specs": {
+        "memory": "8GB",
+        "storage": "256GB"
+      },
+      "labels": {
+        "memory": "8GB RAM",
+        "storage": "256GB"
+      },
+      "prices": []
+    },
+    {
+      "id": "8gb-512gb",
+      "label": "8GB RAM · 512GB storage",
+      "specs": {
+        "memory": "8GB",
+        "storage": "512GB"
+      },
+      "labels": {
+        "memory": "8GB RAM",
+        "storage": "512GB"
+      },
+      "prices": []
+    },
+    {
+      "id": "12gb-512gb",
+      "label": "12GB RAM · 512GB storage",
+      "specs": {
+        "memory": "12GB",
+        "storage": "512GB"
+      },
+      "labels": {
+        "memory": "12GB RAM",
+        "storage": "512GB"
+      },
+      "prices": []
+    }
+  ],
+  "dimensions": [
+    {
+      "key": "memory",
+      "name": "RAM",
+      "values": [
+        {
+          "key": "8GB",
+          "label": "8GB RAM"
+        },
+        {
+          "key": "12GB",
+          "label": "12GB RAM"
+        }
+      ]
+    },
+    {
+      "key": "storage",
+      "name": "Storage",
+      "values": [
+        {
+          "key": "256GB",
+          "label": "256GB"
+        },
+        {
+          "key": "512GB",
+          "label": "512GB"
+        }
+      ]
+    }
+  ],
+  "fixed": {
+    "Market": "UAE"
+  },
+  "defaultVariant": "8gb-256gb",
+  "pricedAt": "",
+  "failedStores": [],
+  "research": {
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "POCO official UAE specifications",
+        "url": "https://www.mi.com/ae-en/product/poco-x8-pro/specs/",
+        "market": "ae"
+      }
+    ],
+    "note": "UAE-market RAM and storage combinations verified from the manufacturer. Regional availability and warranty may differ. Reference configurations do not specify a color; collected offers identify their exact color separately."
+  }
+}

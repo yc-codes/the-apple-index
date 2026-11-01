@@ -287,7 +287,9 @@
           "at": "2026-10-30T13:44:59.154Z"
         }
       ],
-      "pricedAt": "2026-10-30T13:45:15.475Z"
+      "pricedAt": "2026-10-30T13:45:15.475Z",
+      "brand": "Apple",
+      "priceStatus": "collected"
     },
     {
       "id": "macbook-neo",
@@ -575,7 +577,9 @@
           "at": "2026-10-30T13:50:19.507Z"
         }
       ],
-      "pricedAt": "2026-10-30T13:50:27.426Z"
+      "pricedAt": "2026-10-30T13:50:27.426Z",
+      "brand": "Apple",
+      "priceStatus": "collected"
     },
     {
       "id": "macbook-pro",
@@ -863,7 +867,9 @@
           "at": "2026-10-30T13:55:31.771Z"
         }
       ],
-      "pricedAt": "2026-10-30T13:55:39.826Z"
+      "pricedAt": "2026-10-30T13:55:39.826Z",
+      "brand": "Apple",
+      "priceStatus": "collected"
     },
     {
       "id": "imac",
@@ -1151,7 +1157,9 @@
           "at": "2026-10-30T14:00:44.383Z"
         }
       ],
-      "pricedAt": "2026-10-30T14:00:52.245Z"
+      "pricedAt": "2026-10-30T14:00:52.245Z",
+      "brand": "Apple",
+      "priceStatus": "collected"
     },
     {
       "id": "mac-mini",
@@ -1439,7 +1447,9 @@
           "at": "2026-10-31T09:44:08.705Z"
         }
       ],
-      "pricedAt": "2026-10-31T09:44:16.686Z"
+      "pricedAt": "2026-10-31T09:44:16.686Z",
+      "brand": "Apple",
+      "priceStatus": "collected"
     },
     {
       "id": "mac-studio",
@@ -1727,19 +1737,25 @@
           "at": "2026-10-31T09:49:20.881Z"
         }
       ],
-      "pricedAt": "2026-10-31T09:49:28.929Z"
+      "pricedAt": "2026-10-31T09:49:28.929Z",
+      "brand": "Apple",
+      "priceStatus": "collected"
     },
     {
       "id": "studio-display",
       "name": "Studio Display",
       "category": "Mac",
-      "ready": false
+      "ready": false,
+      "brand": "Apple",
+      "priceStatus": "pending"
     },
     {
       "id": "studio-display-xdr",
       "name": "Studio Display XDR",
       "category": "Mac",
-      "ready": false
+      "ready": false,
+      "brand": "Apple",
+      "priceStatus": "pending"
     },
     {
       "id": "iphone-18-pro",
@@ -2027,7 +2043,9 @@
           "at": "2026-10-31T10:20:10.197Z"
         }
       ],
-      "pricedAt": "2026-10-31T10:20:58.225Z"
+      "pricedAt": "2026-10-31T10:20:58.225Z",
+      "brand": "Apple",
+      "priceStatus": "collected"
     },
     {
       "id": "iphone-air",
@@ -2315,7 +2333,9 @@
           "at": "2026-10-31T10:32:26.735Z"
         }
       ],
-      "pricedAt": "2026-10-31T10:32:50.739Z"
+      "pricedAt": "2026-10-31T10:32:50.739Z",
+      "brand": "Apple",
+      "priceStatus": "collected"
     },
     {
       "id": "iphone-duo",
@@ -2603,7 +2623,9 @@
           "at": "2026-10-31T10:42:59.249Z"
         }
       ],
-      "pricedAt": "2026-10-31T10:43:15.336Z"
+      "pricedAt": "2026-10-31T10:43:15.336Z",
+      "brand": "Apple",
+      "priceStatus": "collected"
     },
     {
       "id": "iphone-17",
@@ -2891,7 +2913,9 @@
           "at": "2026-10-31T10:53:23.849Z"
         }
       ],
-      "pricedAt": "2026-10-31T10:53:39.822Z"
+      "pricedAt": "2026-10-31T10:53:39.822Z",
+      "brand": "Apple",
+      "priceStatus": "collected"
     },
     {
       "id": "iphone-17e",
@@ -3179,7 +3203,9 @@
           "at": "2026-10-31T11:03:00.050Z"
         }
       ],
-      "pricedAt": "2026-10-31T11:03:16.113Z"
+      "pricedAt": "2026-10-31T11:03:16.113Z",
+      "brand": "Apple",
+      "priceStatus": "collected"
     },
     {
       "id": "iphone-16",
@@ -3201,7 +3227,9 @@
           "at": "2026-10-31T11:03:17.395Z"
         }
       ],
-      "pricedAt": "2026-10-31T11:08:28.177Z"
+      "pricedAt": "2026-10-31T11:08:28.177Z",
+      "brand": "Apple",
+      "priceStatus": "collected"
     },
     {
       "id": "ipad-pro",
@@ -3489,7 +3517,9 @@
           "at": "2026-10-31T11:23:41.127Z"
         }
       ],
-      "pricedAt": "2026-10-31T11:24:05.132Z"
+      "pricedAt": "2026-10-31T11:24:05.132Z",
+      "brand": "Apple",
+      "priceStatus": "collected"
     },
     {
       "id": "ipad-air",
@@ -3777,7 +3807,9 @@
           "at": "2026-10-31T11:44:21.979Z"
         }
       ],
-      "pricedAt": "2026-10-31T11:44:54.014Z"
+      "pricedAt": "2026-10-31T11:44:54.014Z",
+      "brand": "Apple",
+      "priceStatus": "collected"
     },
     {
       "id": "ipad",
@@ -4065,7 +4097,9 @@
           "at": "2026-10-31T11:55:02.512Z"
         }
       ],
-      "pricedAt": "2026-10-31T11:55:18.467Z"
+      "pricedAt": "2026-10-31T11:55:18.467Z",
+      "brand": "Apple",
+      "priceStatus": "collected"
     },
     {
       "id": "ipad-mini",
@@ -4353,7 +4387,9 @@
           "at": "2026-10-31T12:00:22.809Z"
         }
       ],
-      "pricedAt": "2026-10-31T12:00:31.009Z"
+      "pricedAt": "2026-10-31T12:00:31.009Z",
+      "brand": "Apple",
+      "priceStatus": "collected"
     },
     {
       "id": "apple-watch",
@@ -4627,7 +4663,9 @@
           "at": "2026-10-30T13:00:33.246Z"
         }
       ],
-      "pricedAt": "2026-10-30T13:00:49.318Z"
+      "pricedAt": "2026-10-30T13:00:49.318Z",
+      "brand": "Apple",
+      "priceStatus": "collected"
     },
     {
       "id": "apple-watch-se",
@@ -4901,7 +4939,9 @@
           "at": "2026-10-30T13:09:21.770Z"
         }
       ],
-      "pricedAt": "2026-10-30T13:09:29.777Z"
+      "pricedAt": "2026-10-30T13:09:29.777Z",
+      "brand": "Apple",
+      "priceStatus": "collected"
     },
     {
       "id": "apple-watch-ultra",
@@ -5175,7 +5215,9 @@
           "at": "2026-10-30T13:16:01.758Z"
         }
       ],
-      "pricedAt": "2026-10-30T13:16:09.942Z"
+      "pricedAt": "2026-10-30T13:16:09.942Z",
+      "brand": "Apple",
+      "priceStatus": "collected"
     },
     {
       "id": "apple-tv-4k",
@@ -5463,7 +5505,9 @@
           "at": "2026-10-30T13:21:21.930Z"
         }
       ],
-      "pricedAt": "2026-10-30T13:21:30.351Z"
+      "pricedAt": "2026-10-30T13:21:30.351Z",
+      "brand": "Apple",
+      "priceStatus": "collected"
     },
     {
       "id": "homepod",
@@ -5681,7 +5725,9 @@
           "at": "2026-10-30T13:27:46.297Z"
         }
       ],
-      "pricedAt": "2026-10-30T13:28:11.559Z"
+      "pricedAt": "2026-10-30T13:28:11.559Z",
+      "brand": "Apple",
+      "priceStatus": "collected"
     },
     {
       "id": "homepod-mini",
@@ -5899,7 +5945,720 @@
           "at": "2026-10-30T13:34:26.642Z"
         }
       ],
-      "pricedAt": "2026-10-30T13:34:50.536Z"
+      "pricedAt": "2026-10-30T13:34:50.536Z",
+      "brand": "Apple",
+      "priceStatus": "collected"
+    },
+    {
+      "id": "samsung-galaxy-s26",
+      "name": "Galaxy S26",
+      "category": "Phones",
+      "brand": "Samsung",
+      "ready": true,
+      "priceStatus": "pending",
+      "image": null,
+      "variant": {
+        "id": "12gb-256gb",
+        "label": "12GB RAM · 256GB storage"
+      },
+      "prices": [],
+      "configurations": 2
+    },
+    {
+      "id": "samsung-galaxy-s26-plus",
+      "name": "Galaxy S26+",
+      "category": "Phones",
+      "brand": "Samsung",
+      "ready": true,
+      "priceStatus": "pending",
+      "image": null,
+      "variant": {
+        "id": "12gb-256gb",
+        "label": "12GB RAM · 256GB storage"
+      },
+      "prices": [],
+      "configurations": 2
+    },
+    {
+      "id": "samsung-galaxy-s26-ultra",
+      "name": "Galaxy S26 Ultra",
+      "category": "Phones",
+      "brand": "Samsung",
+      "ready": true,
+      "priceStatus": "pending",
+      "image": null,
+      "variant": {
+        "id": "12gb-256gb",
+        "label": "12GB RAM · 256GB storage"
+      },
+      "prices": [],
+      "configurations": 3
+    },
+    {
+      "id": "samsung-galaxy-z-fold8",
+      "name": "Galaxy Z Fold8",
+      "category": "Phones",
+      "brand": "Samsung",
+      "ready": true,
+      "priceStatus": "pending",
+      "image": null,
+      "variant": {
+        "id": "12gb-256gb",
+        "label": "12GB RAM · 256GB storage"
+      },
+      "prices": [],
+      "configurations": 3
+    },
+    {
+      "id": "samsung-galaxy-z-flip8",
+      "name": "Galaxy Z Flip8",
+      "category": "Phones",
+      "brand": "Samsung",
+      "ready": true,
+      "priceStatus": "pending",
+      "image": null,
+      "variant": {
+        "id": "12gb-256gb",
+        "label": "12GB RAM · 256GB storage"
+      },
+      "prices": [],
+      "configurations": 2
+    },
+    {
+      "id": "samsung-galaxy-a57-5g",
+      "name": "Galaxy A57 5G",
+      "category": "Phones",
+      "brand": "Samsung",
+      "ready": true,
+      "priceStatus": "pending",
+      "image": null,
+      "variant": {
+        "id": "8gb-256gb",
+        "label": "8GB RAM · 256GB storage"
+      },
+      "prices": [],
+      "configurations": 2
+    },
+    {
+      "id": "oneplus-15",
+      "name": "OnePlus 15",
+      "category": "Phones",
+      "brand": "OnePlus",
+      "ready": true,
+      "priceStatus": "pending",
+      "image": "https://www.oneplus.in/content/dam/oneplus/2026/in/nav/OP15-sand.png",
+      "variant": {
+        "id": "12gb-256gb",
+        "label": "12GB RAM · 256GB storage"
+      },
+      "prices": [],
+      "configurations": 2
+    },
+    {
+      "id": "oneplus-15r",
+      "name": "OnePlus 15R",
+      "category": "Phones",
+      "brand": "OnePlus",
+      "ready": true,
+      "priceStatus": "pending",
+      "image": "https://www.oneplus.in/content/dam/oneplus/2026/in/nav/OP15R-Mint-Breeze.png",
+      "variant": {
+        "id": "12gb-256gb",
+        "label": "12GB RAM · 256GB storage"
+      },
+      "prices": [],
+      "configurations": 2
+    },
+    {
+      "id": "oneplus-nord-6",
+      "name": "OnePlus Nord 6",
+      "category": "Phones",
+      "brand": "OnePlus",
+      "ready": true,
+      "priceStatus": "pending",
+      "image": "https://www.oneplus.in/content/dam/oneplus/2026/product-station/oneplus-nord-6/nav/OnePlus_VW_Mint_296x296.png",
+      "variant": {
+        "id": "8gb-256gb",
+        "label": "8GB RAM · 256GB storage"
+      },
+      "prices": [],
+      "configurations": 2
+    },
+    {
+      "id": "oneplus-nord-ce6",
+      "name": "OnePlus Nord CE6",
+      "category": "Phones",
+      "brand": "OnePlus",
+      "ready": true,
+      "priceStatus": "pending",
+      "image": "https://www.oneplus.in/content/dam/oneplus/2026/product-station/oneplus-nord-ce6/others/OnePlus_Prado_Mint_296x296_new.png",
+      "variant": {
+        "id": "8gb-128gb",
+        "label": "8GB RAM · 128GB storage"
+      },
+      "prices": [],
+      "configurations": 2
+    },
+    {
+      "id": "xiaomi-17-ultra",
+      "name": "Xiaomi 17 Ultra",
+      "category": "Phones",
+      "brand": "Xiaomi",
+      "ready": true,
+      "priceStatus": "collected",
+      "image": "https://i03.appmifile.com/458_item_in/01/10/2026/c3cedc6abfa65c2f7d6769c468abb59e.png?width=200&height=200",
+      "variant": {
+        "id": "16gb-512gb-white",
+        "label": "16GB RAM · 512GB storage · White"
+      },
+      "prices": [
+        {
+          "code": "in",
+          "local": 139999,
+          "display": "₹139,999",
+          "part": "4224101017",
+          "url": "https://store.mi.com/in/item/3224101431",
+          "at": "2026-11-01T10:28:32.201Z",
+          "source": "Xiaomi India",
+          "availability": "in-stock",
+          "refundEligible": false,
+          "expiresAt": "2026-11-02T22:28:32.201Z"
+        }
+      ],
+      "configurations": 2,
+      "pricedAt": "2026-11-01T10:28:32.201Z"
+    },
+    {
+      "id": "xiaomi-17t",
+      "name": "Xiaomi 17T",
+      "category": "Phones",
+      "brand": "Xiaomi",
+      "ready": true,
+      "priceStatus": "collected",
+      "image": "https://i03.appmifile.com/487_item_in/11/08/2026/3f54595482fa53d636c8d0f9016effd7.png?width=200&height=200",
+      "variant": {
+        "id": "12gb-256gb-violet",
+        "label": "12GB RAM · 256GB storage · Violet"
+      },
+      "prices": [
+        {
+          "code": "in",
+          "local": 69999,
+          "display": "₹69,999",
+          "part": "4224101106",
+          "url": "https://store.mi.com/in/item/3224101583",
+          "at": "2026-11-01T10:28:32.201Z",
+          "source": "Xiaomi India",
+          "availability": "in-stock",
+          "refundEligible": false,
+          "expiresAt": "2026-11-02T22:28:32.201Z"
+        }
+      ],
+      "configurations": 3,
+      "pricedAt": "2026-11-01T10:28:32.201Z"
+    },
+    {
+      "id": "redmi-note-15-pro-plus-5g",
+      "name": "Redmi Note 15 Pro+ 5G",
+      "category": "Phones",
+      "brand": "Xiaomi",
+      "ready": true,
+      "priceStatus": "collected",
+      "image": "https://i03.appmifile.com/665_item_in/27/01/2026/2e82f70b1cd0d35cdfd2332ef540ecee.png?width=200&height=200",
+      "variant": {
+        "id": "8gb-256gb-carbon-black",
+        "label": "8GB RAM · 256GB storage · Carbon Black"
+      },
+      "prices": [
+        {
+          "code": "in",
+          "local": 39999,
+          "display": "₹39,999",
+          "part": "4224100960",
+          "url": "https://store.mi.com/in/item/3224101364",
+          "at": "2026-11-01T10:28:32.201Z",
+          "source": "Xiaomi India",
+          "availability": "in-stock",
+          "refundEligible": false,
+          "expiresAt": "2026-11-02T22:28:32.201Z"
+        }
+      ],
+      "configurations": 4,
+      "pricedAt": "2026-11-01T10:28:32.201Z"
+    },
+    {
+      "id": "redmi-note-17-pro-5g",
+      "name": "REDMI Note 17 Pro 5G",
+      "category": "Phones",
+      "brand": "Xiaomi",
+      "ready": true,
+      "priceStatus": "collected",
+      "image": "https://i03.appmifile.com/512_item_in/09/09/2026/9264e89398b285df73a0ef614863cd55.png?width=200&height=200",
+      "variant": {
+        "id": "8gb-128gb-cloud-blue",
+        "label": "8GB RAM · 128GB storage · Cloud Blue"
+      },
+      "prices": [
+        {
+          "code": "in",
+          "local": 36999,
+          "display": "₹36,999",
+          "part": "4224101186",
+          "url": "https://store.mi.com/in/item/3224101689",
+          "at": "2026-11-01T10:28:32.201Z",
+          "source": "Xiaomi India",
+          "availability": "in-stock",
+          "refundEligible": false,
+          "expiresAt": "2026-11-02T22:28:32.201Z"
+        }
+      ],
+      "configurations": 3,
+      "pricedAt": "2026-11-01T10:28:32.201Z"
+    },
+    {
+      "id": "redmi-note-17-pro-max-5g",
+      "name": "REDMI Note 17 Pro Max 5G",
+      "category": "Phones",
+      "brand": "Xiaomi",
+      "ready": true,
+      "priceStatus": "collected",
+      "image": "https://i03.appmifile.com/527_item_in/17/09/2026/a4f364543de0fb928ea7d4ad15a7f0f6.png?width=200&height=200",
+      "variant": {
+        "id": "8gb-256gb-secret-sunrise",
+        "label": "8GB RAM · 256GB storage · Secret Sunrise"
+      },
+      "prices": [
+        {
+          "code": "in",
+          "local": 49999,
+          "display": "₹49,999",
+          "part": "4224101193",
+          "url": "https://store.mi.com/in/item/3224101696",
+          "at": "2026-11-01T10:28:32.201Z",
+          "source": "Xiaomi India",
+          "availability": "in-stock",
+          "refundEligible": false,
+          "expiresAt": "2026-11-02T22:28:32.201Z"
+        }
+      ],
+      "configurations": 3,
+      "pricedAt": "2026-11-01T10:28:32.201Z"
+    },
+    {
+      "id": "redmi-note-17-5g",
+      "name": "REDMI Note 17 5G",
+      "category": "Phones",
+      "brand": "Xiaomi",
+      "ready": true,
+      "priceStatus": "collected",
+      "image": "https://i03.appmifile.com/641_item_in/28/07/2026/d9b574c20f0028534aa3cce75fda52d5.png?width=200&height=200",
+      "variant": {
+        "id": "6gb-128gb-arctic-blue",
+        "label": "6GB RAM · 128GB storage · Arctic Blue"
+      },
+      "prices": [
+        {
+          "code": "in",
+          "local": 27999,
+          "display": "₹27,999",
+          "part": "4224101142",
+          "url": "https://store.mi.com/in/item/3224101632",
+          "at": "2026-11-01T10:28:32.201Z",
+          "source": "Xiaomi India",
+          "availability": "in-stock",
+          "refundEligible": false,
+          "expiresAt": "2026-11-02T22:28:32.201Z"
+        }
+      ],
+      "configurations": 3,
+      "pricedAt": "2026-11-01T10:28:32.201Z"
+    },
+    {
+      "id": "poco-x8-pro",
+      "name": "POCO X8 Pro",
+      "category": "Phones",
+      "brand": "POCO",
+      "ready": true,
+      "priceStatus": "pending",
+      "image": "https://i02.appmifile.com/332_operator_sg/06/03/2026/0ad119ed645050b492d6f231af016dd8.png",
+      "variant": {
+        "id": "8gb-256gb",
+        "label": "8GB RAM · 256GB storage"
+      },
+      "prices": [],
+      "configurations": 3
+    },
+    {
+      "id": "dell-14-plus-db14255",
+      "name": "Dell 14 Plus (DB14255)",
+      "category": "Laptops",
+      "brand": "Dell",
+      "ready": true,
+      "priceStatus": "pending",
+      "image": null,
+      "variant": {
+        "id": "ryzen-ai-5-340-16gb-512gb",
+        "label": "Ryzen AI 5 340 · 16GB · 512GB SSD"
+      },
+      "prices": [],
+      "configurations": 1
+    },
+    {
+      "id": "lenovo-thinkpad-x1-carbon-gen-13",
+      "name": "Lenovo ThinkPad X1 Carbon Gen 13 Aura Edition",
+      "category": "Laptops",
+      "brand": "Lenovo",
+      "ready": true,
+      "priceStatus": "pending",
+      "image": null,
+      "variant": {
+        "id": "21nx00f9us",
+        "label": "Core Ultra 7 255U · 32GB · 512GB SSD"
+      },
+      "prices": [],
+      "configurations": 1
+    },
+    {
+      "id": "hp-omnibook-ultra-14-kg0831nr",
+      "name": "HP OmniBook Ultra 14-kg0831nr",
+      "category": "Laptops",
+      "brand": "HP",
+      "ready": true,
+      "priceStatus": "pending",
+      "image": "https://hp.widen.net/content/ihsigjyy8p/webp/ihsigjyy8p.png?color=ffffff00&dpi=72&h=430&w=573",
+      "variant": {
+        "id": "d9kl5ua-aba",
+        "label": "Snapdragon X2 Elite · 32GB · 1TB SSD"
+      },
+      "prices": [],
+      "configurations": 1
+    },
+    {
+      "id": "asus-zenbook-a14",
+      "name": "ASUS Zenbook A14 (UX3407QA)",
+      "category": "Laptops",
+      "brand": "ASUS",
+      "ready": true,
+      "priceStatus": "pending",
+      "image": "https://dlcdnwebimgs.asus.com/gain/daf7ed78-fcec-4f54-82a6-db3204fdece3/",
+      "variant": {
+        "id": "ux3407qa-ps76",
+        "label": "Snapdragon X · 32GB · 1TB SSD"
+      },
+      "prices": [],
+      "configurations": 1
+    },
+    {
+      "id": "asus-rog-zephyrus-g14-2025",
+      "name": "ASUS ROG Zephyrus G14 (2025)",
+      "category": "Laptops",
+      "brand": "ASUS",
+      "ready": true,
+      "priceStatus": "pending",
+      "image": "https://dlcdnwebimgs.asus.com/gain/1596FF79-B299-49DE-8BCF-9ABD2C884429/w250/fwebp",
+      "variant": {
+        "id": "ga403up-cs96",
+        "label": "Ryzen 9 270 · RTX 5070 · 32GB · 1TB SSD"
+      },
+      "prices": [],
+      "configurations": 1
+    },
+    {
+      "id": "microsoft-surface-laptop-13",
+      "name": "Microsoft Surface Laptop 13-inch (1st Edition)",
+      "category": "Laptops",
+      "brand": "Microsoft",
+      "ready": true,
+      "priceStatus": "pending",
+      "image": null,
+      "variant": {
+        "id": "snapdragon-x-plus-16gb-256gb-platinum",
+        "label": "Snapdragon X Plus · 16GB · 256GB · Platinum"
+      },
+      "prices": [],
+      "configurations": 1
+    },
+    {
+      "id": "samsung-galaxy-book5-pro-16",
+      "name": "Samsung Galaxy Book5 Pro 16-inch",
+      "category": "Laptops",
+      "brand": "Samsung",
+      "ready": true,
+      "priceStatus": "pending",
+      "image": null,
+      "variant": {
+        "id": "np960xha-kg1uk",
+        "label": "Core Ultra 7 256V · 16GB · 512GB SSD"
+      },
+      "prices": [],
+      "configurations": 1
+    },
+    {
+      "id": "acer-swift-go-14-sfg14-71",
+      "name": "Acer Swift Go 14 (SFG14-71-70BG)",
+      "category": "Laptops",
+      "brand": "Acer",
+      "ready": true,
+      "priceStatus": "pending",
+      "image": null,
+      "variant": {
+        "id": "nx-kf1si-007",
+        "label": "Core i7-13700H · 16GB · 1TB SSD"
+      },
+      "prices": [],
+      "configurations": 1
+    },
+    {
+      "id": "galaxy-tab-s11",
+      "name": "Galaxy Tab S11",
+      "category": "Tablets",
+      "brand": "Samsung",
+      "ready": true,
+      "priceStatus": "pending",
+      "image": null,
+      "variant": {
+        "id": "12gb-128gb-wifi-grey",
+        "label": "12GB / 128GB · Wi-Fi · Grey"
+      },
+      "prices": [],
+      "configurations": 1
+    },
+    {
+      "id": "oneplus-pad-3",
+      "name": "OnePlus Pad 3",
+      "category": "Tablets",
+      "brand": "OnePlus",
+      "ready": true,
+      "priceStatus": "pending",
+      "image": null,
+      "variant": {
+        "id": "12gb-256gb-wifi-storm-blue",
+        "label": "12GB / 256GB · Wi-Fi · Storm Blue"
+      },
+      "prices": [],
+      "configurations": 1
+    },
+    {
+      "id": "xiaomi-pad-8",
+      "name": "Xiaomi Pad 8",
+      "category": "Tablets",
+      "brand": "Xiaomi",
+      "ready": true,
+      "priceStatus": "collected",
+      "image": "https://i03.appmifile.com/142_item_in/05/03/2026/18dfcc022ecf260a72947c7d01eedbdf.png?width=200&height=200",
+      "variant": {
+        "id": "8gb-128gb-wifi-standard-grey",
+        "label": "8GB / 128GB · Wi-Fi · Standard · Graphite Grey"
+      },
+      "prices": [
+        {
+          "code": "in",
+          "local": 35999,
+          "display": "₹35,999",
+          "part": "4224101026",
+          "url": "https://store.mi.com/in/item/3224101440",
+          "at": "2026-11-01T10:28:33.597Z",
+          "source": "Xiaomi India",
+          "availability": "in-stock",
+          "refundEligible": false,
+          "expiresAt": "2026-11-02T22:28:33.597Z"
+        }
+      ],
+      "configurations": 1,
+      "pricedAt": "2026-11-01T10:28:33.597Z"
+    },
+    {
+      "id": "redmi-pad-2-pro",
+      "name": "Redmi Pad 2 Pro",
+      "category": "Tablets",
+      "brand": "Xiaomi",
+      "ready": true,
+      "priceStatus": "collected",
+      "image": "https://i03.appmifile.com/419_item_in/31/12/2025/b21e7d8e3579b4785e4604f2d3e86d18.png?width=200&height=200",
+      "variant": {
+        "id": "8gb-128gb-wifi-grey",
+        "label": "8GB / 128GB · Wi-Fi · Graphite Grey"
+      },
+      "prices": [
+        {
+          "code": "in",
+          "local": 26999,
+          "display": "₹26,999",
+          "part": "4224100927",
+          "url": "https://store.mi.com/in/item/3224101322",
+          "at": "2026-11-01T10:28:33.597Z",
+          "source": "Xiaomi India",
+          "availability": "in-stock",
+          "refundEligible": false,
+          "expiresAt": "2026-11-02T22:28:33.597Z"
+        }
+      ],
+      "configurations": 1,
+      "pricedAt": "2026-11-01T10:28:33.597Z"
+    },
+    {
+      "id": "redmi-pad-2-pro-5g",
+      "name": "Redmi Pad 2 Pro 5G",
+      "category": "Tablets",
+      "brand": "Xiaomi",
+      "ready": true,
+      "priceStatus": "collected",
+      "image": "https://i03.appmifile.com/949_item_in/31/12/2025/13bcb7a8a504f97a1e12d5c677a1c494.png?width=200&height=200",
+      "variant": {
+        "id": "8gb-128gb-5g-grey",
+        "label": "8GB / 128GB · Wi-Fi + 5G · Graphite Grey"
+      },
+      "prices": [
+        {
+          "code": "in",
+          "local": 29999,
+          "display": "₹29,999",
+          "part": "4224100917",
+          "url": "https://store.mi.com/in/item/3224101312",
+          "at": "2026-11-01T10:28:33.597Z",
+          "source": "Xiaomi India",
+          "availability": "in-stock",
+          "refundEligible": false,
+          "expiresAt": "2026-11-02T22:28:33.597Z"
+        }
+      ],
+      "configurations": 1,
+      "pricedAt": "2026-11-01T10:28:33.597Z"
+    },
+    {
+      "id": "lenovo-idea-tab-pro",
+      "name": "Idea Tab Pro",
+      "category": "Tablets",
+      "brand": "Lenovo",
+      "ready": true,
+      "priceStatus": "pending",
+      "image": null,
+      "variant": {
+        "id": "8gb-128gb-wifi",
+        "label": "8GB / 128GB · Wi-Fi"
+      },
+      "prices": [],
+      "configurations": 1
+    },
+    {
+      "id": "sony-wh-1000xm6",
+      "name": "WH-1000XM6",
+      "category": "Audio",
+      "brand": "Sony",
+      "ready": true,
+      "priceStatus": "pending",
+      "image": null,
+      "variant": {
+        "id": "black",
+        "label": "Black"
+      },
+      "prices": [],
+      "configurations": 1
+    },
+    {
+      "id": "bose-quietcomfort-ultra-headphones-2",
+      "name": "QuietComfort Ultra Headphones (2nd Gen)",
+      "category": "Audio",
+      "brand": "Bose",
+      "ready": true,
+      "priceStatus": "pending",
+      "image": "https://assets.bosecreative.com/transform/dbd0f72b-d68f-4bef-9d38-88132ffa0048/QCUHII26-BoseBlack_SF_PDP_E-Comm_Gallery_1_1500x1120?format=avif&quality=95&io=width:816,height:667,transform:fit",
+      "variant": {
+        "id": "black",
+        "label": "Black"
+      },
+      "prices": [],
+      "configurations": 1
+    },
+    {
+      "id": "airpods-pro-3",
+      "name": "AirPods Pro 3",
+      "category": "Audio",
+      "brand": "Apple",
+      "ready": true,
+      "priceStatus": "pending",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/airpods-pro-3-hero-select-202509?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1758077264484",
+      "variant": {
+        "id": "magsafe-usbc",
+        "label": "MagSafe Charging Case (USB-C)"
+      },
+      "prices": [],
+      "configurations": 1
+    },
+    {
+      "id": "galaxy-buds4-pro",
+      "name": "Galaxy Buds4 Pro",
+      "category": "Audio",
+      "brand": "Samsung",
+      "ready": true,
+      "priceStatus": "pending",
+      "image": null,
+      "variant": {
+        "id": "black",
+        "label": "Black"
+      },
+      "prices": [],
+      "configurations": 1
+    },
+    {
+      "id": "galaxy-watch8",
+      "name": "Galaxy Watch8",
+      "category": "Watches",
+      "brand": "Samsung",
+      "ready": true,
+      "priceStatus": "pending",
+      "image": null,
+      "variant": {
+        "id": "44mm-bluetooth-silver-white-ml",
+        "label": "44mm · Bluetooth · Silver · White Sport M/L"
+      },
+      "prices": [],
+      "configurations": 1
+    },
+    {
+      "id": "nintendo-switch-2",
+      "name": "Nintendo Switch 2",
+      "category": "Gaming",
+      "brand": "Nintendo",
+      "ready": true,
+      "priceStatus": "pending",
+      "image": "https://assets.nintendo.com/image/upload/q_auto/f_auto/dpr_2.0//v1745278135/switch-2/tech-specs/switch-2-front.png",
+      "variant": {
+        "id": "256gb-standard",
+        "label": "256GB · Standard console"
+      },
+      "prices": [],
+      "configurations": 1
+    },
+    {
+      "id": "playstation-5-pro",
+      "name": "PlayStation 5 Pro",
+      "category": "Gaming",
+      "brand": "Sony",
+      "ready": true,
+      "priceStatus": "pending",
+      "image": null,
+      "variant": {
+        "id": "2tb-standard-no-disc-drive",
+        "label": "2TB · Standard console · No disc drive"
+      },
+      "prices": [],
+      "configurations": 1
+    },
+    {
+      "id": "xbox-series-x",
+      "name": "Xbox Series X",
+      "category": "Gaming",
+      "brand": "Microsoft",
+      "ready": true,
+      "priceStatus": "pending",
+      "image": "https://cms-assets.xboxservices.com/assets/bc/40/bc40fdf3-85a6-4c36-af92-dca2d36fc7e5.png?n=642227_Hero-Gallery-0_A1_857x676.png",
+      "variant": {
+        "id": "1tb-disc-carbon-black",
+        "label": "1TB · Disc drive · Carbon Black"
+      },
+      "prices": [],
+      "configurations": 1
     }
   ]
 }

@@ -1,0 +1,46 @@
+{
+  "id": "xbox-series-x",
+  "name": "Xbox Series X",
+  "brand": "Microsoft",
+  "category": "Gaming",
+  "image": "https://cms-assets.xboxservices.com/assets/bc/40/bc40fdf3-85a6-4c36-af92-dca2d36fc7e5.png?n=642227_Hero-Gallery-0_A1_857x676.png",
+  "variants": [
+    {
+      "id": "1tb-disc-carbon-black",
+      "label": "1TB · Disc drive · Carbon Black",
+      "specs": {
+        "storage": "1TB",
+        "edition": "Disc drive",
+        "color": "Carbon Black"
+      },
+      "labels": {
+        "storage": "1TB",
+        "edition": "Disc drive",
+        "color": "Carbon Black"
+      },
+      "prices": []
+    }
+  ],
+  "dimensions": [],
+  "fixed": {
+    "Storage": "1TB",
+    "Edition": "Disc drive",
+    "Color": "Carbon Black",
+    "Type": "Home game console",
+    "Market": "United States"
+  },
+  "defaultVariant": "1tb-disc-carbon-black",
+  "pricedAt": "",
+  "failedStores": [],
+  "research": {
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Xbox US: 1TB Carbon Black disc-drive edition",
+        "url": "https://www.xbox.com/en-US/consoles/xbox-series-x",
+        "market": "us"
+      }
+    ],
+    "note": "1TB Carbon Black console with a disc drive. All-Digital Robot White, 2TB Galaxy Black and X25 editions are separate configurations."
+  }
+}

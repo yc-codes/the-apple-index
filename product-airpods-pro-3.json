@@ -1,0 +1,40 @@
+{
+  "id": "airpods-pro-3",
+  "name": "AirPods Pro 3",
+  "brand": "Apple",
+  "category": "Audio",
+  "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/airpods-pro-3-hero-select-202509?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1758077264484",
+  "variants": [
+    {
+      "id": "magsafe-usbc",
+      "label": "MagSafe Charging Case (USB-C)",
+      "specs": {
+        "case": "MagSafe Charging Case (USB-C)"
+      },
+      "labels": {
+        "case": "MagSafe Charging Case (USB-C)"
+      },
+      "prices": []
+    }
+  ],
+  "dimensions": [],
+  "fixed": {
+    "Charging case": "MagSafe Charging Case (USB-C)",
+    "Type": "Wireless noise-cancelling earbuds",
+    "Market": "United States"
+  },
+  "defaultVariant": "magsafe-usbc",
+  "pricedAt": "",
+  "failedStores": [],
+  "research": {
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Apple US: AirPods Pro 3 and included case",
+        "url": "https://www.apple.com/shop/buy-airpods/airpods-pro-3",
+        "market": "us"
+      }
+    ],
+    "note": "Complete AirPods Pro 3 set with a MagSafe Charging Case (USB-C). Replacement earbuds and case-only purchases are excluded."
+  }
+}

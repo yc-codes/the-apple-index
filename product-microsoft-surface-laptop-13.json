@@ -1,0 +1,54 @@
+{
+  "id": "microsoft-surface-laptop-13",
+  "name": "Microsoft Surface Laptop 13-inch (1st Edition)",
+  "brand": "Microsoft",
+  "category": "Laptops",
+  "image": null,
+  "variants": [
+    {
+      "id": "snapdragon-x-plus-16gb-256gb-platinum",
+      "label": "Snapdragon X Plus · 16GB · 256GB · Platinum",
+      "specs": {
+        "chip": "Snapdragon X Plus (8-core)",
+        "memory": "16GB LPDDR5X",
+        "storage": "256GB UFS",
+        "gpu": "Qualcomm Adreno GPU",
+        "size": "13-inch"
+      },
+      "labels": {
+        "chip": "Snapdragon X Plus (8-core)",
+        "memory": "16GB LPDDR5X",
+        "storage": "256GB UFS",
+        "gpu": "Qualcomm Adreno GPU",
+        "size": "13-inch"
+      },
+      "prices": []
+    }
+  ],
+  "dimensions": [],
+  "fixed": {
+    "Processor": "Snapdragon X Plus (8-core)",
+    "Memory": "16GB LPDDR5X",
+    "Storage": "256GB UFS",
+    "Graphics": "Qualcomm Adreno GPU",
+    "Screen size": "13-inch",
+    "Display": "PixelSense",
+    "Operating system": "Windows 11 Home",
+    "Color": "Platinum",
+    "Market": "United States"
+  },
+  "defaultVariant": "snapdragon-x-plus-16gb-256gb-platinum",
+  "pricedAt": "",
+  "failedStores": [],
+  "research": {
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Microsoft US Surface Laptop 13-inch configurator",
+        "url": "https://www.microsoft.com/en-us/store/configure/surface-laptop-13-inch/8mzbmmcjzqv3",
+        "market": "us"
+      }
+    ],
+    "note": "13-inch 1st Edition in Platinum with 16GB memory and 256GB UFS storage. This is a different model from the 13.8-inch Surface Laptop."
+  }
+}

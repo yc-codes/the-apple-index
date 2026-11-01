@@ -1,0 +1,75 @@
+{
+  "id": "redmi-pad-2-pro-5g",
+  "name": "Redmi Pad 2 Pro 5G",
+  "brand": "Xiaomi",
+  "category": "Tablets",
+  "image": "https://i03.appmifile.com/949_item_in/31/12/2025/13bcb7a8a504f97a1e12d5c677a1c494.png?width=200&height=200",
+  "variants": [
+    {
+      "id": "8gb-128gb-5g-grey",
+      "label": "8GB / 128GB · Wi-Fi + 5G · Graphite Grey",
+      "part": "4224100917",
+      "specs": {
+        "memory": "8GB",
+        "storage": "128GB",
+        "connectivity": "Wi-Fi + 5G",
+        "color": "Graphite Grey"
+      },
+      "labels": {
+        "memory": "8GB",
+        "storage": "128GB",
+        "connectivity": "Wi-Fi + 5G",
+        "color": "Graphite Grey"
+      },
+      "prices": [
+        {
+          "code": "in",
+          "local": 29999,
+          "display": "₹29,999",
+          "part": "4224100917",
+          "url": "https://store.mi.com/in/item/3224101312",
+          "at": "2026-11-01T10:28:33.597Z",
+          "source": "Xiaomi India",
+          "availability": "in-stock",
+          "refundEligible": false,
+          "expiresAt": "2026-11-02T22:28:33.597Z"
+        }
+      ],
+      "image": "https://i03.appmifile.com/949_item_in/31/12/2025/13bcb7a8a504f97a1e12d5c677a1c494.png?width=200&height=200"
+    }
+  ],
+  "dimensions": [],
+  "fixed": {
+    "RAM": "8GB",
+    "Storage": "128GB",
+    "Connectivity": "Wi-Fi + 5G",
+    "Color": "Graphite Grey",
+    "Processor": "Snapdragon 7s Gen 4",
+    "Display": "12.1-inch",
+    "Market": "India"
+  },
+  "defaultVariant": "8gb-128gb-5g-grey",
+  "pricedAt": "2026-11-01T10:28:33.597Z",
+  "failedStores": [],
+  "research": {
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Xiaomi India: 5G specifications",
+        "url": "https://www.mi.com/in/product/redmi-pad-2-pro-5g/specs/",
+        "market": "in"
+      },
+      {
+        "label": "Xiaomi India: exact standalone catalog card",
+        "url": "https://store.mi.com/in/products/473",
+        "market": "in"
+      },
+      {
+        "label": "Xiaomi India: reference item",
+        "url": "https://store.mi.com/in/item/3224101312",
+        "market": "in"
+      }
+    ],
+    "note": "Wi-Fi + 5G edition in Graphite Grey with 8GB memory and 128GB storage. The Wi-Fi-only version is listed separately. Accessory bundles are excluded."
+  }
+}

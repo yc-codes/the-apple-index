@@ -1,0 +1,78 @@
+{
+  "id": "oneplus-nord-6",
+  "name": "OnePlus Nord 6",
+  "category": "Phones",
+  "brand": "OnePlus",
+  "image": "https://www.oneplus.in/content/dam/oneplus/2026/product-station/oneplus-nord-6/nav/OnePlus_VW_Mint_296x296.png",
+  "variants": [
+    {
+      "id": "8gb-256gb",
+      "label": "8GB RAM · 256GB storage",
+      "specs": {
+        "memory": "8GB",
+        "storage": "256GB"
+      },
+      "labels": {
+        "memory": "8GB RAM",
+        "storage": "256GB"
+      },
+      "prices": []
+    },
+    {
+      "id": "12gb-256gb",
+      "label": "12GB RAM · 256GB storage",
+      "specs": {
+        "memory": "12GB",
+        "storage": "256GB"
+      },
+      "labels": {
+        "memory": "12GB RAM",
+        "storage": "256GB"
+      },
+      "prices": []
+    }
+  ],
+  "dimensions": [
+    {
+      "key": "memory",
+      "name": "RAM",
+      "values": [
+        {
+          "key": "8GB",
+          "label": "8GB RAM"
+        },
+        {
+          "key": "12GB",
+          "label": "12GB RAM"
+        }
+      ]
+    },
+    {
+      "key": "storage",
+      "name": "Storage",
+      "values": [
+        {
+          "key": "256GB",
+          "label": "256GB"
+        }
+      ]
+    }
+  ],
+  "fixed": {
+    "Market": "India"
+  },
+  "defaultVariant": "8gb-256gb",
+  "pricedAt": "",
+  "failedStores": [],
+  "research": {
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "OnePlus official India specifications",
+        "url": "https://www.oneplus.in/nord-6/specs",
+        "market": "in"
+      }
+    ],
+    "note": "India-market RAM and storage combinations verified from the manufacturer. Regional availability and warranty may differ. Reference configurations do not specify a color; collected offers identify their exact color separately."
+  }
+}

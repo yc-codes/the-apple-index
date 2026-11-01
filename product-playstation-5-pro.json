@@ -1,0 +1,48 @@
+{
+  "id": "playstation-5-pro",
+  "name": "PlayStation 5 Pro",
+  "brand": "Sony",
+  "category": "Gaming",
+  "image": null,
+  "variants": [
+    {
+      "id": "2tb-standard-no-disc-drive",
+      "label": "2TB · Standard console · No disc drive",
+      "specs": {
+        "storage": "2TB",
+        "edition": "Standard console, no disc drive"
+      },
+      "labels": {
+        "storage": "2TB",
+        "edition": "Standard console, no disc drive"
+      },
+      "prices": []
+    }
+  ],
+  "dimensions": [],
+  "fixed": {
+    "Storage": "2TB",
+    "Edition": "Standard console, no disc drive",
+    "Type": "Home game console",
+    "Market": "United States"
+  },
+  "defaultVariant": "2tb-standard-no-disc-drive",
+  "pricedAt": "",
+  "failedStores": [],
+  "research": {
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "PlayStation US: PS5 Pro specifications",
+        "url": "https://www.playstation.com/en-us/ps5/ps5-pro/",
+        "market": "us"
+      },
+      {
+        "label": "PlayStation Direct US: standalone 2TB console",
+        "url": "https://direct.playstation.com/en-us/buy-consoles/playstation5-pro-console-2-tb",
+        "market": "us"
+      }
+    ],
+    "note": "Standard PS5 Pro with a 2TB SSD. Disc drive and vertical stand are sold separately. Anniversary editions and game bundles are excluded."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "sony-wh-1000xm6",
+  "name": "WH-1000XM6",
+  "brand": "Sony",
+  "category": "Audio",
+  "image": null,
+  "variants": [
+    {
+      "id": "black",
+      "label": "Black",
+      "specs": {
+        "color": "Black"
+      },
+      "labels": {
+        "color": "Black"
+      },
+      "prices": []
+    }
+  ],
+  "dimensions": [],
+  "fixed": {
+    "Color": "Black",
+    "Type": "Over-ear noise-cancelling headphones",
+    "Market": "United States"
+  },
+  "defaultVariant": "black",
+  "pricedAt": "",
+  "failedStores": [],
+  "research": {
+    "checkedAt": "2026-10-31",
+    "sources": [
+      {
+        "label": "Sony US: black reference model",
+        "url": "https://electronics.sony.com/audio/headphones/headband/p/wh1000xm6-b",
+        "market": "us"
+      }
+    ],
+    "note": "Standalone WH-1000XM6 headphones in Black. Refurbished units and accessory bundles are excluded."
+  }
+}
