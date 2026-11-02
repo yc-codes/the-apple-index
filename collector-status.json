@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-02T12:59:11.105Z",
+  "at": "2026-11-02T12:59:43.109Z",
   "attempts": {
     "macbook-air": 1793621414105,
     "macbook-neo": 1793622304087,
@@ -8,7 +8,7 @@
     "mac-mini": 1793623608919,
     "mac-studio": 1793623976609,
     "studio-display": 1793624320937,
-    "studio-display-xdr": 1793535000267,
+    "studio-display-xdr": 1793624352442,
     "iphone-18-pro": 1793535032319,
     "iphone-air": 1793536888164,
     "iphone-duo": 1793537624690,
@@ -27,5 +27,5 @@
     "homepod-mini": 1793621013813
   },
   "blockedUntil": null,
-  "failed": 2
+  "failed": 3
 }
