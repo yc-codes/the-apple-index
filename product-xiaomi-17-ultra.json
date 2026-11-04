@@ -40,11 +40,11 @@
           "display": "₹139,999",
           "part": "4224101017",
           "url": "https://store.mi.com/in/item/3224101431",
-          "at": "2026-11-03T10:52:55.241Z",
+          "at": "2026-11-04T10:55:23.723Z",
           "source": "Xiaomi India",
           "availability": "in-stock",
           "refundEligible": false,
-          "expiresAt": "2026-11-04T22:52:55.241Z"
+          "expiresAt": "2026-11-05T22:55:23.723Z"
         }
       ],
       "part": "4224101017",
@@ -91,7 +91,7 @@
     "Market": "India"
   },
   "defaultVariant": "16gb-512gb-white",
-  "pricedAt": "2026-11-03T10:52:55.241Z",
+  "pricedAt": "2026-11-04T10:55:23.723Z",
   "failedStores": [],
   "research": {
     "checkedAt": "2026-10-31",
