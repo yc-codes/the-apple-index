@@ -14,7 +14,7 @@ const rates = import.meta.glob<CacheEntry<ExchangeRates>>('../data/rates.json', 
 const products = import.meta.glob<Product>('../data/product-*.json', { import: 'default' });
 // Browsers read the data branch directly so new prices appear without a redeploy.
 // Prerendering and the SSR fallback keep using the snapshot bundled at build time.
-const source = 'https://raw.githubusercontent.com/yc-codes/the-apple-index/data/';
+const source = 'https://raw.githubusercontent.com/yc-codes/the-device-index/data/';
 async function live<T>(file: string): Promise<T | null> {
   if (typeof window === 'undefined' || !import.meta.env.VITE_LIVE_DATA) return null;
   try {

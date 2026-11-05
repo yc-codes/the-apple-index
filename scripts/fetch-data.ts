@@ -47,7 +47,7 @@ export async function fetchData() {
     return;
   }
   const owner = process.env.VERCEL_GIT_REPO_OWNER || 'yc-codes';
-  const repo = process.env.VERCEL_GIT_REPO_SLUG || 'the-apple-index';
+  const repo = process.env.VERCEL_GIT_REPO_SLUG || 'the-device-index';
   const temporary = await mkdtemp(join(tmpdir(), 'apple-data-'));
   try {
     const source = join(temporary, 'data');

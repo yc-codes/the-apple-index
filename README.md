@@ -2,7 +2,7 @@
 
 Global tech prices, compared. Explore laptops, phones, tablets, audio, watches and gaming devices across brands. Apple price comparisons cover 39 regional stores. Additional price coverage is added source by source; products awaiting prices show verified configurations and official references. No estimated or invented device prices are displayed.
 
-Built with React, TanStack Start/Router, TypeScript, and Bun. Vercel serves prerendered pages with bundled data; visitors make no `/api/` requests. The GitHub repository and data-branch origin remain `yc-codes/the-apple-index` so the name change preserves existing data collection and deployments.
+Built with React, TanStack Start/Router, TypeScript, and Bun. Vercel serves prerendered pages with bundled data; visitors make no `/api/` requests. Live at https://the-device-index.vercel.app (the former `the-apple-index.vercel.app` address permanently redirects there). The repository is `yc-codes/the-device-index`; GitHub redirects the old `the-apple-index` name.
 
 ## Product coverage
 
@@ -34,11 +34,11 @@ bun run start                # Bun server; PORT defaults to 3000
 
 The collector writes working checkpoints to `.cache/` and published snapshots to `data/`. Both directories are ignored. Builds and local development bundle `data/`; rebuild after collecting. `.env.example` documents directory overrides and Apple request spacing. A custom `DATA_PUBLISH_DIR` must be copied into `./data` before building.
 
-`data:fetch` keeps existing local data outside Vercel. Otherwise it shallow-clones the public `yc-codes/the-apple-index` data branch, using Vercel repository metadata when available. A missing branch produces a pending catalog; other fetch failures fail the build. `DATA_SOURCE=local` explicitly keeps local snapshots, including for deployment-output tests.
+`data:fetch` keeps existing local data outside Vercel. Otherwise it shallow-clones the public `yc-codes/the-device-index` data branch, using Vercel repository metadata when available. A missing branch produces a pending catalog; other fetch failures fail the build. `DATA_SOURCE=local` explicitly keeps local snapshots, including for deployment-output tests.
 
 ## Deploy to Vercel
 
-1. Import `yc-codes/the-apple-index` with the **TanStack Start** framework preset and repository root. `vercel.json` supplies the build commands; Nitro generates `.vercel/output`. Do not override the output directory with `dist`.
+1. Import `yc-codes/the-device-index` with the **TanStack Start** framework preset and repository root. `vercel.json` supplies the build commands; Nitro generates `.vercel/output`. Do not override the output directory with `dist`.
 2. In **Project → Settings → Git → Deploy Hooks**, create a hook for `main`. Save its URL as the GitHub Actions secret `VERCEL_DEPLOY_HOOK_URL`.
 3. Remove the legacy Blob read/write token from Vercel and GitHub Actions, then disconnect/delete the old Blob store. No storage service is required.
 4. Allow Actions write permissions (the collector declares `contents: write`). Manually run **Refresh device prices** once. It creates the `data` branch on its first run. Local `collect:android`, `collect:tablets` and `catalog:publish` only write local snapshots; Actions publishes them through the normal data branch workflow.

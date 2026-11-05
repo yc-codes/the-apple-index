@@ -5,7 +5,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { createStorage } from '../server/storage.ts';
 test('storage routes published files and checkpoints and rejects traversal', async () => {
-  const root = await mkdtemp(join(tmpdir(), 'apple-index-test-'));
+  const root = await mkdtemp(join(tmpdir(), 'device-index-test-'));
   const directory = join(root, 'cache'),
     publishDirectory = join(root, 'data');
   try {
