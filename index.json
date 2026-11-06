@@ -3224,10 +3224,276 @@
           "local": 799,
           "display": "$799",
           "part": "MYAR3",
-          "at": "2026-11-05T13:50:22.709Z"
+          "at": "2026-11-06T13:55:18.283Z"
+        },
+        {
+          "code": "ae",
+          "local": 3399,
+          "display": "AED 3,399",
+          "part": "MYDT3",
+          "at": "2026-11-06T13:55:26.405Z"
+        },
+        {
+          "code": "at",
+          "local": 999,
+          "display": "999 €",
+          "part": "MYEA3",
+          "at": "2026-11-06T13:55:50.408Z"
+        },
+        {
+          "code": "au",
+          "local": 1349,
+          "display": "A$1,349 ",
+          "part": "MYEA3",
+          "at": "2026-11-06T13:56:22.440Z"
+        },
+        {
+          "code": "be",
+          "local": 1019,
+          "display": "€ 1.019",
+          "part": "MYEA3",
+          "at": "2026-11-06T13:56:38.666Z"
+        },
+        {
+          "code": "br",
+          "local": 6999,
+          "display": "R$ 6.999",
+          "part": "MYEA3",
+          "at": "2026-11-06T13:56:54.460Z"
+        },
+        {
+          "code": "ca",
+          "local": 1149,
+          "display": "$1149",
+          "part": "MYDT3",
+          "at": "2026-11-06T13:57:10.498Z"
+        },
+        {
+          "code": "ch",
+          "local": 799,
+          "display": "CHF 799.–",
+          "part": "MYEA3",
+          "at": "2026-11-06T13:57:26.506Z"
+        },
+        {
+          "code": "cl",
+          "local": 999990,
+          "display": "$999.990",
+          "part": "MYEA3",
+          "at": "2026-11-06T13:57:42.519Z"
+        },
+        {
+          "code": "cz",
+          "local": 22990,
+          "display": "22 990 Kč",
+          "part": "MYEA3",
+          "at": "2026-11-06T13:57:58.705Z"
+        },
+        {
+          "code": "de",
+          "local": 999,
+          "display": "999 €",
+          "part": "MYEA3",
+          "at": "2026-11-06T13:58:14.667Z"
+        },
+        {
+          "code": "dk",
+          "local": 7499,
+          "display": "7.499 kr.",
+          "part": "MYEA3",
+          "at": "2026-11-06T13:58:30.534Z"
+        },
+        {
+          "code": "es",
+          "local": 1009,
+          "display": "1.009 € ",
+          "part": "MYEA3",
+          "at": "2026-11-06T13:58:46.564Z"
+        },
+        {
+          "code": "fi",
+          "local": 1049,
+          "display": "1 049 €",
+          "part": "MYEA3",
+          "at": "2026-11-06T13:59:02.625Z"
+        },
+        {
+          "code": "fr",
+          "local": 1019,
+          "display": "1 019 €",
+          "part": "MYEA3",
+          "at": "2026-11-06T13:59:18.657Z"
+        },
+        {
+          "code": "gb",
+          "local": 799,
+          "display": "£799",
+          "part": "MYEA3",
+          "at": "2026-11-06T13:59:34.672Z"
+        },
+        {
+          "code": "hk",
+          "local": 6999,
+          "display": "HK$6,999",
+          "part": "MYEX3",
+          "at": "2026-11-06T13:59:50.697Z"
+        },
+        {
+          "code": "hu",
+          "local": 379990,
+          "display": "379 990 Ft",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:00:22.720Z"
+        },
+        {
+          "code": "ie",
+          "local": 1029,
+          "display": "€1,029",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:00:38.773Z"
+        },
+        {
+          "code": "in",
+          "local": 89900,
+          "display": "₹89900.00",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:00:54.672Z"
+        },
+        {
+          "code": "it",
+          "local": 1029,
+          "display": "€ 1.029 ",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:01:10.731Z"
+        },
+        {
+          "code": "jp",
+          "local": 139800,
+          "display": "139,800円",
+          "part": "MYDT3",
+          "at": "2026-11-06T14:01:26.787Z"
+        },
+        {
+          "code": "kr",
+          "local": 1290000,
+          "display": "₩1,290,000",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:01:42.752Z"
+        },
+        {
+          "code": "lu",
+          "local": 985.32,
+          "display": "985,32 €",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:01:58.731Z"
+        },
+        {
+          "code": "mx",
+          "local": 18999,
+          "display": "$18,999",
+          "part": "MYDT3",
+          "at": "2026-11-06T14:02:14.799Z"
+        },
+        {
+          "code": "my",
+          "local": 3799,
+          "display": "RM 3,799",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:02:30.815Z"
+        },
+        {
+          "code": "nl",
+          "local": 1019,
+          "display": "€ 1.019",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:02:46.866Z"
+        },
+        {
+          "code": "no",
+          "local": 10990,
+          "display": "kr 10 990",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:03:02.797Z"
+        },
+        {
+          "code": "nz",
+          "local": 1699,
+          "display": "NZ$1,699",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:03:18.762Z"
+        },
+        {
+          "code": "ph",
+          "local": 62990,
+          "display": "₱62,990",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:03:34.950Z"
+        },
+        {
+          "code": "pl",
+          "local": 3999,
+          "display": "3999 zł",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:03:50.787Z"
+        },
+        {
+          "code": "pt",
+          "local": 1039,
+          "display": "1039 €",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:04:06.811Z"
+        },
+        {
+          "code": "sa",
+          "local": 3799,
+          "display": "SAR 3,799",
+          "part": "MYDT3",
+          "at": "2026-11-06T14:04:22.828Z"
+        },
+        {
+          "code": "se",
+          "local": 10995,
+          "display": "10 995 kr",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:04:38.839Z"
+        },
+        {
+          "code": "sg",
+          "local": 1249,
+          "display": "S$1,249",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:04:54.786Z"
+        },
+        {
+          "code": "th",
+          "local": 30900,
+          "display": "฿30,900",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:05:10.903Z"
+        },
+        {
+          "code": "tr",
+          "local": 85999,
+          "display": "85.999 TL",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:05:26.949Z"
+        },
+        {
+          "code": "tw",
+          "local": 29900,
+          "display": "NT$29,900",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:05:42.877Z"
+        },
+        {
+          "code": "vn",
+          "local": 24999000,
+          "display": "24.999.000đ",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:05:59.044Z"
         }
       ],
-      "pricedAt": "2026-11-05T13:55:33.228Z",
+      "pricedAt": "2026-11-06T14:06:15.033Z",
       "brand": "Apple",
       "priceStatus": "collected"
     },

@@ -56,8 +56,312 @@
           "local": 799,
           "display": "$799",
           "part": "MYAR3",
-          "at": "2026-11-05T13:50:22.709Z",
+          "at": "2026-11-06T13:55:18.283Z",
           "url": "https://www.apple.com/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "ae",
+          "local": 3399,
+          "display": "AED 3,399",
+          "part": "MYDT3",
+          "at": "2026-11-06T13:55:26.405Z",
+          "url": "https://www.apple.com/ae/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "at",
+          "local": 999,
+          "display": "999 €",
+          "part": "MYEA3",
+          "at": "2026-11-06T13:55:50.408Z",
+          "url": "https://www.apple.com/at/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "au",
+          "local": 1349,
+          "display": "A$1,349 ",
+          "part": "MYEA3",
+          "at": "2026-11-06T13:56:22.440Z",
+          "url": "https://www.apple.com/au/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "be",
+          "local": 1019,
+          "display": "€ 1.019",
+          "part": "MYEA3",
+          "at": "2026-11-06T13:56:38.666Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "br",
+          "local": 6999,
+          "display": "R$ 6.999",
+          "part": "MYEA3",
+          "at": "2026-11-06T13:56:54.460Z",
+          "url": "https://www.apple.com/br/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "ca",
+          "local": 1149,
+          "display": "$1149",
+          "part": "MYDT3",
+          "at": "2026-11-06T13:57:10.498Z",
+          "url": "https://www.apple.com/ca/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "ch",
+          "local": 799,
+          "display": "CHF 799.–",
+          "part": "MYEA3",
+          "at": "2026-11-06T13:57:26.506Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "cl",
+          "local": 999990,
+          "display": "$999.990",
+          "part": "MYEA3",
+          "at": "2026-11-06T13:57:42.519Z",
+          "url": "https://www.apple.com/cl/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "cz",
+          "local": 22990,
+          "display": "22 990 Kč",
+          "part": "MYEA3",
+          "at": "2026-11-06T13:57:58.705Z",
+          "url": "https://www.apple.com/cz/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "de",
+          "local": 999,
+          "display": "999 €",
+          "part": "MYEA3",
+          "at": "2026-11-06T13:58:14.667Z",
+          "url": "https://www.apple.com/de/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "dk",
+          "local": 7499,
+          "display": "7.499 kr.",
+          "part": "MYEA3",
+          "at": "2026-11-06T13:58:30.534Z",
+          "url": "https://www.apple.com/dk/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "es",
+          "local": 1009,
+          "display": "1.009 € ",
+          "part": "MYEA3",
+          "at": "2026-11-06T13:58:46.564Z",
+          "url": "https://www.apple.com/es/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "fi",
+          "local": 1049,
+          "display": "1 049 €",
+          "part": "MYEA3",
+          "at": "2026-11-06T13:59:02.625Z",
+          "url": "https://www.apple.com/fi/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "fr",
+          "local": 1019,
+          "display": "1 019 €",
+          "part": "MYEA3",
+          "at": "2026-11-06T13:59:18.657Z",
+          "url": "https://www.apple.com/fr/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "gb",
+          "local": 799,
+          "display": "£799",
+          "part": "MYEA3",
+          "at": "2026-11-06T13:59:34.672Z",
+          "url": "https://www.apple.com/uk/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "hk",
+          "local": 6999,
+          "display": "HK$6,999",
+          "part": "MYEX3",
+          "at": "2026-11-06T13:59:50.697Z",
+          "url": "https://www.apple.com/hk/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "hu",
+          "local": 379990,
+          "display": "379 990 Ft",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:00:22.720Z",
+          "url": "https://www.apple.com/hu/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "ie",
+          "local": 1029,
+          "display": "€1,029",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:00:38.773Z",
+          "url": "https://www.apple.com/ie/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "in",
+          "local": 89900,
+          "display": "₹89900.00",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:00:54.672Z",
+          "url": "https://www.apple.com/in/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "it",
+          "local": 1029,
+          "display": "€ 1.029 ",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:01:10.731Z",
+          "url": "https://www.apple.com/it/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "jp",
+          "local": 139800,
+          "display": "139,800円",
+          "part": "MYDT3",
+          "at": "2026-11-06T14:01:26.787Z",
+          "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "kr",
+          "local": 1290000,
+          "display": "₩1,290,000",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:01:42.752Z",
+          "url": "https://www.apple.com/kr/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "lu",
+          "local": 985.32,
+          "display": "985,32 €",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:01:58.731Z",
+          "url": "https://www.apple.com/lu/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "mx",
+          "local": 18999,
+          "display": "$18,999",
+          "part": "MYDT3",
+          "at": "2026-11-06T14:02:14.799Z",
+          "url": "https://www.apple.com/mx/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "my",
+          "local": 3799,
+          "display": "RM 3,799",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:02:30.815Z",
+          "url": "https://www.apple.com/my/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "nl",
+          "local": 1019,
+          "display": "€ 1.019",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:02:46.866Z",
+          "url": "https://www.apple.com/nl/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "no",
+          "local": 10990,
+          "display": "kr 10 990",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:03:02.797Z",
+          "url": "https://www.apple.com/no/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "nz",
+          "local": 1699,
+          "display": "NZ$1,699",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:03:18.762Z",
+          "url": "https://www.apple.com/nz/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "ph",
+          "local": 62990,
+          "display": "₱62,990",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:03:34.950Z",
+          "url": "https://www.apple.com/ph/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "pl",
+          "local": 3999,
+          "display": "3999 zł",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:03:50.787Z",
+          "url": "https://www.apple.com/pl/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "pt",
+          "local": 1039,
+          "display": "1039 €",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:04:06.811Z",
+          "url": "https://www.apple.com/pt/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "sa",
+          "local": 3799,
+          "display": "SAR 3,799",
+          "part": "MYDT3",
+          "at": "2026-11-06T14:04:22.828Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "se",
+          "local": 10995,
+          "display": "10 995 kr",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:04:38.839Z",
+          "url": "https://www.apple.com/se/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "sg",
+          "local": 1249,
+          "display": "S$1,249",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:04:54.786Z",
+          "url": "https://www.apple.com/sg/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "th",
+          "local": 30900,
+          "display": "฿30,900",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:05:10.903Z",
+          "url": "https://www.apple.com/th/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "tr",
+          "local": 85999,
+          "display": "85.999 TL",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:05:26.949Z",
+          "url": "https://www.apple.com/tr/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "tw",
+          "local": 29900,
+          "display": "NT$29,900",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:05:42.877Z",
+          "url": "https://www.apple.com/tw/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "vn",
+          "local": 24999000,
+          "display": "24.999.000đ",
+          "part": "MYEA3",
+          "at": "2026-11-06T14:05:59.044Z",
+          "url": "https://www.apple.com/vn/shop/buy-iphone/iphone-16"
         }
       ]
     },
@@ -80,8 +384,312 @@
           "local": 799,
           "display": "$799",
           "part": "MYAQ3",
-          "at": "2026-11-05T13:50:22.709Z",
+          "at": "2026-11-06T13:55:18.283Z",
           "url": "https://www.apple.com/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "ae",
+          "local": 3399,
+          "display": "AED 3,399",
+          "part": "MYDR3",
+          "at": "2026-11-06T13:55:26.405Z",
+          "url": "https://www.apple.com/ae/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "at",
+          "local": 999,
+          "display": "999 €",
+          "part": "MYE93",
+          "at": "2026-11-06T13:55:50.408Z",
+          "url": "https://www.apple.com/at/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "au",
+          "local": 1349,
+          "display": "A$1,349 ",
+          "part": "MYE93",
+          "at": "2026-11-06T13:56:22.440Z",
+          "url": "https://www.apple.com/au/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "be",
+          "local": 1019,
+          "display": "€ 1.019",
+          "part": "MYE93",
+          "at": "2026-11-06T13:56:38.666Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "br",
+          "local": 6999,
+          "display": "R$ 6.999",
+          "part": "MYE93",
+          "at": "2026-11-06T13:56:54.460Z",
+          "url": "https://www.apple.com/br/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "ca",
+          "local": 1149,
+          "display": "$1149",
+          "part": "MYDR3",
+          "at": "2026-11-06T13:57:10.498Z",
+          "url": "https://www.apple.com/ca/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "ch",
+          "local": 799,
+          "display": "CHF 799.–",
+          "part": "MYE93",
+          "at": "2026-11-06T13:57:26.506Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "cl",
+          "local": 999990,
+          "display": "$999.990",
+          "part": "MYE93",
+          "at": "2026-11-06T13:57:42.519Z",
+          "url": "https://www.apple.com/cl/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "cz",
+          "local": 22990,
+          "display": "22 990 Kč",
+          "part": "MYE93",
+          "at": "2026-11-06T13:57:58.705Z",
+          "url": "https://www.apple.com/cz/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "de",
+          "local": 999,
+          "display": "999 €",
+          "part": "MYE93",
+          "at": "2026-11-06T13:58:14.667Z",
+          "url": "https://www.apple.com/de/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "dk",
+          "local": 7499,
+          "display": "7.499 kr.",
+          "part": "MYE93",
+          "at": "2026-11-06T13:58:30.534Z",
+          "url": "https://www.apple.com/dk/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "es",
+          "local": 1009,
+          "display": "1.009 € ",
+          "part": "MYE93",
+          "at": "2026-11-06T13:58:46.564Z",
+          "url": "https://www.apple.com/es/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "fi",
+          "local": 1049,
+          "display": "1 049 €",
+          "part": "MYE93",
+          "at": "2026-11-06T13:59:02.625Z",
+          "url": "https://www.apple.com/fi/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "fr",
+          "local": 1019,
+          "display": "1 019 €",
+          "part": "MYE93",
+          "at": "2026-11-06T13:59:18.657Z",
+          "url": "https://www.apple.com/fr/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "gb",
+          "local": 799,
+          "display": "£799",
+          "part": "MYE93",
+          "at": "2026-11-06T13:59:34.672Z",
+          "url": "https://www.apple.com/uk/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "hk",
+          "local": 6999,
+          "display": "HK$6,999",
+          "part": "MYEW3",
+          "at": "2026-11-06T13:59:50.697Z",
+          "url": "https://www.apple.com/hk/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "hu",
+          "local": 379990,
+          "display": "379 990 Ft",
+          "part": "MYE93",
+          "at": "2026-11-06T14:00:22.720Z",
+          "url": "https://www.apple.com/hu/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "ie",
+          "local": 1029,
+          "display": "€1,029",
+          "part": "MYE93",
+          "at": "2026-11-06T14:00:38.773Z",
+          "url": "https://www.apple.com/ie/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "in",
+          "local": 89900,
+          "display": "₹89900.00",
+          "part": "MYE93",
+          "at": "2026-11-06T14:00:54.672Z",
+          "url": "https://www.apple.com/in/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "it",
+          "local": 1029,
+          "display": "€ 1.029 ",
+          "part": "MYE93",
+          "at": "2026-11-06T14:01:10.731Z",
+          "url": "https://www.apple.com/it/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "jp",
+          "local": 139800,
+          "display": "139,800円",
+          "part": "MYDR3",
+          "at": "2026-11-06T14:01:26.787Z",
+          "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "kr",
+          "local": 1290000,
+          "display": "₩1,290,000",
+          "part": "MYE93",
+          "at": "2026-11-06T14:01:42.752Z",
+          "url": "https://www.apple.com/kr/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "lu",
+          "local": 985.32,
+          "display": "985,32 €",
+          "part": "MYE93",
+          "at": "2026-11-06T14:01:58.731Z",
+          "url": "https://www.apple.com/lu/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "mx",
+          "local": 18999,
+          "display": "$18,999",
+          "part": "MYDR3",
+          "at": "2026-11-06T14:02:14.799Z",
+          "url": "https://www.apple.com/mx/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "my",
+          "local": 3799,
+          "display": "RM 3,799",
+          "part": "MYE93",
+          "at": "2026-11-06T14:02:30.815Z",
+          "url": "https://www.apple.com/my/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "nl",
+          "local": 1019,
+          "display": "€ 1.019",
+          "part": "MYE93",
+          "at": "2026-11-06T14:02:46.866Z",
+          "url": "https://www.apple.com/nl/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "no",
+          "local": 10990,
+          "display": "kr 10 990",
+          "part": "MYE93",
+          "at": "2026-11-06T14:03:02.797Z",
+          "url": "https://www.apple.com/no/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "nz",
+          "local": 1699,
+          "display": "NZ$1,699",
+          "part": "MYE93",
+          "at": "2026-11-06T14:03:18.762Z",
+          "url": "https://www.apple.com/nz/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "ph",
+          "local": 62990,
+          "display": "₱62,990",
+          "part": "MYE93",
+          "at": "2026-11-06T14:03:34.950Z",
+          "url": "https://www.apple.com/ph/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "pl",
+          "local": 3999,
+          "display": "3999 zł",
+          "part": "MYE93",
+          "at": "2026-11-06T14:03:50.787Z",
+          "url": "https://www.apple.com/pl/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "pt",
+          "local": 1039,
+          "display": "1039 €",
+          "part": "MYE93",
+          "at": "2026-11-06T14:04:06.811Z",
+          "url": "https://www.apple.com/pt/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "sa",
+          "local": 3799,
+          "display": "SAR 3,799",
+          "part": "MYDR3",
+          "at": "2026-11-06T14:04:22.828Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "se",
+          "local": 10995,
+          "display": "10 995 kr",
+          "part": "MYE93",
+          "at": "2026-11-06T14:04:38.839Z",
+          "url": "https://www.apple.com/se/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "sg",
+          "local": 1249,
+          "display": "S$1,249",
+          "part": "MYE93",
+          "at": "2026-11-06T14:04:54.786Z",
+          "url": "https://www.apple.com/sg/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "th",
+          "local": 30900,
+          "display": "฿30,900",
+          "part": "MYE93",
+          "at": "2026-11-06T14:05:10.903Z",
+          "url": "https://www.apple.com/th/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "tr",
+          "local": 85999,
+          "display": "85.999 TL",
+          "part": "MYE93",
+          "at": "2026-11-06T14:05:26.949Z",
+          "url": "https://www.apple.com/tr/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "tw",
+          "local": 29900,
+          "display": "NT$29,900",
+          "part": "MYE93",
+          "at": "2026-11-06T14:05:42.877Z",
+          "url": "https://www.apple.com/tw/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "vn",
+          "local": 24999000,
+          "display": "24.999.000đ",
+          "part": "MYE93",
+          "at": "2026-11-06T14:05:59.044Z",
+          "url": "https://www.apple.com/vn/shop/buy-iphone/iphone-16"
         }
       ]
     },
@@ -104,8 +712,312 @@
           "local": 799,
           "display": "$799",
           "part": "MYAP3",
-          "at": "2026-11-05T13:50:22.709Z",
+          "at": "2026-11-06T13:55:18.283Z",
           "url": "https://www.apple.com/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "ae",
+          "local": 3399,
+          "display": "AED 3,399",
+          "part": "MYDQ3",
+          "at": "2026-11-06T13:55:26.405Z",
+          "url": "https://www.apple.com/ae/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "at",
+          "local": 999,
+          "display": "999 €",
+          "part": "MYE73",
+          "at": "2026-11-06T13:55:50.408Z",
+          "url": "https://www.apple.com/at/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "au",
+          "local": 1349,
+          "display": "A$1,349 ",
+          "part": "MYE73",
+          "at": "2026-11-06T13:56:22.440Z",
+          "url": "https://www.apple.com/au/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "be",
+          "local": 1019,
+          "display": "€ 1.019",
+          "part": "MYE73",
+          "at": "2026-11-06T13:56:38.666Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "br",
+          "local": 6999,
+          "display": "R$ 6.999",
+          "part": "MYE73",
+          "at": "2026-11-06T13:56:54.460Z",
+          "url": "https://www.apple.com/br/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "ca",
+          "local": 1149,
+          "display": "$1149",
+          "part": "MYDQ3",
+          "at": "2026-11-06T13:57:10.498Z",
+          "url": "https://www.apple.com/ca/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "ch",
+          "local": 799,
+          "display": "CHF 799.–",
+          "part": "MYE73",
+          "at": "2026-11-06T13:57:26.506Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "cl",
+          "local": 999990,
+          "display": "$999.990",
+          "part": "MYE73",
+          "at": "2026-11-06T13:57:42.519Z",
+          "url": "https://www.apple.com/cl/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "cz",
+          "local": 22990,
+          "display": "22 990 Kč",
+          "part": "MYE73",
+          "at": "2026-11-06T13:57:58.705Z",
+          "url": "https://www.apple.com/cz/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "de",
+          "local": 999,
+          "display": "999 €",
+          "part": "MYE73",
+          "at": "2026-11-06T13:58:14.667Z",
+          "url": "https://www.apple.com/de/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "dk",
+          "local": 7499,
+          "display": "7.499 kr.",
+          "part": "MYE73",
+          "at": "2026-11-06T13:58:30.534Z",
+          "url": "https://www.apple.com/dk/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "es",
+          "local": 1009,
+          "display": "1.009 € ",
+          "part": "MYE73",
+          "at": "2026-11-06T13:58:46.564Z",
+          "url": "https://www.apple.com/es/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "fi",
+          "local": 1049,
+          "display": "1 049 €",
+          "part": "MYE73",
+          "at": "2026-11-06T13:59:02.625Z",
+          "url": "https://www.apple.com/fi/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "fr",
+          "local": 1019,
+          "display": "1 019 €",
+          "part": "MYE73",
+          "at": "2026-11-06T13:59:18.657Z",
+          "url": "https://www.apple.com/fr/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "gb",
+          "local": 799,
+          "display": "£799",
+          "part": "MYE73",
+          "at": "2026-11-06T13:59:34.672Z",
+          "url": "https://www.apple.com/uk/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "hk",
+          "local": 6999,
+          "display": "HK$6,999",
+          "part": "MYEV3",
+          "at": "2026-11-06T13:59:50.697Z",
+          "url": "https://www.apple.com/hk/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "hu",
+          "local": 379990,
+          "display": "379 990 Ft",
+          "part": "MYE73",
+          "at": "2026-11-06T14:00:22.720Z",
+          "url": "https://www.apple.com/hu/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "ie",
+          "local": 1029,
+          "display": "€1,029",
+          "part": "MYE73",
+          "at": "2026-11-06T14:00:38.773Z",
+          "url": "https://www.apple.com/ie/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "in",
+          "local": 89900,
+          "display": "₹89900.00",
+          "part": "MYE73",
+          "at": "2026-11-06T14:00:54.672Z",
+          "url": "https://www.apple.com/in/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "it",
+          "local": 1029,
+          "display": "€ 1.029 ",
+          "part": "MYE73",
+          "at": "2026-11-06T14:01:10.731Z",
+          "url": "https://www.apple.com/it/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "jp",
+          "local": 139800,
+          "display": "139,800円",
+          "part": "MYDQ3",
+          "at": "2026-11-06T14:01:26.787Z",
+          "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "kr",
+          "local": 1290000,
+          "display": "₩1,290,000",
+          "part": "MYE73",
+          "at": "2026-11-06T14:01:42.752Z",
+          "url": "https://www.apple.com/kr/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "lu",
+          "local": 985.32,
+          "display": "985,32 €",
+          "part": "MYE73",
+          "at": "2026-11-06T14:01:58.731Z",
+          "url": "https://www.apple.com/lu/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "mx",
+          "local": 18999,
+          "display": "$18,999",
+          "part": "MYDQ3",
+          "at": "2026-11-06T14:02:14.799Z",
+          "url": "https://www.apple.com/mx/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "my",
+          "local": 3799,
+          "display": "RM 3,799",
+          "part": "MYE73",
+          "at": "2026-11-06T14:02:30.815Z",
+          "url": "https://www.apple.com/my/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "nl",
+          "local": 1019,
+          "display": "€ 1.019",
+          "part": "MYE73",
+          "at": "2026-11-06T14:02:46.866Z",
+          "url": "https://www.apple.com/nl/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "no",
+          "local": 10990,
+          "display": "kr 10 990",
+          "part": "MYE73",
+          "at": "2026-11-06T14:03:02.797Z",
+          "url": "https://www.apple.com/no/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "nz",
+          "local": 1699,
+          "display": "NZ$1,699",
+          "part": "MYE73",
+          "at": "2026-11-06T14:03:18.762Z",
+          "url": "https://www.apple.com/nz/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "ph",
+          "local": 62990,
+          "display": "₱62,990",
+          "part": "MYE73",
+          "at": "2026-11-06T14:03:34.950Z",
+          "url": "https://www.apple.com/ph/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "pl",
+          "local": 3999,
+          "display": "3999 zł",
+          "part": "MYE73",
+          "at": "2026-11-06T14:03:50.787Z",
+          "url": "https://www.apple.com/pl/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "pt",
+          "local": 1039,
+          "display": "1039 €",
+          "part": "MYE73",
+          "at": "2026-11-06T14:04:06.811Z",
+          "url": "https://www.apple.com/pt/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "sa",
+          "local": 3799,
+          "display": "SAR 3,799",
+          "part": "MYDQ3",
+          "at": "2026-11-06T14:04:22.828Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "se",
+          "local": 10995,
+          "display": "10 995 kr",
+          "part": "MYE73",
+          "at": "2026-11-06T14:04:38.839Z",
+          "url": "https://www.apple.com/se/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "sg",
+          "local": 1249,
+          "display": "S$1,249",
+          "part": "MYE73",
+          "at": "2026-11-06T14:04:54.786Z",
+          "url": "https://www.apple.com/sg/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "th",
+          "local": 30900,
+          "display": "฿30,900",
+          "part": "MYE73",
+          "at": "2026-11-06T14:05:10.903Z",
+          "url": "https://www.apple.com/th/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "tr",
+          "local": 85999,
+          "display": "85.999 TL",
+          "part": "MYE73",
+          "at": "2026-11-06T14:05:26.949Z",
+          "url": "https://www.apple.com/tr/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "tw",
+          "local": 29900,
+          "display": "NT$29,900",
+          "part": "MYE73",
+          "at": "2026-11-06T14:05:42.877Z",
+          "url": "https://www.apple.com/tw/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "vn",
+          "local": 24999000,
+          "display": "24.999.000đ",
+          "part": "MYE73",
+          "at": "2026-11-06T14:05:59.044Z",
+          "url": "https://www.apple.com/vn/shop/buy-iphone/iphone-16"
         }
       ]
     },
@@ -128,8 +1040,312 @@
           "local": 799,
           "display": "$799",
           "part": "MYAT3",
-          "at": "2026-11-05T13:50:22.709Z",
+          "at": "2026-11-06T13:55:18.283Z",
           "url": "https://www.apple.com/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "ae",
+          "local": 3399,
+          "display": "AED 3,399",
+          "part": "MYDU3",
+          "at": "2026-11-06T13:55:26.405Z",
+          "url": "https://www.apple.com/ae/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "at",
+          "local": 999,
+          "display": "999 €",
+          "part": "MYEC3",
+          "at": "2026-11-06T13:55:50.408Z",
+          "url": "https://www.apple.com/at/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "au",
+          "local": 1349,
+          "display": "A$1,349 ",
+          "part": "MYEC3",
+          "at": "2026-11-06T13:56:22.440Z",
+          "url": "https://www.apple.com/au/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "be",
+          "local": 1019,
+          "display": "€ 1.019",
+          "part": "MYEC3",
+          "at": "2026-11-06T13:56:38.666Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "br",
+          "local": 6999,
+          "display": "R$ 6.999",
+          "part": "MYEC3",
+          "at": "2026-11-06T13:56:54.460Z",
+          "url": "https://www.apple.com/br/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "ca",
+          "local": 1149,
+          "display": "$1149",
+          "part": "MYDU3",
+          "at": "2026-11-06T13:57:10.498Z",
+          "url": "https://www.apple.com/ca/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "ch",
+          "local": 799,
+          "display": "CHF 799.–",
+          "part": "MYEC3",
+          "at": "2026-11-06T13:57:26.506Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "cl",
+          "local": 999990,
+          "display": "$999.990",
+          "part": "MYEC3",
+          "at": "2026-11-06T13:57:42.519Z",
+          "url": "https://www.apple.com/cl/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "cz",
+          "local": 22990,
+          "display": "22 990 Kč",
+          "part": "MYEC3",
+          "at": "2026-11-06T13:57:58.705Z",
+          "url": "https://www.apple.com/cz/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "de",
+          "local": 999,
+          "display": "999 €",
+          "part": "MYEC3",
+          "at": "2026-11-06T13:58:14.667Z",
+          "url": "https://www.apple.com/de/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "dk",
+          "local": 7499,
+          "display": "7.499 kr.",
+          "part": "MYEC3",
+          "at": "2026-11-06T13:58:30.534Z",
+          "url": "https://www.apple.com/dk/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "es",
+          "local": 1009,
+          "display": "1.009 € ",
+          "part": "MYEC3",
+          "at": "2026-11-06T13:58:46.564Z",
+          "url": "https://www.apple.com/es/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "fi",
+          "local": 1049,
+          "display": "1 049 €",
+          "part": "MYEC3",
+          "at": "2026-11-06T13:59:02.625Z",
+          "url": "https://www.apple.com/fi/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "fr",
+          "local": 1019,
+          "display": "1 019 €",
+          "part": "MYEC3",
+          "at": "2026-11-06T13:59:18.657Z",
+          "url": "https://www.apple.com/fr/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "gb",
+          "local": 799,
+          "display": "£799",
+          "part": "MYEC3",
+          "at": "2026-11-06T13:59:34.672Z",
+          "url": "https://www.apple.com/uk/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "hk",
+          "local": 6999,
+          "display": "HK$6,999",
+          "part": "MYEY3",
+          "at": "2026-11-06T13:59:50.697Z",
+          "url": "https://www.apple.com/hk/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "hu",
+          "local": 379990,
+          "display": "379 990 Ft",
+          "part": "MYEC3",
+          "at": "2026-11-06T14:00:22.720Z",
+          "url": "https://www.apple.com/hu/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "ie",
+          "local": 1029,
+          "display": "€1,029",
+          "part": "MYEC3",
+          "at": "2026-11-06T14:00:38.773Z",
+          "url": "https://www.apple.com/ie/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "in",
+          "local": 89900,
+          "display": "₹89900.00",
+          "part": "MYEC3",
+          "at": "2026-11-06T14:00:54.672Z",
+          "url": "https://www.apple.com/in/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "it",
+          "local": 1029,
+          "display": "€ 1.029 ",
+          "part": "MYEC3",
+          "at": "2026-11-06T14:01:10.731Z",
+          "url": "https://www.apple.com/it/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "jp",
+          "local": 139800,
+          "display": "139,800円",
+          "part": "MYDU3",
+          "at": "2026-11-06T14:01:26.787Z",
+          "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "kr",
+          "local": 1290000,
+          "display": "₩1,290,000",
+          "part": "MYEC3",
+          "at": "2026-11-06T14:01:42.752Z",
+          "url": "https://www.apple.com/kr/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "lu",
+          "local": 985.32,
+          "display": "985,32 €",
+          "part": "MYEC3",
+          "at": "2026-11-06T14:01:58.731Z",
+          "url": "https://www.apple.com/lu/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "mx",
+          "local": 18999,
+          "display": "$18,999",
+          "part": "MYDU3",
+          "at": "2026-11-06T14:02:14.799Z",
+          "url": "https://www.apple.com/mx/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "my",
+          "local": 3799,
+          "display": "RM 3,799",
+          "part": "MYEC3",
+          "at": "2026-11-06T14:02:30.815Z",
+          "url": "https://www.apple.com/my/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "nl",
+          "local": 1019,
+          "display": "€ 1.019",
+          "part": "MYEC3",
+          "at": "2026-11-06T14:02:46.866Z",
+          "url": "https://www.apple.com/nl/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "no",
+          "local": 10990,
+          "display": "kr 10 990",
+          "part": "MYEC3",
+          "at": "2026-11-06T14:03:02.797Z",
+          "url": "https://www.apple.com/no/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "nz",
+          "local": 1699,
+          "display": "NZ$1,699",
+          "part": "MYEC3",
+          "at": "2026-11-06T14:03:18.762Z",
+          "url": "https://www.apple.com/nz/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "ph",
+          "local": 62990,
+          "display": "₱62,990",
+          "part": "MYEC3",
+          "at": "2026-11-06T14:03:34.950Z",
+          "url": "https://www.apple.com/ph/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "pl",
+          "local": 3999,
+          "display": "3999 zł",
+          "part": "MYEC3",
+          "at": "2026-11-06T14:03:50.787Z",
+          "url": "https://www.apple.com/pl/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "pt",
+          "local": 1039,
+          "display": "1039 €",
+          "part": "MYEC3",
+          "at": "2026-11-06T14:04:06.811Z",
+          "url": "https://www.apple.com/pt/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "sa",
+          "local": 3799,
+          "display": "SAR 3,799",
+          "part": "MYDU3",
+          "at": "2026-11-06T14:04:22.828Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "se",
+          "local": 10995,
+          "display": "10 995 kr",
+          "part": "MYEC3",
+          "at": "2026-11-06T14:04:38.839Z",
+          "url": "https://www.apple.com/se/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "sg",
+          "local": 1249,
+          "display": "S$1,249",
+          "part": "MYEC3",
+          "at": "2026-11-06T14:04:54.786Z",
+          "url": "https://www.apple.com/sg/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "th",
+          "local": 30900,
+          "display": "฿30,900",
+          "part": "MYEC3",
+          "at": "2026-11-06T14:05:10.903Z",
+          "url": "https://www.apple.com/th/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "tr",
+          "local": 85999,
+          "display": "85.999 TL",
+          "part": "MYEC3",
+          "at": "2026-11-06T14:05:26.949Z",
+          "url": "https://www.apple.com/tr/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "tw",
+          "local": 29900,
+          "display": "NT$29,900",
+          "part": "MYEC3",
+          "at": "2026-11-06T14:05:42.877Z",
+          "url": "https://www.apple.com/tw/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "vn",
+          "local": 24999000,
+          "display": "24.999.000đ",
+          "part": "MYEC3",
+          "at": "2026-11-06T14:05:59.044Z",
+          "url": "https://www.apple.com/vn/shop/buy-iphone/iphone-16"
         }
       ]
     },
@@ -152,14 +1368,318 @@
           "local": 799,
           "display": "$799",
           "part": "MYAW3",
-          "at": "2026-11-05T13:50:22.709Z",
+          "at": "2026-11-06T13:55:18.283Z",
           "url": "https://www.apple.com/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "ae",
+          "local": 3399,
+          "display": "AED 3,399",
+          "part": "MYDV3",
+          "at": "2026-11-06T13:55:26.405Z",
+          "url": "https://www.apple.com/ae/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "at",
+          "local": 999,
+          "display": "999 €",
+          "part": "MYED3",
+          "at": "2026-11-06T13:55:50.408Z",
+          "url": "https://www.apple.com/at/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "au",
+          "local": 1349,
+          "display": "A$1,349 ",
+          "part": "MYED3",
+          "at": "2026-11-06T13:56:22.440Z",
+          "url": "https://www.apple.com/au/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "be",
+          "local": 1019,
+          "display": "€ 1.019",
+          "part": "MYED3",
+          "at": "2026-11-06T13:56:38.666Z",
+          "url": "https://www.apple.com/be-nl/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "br",
+          "local": 6999,
+          "display": "R$ 6.999",
+          "part": "MYED3",
+          "at": "2026-11-06T13:56:54.460Z",
+          "url": "https://www.apple.com/br/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "ca",
+          "local": 1149,
+          "display": "$1149",
+          "part": "MYDV3",
+          "at": "2026-11-06T13:57:10.498Z",
+          "url": "https://www.apple.com/ca/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "ch",
+          "local": 799,
+          "display": "CHF 799.–",
+          "part": "MYED3",
+          "at": "2026-11-06T13:57:26.506Z",
+          "url": "https://www.apple.com/ch-de/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "cl",
+          "local": 999990,
+          "display": "$999.990",
+          "part": "MYED3",
+          "at": "2026-11-06T13:57:42.519Z",
+          "url": "https://www.apple.com/cl/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "cz",
+          "local": 22990,
+          "display": "22 990 Kč",
+          "part": "MYED3",
+          "at": "2026-11-06T13:57:58.705Z",
+          "url": "https://www.apple.com/cz/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "de",
+          "local": 999,
+          "display": "999 €",
+          "part": "MYED3",
+          "at": "2026-11-06T13:58:14.667Z",
+          "url": "https://www.apple.com/de/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "dk",
+          "local": 7499,
+          "display": "7.499 kr.",
+          "part": "MYED3",
+          "at": "2026-11-06T13:58:30.534Z",
+          "url": "https://www.apple.com/dk/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "es",
+          "local": 1009,
+          "display": "1.009 € ",
+          "part": "MYED3",
+          "at": "2026-11-06T13:58:46.564Z",
+          "url": "https://www.apple.com/es/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "fi",
+          "local": 1049,
+          "display": "1 049 €",
+          "part": "MYED3",
+          "at": "2026-11-06T13:59:02.625Z",
+          "url": "https://www.apple.com/fi/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "fr",
+          "local": 1019,
+          "display": "1 019 €",
+          "part": "MYED3",
+          "at": "2026-11-06T13:59:18.657Z",
+          "url": "https://www.apple.com/fr/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "gb",
+          "local": 799,
+          "display": "£799",
+          "part": "MYED3",
+          "at": "2026-11-06T13:59:34.672Z",
+          "url": "https://www.apple.com/uk/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "hk",
+          "local": 6999,
+          "display": "HK$6,999",
+          "part": "MYF03",
+          "at": "2026-11-06T13:59:50.697Z",
+          "url": "https://www.apple.com/hk/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "hu",
+          "local": 379990,
+          "display": "379 990 Ft",
+          "part": "MYED3",
+          "at": "2026-11-06T14:00:22.720Z",
+          "url": "https://www.apple.com/hu/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "ie",
+          "local": 1029,
+          "display": "€1,029",
+          "part": "MYED3",
+          "at": "2026-11-06T14:00:38.773Z",
+          "url": "https://www.apple.com/ie/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "in",
+          "local": 89900,
+          "display": "₹89900.00",
+          "part": "MYED3",
+          "at": "2026-11-06T14:00:54.672Z",
+          "url": "https://www.apple.com/in/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "it",
+          "local": 1029,
+          "display": "€ 1.029 ",
+          "part": "MYED3",
+          "at": "2026-11-06T14:01:10.731Z",
+          "url": "https://www.apple.com/it/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "jp",
+          "local": 139800,
+          "display": "139,800円",
+          "part": "MYDV3",
+          "at": "2026-11-06T14:01:26.787Z",
+          "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "kr",
+          "local": 1290000,
+          "display": "₩1,290,000",
+          "part": "MYED3",
+          "at": "2026-11-06T14:01:42.752Z",
+          "url": "https://www.apple.com/kr/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "lu",
+          "local": 985.32,
+          "display": "985,32 €",
+          "part": "MYED3",
+          "at": "2026-11-06T14:01:58.731Z",
+          "url": "https://www.apple.com/lu/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "mx",
+          "local": 18999,
+          "display": "$18,999",
+          "part": "MYDV3",
+          "at": "2026-11-06T14:02:14.799Z",
+          "url": "https://www.apple.com/mx/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "my",
+          "local": 3799,
+          "display": "RM 3,799",
+          "part": "MYED3",
+          "at": "2026-11-06T14:02:30.815Z",
+          "url": "https://www.apple.com/my/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "nl",
+          "local": 1019,
+          "display": "€ 1.019",
+          "part": "MYED3",
+          "at": "2026-11-06T14:02:46.866Z",
+          "url": "https://www.apple.com/nl/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "no",
+          "local": 10990,
+          "display": "kr 10 990",
+          "part": "MYED3",
+          "at": "2026-11-06T14:03:02.797Z",
+          "url": "https://www.apple.com/no/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "nz",
+          "local": 1699,
+          "display": "NZ$1,699",
+          "part": "MYED3",
+          "at": "2026-11-06T14:03:18.762Z",
+          "url": "https://www.apple.com/nz/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "ph",
+          "local": 62990,
+          "display": "₱62,990",
+          "part": "MYED3",
+          "at": "2026-11-06T14:03:34.950Z",
+          "url": "https://www.apple.com/ph/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "pl",
+          "local": 3999,
+          "display": "3999 zł",
+          "part": "MYED3",
+          "at": "2026-11-06T14:03:50.787Z",
+          "url": "https://www.apple.com/pl/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "pt",
+          "local": 1039,
+          "display": "1039 €",
+          "part": "MYED3",
+          "at": "2026-11-06T14:04:06.811Z",
+          "url": "https://www.apple.com/pt/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "sa",
+          "local": 3799,
+          "display": "SAR 3,799",
+          "part": "MYDV3",
+          "at": "2026-11-06T14:04:22.828Z",
+          "url": "https://www.apple.com/sa-en/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "se",
+          "local": 10995,
+          "display": "10 995 kr",
+          "part": "MYED3",
+          "at": "2026-11-06T14:04:38.839Z",
+          "url": "https://www.apple.com/se/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "sg",
+          "local": 1249,
+          "display": "S$1,249",
+          "part": "MYED3",
+          "at": "2026-11-06T14:04:54.786Z",
+          "url": "https://www.apple.com/sg/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "th",
+          "local": 30900,
+          "display": "฿30,900",
+          "part": "MYED3",
+          "at": "2026-11-06T14:05:10.903Z",
+          "url": "https://www.apple.com/th/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "tr",
+          "local": 85999,
+          "display": "85.999 TL",
+          "part": "MYED3",
+          "at": "2026-11-06T14:05:26.949Z",
+          "url": "https://www.apple.com/tr/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "tw",
+          "local": 29900,
+          "display": "NT$29,900",
+          "part": "MYED3",
+          "at": "2026-11-06T14:05:42.877Z",
+          "url": "https://www.apple.com/tw/shop/buy-iphone/iphone-16"
+        },
+        {
+          "code": "vn",
+          "local": 24999000,
+          "display": "24.999.000đ",
+          "part": "MYED3",
+          "at": "2026-11-06T14:05:59.044Z",
+          "url": "https://www.apple.com/vn/shop/buy-iphone/iphone-16"
         }
       ]
     }
   ],
-  "discoveredAt": "2026-11-04T14:02:50.776Z",
+  "discoveredAt": "2026-11-06T13:55:18.282Z",
   "defaultVariant": "6.1-inch-display-128gb-pink",
-  "pricedAt": "2026-11-05T13:55:33.228Z",
+  "pricedAt": "2026-11-06T14:06:15.033Z",
   "failedStores": []
 }
